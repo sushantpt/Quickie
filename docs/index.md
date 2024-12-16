@@ -18,9 +18,9 @@ Quickie is perfect for spinning up **tracer bullet APIs** or **proof-of-concept 
 
 ## Quick Start Notes:
 
-1. Check out the [Documentation](/docs/introduction.html) to get started with Quickie.
-2. [Get started](/docs/getting-started.html) 
-3. [Build by example](/docs/examples.html) 
+1. Check out the [Documentation](https://sushantpt.github.io/Quickie/docs/introduction.html) to get started with Quickie.
+2. [Get started](https://sushantpt.github.io/Quickie/docs/getting-started.html) 
+3. [Build by example](https://sushantpt.github.io/Quickie/docs/examples.html) 
 
 
 Start building lightweight, no-fuss APIs with **Quickie** !
