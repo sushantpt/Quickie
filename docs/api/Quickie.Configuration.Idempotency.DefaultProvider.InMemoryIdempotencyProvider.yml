@@ -1,0 +1,673 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider
+  commentId: T:Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider
+  id: InMemoryIdempotencyProvider
+  parent: Quickie.Configuration.Idempotency.DefaultProvider
+  children:
+  - Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.ExistsAsync(System.String)
+  - Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.MarkAsync(System.String)
+  - Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.RemoveExpiredKeys
+  langs:
+  - csharp
+  - vb
+  name: InMemoryIdempotencyProvider
+  nameWithType: InMemoryIdempotencyProvider
+  fullName: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider
+  type: Class
+  source:
+    id: InMemoryIdempotencyProvider
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\Idempotency\DefaultProvider\InMemoryIdempotencyProvider.cs
+    startLine: 7
+  assemblies:
+  - Quickie
+  namespace: Quickie.Configuration.Idempotency.DefaultProvider
+  summary: Default InMemory idempotency provider
+  example: []
+  syntax:
+    content: 'public class InMemoryIdempotencyProvider : IIdempotencyProvider'
+    content.vb: Public Class InMemoryIdempotencyProvider Implements IIdempotencyProvider
+  inheritance:
+  - System.Object
+  implements:
+  - Quickie.Configuration.Idempotency.IIdempotencyProvider
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.ExistsAsync(System.String)
+  commentId: M:Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.ExistsAsync(System.String)
+  id: ExistsAsync(System.String)
+  parent: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider
+  langs:
+  - csharp
+  - vb
+  name: ExistsAsync(string)
+  nameWithType: InMemoryIdempotencyProvider.ExistsAsync(string)
+  fullName: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.ExistsAsync(string)
+  type: Method
+  source:
+    id: ExistsAsync
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\Idempotency\DefaultProvider\InMemoryIdempotencyProvider.cs
+    startLine: 17
+  assemblies:
+  - Quickie
+  namespace: Quickie.Configuration.Idempotency.DefaultProvider
+  summary: Asynchronous method synchronous operation(check in dictionary).
+  example: []
+  syntax:
+    content: public ValueTask<bool> ExistsAsync(string key)
+    parameters:
+    - id: key
+      type: System.String
+      description: Key
+    return:
+      type: System.Threading.Tasks.ValueTask{System.Boolean}
+      description: bool
+    content.vb: Public Function ExistsAsync(key As String) As ValueTask(Of Boolean)
+  overload: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.ExistsAsync*
+  implements:
+  - Quickie.Configuration.Idempotency.IIdempotencyProvider.ExistsAsync(System.String)
+  nameWithType.vb: InMemoryIdempotencyProvider.ExistsAsync(String)
+  fullName.vb: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.ExistsAsync(String)
+  name.vb: ExistsAsync(String)
+- uid: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.MarkAsync(System.String)
+  commentId: M:Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.MarkAsync(System.String)
+  id: MarkAsync(System.String)
+  parent: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider
+  langs:
+  - csharp
+  - vb
+  name: MarkAsync(string)
+  nameWithType: InMemoryIdempotencyProvider.MarkAsync(string)
+  fullName: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.MarkAsync(string)
+  type: Method
+  source:
+    id: MarkAsync
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\Idempotency\DefaultProvider\InMemoryIdempotencyProvider.cs
+    startLine: 27
+  assemblies:
+  - Quickie
+  namespace: Quickie.Configuration.Idempotency.DefaultProvider
+  summary: Asynchronous method synchronous operation (add in dictionary).
+  example: []
+  syntax:
+    content: public ValueTask MarkAsync(string key)
+    parameters:
+    - id: key
+      type: System.String
+      description: ''
+    return:
+      type: System.Threading.Tasks.ValueTask
+      description: ''
+    content.vb: Public Function MarkAsync(key As String) As ValueTask
+  overload: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.MarkAsync*
+  implements:
+  - Quickie.Configuration.Idempotency.IIdempotencyProvider.MarkAsync(System.String)
+  nameWithType.vb: InMemoryIdempotencyProvider.MarkAsync(String)
+  fullName.vb: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.MarkAsync(String)
+  name.vb: MarkAsync(String)
+- uid: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.RemoveExpiredKeys
+  commentId: M:Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.RemoveExpiredKeys
+  id: RemoveExpiredKeys
+  parent: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider
+  langs:
+  - csharp
+  - vb
+  name: RemoveExpiredKeys()
+  nameWithType: InMemoryIdempotencyProvider.RemoveExpiredKeys()
+  fullName: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.RemoveExpiredKeys()
+  type: Method
+  source:
+    id: RemoveExpiredKeys
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\Idempotency\DefaultProvider\InMemoryIdempotencyProvider.cs
+    startLine: 37
+  assemblies:
+  - Quickie
+  namespace: Quickie.Configuration.Idempotency.DefaultProvider
+  summary: Remove expired api idempotency keys
+  example: []
+  syntax:
+    content: public ValueTask RemoveExpiredKeys()
+    return:
+      type: System.Threading.Tasks.ValueTask
+      description: ''
+    content.vb: Public Function RemoveExpiredKeys() As ValueTask
+  overload: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.RemoveExpiredKeys*
+  implements:
+  - Quickie.Configuration.Idempotency.IIdempotencyProvider.RemoveExpiredKeys
+references:
+- uid: Quickie.Configuration.Idempotency.DefaultProvider
+  commentId: N:Quickie.Configuration.Idempotency.DefaultProvider
+  href: Quickie.html
+  name: Quickie.Configuration.Idempotency.DefaultProvider
+  nameWithType: Quickie.Configuration.Idempotency.DefaultProvider
+  fullName: Quickie.Configuration.Idempotency.DefaultProvider
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Configuration
+    name: Configuration
+    href: Quickie.Configuration.html
+  - name: .
+  - uid: Quickie.Configuration.Idempotency
+    name: Idempotency
+    href: Quickie.Configuration.Idempotency.html
+  - name: .
+  - uid: Quickie.Configuration.Idempotency.DefaultProvider
+    name: DefaultProvider
+    href: Quickie.Configuration.Idempotency.DefaultProvider.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Configuration
+    name: Configuration
+    href: Quickie.Configuration.html
+  - name: .
+  - uid: Quickie.Configuration.Idempotency
+    name: Idempotency
+    href: Quickie.Configuration.Idempotency.html
+  - name: .
+  - uid: Quickie.Configuration.Idempotency.DefaultProvider
+    name: DefaultProvider
+    href: Quickie.Configuration.Idempotency.DefaultProvider.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Quickie.Configuration.Idempotency.IIdempotencyProvider
+  commentId: T:Quickie.Configuration.Idempotency.IIdempotencyProvider
+  parent: Quickie.Configuration.Idempotency
+  href: Quickie.Configuration.Idempotency.IIdempotencyProvider.html
+  name: IIdempotencyProvider
+  nameWithType: IIdempotencyProvider
+  fullName: Quickie.Configuration.Idempotency.IIdempotencyProvider
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Quickie.Configuration.Idempotency
+  commentId: N:Quickie.Configuration.Idempotency
+  href: Quickie.html
+  name: Quickie.Configuration.Idempotency
+  nameWithType: Quickie.Configuration.Idempotency
+  fullName: Quickie.Configuration.Idempotency
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Configuration
+    name: Configuration
+    href: Quickie.Configuration.html
+  - name: .
+  - uid: Quickie.Configuration.Idempotency
+    name: Idempotency
+    href: Quickie.Configuration.Idempotency.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Configuration
+    name: Configuration
+    href: Quickie.Configuration.html
+  - name: .
+  - uid: Quickie.Configuration.Idempotency
+    name: Idempotency
+    href: Quickie.Configuration.Idempotency.html
+- uid: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.ExistsAsync*
+  commentId: Overload:Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.ExistsAsync
+  href: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.html#Quickie_Configuration_Idempotency_DefaultProvider_InMemoryIdempotencyProvider_ExistsAsync_System_String_
+  name: ExistsAsync
+  nameWithType: InMemoryIdempotencyProvider.ExistsAsync
+  fullName: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.ExistsAsync
+- uid: Quickie.Configuration.Idempotency.IIdempotencyProvider.ExistsAsync(System.String)
+  commentId: M:Quickie.Configuration.Idempotency.IIdempotencyProvider.ExistsAsync(System.String)
+  parent: Quickie.Configuration.Idempotency.IIdempotencyProvider
+  isExternal: true
+  href: Quickie.Configuration.Idempotency.IIdempotencyProvider.html#Quickie_Configuration_Idempotency_IIdempotencyProvider_ExistsAsync_System_String_
+  name: ExistsAsync(string)
+  nameWithType: IIdempotencyProvider.ExistsAsync(string)
+  fullName: Quickie.Configuration.Idempotency.IIdempotencyProvider.ExistsAsync(string)
+  nameWithType.vb: IIdempotencyProvider.ExistsAsync(String)
+  fullName.vb: Quickie.Configuration.Idempotency.IIdempotencyProvider.ExistsAsync(String)
+  name.vb: ExistsAsync(String)
+  spec.csharp:
+  - uid: Quickie.Configuration.Idempotency.IIdempotencyProvider.ExistsAsync(System.String)
+    name: ExistsAsync
+    href: Quickie.Configuration.Idempotency.IIdempotencyProvider.html#Quickie_Configuration_Idempotency_IIdempotencyProvider_ExistsAsync_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Quickie.Configuration.Idempotency.IIdempotencyProvider.ExistsAsync(System.String)
+    name: ExistsAsync
+    href: Quickie.Configuration.Idempotency.IIdempotencyProvider.html#Quickie_Configuration_Idempotency_IIdempotencyProvider_ExistsAsync_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.Tasks.ValueTask{System.Boolean}
+  commentId: T:System.Threading.Tasks.ValueTask{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.ValueTask`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1
+  name: ValueTask<bool>
+  nameWithType: ValueTask<bool>
+  fullName: System.Threading.Tasks.ValueTask<bool>
+  nameWithType.vb: ValueTask(Of Boolean)
+  fullName.vb: System.Threading.Tasks.ValueTask(Of Boolean)
+  name.vb: ValueTask(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.ValueTask`1
+    name: ValueTask
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.ValueTask`1
+    name: ValueTask
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Threading.Tasks.ValueTask`1
+  commentId: T:System.Threading.Tasks.ValueTask`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1
+  name: ValueTask<TResult>
+  nameWithType: ValueTask<TResult>
+  fullName: System.Threading.Tasks.ValueTask<TResult>
+  nameWithType.vb: ValueTask(Of TResult)
+  fullName.vb: System.Threading.Tasks.ValueTask(Of TResult)
+  name.vb: ValueTask(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.ValueTask`1
+    name: ValueTask
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.ValueTask`1
+    name: ValueTask
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.MarkAsync*
+  commentId: Overload:Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.MarkAsync
+  href: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.html#Quickie_Configuration_Idempotency_DefaultProvider_InMemoryIdempotencyProvider_MarkAsync_System_String_
+  name: MarkAsync
+  nameWithType: InMemoryIdempotencyProvider.MarkAsync
+  fullName: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.MarkAsync
+- uid: Quickie.Configuration.Idempotency.IIdempotencyProvider.MarkAsync(System.String)
+  commentId: M:Quickie.Configuration.Idempotency.IIdempotencyProvider.MarkAsync(System.String)
+  parent: Quickie.Configuration.Idempotency.IIdempotencyProvider
+  isExternal: true
+  href: Quickie.Configuration.Idempotency.IIdempotencyProvider.html#Quickie_Configuration_Idempotency_IIdempotencyProvider_MarkAsync_System_String_
+  name: MarkAsync(string)
+  nameWithType: IIdempotencyProvider.MarkAsync(string)
+  fullName: Quickie.Configuration.Idempotency.IIdempotencyProvider.MarkAsync(string)
+  nameWithType.vb: IIdempotencyProvider.MarkAsync(String)
+  fullName.vb: Quickie.Configuration.Idempotency.IIdempotencyProvider.MarkAsync(String)
+  name.vb: MarkAsync(String)
+  spec.csharp:
+  - uid: Quickie.Configuration.Idempotency.IIdempotencyProvider.MarkAsync(System.String)
+    name: MarkAsync
+    href: Quickie.Configuration.Idempotency.IIdempotencyProvider.html#Quickie_Configuration_Idempotency_IIdempotencyProvider_MarkAsync_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Quickie.Configuration.Idempotency.IIdempotencyProvider.MarkAsync(System.String)
+    name: MarkAsync
+    href: Quickie.Configuration.Idempotency.IIdempotencyProvider.html#Quickie_Configuration_Idempotency_IIdempotencyProvider_MarkAsync_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Threading.Tasks.ValueTask
+  commentId: T:System.Threading.Tasks.ValueTask
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask
+  name: ValueTask
+  nameWithType: ValueTask
+  fullName: System.Threading.Tasks.ValueTask
+- uid: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.RemoveExpiredKeys*
+  commentId: Overload:Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.RemoveExpiredKeys
+  href: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.html#Quickie_Configuration_Idempotency_DefaultProvider_InMemoryIdempotencyProvider_RemoveExpiredKeys
+  name: RemoveExpiredKeys
+  nameWithType: InMemoryIdempotencyProvider.RemoveExpiredKeys
+  fullName: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.RemoveExpiredKeys
+- uid: Quickie.Configuration.Idempotency.IIdempotencyProvider.RemoveExpiredKeys
+  commentId: M:Quickie.Configuration.Idempotency.IIdempotencyProvider.RemoveExpiredKeys
+  parent: Quickie.Configuration.Idempotency.IIdempotencyProvider
+  href: Quickie.Configuration.Idempotency.IIdempotencyProvider.html#Quickie_Configuration_Idempotency_IIdempotencyProvider_RemoveExpiredKeys
+  name: RemoveExpiredKeys()
+  nameWithType: IIdempotencyProvider.RemoveExpiredKeys()
+  fullName: Quickie.Configuration.Idempotency.IIdempotencyProvider.RemoveExpiredKeys()
+  spec.csharp:
+  - uid: Quickie.Configuration.Idempotency.IIdempotencyProvider.RemoveExpiredKeys
+    name: RemoveExpiredKeys
+    href: Quickie.Configuration.Idempotency.IIdempotencyProvider.html#Quickie_Configuration_Idempotency_IIdempotencyProvider_RemoveExpiredKeys
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Quickie.Configuration.Idempotency.IIdempotencyProvider.RemoveExpiredKeys
+    name: RemoveExpiredKeys
+    href: Quickie.Configuration.Idempotency.IIdempotencyProvider.html#Quickie_Configuration_Idempotency_IIdempotencyProvider_RemoveExpiredKeys
+  - name: (
+  - name: )

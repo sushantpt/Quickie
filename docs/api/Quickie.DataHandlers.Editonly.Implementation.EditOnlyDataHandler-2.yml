@@ -1,0 +1,1113 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler`2
+  commentId: T:Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler`2
+  id: EditOnlyDataHandler`2
+  parent: Quickie.DataHandlers.Editonly.Implementation
+  children:
+  - Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler`2.#ctor(Microsoft.EntityFrameworkCore.DbContext)
+  - Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler`2.EditAsync(`1,`0,System.Nullable{System.Threading.CancellationToken})
+  - Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler`2.EditCollectionAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  langs:
+  - csharp
+  - vb
+  name: EditOnlyDataHandler<TEntity, TIdType>
+  nameWithType: EditOnlyDataHandler<TEntity, TIdType>
+  fullName: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler<TEntity, TIdType>
+  type: Class
+  source:
+    id: EditOnlyDataHandler
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Editonly\Implementation\EditOnlyDataHandler.cs
+    startLine: 8
+  assemblies:
+  - Quickie
+  namespace: Quickie.DataHandlers.Editonly.Implementation
+  summary: Abstract class serving as edit only data handler (Repository layer).
+  example: []
+  syntax:
+    content: 'public abstract class EditOnlyDataHandler<TEntity, TIdType> : IEditOnlyDataHandler<TEntity, TIdType> where TEntity : EditOnlyEntity where TIdType : IComparable'
+    typeParameters:
+    - id: TEntity
+      description: Entity
+    - id: TIdType
+      description: 'Type of identifier. eg: int, string, ...'
+    content.vb: Public MustInherit Class EditOnlyDataHandler(Of TEntity As EditOnlyEntity, TIdType As IComparable) Implements IEditOnlyDataHandler(Of TEntity, TIdType)
+  inheritance:
+  - System.Object
+  implements:
+  - Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler{{TEntity},{TIdType}}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: EditOnlyDataHandler(Of TEntity, TIdType)
+  fullName.vb: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler(Of TEntity, TIdType)
+  name.vb: EditOnlyDataHandler(Of TEntity, TIdType)
+- uid: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler`2.#ctor(Microsoft.EntityFrameworkCore.DbContext)
+  commentId: M:Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler`2.#ctor(Microsoft.EntityFrameworkCore.DbContext)
+  id: '#ctor(Microsoft.EntityFrameworkCore.DbContext)'
+  parent: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler`2
+  langs:
+  - csharp
+  - vb
+  name: EditOnlyDataHandler(DbContext)
+  nameWithType: EditOnlyDataHandler<TEntity, TIdType>.EditOnlyDataHandler(DbContext)
+  fullName: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler<TEntity, TIdType>.EditOnlyDataHandler(Microsoft.EntityFrameworkCore.DbContext)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Editonly\Implementation\EditOnlyDataHandler.cs
+    startLine: 8
+  assemblies:
+  - Quickie
+  namespace: Quickie.DataHandlers.Editonly.Implementation
+  summary: Abstract class serving as edit only data handler (Repository layer).
+  example: []
+  syntax:
+    content: protected EditOnlyDataHandler(DbContext dbContext)
+    parameters:
+    - id: dbContext
+      type: Microsoft.EntityFrameworkCore.DbContext
+      description: Db context
+    content.vb: Protected Sub New(dbContext As DbContext)
+  overload: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler`2.#ctor*
+  nameWithType.vb: EditOnlyDataHandler(Of TEntity, TIdType).New(DbContext)
+  fullName.vb: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler(Of TEntity, TIdType).New(Microsoft.EntityFrameworkCore.DbContext)
+  name.vb: New(DbContext)
+- uid: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler`2.EditAsync(`1,`0,System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler`2.EditAsync(`1,`0,System.Nullable{System.Threading.CancellationToken})
+  id: EditAsync(`1,`0,System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler`2
+  langs:
+  - csharp
+  - vb
+  name: EditAsync(TIdType, TEntity, CancellationToken?)
+  nameWithType: EditOnlyDataHandler<TEntity, TIdType>.EditAsync(TIdType, TEntity, CancellationToken?)
+  fullName: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler<TEntity, TIdType>.EditAsync(TIdType, TEntity, System.Threading.CancellationToken?)
+  type: Method
+  source:
+    id: EditAsync
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Editonly\Implementation\EditOnlyDataHandler.cs
+    startLine: 19
+  assemblies:
+  - Quickie
+  namespace: Quickie.DataHandlers.Editonly.Implementation
+  summary: Update request.
+  example: []
+  syntax:
+    content: public Task<ResponseObj<TEntity>> EditAsync(TIdType id, TEntity requestModel, CancellationToken? cancellationToken = null)
+    parameters:
+    - id: id
+      type: '{TIdType}'
+      description: Identifier of the entity
+    - id: requestModel
+      type: '{TEntity}'
+      description: Requested data to update
+    - id: cancellationToken
+      type: System.Nullable{System.Threading.CancellationToken}
+      description: Cancellation token
+    return:
+      type: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{{TEntity}}}
+      description: ''
+    content.vb: Public Function EditAsync(id As TIdType, requestModel As TEntity, cancellationToken As CancellationToken? = Nothing) As Task(Of ResponseObj(Of TEntity))
+  overload: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler`2.EditAsync*
+  implements:
+  - Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler{{TEntity},{TIdType}}.EditAsync({TIdType},{TEntity},System.Nullable{System.Threading.CancellationToken})
+  nameWithType.vb: EditOnlyDataHandler(Of TEntity, TIdType).EditAsync(TIdType, TEntity, CancellationToken?)
+  fullName.vb: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler(Of TEntity, TIdType).EditAsync(TIdType, TEntity, System.Threading.CancellationToken?)
+- uid: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler`2.EditCollectionAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler`2.EditCollectionAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  id: EditCollectionAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler`2
+  langs:
+  - csharp
+  - vb
+  name: EditCollectionAsync(ICollection<TEntity>, CancellationToken?)
+  nameWithType: EditOnlyDataHandler<TEntity, TIdType>.EditCollectionAsync(ICollection<TEntity>, CancellationToken?)
+  fullName: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler<TEntity, TIdType>.EditCollectionAsync(System.Collections.Generic.ICollection<TEntity>, System.Threading.CancellationToken?)
+  type: Method
+  source:
+    id: EditCollectionAsync
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Editonly\Implementation\EditOnlyDataHandler.cs
+    startLine: 89
+  assemblies:
+  - Quickie
+  namespace: Quickie.DataHandlers.Editonly.Implementation
+  summary: Update collection of data.
+  example: []
+  syntax:
+    content: public Task<ResponseObj<ICollection<TEntity>>> EditCollectionAsync(ICollection<TEntity> requestModels, CancellationToken? cancellationToken = null)
+    parameters:
+    - id: requestModels
+      type: System.Collections.Generic.ICollection{{TEntity}}
+      description: Collection of requested data to update
+    - id: cancellationToken
+      type: System.Nullable{System.Threading.CancellationToken}
+      description: Cancellation token
+    return:
+      type: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{System.Collections.Generic.ICollection{{TEntity}}}}
+      description: ''
+    content.vb: Public Function EditCollectionAsync(requestModels As ICollection(Of TEntity), cancellationToken As CancellationToken? = Nothing) As Task(Of ResponseObj(Of ICollection(Of TEntity)))
+  overload: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler`2.EditCollectionAsync*
+  implements:
+  - Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler{{TEntity},{TIdType}}.EditCollectionAsync(System.Collections.Generic.ICollection{{TEntity}},System.Nullable{System.Threading.CancellationToken})
+  nameWithType.vb: EditOnlyDataHandler(Of TEntity, TIdType).EditCollectionAsync(ICollection(Of TEntity), CancellationToken?)
+  fullName.vb: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler(Of TEntity, TIdType).EditCollectionAsync(System.Collections.Generic.ICollection(Of TEntity), System.Threading.CancellationToken?)
+  name.vb: EditCollectionAsync(ICollection(Of TEntity), CancellationToken?)
+references:
+- uid: Quickie.DataHandlers.Editonly.Implementation
+  commentId: N:Quickie.DataHandlers.Editonly.Implementation
+  href: Quickie.html
+  name: Quickie.DataHandlers.Editonly.Implementation
+  nameWithType: Quickie.DataHandlers.Editonly.Implementation
+  fullName: Quickie.DataHandlers.Editonly.Implementation
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataHandlers
+    name: DataHandlers
+    href: Quickie.DataHandlers.html
+  - name: .
+  - uid: Quickie.DataHandlers.Editonly
+    name: Editonly
+    href: Quickie.DataHandlers.Editonly.html
+  - name: .
+  - uid: Quickie.DataHandlers.Editonly.Implementation
+    name: Implementation
+    href: Quickie.DataHandlers.Editonly.Implementation.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataHandlers
+    name: DataHandlers
+    href: Quickie.DataHandlers.html
+  - name: .
+  - uid: Quickie.DataHandlers.Editonly
+    name: Editonly
+    href: Quickie.DataHandlers.Editonly.html
+  - name: .
+  - uid: Quickie.DataHandlers.Editonly.Implementation
+    name: Implementation
+    href: Quickie.DataHandlers.Editonly.Implementation.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler{{TEntity},{TIdType}}
+  commentId: T:Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler{`0,`1}
+  parent: Quickie.DataHandlers.Editonly.Definition
+  definition: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler`2
+  href: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler-2.html
+  name: IEditOnlyDataHandler<TEntity, TIdType>
+  nameWithType: IEditOnlyDataHandler<TEntity, TIdType>
+  fullName: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler<TEntity, TIdType>
+  nameWithType.vb: IEditOnlyDataHandler(Of TEntity, TIdType)
+  fullName.vb: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler(Of TEntity, TIdType)
+  name.vb: IEditOnlyDataHandler(Of TEntity, TIdType)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler`2
+    name: IEditOnlyDataHandler
+    href: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler-2.html
+  - name: <
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler`2
+    name: IEditOnlyDataHandler
+    href: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler`2
+  commentId: T:Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler`2
+  href: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler-2.html
+  name: IEditOnlyDataHandler<TEntity, TIdType>
+  nameWithType: IEditOnlyDataHandler<TEntity, TIdType>
+  fullName: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler<TEntity, TIdType>
+  nameWithType.vb: IEditOnlyDataHandler(Of TEntity, TIdType)
+  fullName.vb: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler(Of TEntity, TIdType)
+  name.vb: IEditOnlyDataHandler(Of TEntity, TIdType)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler`2
+    name: IEditOnlyDataHandler
+    href: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler-2.html
+  - name: <
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler`2
+    name: IEditOnlyDataHandler
+    href: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: )
+- uid: Quickie.DataHandlers.Editonly.Definition
+  commentId: N:Quickie.DataHandlers.Editonly.Definition
+  href: Quickie.html
+  name: Quickie.DataHandlers.Editonly.Definition
+  nameWithType: Quickie.DataHandlers.Editonly.Definition
+  fullName: Quickie.DataHandlers.Editonly.Definition
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataHandlers
+    name: DataHandlers
+    href: Quickie.DataHandlers.html
+  - name: .
+  - uid: Quickie.DataHandlers.Editonly
+    name: Editonly
+    href: Quickie.DataHandlers.Editonly.html
+  - name: .
+  - uid: Quickie.DataHandlers.Editonly.Definition
+    name: Definition
+    href: Quickie.DataHandlers.Editonly.Definition.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataHandlers
+    name: DataHandlers
+    href: Quickie.DataHandlers.html
+  - name: .
+  - uid: Quickie.DataHandlers.Editonly
+    name: Editonly
+    href: Quickie.DataHandlers.Editonly.html
+  - name: .
+  - uid: Quickie.DataHandlers.Editonly.Definition
+    name: Definition
+    href: Quickie.DataHandlers.Editonly.Definition.html
+- uid: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler`2.#ctor*
+  commentId: Overload:Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler`2.#ctor
+  href: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler-2.html#Quickie_DataHandlers_Editonly_Implementation_EditOnlyDataHandler_2__ctor_Microsoft_EntityFrameworkCore_DbContext_
+  name: EditOnlyDataHandler
+  nameWithType: EditOnlyDataHandler<TEntity, TIdType>.EditOnlyDataHandler
+  fullName: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler<TEntity, TIdType>.EditOnlyDataHandler
+  nameWithType.vb: EditOnlyDataHandler(Of TEntity, TIdType).New
+  fullName.vb: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler(Of TEntity, TIdType).New
+  name.vb: New
+- uid: Microsoft.EntityFrameworkCore.DbContext
+  commentId: T:Microsoft.EntityFrameworkCore.DbContext
+  parent: Microsoft.EntityFrameworkCore
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext
+  name: DbContext
+  nameWithType: DbContext
+  fullName: Microsoft.EntityFrameworkCore.DbContext
+- uid: Microsoft.EntityFrameworkCore
+  commentId: N:Microsoft.EntityFrameworkCore
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.EntityFrameworkCore
+  nameWithType: Microsoft.EntityFrameworkCore
+  fullName: Microsoft.EntityFrameworkCore
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.EntityFrameworkCore
+    name: EntityFrameworkCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.EntityFrameworkCore
+    name: EntityFrameworkCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore
+- uid: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler`2.EditAsync*
+  commentId: Overload:Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler`2.EditAsync
+  href: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler-2.html#Quickie_DataHandlers_Editonly_Implementation_EditOnlyDataHandler_2_EditAsync__1__0_System_Nullable_System_Threading_CancellationToken__
+  name: EditAsync
+  nameWithType: EditOnlyDataHandler<TEntity, TIdType>.EditAsync
+  fullName: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler<TEntity, TIdType>.EditAsync
+  nameWithType.vb: EditOnlyDataHandler(Of TEntity, TIdType).EditAsync
+  fullName.vb: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler(Of TEntity, TIdType).EditAsync
+- uid: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler{{TEntity},{TIdType}}.EditAsync({TIdType},{TEntity},System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler{`0,`1}.EditAsync(`1,`0,System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler{{TEntity},{TIdType}}
+  definition: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler`2.EditAsync(`1,`0,System.Nullable{System.Threading.CancellationToken})
+  href: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler-2.html#Quickie_DataHandlers_Editonly_Definition_IEditOnlyDataHandler_2_EditAsync__1__0_System_Nullable_System_Threading_CancellationToken__
+  name: EditAsync(TIdType, TEntity, CancellationToken?)
+  nameWithType: IEditOnlyDataHandler<TEntity, TIdType>.EditAsync(TIdType, TEntity, CancellationToken?)
+  fullName: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler<TEntity, TIdType>.EditAsync(TIdType, TEntity, System.Threading.CancellationToken?)
+  nameWithType.vb: IEditOnlyDataHandler(Of TEntity, TIdType).EditAsync(TIdType, TEntity, CancellationToken?)
+  fullName.vb: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler(Of TEntity, TIdType).EditAsync(TIdType, TEntity, System.Threading.CancellationToken?)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler{`0,`1}.EditAsync(`1,`0,System.Nullable{System.Threading.CancellationToken})
+    name: EditAsync
+    href: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler-2.html#Quickie_DataHandlers_Editonly_Definition_IEditOnlyDataHandler_2_EditAsync__1__0_System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - name: TIdType
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler{`0,`1}.EditAsync(`1,`0,System.Nullable{System.Threading.CancellationToken})
+    name: EditAsync
+    href: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler-2.html#Quickie_DataHandlers_Editonly_Definition_IEditOnlyDataHandler_2_EditAsync__1__0_System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - name: TIdType
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+- uid: '{TIdType}'
+  commentId: '!:TIdType'
+  definition: TIdType
+  name: TIdType
+  nameWithType: TIdType
+  fullName: TIdType
+- uid: '{TEntity}'
+  commentId: '!:TEntity'
+  definition: TEntity
+  name: TEntity
+  nameWithType: TEntity
+  fullName: TEntity
+- uid: System.Nullable{System.Threading.CancellationToken}
+  commentId: T:System.Nullable{System.Threading.CancellationToken}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken?
+  nameWithType: CancellationToken?
+  fullName: System.Threading.CancellationToken?
+  spec.csharp:
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  spec.vb:
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+- uid: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{{TEntity}}}
+  commentId: T:System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{`0}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ResponseObj<TEntity>>
+  nameWithType: Task<ResponseObj<TEntity>>
+  fullName: System.Threading.Tasks.Task<Quickie.DataObj.ResponseObj<TEntity>>
+  nameWithType.vb: Task(Of ResponseObj(Of TEntity))
+  fullName.vb: System.Threading.Tasks.Task(Of Quickie.DataObj.ResponseObj(Of TEntity))
+  name.vb: Task(Of ResponseObj(Of TEntity))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Quickie.DataObj.ResponseObj`1
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj-1.html
+  - name: <
+  - name: TEntity
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Quickie.DataObj.ResponseObj`1
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+  - name: )
+- uid: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler`2.EditAsync(`1,`0,System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler`2.EditAsync(`1,`0,System.Nullable{System.Threading.CancellationToken})
+  isExternal: true
+  href: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler-2.html#Quickie_DataHandlers_Editonly_Definition_IEditOnlyDataHandler_2_EditAsync__1__0_System_Nullable_System_Threading_CancellationToken__
+  name: EditAsync(TIdType, TEntity, CancellationToken?)
+  nameWithType: IEditOnlyDataHandler<TEntity, TIdType>.EditAsync(TIdType, TEntity, CancellationToken?)
+  fullName: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler<TEntity, TIdType>.EditAsync(TIdType, TEntity, System.Threading.CancellationToken?)
+  nameWithType.vb: IEditOnlyDataHandler(Of TEntity, TIdType).EditAsync(TIdType, TEntity, CancellationToken?)
+  fullName.vb: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler(Of TEntity, TIdType).EditAsync(TIdType, TEntity, System.Threading.CancellationToken?)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler`2.EditAsync(`1,`0,System.Nullable{System.Threading.CancellationToken})
+    name: EditAsync
+    href: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler-2.html#Quickie_DataHandlers_Editonly_Definition_IEditOnlyDataHandler_2_EditAsync__1__0_System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - name: TIdType
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler`2.EditAsync(`1,`0,System.Nullable{System.Threading.CancellationToken})
+    name: EditAsync
+    href: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler-2.html#Quickie_DataHandlers_Editonly_Definition_IEditOnlyDataHandler_2_EditAsync__1__0_System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - name: TIdType
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+- uid: TIdType
+  name: TIdType
+  nameWithType: TIdType
+  fullName: TIdType
+- uid: TEntity
+  name: TEntity
+  nameWithType: TEntity
+  fullName: TEntity
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler`2.EditCollectionAsync*
+  commentId: Overload:Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler`2.EditCollectionAsync
+  href: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler-2.html#Quickie_DataHandlers_Editonly_Implementation_EditOnlyDataHandler_2_EditCollectionAsync_System_Collections_Generic_ICollection__0__System_Nullable_System_Threading_CancellationToken__
+  name: EditCollectionAsync
+  nameWithType: EditOnlyDataHandler<TEntity, TIdType>.EditCollectionAsync
+  fullName: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler<TEntity, TIdType>.EditCollectionAsync
+  nameWithType.vb: EditOnlyDataHandler(Of TEntity, TIdType).EditCollectionAsync
+  fullName.vb: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler(Of TEntity, TIdType).EditCollectionAsync
+- uid: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler{{TEntity},{TIdType}}.EditCollectionAsync(System.Collections.Generic.ICollection{{TEntity}},System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler{`0,`1}.EditCollectionAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler{{TEntity},{TIdType}}
+  definition: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler`2.EditCollectionAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  href: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler-2.html#Quickie_DataHandlers_Editonly_Definition_IEditOnlyDataHandler_2_EditCollectionAsync_System_Collections_Generic_ICollection__0__System_Nullable_System_Threading_CancellationToken__
+  name: EditCollectionAsync(ICollection<TEntity>, CancellationToken?)
+  nameWithType: IEditOnlyDataHandler<TEntity, TIdType>.EditCollectionAsync(ICollection<TEntity>, CancellationToken?)
+  fullName: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler<TEntity, TIdType>.EditCollectionAsync(System.Collections.Generic.ICollection<TEntity>, System.Threading.CancellationToken?)
+  nameWithType.vb: IEditOnlyDataHandler(Of TEntity, TIdType).EditCollectionAsync(ICollection(Of TEntity), CancellationToken?)
+  fullName.vb: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler(Of TEntity, TIdType).EditCollectionAsync(System.Collections.Generic.ICollection(Of TEntity), System.Threading.CancellationToken?)
+  name.vb: EditCollectionAsync(ICollection(Of TEntity), CancellationToken?)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler{`0,`1}.EditCollectionAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+    name: EditCollectionAsync
+    href: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler-2.html#Quickie_DataHandlers_Editonly_Definition_IEditOnlyDataHandler_2_EditCollectionAsync_System_Collections_Generic_ICollection__0__System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TEntity
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler{`0,`1}.EditCollectionAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+    name: EditCollectionAsync
+    href: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler-2.html#Quickie_DataHandlers_Editonly_Definition_IEditOnlyDataHandler_2_EditCollectionAsync_System_Collections_Generic_ICollection__0__System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+- uid: System.Collections.Generic.ICollection{{TEntity}}
+  commentId: T:System.Collections.Generic.ICollection{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<TEntity>
+  nameWithType: ICollection<TEntity>
+  fullName: System.Collections.Generic.ICollection<TEntity>
+  nameWithType.vb: ICollection(Of TEntity)
+  fullName.vb: System.Collections.Generic.ICollection(Of TEntity)
+  name.vb: ICollection(Of TEntity)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{System.Collections.Generic.ICollection{{TEntity}}}}
+  commentId: T:System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{System.Collections.Generic.ICollection{`0}}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ResponseObj<ICollection<TEntity>>>
+  nameWithType: Task<ResponseObj<ICollection<TEntity>>>
+  fullName: System.Threading.Tasks.Task<Quickie.DataObj.ResponseObj<System.Collections.Generic.ICollection<TEntity>>>
+  nameWithType.vb: Task(Of ResponseObj(Of ICollection(Of TEntity)))
+  fullName.vb: System.Threading.Tasks.Task(Of Quickie.DataObj.ResponseObj(Of System.Collections.Generic.ICollection(Of TEntity)))
+  name.vb: Task(Of ResponseObj(Of ICollection(Of TEntity)))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Quickie.DataObj.ResponseObj`1
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj-1.html
+  - name: <
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TEntity
+  - name: '>'
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Quickie.DataObj.ResponseObj`1
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+  - name: )
+  - name: )
+- uid: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler`2.EditCollectionAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler`2.EditCollectionAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  isExternal: true
+  href: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler-2.html#Quickie_DataHandlers_Editonly_Definition_IEditOnlyDataHandler_2_EditCollectionAsync_System_Collections_Generic_ICollection__0__System_Nullable_System_Threading_CancellationToken__
+  name: EditCollectionAsync(ICollection<TEntity>, CancellationToken?)
+  nameWithType: IEditOnlyDataHandler<TEntity, TIdType>.EditCollectionAsync(ICollection<TEntity>, CancellationToken?)
+  fullName: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler<TEntity, TIdType>.EditCollectionAsync(System.Collections.Generic.ICollection<TEntity>, System.Threading.CancellationToken?)
+  nameWithType.vb: IEditOnlyDataHandler(Of TEntity, TIdType).EditCollectionAsync(ICollection(Of TEntity), CancellationToken?)
+  fullName.vb: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler(Of TEntity, TIdType).EditCollectionAsync(System.Collections.Generic.ICollection(Of TEntity), System.Threading.CancellationToken?)
+  name.vb: EditCollectionAsync(ICollection(Of TEntity), CancellationToken?)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler`2.EditCollectionAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+    name: EditCollectionAsync
+    href: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler-2.html#Quickie_DataHandlers_Editonly_Definition_IEditOnlyDataHandler_2_EditCollectionAsync_System_Collections_Generic_ICollection__0__System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TEntity
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler`2.EditCollectionAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+    name: EditCollectionAsync
+    href: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler-2.html#Quickie_DataHandlers_Editonly_Definition_IEditOnlyDataHandler_2_EditCollectionAsync_System_Collections_Generic_ICollection__0__System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

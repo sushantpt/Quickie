@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.DataObj
+  commentId: N:Quickie.DataObj
+  id: Quickie.DataObj
+  children:
+  - Quickie.DataObj.DetailedResponseObj
+  - Quickie.DataObj.PaginatedDataObj`1
+  - Quickie.DataObj.RequestForDataObj
+  - Quickie.DataObj.ResponseObj
+  - Quickie.DataObj.ResponseObj`1
+  langs:
+  - csharp
+  - vb
+  name: Quickie.DataObj
+  nameWithType: Quickie.DataObj
+  fullName: Quickie.DataObj
+  type: Namespace
+  assemblies:
+  - Quickie
+references:
+- uid: Quickie.DataObj.DetailedResponseObj
+  commentId: T:Quickie.DataObj.DetailedResponseObj
+  href: Quickie.DataObj.DetailedResponseObj.html
+  name: DetailedResponseObj
+  nameWithType: DetailedResponseObj
+  fullName: Quickie.DataObj.DetailedResponseObj
+- uid: Quickie.DataObj.PaginatedDataObj`1
+  commentId: T:Quickie.DataObj.PaginatedDataObj`1
+  href: Quickie.DataObj.PaginatedDataObj-1.html
+  name: PaginatedDataObj<TObject>
+  nameWithType: PaginatedDataObj<TObject>
+  fullName: Quickie.DataObj.PaginatedDataObj<TObject>
+  nameWithType.vb: PaginatedDataObj(Of TObject)
+  fullName.vb: Quickie.DataObj.PaginatedDataObj(Of TObject)
+  name.vb: PaginatedDataObj(Of TObject)
+  spec.csharp:
+  - uid: Quickie.DataObj.PaginatedDataObj`1
+    name: PaginatedDataObj
+    href: Quickie.DataObj.PaginatedDataObj-1.html
+  - name: <
+  - name: TObject
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.DataObj.PaginatedDataObj`1
+    name: PaginatedDataObj
+    href: Quickie.DataObj.PaginatedDataObj-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TObject
+  - name: )
+- uid: Quickie.DataObj.RequestForDataObj
+  commentId: T:Quickie.DataObj.RequestForDataObj
+  parent: Quickie.DataObj
+  href: Quickie.DataObj.RequestForDataObj.html
+  name: RequestForDataObj
+  nameWithType: RequestForDataObj
+  fullName: Quickie.DataObj.RequestForDataObj
+- uid: Quickie.DataObj.ResponseObj
+  commentId: T:Quickie.DataObj.ResponseObj
+  href: Quickie.DataObj.ResponseObj.html
+  name: ResponseObj
+  nameWithType: ResponseObj
+  fullName: Quickie.DataObj.ResponseObj
+- uid: Quickie.DataObj.ResponseObj`1
+  commentId: T:Quickie.DataObj.ResponseObj`1
+  href: Quickie.DataObj.ResponseObj-1.html
+  name: ResponseObj<TData>
+  nameWithType: ResponseObj<TData>
+  fullName: Quickie.DataObj.ResponseObj<TData>
+  nameWithType.vb: ResponseObj(Of TData)
+  fullName.vb: Quickie.DataObj.ResponseObj(Of TData)
+  name.vb: ResponseObj(Of TData)
+  spec.csharp:
+  - uid: Quickie.DataObj.ResponseObj`1
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj-1.html
+  - name: <
+  - name: TData
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.DataObj.ResponseObj`1
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TData
+  - name: )
+- uid: Quickie.DataObj
+  commentId: N:Quickie.DataObj
+  href: Quickie.html
+  name: Quickie.DataObj
+  nameWithType: Quickie.DataObj
+  fullName: Quickie.DataObj
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataObj
+    name: DataObj
+    href: Quickie.DataObj.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataObj
+    name: DataObj
+    href: Quickie.DataObj.html

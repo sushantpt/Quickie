@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.Configuration
+  commentId: N:Quickie.Configuration
+  id: Quickie.Configuration
+  children:
+  - Quickie.Configuration.DependencyResolver
+  - Quickie.Configuration.QuickieExtension
+  - Quickie.Configuration.QuickieOptions
+  langs:
+  - csharp
+  - vb
+  name: Quickie.Configuration
+  nameWithType: Quickie.Configuration
+  fullName: Quickie.Configuration
+  type: Namespace
+  assemblies:
+  - Quickie
+references:
+- uid: Quickie.Configuration.DependencyResolver
+  commentId: T:Quickie.Configuration.DependencyResolver
+  href: Quickie.Configuration.DependencyResolver.html
+  name: DependencyResolver
+  nameWithType: DependencyResolver
+  fullName: Quickie.Configuration.DependencyResolver
+- uid: Quickie.Configuration.QuickieExtension
+  commentId: T:Quickie.Configuration.QuickieExtension
+  href: Quickie.Configuration.QuickieExtension.html
+  name: QuickieExtension
+  nameWithType: QuickieExtension
+  fullName: Quickie.Configuration.QuickieExtension
+- uid: Quickie.Configuration.QuickieOptions
+  commentId: T:Quickie.Configuration.QuickieOptions
+  parent: Quickie.Configuration
+  href: Quickie.Configuration.QuickieOptions.html
+  name: QuickieOptions
+  nameWithType: QuickieOptions
+  fullName: Quickie.Configuration.QuickieOptions
+- uid: Quickie.Configuration
+  commentId: N:Quickie.Configuration
+  href: Quickie.html
+  name: Quickie.Configuration
+  nameWithType: Quickie.Configuration
+  fullName: Quickie.Configuration
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Configuration
+    name: Configuration
+    href: Quickie.Configuration.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Configuration
+    name: Configuration
+    href: Quickie.Configuration.html

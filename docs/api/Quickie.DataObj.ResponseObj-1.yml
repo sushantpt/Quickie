@@ -1,0 +1,449 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.DataObj.ResponseObj`1
+  commentId: T:Quickie.DataObj.ResponseObj`1
+  id: ResponseObj`1
+  parent: Quickie.DataObj
+  children:
+  - Quickie.DataObj.ResponseObj`1.Data
+  - Quickie.DataObj.ResponseObj`1.IsSuccess
+  - Quickie.DataObj.ResponseObj`1.Message
+  langs:
+  - csharp
+  - vb
+  name: ResponseObj<TData>
+  nameWithType: ResponseObj<TData>
+  fullName: Quickie.DataObj.ResponseObj<TData>
+  type: Class
+  source:
+    id: ResponseObj
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataObj\ResponseObj.cs
+    startLine: 22
+  assemblies:
+  - Quickie
+  namespace: Quickie.DataObj
+  summary: Represents a response object that contains the result of an operation along with the data.
+  example: []
+  syntax:
+    content: public class ResponseObj<TData>
+    typeParameters:
+    - id: TData
+      description: Data.
+    content.vb: Public Class ResponseObj(Of TData)
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: ResponseObj(Of TData)
+  fullName.vb: Quickie.DataObj.ResponseObj(Of TData)
+  name.vb: ResponseObj(Of TData)
+- uid: Quickie.DataObj.ResponseObj`1.IsSuccess
+  commentId: P:Quickie.DataObj.ResponseObj`1.IsSuccess
+  id: IsSuccess
+  parent: Quickie.DataObj.ResponseObj`1
+  langs:
+  - csharp
+  - vb
+  name: IsSuccess
+  nameWithType: ResponseObj<TData>.IsSuccess
+  fullName: Quickie.DataObj.ResponseObj<TData>.IsSuccess
+  type: Property
+  source:
+    id: IsSuccess
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataObj\ResponseObj.cs
+    startLine: 27
+  assemblies:
+  - Quickie
+  namespace: Quickie.DataObj
+  summary: Value indicating whether the operation was successful. "true" meaning operation has succeeded and "false" meaning operation has failed.
+  example: []
+  syntax:
+    content: public bool IsSuccess { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsSuccess As Boolean
+  overload: Quickie.DataObj.ResponseObj`1.IsSuccess*
+  nameWithType.vb: ResponseObj(Of TData).IsSuccess
+  fullName.vb: Quickie.DataObj.ResponseObj(Of TData).IsSuccess
+- uid: Quickie.DataObj.ResponseObj`1.Message
+  commentId: P:Quickie.DataObj.ResponseObj`1.Message
+  id: Message
+  parent: Quickie.DataObj.ResponseObj`1
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: ResponseObj<TData>.Message
+  fullName: Quickie.DataObj.ResponseObj<TData>.Message
+  type: Property
+  source:
+    id: Message
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataObj\ResponseObj.cs
+    startLine: 32
+  assemblies:
+  - Quickie
+  namespace: Quickie.DataObj
+  summary: Message providing additional information about the operation's result.
+  example: []
+  syntax:
+    content: public string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Message As String
+  overload: Quickie.DataObj.ResponseObj`1.Message*
+  nameWithType.vb: ResponseObj(Of TData).Message
+  fullName.vb: Quickie.DataObj.ResponseObj(Of TData).Message
+- uid: Quickie.DataObj.ResponseObj`1.Data
+  commentId: P:Quickie.DataObj.ResponseObj`1.Data
+  id: Data
+  parent: Quickie.DataObj.ResponseObj`1
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: ResponseObj<TData>.Data
+  fullName: Quickie.DataObj.ResponseObj<TData>.Data
+  type: Property
+  source:
+    id: Data
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataObj\ResponseObj.cs
+    startLine: 37
+  assemblies:
+  - Quickie
+  namespace: Quickie.DataObj
+  summary: Data returned as a result of the operation.
+  example: []
+  syntax:
+    content: public TData Data { get; set; }
+    parameters: []
+    return:
+      type: '{TData}'
+    content.vb: Public Property Data As TData
+  overload: Quickie.DataObj.ResponseObj`1.Data*
+  nameWithType.vb: ResponseObj(Of TData).Data
+  fullName.vb: Quickie.DataObj.ResponseObj(Of TData).Data
+references:
+- uid: Quickie.DataObj
+  commentId: N:Quickie.DataObj
+  href: Quickie.html
+  name: Quickie.DataObj
+  nameWithType: Quickie.DataObj
+  fullName: Quickie.DataObj
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataObj
+    name: DataObj
+    href: Quickie.DataObj.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataObj
+    name: DataObj
+    href: Quickie.DataObj.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Quickie.DataObj.ResponseObj`1.IsSuccess*
+  commentId: Overload:Quickie.DataObj.ResponseObj`1.IsSuccess
+  href: Quickie.DataObj.ResponseObj-1.html#Quickie_DataObj_ResponseObj_1_IsSuccess
+  name: IsSuccess
+  nameWithType: ResponseObj<TData>.IsSuccess
+  fullName: Quickie.DataObj.ResponseObj<TData>.IsSuccess
+  nameWithType.vb: ResponseObj(Of TData).IsSuccess
+  fullName.vb: Quickie.DataObj.ResponseObj(Of TData).IsSuccess
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Quickie.DataObj.ResponseObj`1.Message*
+  commentId: Overload:Quickie.DataObj.ResponseObj`1.Message
+  href: Quickie.DataObj.ResponseObj-1.html#Quickie_DataObj_ResponseObj_1_Message
+  name: Message
+  nameWithType: ResponseObj<TData>.Message
+  fullName: Quickie.DataObj.ResponseObj<TData>.Message
+  nameWithType.vb: ResponseObj(Of TData).Message
+  fullName.vb: Quickie.DataObj.ResponseObj(Of TData).Message
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Quickie.DataObj.ResponseObj`1.Data*
+  commentId: Overload:Quickie.DataObj.ResponseObj`1.Data
+  href: Quickie.DataObj.ResponseObj-1.html#Quickie_DataObj_ResponseObj_1_Data
+  name: Data
+  nameWithType: ResponseObj<TData>.Data
+  fullName: Quickie.DataObj.ResponseObj<TData>.Data
+  nameWithType.vb: ResponseObj(Of TData).Data
+  fullName.vb: Quickie.DataObj.ResponseObj(Of TData).Data
+- uid: '{TData}'
+  commentId: '!:TData'
+  definition: TData
+  name: TData
+  nameWithType: TData
+  fullName: TData
+- uid: TData
+  commentId: '!:TData'
+  name: TData
+  nameWithType: TData
+  fullName: TData

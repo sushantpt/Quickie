@@ -1,0 +1,249 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IEditOnlyDataHandler&lt;TEntity, TIdType&gt; | Quickie </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IEditOnlyDataHandler&lt;TEntity, TIdType&gt; | Quickie ">
+      
+      <meta name="description" content="Defines operations to update entities">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-S4FG36P7BW"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-S4FG36P7BW');
+      </script>
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Quickie">
+            Quickie
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler`2">
+
+
+
+  <h1 id="Quickie_DataHandlers_Editonly_Definition_IEditOnlyDataHandler_2" data-uid="Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler`2" class="text-break">
+Interface IEditOnlyDataHandler&lt;TEntity, TIdType&gt;  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Quickie.html">Quickie</a>.<a class="xref" href="Quickie.DataHandlers.html">DataHandlers</a>.<a class="xref" href="Quickie.DataHandlers.Editonly.html">Editonly</a>.<a class="xref" href="Quickie.DataHandlers.Editonly.Definition.html">Definition</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Quickie.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Defines operations to update entities</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IEditOnlyDataHandler&lt;TEntity, in TIdType&gt; where TEntity : EditOnlyEntity where TIdType : IComparable</code></pre>
+  </div>
+
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd><p>Data to update.</p>
+</dd>
+    <dt><code>TIdType</code></dt>
+    <dd><p>Type of id (int, Guid, string, ...)</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Quickie_DataHandlers_Editonly_Definition_IEditOnlyDataHandler_2_EditAsync_" data-uid="Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler`2.EditAsync*"></a>
+
+  <h3 id="Quickie_DataHandlers_Editonly_Definition_IEditOnlyDataHandler_2_EditAsync__1__0_System_Nullable_System_Threading_CancellationToken__" data-uid="Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler`2.EditAsync(`1,`0,System.Nullable{System.Threading.CancellationToken})">
+  EditAsync(TIdType, TEntity, CancellationToken?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update single data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;ResponseObj&lt;TEntity&gt;&gt; EditAsync(TIdType id, TEntity requestModel, CancellationToken? cancellationToken)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <span class="xref">TIdType</span></dt>
+    <dd><p>Identifier.</p>
+</dd>
+    <dt><code>requestModel</code> <span class="xref">TEntity</span></dt>
+    <dd><p>Data to be updated.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a>?</dt>
+    <dd><p>Cancellation token.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Quickie.DataObj.ResponseObj-1.html">ResponseObj</a>&lt;TEntity&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Quickie_DataHandlers_Editonly_Definition_IEditOnlyDataHandler_2_EditCollectionAsync_" data-uid="Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler`2.EditCollectionAsync*"></a>
+
+  <h3 id="Quickie_DataHandlers_Editonly_Definition_IEditOnlyDataHandler_2_EditCollectionAsync_System_Collections_Generic_ICollection__0__System_Nullable_System_Threading_CancellationToken__" data-uid="Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler`2.EditCollectionAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})">
+  EditCollectionAsync(ICollection&lt;TEntity&gt;, CancellationToken?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update collection of data (bulk update).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;ResponseObj&lt;ICollection&lt;TEntity&gt;&gt;&gt; EditCollectionAsync(ICollection&lt;TEntity&gt; requestModels, CancellationToken? cancellationToken)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestModels</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;TEntity&gt;</dt>
+    <dd><p>Collection of entity.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a>?</dt>
+    <dd><p>Cancellation token.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Quickie.DataObj.ResponseObj-1.html">ResponseObj</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;TEntity&gt;&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Version>1.0.0</Version>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>Quickie</Title>
+    <Description>Quickie is an open-source library designed to help you build APIs and backend services QUICKLY in .NET.</Description>
+    <Copyright>sushantpt</Copyright>
+    <PackageProjectUrl>https://github.com/sushantpt/Quickie</PackageProjectUrl>
+    <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/sushantpt/Quickie</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>api, backend, web</PackageTags>
+    <PackageReleaseNotes>Initial publish.</PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.AspNetCore.RateLimiting" Version="7.0.0-rc.2.22476.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="System.Threading.RateLimiting" Version="9.0.0" />
+  </ItemGroup>
+
+</Project>

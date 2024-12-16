@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.Configuration.Middleware
+  commentId: N:Quickie.Configuration.Middleware
+  id: Quickie.Configuration.Middleware
+  children:
+  - Quickie.Configuration.Middleware.IdempotencyMiddleware
+  langs:
+  - csharp
+  - vb
+  name: Quickie.Configuration.Middleware
+  nameWithType: Quickie.Configuration.Middleware
+  fullName: Quickie.Configuration.Middleware
+  type: Namespace
+  assemblies:
+  - Quickie
+references:
+- uid: Quickie.Configuration.Middleware.IdempotencyMiddleware
+  commentId: T:Quickie.Configuration.Middleware.IdempotencyMiddleware
+  href: Quickie.Configuration.Middleware.IdempotencyMiddleware.html
+  name: IdempotencyMiddleware
+  nameWithType: IdempotencyMiddleware
+  fullName: Quickie.Configuration.Middleware.IdempotencyMiddleware

@@ -1,0 +1,299 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.Configuration.Idempotency.IIdempotencyProvider
+  commentId: T:Quickie.Configuration.Idempotency.IIdempotencyProvider
+  id: IIdempotencyProvider
+  parent: Quickie.Configuration.Idempotency
+  children:
+  - Quickie.Configuration.Idempotency.IIdempotencyProvider.ExistsAsync(System.String)
+  - Quickie.Configuration.Idempotency.IIdempotencyProvider.MarkAsync(System.String)
+  - Quickie.Configuration.Idempotency.IIdempotencyProvider.RemoveExpiredKeys
+  langs:
+  - csharp
+  - vb
+  name: IIdempotencyProvider
+  nameWithType: IIdempotencyProvider
+  fullName: Quickie.Configuration.Idempotency.IIdempotencyProvider
+  type: Interface
+  source:
+    id: IIdempotencyProvider
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\Idempotency\IIdempotencyProvider.cs
+    startLine: 5
+  assemblies:
+  - Quickie
+  namespace: Quickie.Configuration.Idempotency
+  summary: Idempotency provider contract
+  example: []
+  syntax:
+    content: public interface IIdempotencyProvider
+    content.vb: Public Interface IIdempotencyProvider
+- uid: Quickie.Configuration.Idempotency.IIdempotencyProvider.ExistsAsync(System.String)
+  commentId: M:Quickie.Configuration.Idempotency.IIdempotencyProvider.ExistsAsync(System.String)
+  id: ExistsAsync(System.String)
+  parent: Quickie.Configuration.Idempotency.IIdempotencyProvider
+  langs:
+  - csharp
+  - vb
+  name: ExistsAsync(string)
+  nameWithType: IIdempotencyProvider.ExistsAsync(string)
+  fullName: Quickie.Configuration.Idempotency.IIdempotencyProvider.ExistsAsync(string)
+  type: Method
+  source:
+    id: ExistsAsync
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\Idempotency\IIdempotencyProvider.cs
+    startLine: 12
+  assemblies:
+  - Quickie
+  namespace: Quickie.Configuration.Idempotency
+  summary: Check if the <code>key</code> is already used.
+  example: []
+  syntax:
+    content: ValueTask<bool> ExistsAsync(string key)
+    parameters:
+    - id: key
+      type: System.String
+      description: Unique key
+    return:
+      type: System.Threading.Tasks.ValueTask{System.Boolean}
+      description: whether the key is used or not.
+    content.vb: Function ExistsAsync(key As String) As ValueTask(Of Boolean)
+  overload: Quickie.Configuration.Idempotency.IIdempotencyProvider.ExistsAsync*
+  nameWithType.vb: IIdempotencyProvider.ExistsAsync(String)
+  fullName.vb: Quickie.Configuration.Idempotency.IIdempotencyProvider.ExistsAsync(String)
+  name.vb: ExistsAsync(String)
+- uid: Quickie.Configuration.Idempotency.IIdempotencyProvider.MarkAsync(System.String)
+  commentId: M:Quickie.Configuration.Idempotency.IIdempotencyProvider.MarkAsync(System.String)
+  id: MarkAsync(System.String)
+  parent: Quickie.Configuration.Idempotency.IIdempotencyProvider
+  langs:
+  - csharp
+  - vb
+  name: MarkAsync(string)
+  nameWithType: IIdempotencyProvider.MarkAsync(string)
+  fullName: Quickie.Configuration.Idempotency.IIdempotencyProvider.MarkAsync(string)
+  type: Method
+  source:
+    id: MarkAsync
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\Idempotency\IIdempotencyProvider.cs
+    startLine: 19
+  assemblies:
+  - Quickie
+  namespace: Quickie.Configuration.Idempotency
+  summary: Add and mark <code>key</code> as used.
+  example: []
+  syntax:
+    content: ValueTask MarkAsync(string key)
+    parameters:
+    - id: key
+      type: System.String
+      description: Unique key
+    return:
+      type: System.Threading.Tasks.ValueTask
+      description: a Task
+    content.vb: Function MarkAsync(key As String) As ValueTask
+  overload: Quickie.Configuration.Idempotency.IIdempotencyProvider.MarkAsync*
+  nameWithType.vb: IIdempotencyProvider.MarkAsync(String)
+  fullName.vb: Quickie.Configuration.Idempotency.IIdempotencyProvider.MarkAsync(String)
+  name.vb: MarkAsync(String)
+- uid: Quickie.Configuration.Idempotency.IIdempotencyProvider.RemoveExpiredKeys
+  commentId: M:Quickie.Configuration.Idempotency.IIdempotencyProvider.RemoveExpiredKeys
+  id: RemoveExpiredKeys
+  parent: Quickie.Configuration.Idempotency.IIdempotencyProvider
+  langs:
+  - csharp
+  - vb
+  name: RemoveExpiredKeys()
+  nameWithType: IIdempotencyProvider.RemoveExpiredKeys()
+  fullName: Quickie.Configuration.Idempotency.IIdempotencyProvider.RemoveExpiredKeys()
+  type: Method
+  source:
+    id: RemoveExpiredKeys
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\Idempotency\IIdempotencyProvider.cs
+    startLine: 25
+  assemblies:
+  - Quickie
+  namespace: Quickie.Configuration.Idempotency
+  summary: Remove idempotency keys.
+  example: []
+  syntax:
+    content: ValueTask RemoveExpiredKeys()
+    return:
+      type: System.Threading.Tasks.ValueTask
+      description: ''
+    content.vb: Function RemoveExpiredKeys() As ValueTask
+  overload: Quickie.Configuration.Idempotency.IIdempotencyProvider.RemoveExpiredKeys*
+references:
+- uid: Quickie.Configuration.Idempotency
+  commentId: N:Quickie.Configuration.Idempotency
+  href: Quickie.html
+  name: Quickie.Configuration.Idempotency
+  nameWithType: Quickie.Configuration.Idempotency
+  fullName: Quickie.Configuration.Idempotency
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Configuration
+    name: Configuration
+    href: Quickie.Configuration.html
+  - name: .
+  - uid: Quickie.Configuration.Idempotency
+    name: Idempotency
+    href: Quickie.Configuration.Idempotency.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Configuration
+    name: Configuration
+    href: Quickie.Configuration.html
+  - name: .
+  - uid: Quickie.Configuration.Idempotency
+    name: Idempotency
+    href: Quickie.Configuration.Idempotency.html
+- uid: Quickie.Configuration.Idempotency.IIdempotencyProvider.ExistsAsync*
+  commentId: Overload:Quickie.Configuration.Idempotency.IIdempotencyProvider.ExistsAsync
+  href: Quickie.Configuration.Idempotency.IIdempotencyProvider.html#Quickie_Configuration_Idempotency_IIdempotencyProvider_ExistsAsync_System_String_
+  name: ExistsAsync
+  nameWithType: IIdempotencyProvider.ExistsAsync
+  fullName: Quickie.Configuration.Idempotency.IIdempotencyProvider.ExistsAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.Tasks.ValueTask{System.Boolean}
+  commentId: T:System.Threading.Tasks.ValueTask{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.ValueTask`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1
+  name: ValueTask<bool>
+  nameWithType: ValueTask<bool>
+  fullName: System.Threading.Tasks.ValueTask<bool>
+  nameWithType.vb: ValueTask(Of Boolean)
+  fullName.vb: System.Threading.Tasks.ValueTask(Of Boolean)
+  name.vb: ValueTask(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.ValueTask`1
+    name: ValueTask
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.ValueTask`1
+    name: ValueTask
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.ValueTask`1
+  commentId: T:System.Threading.Tasks.ValueTask`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1
+  name: ValueTask<TResult>
+  nameWithType: ValueTask<TResult>
+  fullName: System.Threading.Tasks.ValueTask<TResult>
+  nameWithType.vb: ValueTask(Of TResult)
+  fullName.vb: System.Threading.Tasks.ValueTask(Of TResult)
+  name.vb: ValueTask(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.ValueTask`1
+    name: ValueTask
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.ValueTask`1
+    name: ValueTask
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Quickie.Configuration.Idempotency.IIdempotencyProvider.MarkAsync*
+  commentId: Overload:Quickie.Configuration.Idempotency.IIdempotencyProvider.MarkAsync
+  href: Quickie.Configuration.Idempotency.IIdempotencyProvider.html#Quickie_Configuration_Idempotency_IIdempotencyProvider_MarkAsync_System_String_
+  name: MarkAsync
+  nameWithType: IIdempotencyProvider.MarkAsync
+  fullName: Quickie.Configuration.Idempotency.IIdempotencyProvider.MarkAsync
+- uid: System.Threading.Tasks.ValueTask
+  commentId: T:System.Threading.Tasks.ValueTask
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask
+  name: ValueTask
+  nameWithType: ValueTask
+  fullName: System.Threading.Tasks.ValueTask
+- uid: Quickie.Configuration.Idempotency.IIdempotencyProvider.RemoveExpiredKeys*
+  commentId: Overload:Quickie.Configuration.Idempotency.IIdempotencyProvider.RemoveExpiredKeys
+  href: Quickie.Configuration.Idempotency.IIdempotencyProvider.html#Quickie_Configuration_Idempotency_IIdempotencyProvider_RemoveExpiredKeys
+  name: RemoveExpiredKeys
+  nameWithType: IIdempotencyProvider.RemoveExpiredKeys
+  fullName: Quickie.Configuration.Idempotency.IIdempotencyProvider.RemoveExpiredKeys

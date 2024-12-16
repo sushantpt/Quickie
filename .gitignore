@@ -1,0 +1,53 @@
+## Build results
+bin/
+obj/
+
+## User-specific files
+.vs2019/
+.vs2017/
+.idea/               # Rider-specific project files
+.vscode/             # VS Code project files
+.vs/                 # Visual Studio user-specific settings
+.DS_Store            # macOS-specific file
+*Quickie.sln.DotSettings.user
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer file fragments
+*.[Cc]ache
+*.pdb
+*.dll
+*.exe
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Windows Installer specific to JetBrains Rider
+.idea/
+.idea/*
+
+# JetBrains Rider settings
+.idea/.idea/
+
+# User-specific files (Rider/Visual Studio)
+.vscode/
+
+# .NET Core user secrets (don't commit sensitive information)
+secrets.json
+
+# User-specific Visual Studio settings
+.vsconfig
+.vs/
+
+# User-specific files on macOS
+.DS_Store
+
+# JetBrains Rider IDE files
+.idea/
+
+# NuGet Package files
+*.nupkg

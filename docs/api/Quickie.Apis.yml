@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.Apis
+  commentId: N:Quickie.Apis
+  id: Quickie.Apis
+  children:
+  - Quickie.Apis.CrudlController
+  langs:
+  - csharp
+  - vb
+  name: Quickie.Apis
+  nameWithType: Quickie.Apis
+  fullName: Quickie.Apis
+  type: Namespace
+  assemblies:
+  - Quickie
+references:
+- uid: Quickie.Apis.CrudlController
+  commentId: T:Quickie.Apis.CrudlController
+  href: Quickie.Apis.CrudlController.html
+  name: CrudlController
+  nameWithType: CrudlController
+  fullName: Quickie.Apis.CrudlController

@@ -1,0 +1,483 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.Configuration.QuickieOptions
+  commentId: T:Quickie.Configuration.QuickieOptions
+  id: QuickieOptions
+  parent: Quickie.Configuration
+  children:
+  - Quickie.Configuration.QuickieOptions.IdempotencyConfiguration
+  - Quickie.Configuration.QuickieOptions.RateLimitingConfiguration
+  - Quickie.Configuration.QuickieOptions.ShowCustomErrorMessage
+  langs:
+  - csharp
+  - vb
+  name: QuickieOptions
+  nameWithType: QuickieOptions
+  fullName: Quickie.Configuration.QuickieOptions
+  type: Class
+  source:
+    id: QuickieOptions
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\QuickieOptions.cs
+    startLine: 5
+  assemblies:
+  - Quickie
+  namespace: Quickie.Configuration
+  summary: Quickie options.
+  example: []
+  syntax:
+    content: public class QuickieOptions
+    content.vb: Public Class QuickieOptions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Quickie.Configuration.QuickieOptions.IdempotencyConfiguration
+  commentId: P:Quickie.Configuration.QuickieOptions.IdempotencyConfiguration
+  id: IdempotencyConfiguration
+  parent: Quickie.Configuration.QuickieOptions
+  langs:
+  - csharp
+  - vb
+  name: IdempotencyConfiguration
+  nameWithType: QuickieOptions.IdempotencyConfiguration
+  fullName: Quickie.Configuration.QuickieOptions.IdempotencyConfiguration
+  type: Property
+  source:
+    id: IdempotencyConfiguration
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\QuickieOptions.cs
+    startLine: 10
+  assemblies:
+  - Quickie
+  namespace: Quickie.Configuration
+  summary: Idempotency configuration
+  example: []
+  syntax:
+    content: public IdempotentConfiguration? IdempotencyConfiguration { get; set; }
+    parameters: []
+    return:
+      type: Quickie.Configuration.Idempotency.IdempotentConfiguration
+    content.vb: Public Property IdempotencyConfiguration As IdempotentConfiguration
+  overload: Quickie.Configuration.QuickieOptions.IdempotencyConfiguration*
+- uid: Quickie.Configuration.QuickieOptions.RateLimitingConfiguration
+  commentId: P:Quickie.Configuration.QuickieOptions.RateLimitingConfiguration
+  id: RateLimitingConfiguration
+  parent: Quickie.Configuration.QuickieOptions
+  langs:
+  - csharp
+  - vb
+  name: RateLimitingConfiguration
+  nameWithType: QuickieOptions.RateLimitingConfiguration
+  fullName: Quickie.Configuration.QuickieOptions.RateLimitingConfiguration
+  type: Property
+  source:
+    id: RateLimitingConfiguration
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\QuickieOptions.cs
+    startLine: 15
+  assemblies:
+  - Quickie
+  namespace: Quickie.Configuration
+  summary: Rate limit configuration
+  example: []
+  syntax:
+    content: public RateLimitConfiguration? RateLimitingConfiguration { get; set; }
+    parameters: []
+    return:
+      type: Quickie.Configuration.Options.RateLimitConfiguration
+    content.vb: Public Property RateLimitingConfiguration As RateLimitConfiguration
+  overload: Quickie.Configuration.QuickieOptions.RateLimitingConfiguration*
+- uid: Quickie.Configuration.QuickieOptions.ShowCustomErrorMessage
+  commentId: P:Quickie.Configuration.QuickieOptions.ShowCustomErrorMessage
+  id: ShowCustomErrorMessage
+  parent: Quickie.Configuration.QuickieOptions
+  langs:
+  - csharp
+  - vb
+  name: ShowCustomErrorMessage
+  nameWithType: QuickieOptions.ShowCustomErrorMessage
+  fullName: Quickie.Configuration.QuickieOptions.ShowCustomErrorMessage
+  type: Property
+  source:
+    id: ShowCustomErrorMessage
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\QuickieOptions.cs
+    startLine: 20
+  assemblies:
+  - Quickie
+  namespace: Quickie.Configuration
+  summary: Instead of exception message, <code>ResponseObj</code> will be returning custom message.
+  example: []
+  syntax:
+    content: public bool ShowCustomErrorMessage { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ShowCustomErrorMessage As Boolean
+  overload: Quickie.Configuration.QuickieOptions.ShowCustomErrorMessage*
+references:
+- uid: Quickie.Configuration
+  commentId: N:Quickie.Configuration
+  href: Quickie.html
+  name: Quickie.Configuration
+  nameWithType: Quickie.Configuration
+  fullName: Quickie.Configuration
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Configuration
+    name: Configuration
+    href: Quickie.Configuration.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Configuration
+    name: Configuration
+    href: Quickie.Configuration.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Quickie.Configuration.QuickieOptions.IdempotencyConfiguration*
+  commentId: Overload:Quickie.Configuration.QuickieOptions.IdempotencyConfiguration
+  href: Quickie.Configuration.QuickieOptions.html#Quickie_Configuration_QuickieOptions_IdempotencyConfiguration
+  name: IdempotencyConfiguration
+  nameWithType: QuickieOptions.IdempotencyConfiguration
+  fullName: Quickie.Configuration.QuickieOptions.IdempotencyConfiguration
+- uid: Quickie.Configuration.Idempotency.IdempotentConfiguration
+  commentId: T:Quickie.Configuration.Idempotency.IdempotentConfiguration
+  parent: Quickie.Configuration.Idempotency
+  href: Quickie.Configuration.Idempotency.IdempotentConfiguration.html
+  name: IdempotentConfiguration
+  nameWithType: IdempotentConfiguration
+  fullName: Quickie.Configuration.Idempotency.IdempotentConfiguration
+- uid: Quickie.Configuration.Idempotency
+  commentId: N:Quickie.Configuration.Idempotency
+  href: Quickie.html
+  name: Quickie.Configuration.Idempotency
+  nameWithType: Quickie.Configuration.Idempotency
+  fullName: Quickie.Configuration.Idempotency
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Configuration
+    name: Configuration
+    href: Quickie.Configuration.html
+  - name: .
+  - uid: Quickie.Configuration.Idempotency
+    name: Idempotency
+    href: Quickie.Configuration.Idempotency.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Configuration
+    name: Configuration
+    href: Quickie.Configuration.html
+  - name: .
+  - uid: Quickie.Configuration.Idempotency
+    name: Idempotency
+    href: Quickie.Configuration.Idempotency.html
+- uid: Quickie.Configuration.QuickieOptions.RateLimitingConfiguration*
+  commentId: Overload:Quickie.Configuration.QuickieOptions.RateLimitingConfiguration
+  href: Quickie.Configuration.QuickieOptions.html#Quickie_Configuration_QuickieOptions_RateLimitingConfiguration
+  name: RateLimitingConfiguration
+  nameWithType: QuickieOptions.RateLimitingConfiguration
+  fullName: Quickie.Configuration.QuickieOptions.RateLimitingConfiguration
+- uid: Quickie.Configuration.Options.RateLimitConfiguration
+  commentId: T:Quickie.Configuration.Options.RateLimitConfiguration
+  parent: Quickie.Configuration.Options
+  href: Quickie.Configuration.Options.RateLimitConfiguration.html
+  name: RateLimitConfiguration
+  nameWithType: RateLimitConfiguration
+  fullName: Quickie.Configuration.Options.RateLimitConfiguration
+- uid: Quickie.Configuration.Options
+  commentId: N:Quickie.Configuration.Options
+  href: Quickie.html
+  name: Quickie.Configuration.Options
+  nameWithType: Quickie.Configuration.Options
+  fullName: Quickie.Configuration.Options
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Configuration
+    name: Configuration
+    href: Quickie.Configuration.html
+  - name: .
+  - uid: Quickie.Configuration.Options
+    name: Options
+    href: Quickie.Configuration.Options.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Configuration
+    name: Configuration
+    href: Quickie.Configuration.html
+  - name: .
+  - uid: Quickie.Configuration.Options
+    name: Options
+    href: Quickie.Configuration.Options.html
+- uid: Quickie.Configuration.QuickieOptions.ShowCustomErrorMessage*
+  commentId: Overload:Quickie.Configuration.QuickieOptions.ShowCustomErrorMessage
+  href: Quickie.Configuration.QuickieOptions.html#Quickie_Configuration_QuickieOptions_ShowCustomErrorMessage
+  name: ShowCustomErrorMessage
+  nameWithType: QuickieOptions.ShowCustomErrorMessage
+  fullName: Quickie.Configuration.QuickieOptions.ShowCustomErrorMessage
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

@@ -1,0 +1,445 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2
+  commentId: T:Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2
+  id: ICrudDataHandler`2
+  parent: Quickie.DataHandlers.Crud.Definition
+  children:
+  - Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2.CreateAsync(`0,System.Nullable{System.Threading.CancellationToken})
+  - Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2.DeleteAsync(`1,System.Nullable{System.Threading.CancellationToken})
+  - Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2.GetByIdAsync(`1,System.Nullable{System.Threading.CancellationToken})
+  - Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2.UpdateAsync(`1,`0,System.Nullable{System.Threading.CancellationToken})
+  langs:
+  - csharp
+  - vb
+  name: ICrudDataHandler<TEntity, TIdType>
+  nameWithType: ICrudDataHandler<TEntity, TIdType>
+  fullName: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler<TEntity, TIdType>
+  type: Interface
+  source:
+    id: ICrudDataHandler
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Crud\Definition\ICrudDataHandler.cs
+    startLine: 2
+  assemblies:
+  - Quickie
+  namespace: Quickie.DataHandlers.Crud.Definition
+  syntax:
+    content: 'public interface ICrudDataHandler<TEntity, in TIdType> where TEntity : CrudEntity where TIdType : IComparable'
+    typeParameters:
+    - id: TEntity
+    - id: TIdType
+    content.vb: Public Interface ICrudDataHandler(Of TEntity As CrudEntity, In TIdType As IComparable)
+  nameWithType.vb: ICrudDataHandler(Of TEntity, TIdType)
+  fullName.vb: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler(Of TEntity, TIdType)
+  name.vb: ICrudDataHandler(Of TEntity, TIdType)
+- uid: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2.CreateAsync(`0,System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2.CreateAsync(`0,System.Nullable{System.Threading.CancellationToken})
+  id: CreateAsync(`0,System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2
+  langs:
+  - csharp
+  - vb
+  name: CreateAsync(TEntity, CancellationToken?)
+  nameWithType: ICrudDataHandler<TEntity, TIdType>.CreateAsync(TEntity, CancellationToken?)
+  fullName: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler<TEntity, TIdType>.CreateAsync(TEntity, System.Threading.CancellationToken?)
+  type: Method
+  source:
+    id: CreateAsync
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Crud\Definition\ICrudDataHandler.cs
+    startLine: 4
+  assemblies:
+  - Quickie
+  namespace: Quickie.DataHandlers.Crud.Definition
+  syntax:
+    content: Task<ResponseObj<TEntity>> CreateAsync(TEntity request, CancellationToken? cancellationToken)
+    parameters:
+    - id: request
+      type: '{TEntity}'
+    - id: cancellationToken
+      type: System.Nullable{System.Threading.CancellationToken}
+    return:
+      type: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{{TEntity}}}
+    content.vb: Function CreateAsync(request As TEntity, cancellationToken As CancellationToken?) As Task(Of ResponseObj(Of TEntity))
+  overload: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2.CreateAsync*
+  nameWithType.vb: ICrudDataHandler(Of TEntity, TIdType).CreateAsync(TEntity, CancellationToken?)
+  fullName.vb: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler(Of TEntity, TIdType).CreateAsync(TEntity, System.Threading.CancellationToken?)
+- uid: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2.GetByIdAsync(`1,System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2.GetByIdAsync(`1,System.Nullable{System.Threading.CancellationToken})
+  id: GetByIdAsync(`1,System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2
+  langs:
+  - csharp
+  - vb
+  name: GetByIdAsync(TIdType, CancellationToken?)
+  nameWithType: ICrudDataHandler<TEntity, TIdType>.GetByIdAsync(TIdType, CancellationToken?)
+  fullName: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler<TEntity, TIdType>.GetByIdAsync(TIdType, System.Threading.CancellationToken?)
+  type: Method
+  source:
+    id: GetByIdAsync
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Crud\Definition\ICrudDataHandler.cs
+    startLine: 5
+  assemblies:
+  - Quickie
+  namespace: Quickie.DataHandlers.Crud.Definition
+  syntax:
+    content: Task<ResponseObj<TEntity>> GetByIdAsync(TIdType id, CancellationToken? cancellationToken = null)
+    parameters:
+    - id: id
+      type: '{TIdType}'
+    - id: cancellationToken
+      type: System.Nullable{System.Threading.CancellationToken}
+    return:
+      type: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{{TEntity}}}
+    content.vb: Function GetByIdAsync(id As TIdType, cancellationToken As CancellationToken? = Nothing) As Task(Of ResponseObj(Of TEntity))
+  overload: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2.GetByIdAsync*
+  nameWithType.vb: ICrudDataHandler(Of TEntity, TIdType).GetByIdAsync(TIdType, CancellationToken?)
+  fullName.vb: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler(Of TEntity, TIdType).GetByIdAsync(TIdType, System.Threading.CancellationToken?)
+- uid: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2.UpdateAsync(`1,`0,System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2.UpdateAsync(`1,`0,System.Nullable{System.Threading.CancellationToken})
+  id: UpdateAsync(`1,`0,System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2
+  langs:
+  - csharp
+  - vb
+  name: UpdateAsync(TIdType, TEntity, CancellationToken?)
+  nameWithType: ICrudDataHandler<TEntity, TIdType>.UpdateAsync(TIdType, TEntity, CancellationToken?)
+  fullName: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler<TEntity, TIdType>.UpdateAsync(TIdType, TEntity, System.Threading.CancellationToken?)
+  type: Method
+  source:
+    id: UpdateAsync
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Crud\Definition\ICrudDataHandler.cs
+    startLine: 6
+  assemblies:
+  - Quickie
+  namespace: Quickie.DataHandlers.Crud.Definition
+  syntax:
+    content: Task<ResponseObj<TEntity>> UpdateAsync(TIdType id, TEntity request, CancellationToken? cancellationToken = null)
+    parameters:
+    - id: id
+      type: '{TIdType}'
+    - id: request
+      type: '{TEntity}'
+    - id: cancellationToken
+      type: System.Nullable{System.Threading.CancellationToken}
+    return:
+      type: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{{TEntity}}}
+    content.vb: Function UpdateAsync(id As TIdType, request As TEntity, cancellationToken As CancellationToken? = Nothing) As Task(Of ResponseObj(Of TEntity))
+  overload: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2.UpdateAsync*
+  nameWithType.vb: ICrudDataHandler(Of TEntity, TIdType).UpdateAsync(TIdType, TEntity, CancellationToken?)
+  fullName.vb: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler(Of TEntity, TIdType).UpdateAsync(TIdType, TEntity, System.Threading.CancellationToken?)
+- uid: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2.DeleteAsync(`1,System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2.DeleteAsync(`1,System.Nullable{System.Threading.CancellationToken})
+  id: DeleteAsync(`1,System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2
+  langs:
+  - csharp
+  - vb
+  name: DeleteAsync(TIdType, CancellationToken?)
+  nameWithType: ICrudDataHandler<TEntity, TIdType>.DeleteAsync(TIdType, CancellationToken?)
+  fullName: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler<TEntity, TIdType>.DeleteAsync(TIdType, System.Threading.CancellationToken?)
+  type: Method
+  source:
+    id: DeleteAsync
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Crud\Definition\ICrudDataHandler.cs
+    startLine: 7
+  assemblies:
+  - Quickie
+  namespace: Quickie.DataHandlers.Crud.Definition
+  syntax:
+    content: Task<ResponseObj> DeleteAsync(TIdType id, CancellationToken? cancellationToken = null)
+    parameters:
+    - id: id
+      type: '{TIdType}'
+    - id: cancellationToken
+      type: System.Nullable{System.Threading.CancellationToken}
+    return:
+      type: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj}
+    content.vb: Function DeleteAsync(id As TIdType, cancellationToken As CancellationToken? = Nothing) As Task(Of ResponseObj)
+  overload: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2.DeleteAsync*
+  nameWithType.vb: ICrudDataHandler(Of TEntity, TIdType).DeleteAsync(TIdType, CancellationToken?)
+  fullName.vb: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler(Of TEntity, TIdType).DeleteAsync(TIdType, System.Threading.CancellationToken?)
+references:
+- uid: Quickie.DataHandlers.Crud.Definition
+  commentId: N:Quickie.DataHandlers.Crud.Definition
+  href: Quickie.html
+  name: Quickie.DataHandlers.Crud.Definition
+  nameWithType: Quickie.DataHandlers.Crud.Definition
+  fullName: Quickie.DataHandlers.Crud.Definition
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataHandlers
+    name: DataHandlers
+    href: Quickie.DataHandlers.html
+  - name: .
+  - uid: Quickie.DataHandlers.Crud
+    name: Crud
+    href: Quickie.DataHandlers.Crud.html
+  - name: .
+  - uid: Quickie.DataHandlers.Crud.Definition
+    name: Definition
+    href: Quickie.DataHandlers.Crud.Definition.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataHandlers
+    name: DataHandlers
+    href: Quickie.DataHandlers.html
+  - name: .
+  - uid: Quickie.DataHandlers.Crud
+    name: Crud
+    href: Quickie.DataHandlers.Crud.html
+  - name: .
+  - uid: Quickie.DataHandlers.Crud.Definition
+    name: Definition
+    href: Quickie.DataHandlers.Crud.Definition.html
+- uid: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2.CreateAsync*
+  commentId: Overload:Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2.CreateAsync
+  href: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudDataHandler_2_CreateAsync__0_System_Nullable_System_Threading_CancellationToken__
+  name: CreateAsync
+  nameWithType: ICrudDataHandler<TEntity, TIdType>.CreateAsync
+  fullName: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler<TEntity, TIdType>.CreateAsync
+  nameWithType.vb: ICrudDataHandler(Of TEntity, TIdType).CreateAsync
+  fullName.vb: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler(Of TEntity, TIdType).CreateAsync
+- uid: '{TEntity}'
+  commentId: '!:TEntity'
+  definition: TEntity
+  name: TEntity
+  nameWithType: TEntity
+  fullName: TEntity
+- uid: System.Nullable{System.Threading.CancellationToken}
+  commentId: T:System.Nullable{System.Threading.CancellationToken}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken?
+  nameWithType: CancellationToken?
+  fullName: System.Threading.CancellationToken?
+  spec.csharp:
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  spec.vb:
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+- uid: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{{TEntity}}}
+  commentId: T:System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{`0}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ResponseObj<TEntity>>
+  nameWithType: Task<ResponseObj<TEntity>>
+  fullName: System.Threading.Tasks.Task<Quickie.DataObj.ResponseObj<TEntity>>
+  nameWithType.vb: Task(Of ResponseObj(Of TEntity))
+  fullName.vb: System.Threading.Tasks.Task(Of Quickie.DataObj.ResponseObj(Of TEntity))
+  name.vb: Task(Of ResponseObj(Of TEntity))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Quickie.DataObj.ResponseObj`1
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj-1.html
+  - name: <
+  - name: TEntity
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Quickie.DataObj.ResponseObj`1
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+  - name: )
+- uid: TEntity
+  name: TEntity
+  nameWithType: TEntity
+  fullName: TEntity
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2.GetByIdAsync*
+  commentId: Overload:Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2.GetByIdAsync
+  href: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudDataHandler_2_GetByIdAsync__1_System_Nullable_System_Threading_CancellationToken__
+  name: GetByIdAsync
+  nameWithType: ICrudDataHandler<TEntity, TIdType>.GetByIdAsync
+  fullName: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler<TEntity, TIdType>.GetByIdAsync
+  nameWithType.vb: ICrudDataHandler(Of TEntity, TIdType).GetByIdAsync
+  fullName.vb: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler(Of TEntity, TIdType).GetByIdAsync
+- uid: '{TIdType}'
+  commentId: '!:TIdType'
+  definition: TIdType
+  name: TIdType
+  nameWithType: TIdType
+  fullName: TIdType
+- uid: TIdType
+  name: TIdType
+  nameWithType: TIdType
+  fullName: TIdType
+- uid: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2.UpdateAsync*
+  commentId: Overload:Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2.UpdateAsync
+  href: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudDataHandler_2_UpdateAsync__1__0_System_Nullable_System_Threading_CancellationToken__
+  name: UpdateAsync
+  nameWithType: ICrudDataHandler<TEntity, TIdType>.UpdateAsync
+  fullName: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler<TEntity, TIdType>.UpdateAsync
+  nameWithType.vb: ICrudDataHandler(Of TEntity, TIdType).UpdateAsync
+  fullName.vb: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler(Of TEntity, TIdType).UpdateAsync
+- uid: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2.DeleteAsync*
+  commentId: Overload:Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2.DeleteAsync
+  href: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudDataHandler_2_DeleteAsync__1_System_Nullable_System_Threading_CancellationToken__
+  name: DeleteAsync
+  nameWithType: ICrudDataHandler<TEntity, TIdType>.DeleteAsync
+  fullName: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler<TEntity, TIdType>.DeleteAsync
+  nameWithType.vb: ICrudDataHandler(Of TEntity, TIdType).DeleteAsync
+  fullName.vb: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler(Of TEntity, TIdType).DeleteAsync
+- uid: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj}
+  commentId: T:System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ResponseObj>
+  nameWithType: Task<ResponseObj>
+  fullName: System.Threading.Tasks.Task<Quickie.DataObj.ResponseObj>
+  nameWithType.vb: Task(Of ResponseObj)
+  fullName.vb: System.Threading.Tasks.Task(Of Quickie.DataObj.ResponseObj)
+  name.vb: Task(Of ResponseObj)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Quickie.DataObj.ResponseObj
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Quickie.DataObj.ResponseObj
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj.html
+  - name: )

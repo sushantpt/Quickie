@@ -1,0 +1,48 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.Controllers.Readonly
+  commentId: N:Quickie.Controllers.Readonly
+  id: Quickie.Controllers.Readonly
+  children:
+  - Quickie.Controllers.Readonly.ReadOnlyController`2
+  langs:
+  - csharp
+  - vb
+  name: Quickie.Controllers.Readonly
+  nameWithType: Quickie.Controllers.Readonly
+  fullName: Quickie.Controllers.Readonly
+  type: Namespace
+  assemblies:
+  - Quickie
+references:
+- uid: Quickie.Controllers.Readonly.ReadOnlyController`2
+  commentId: T:Quickie.Controllers.Readonly.ReadOnlyController`2
+  href: Quickie.Controllers.Readonly.ReadOnlyController-2.html
+  name: ReadOnlyController<TViewModel, TRequestHandler>
+  nameWithType: ReadOnlyController<TViewModel, TRequestHandler>
+  fullName: Quickie.Controllers.Readonly.ReadOnlyController<TViewModel, TRequestHandler>
+  nameWithType.vb: ReadOnlyController(Of TViewModel, TRequestHandler)
+  fullName.vb: Quickie.Controllers.Readonly.ReadOnlyController(Of TViewModel, TRequestHandler)
+  name.vb: ReadOnlyController(Of TViewModel, TRequestHandler)
+  spec.csharp:
+  - uid: Quickie.Controllers.Readonly.ReadOnlyController`2
+    name: ReadOnlyController
+    href: Quickie.Controllers.Readonly.ReadOnlyController-2.html
+  - name: <
+  - name: TViewModel
+  - name: ','
+  - name: " "
+  - name: TRequestHandler
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.Controllers.Readonly.ReadOnlyController`2
+    name: ReadOnlyController
+    href: Quickie.Controllers.Readonly.ReadOnlyController-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TViewModel
+  - name: ','
+  - name: " "
+  - name: TRequestHandler
+  - name: )

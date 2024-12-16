@@ -1,0 +1,476 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class WriteOnlyRequestHandler&lt;TViewModel, TEntity, TDataHandler&gt; | Quickie </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class WriteOnlyRequestHandler&lt;TViewModel, TEntity, TDataHandler&gt; | Quickie ">
+      
+      <meta name="description" content="Abstract class serving as write only request handler.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-S4FG36P7BW"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-S4FG36P7BW');
+      </script>
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Quickie">
+            Quickie
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler`3">
+
+
+
+  <h1 id="Quickie_Handlers_Writeonly_Implementation_WriteOnlyRequestHandler_3" data-uid="Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler`3" class="text-break">
+Class WriteOnlyRequestHandler&lt;TViewModel, TEntity, TDataHandler&gt;  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Quickie.html">Quickie</a>.<a class="xref" href="Quickie.Handlers.html">Handlers</a>.<a class="xref" href="Quickie.Handlers.Writeonly.html">Writeonly</a>.<a class="xref" href="Quickie.Handlers.Writeonly.Implementation.html">Implementation</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Quickie.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Abstract class serving as write only request handler.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class WriteOnlyRequestHandler&lt;TViewModel, TEntity, TDataHandler&gt; : IWriteOnlyRequestHandler&lt;TViewModel&gt; where TViewModel : WriteOnlyDto where TEntity : WriteOnlyEntity where TDataHandler : IWriteOnlyDataHandler&lt;TEntity&gt;</code></pre>
+  </div>
+
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TViewModel</code></dt>
+    <dd></dd>
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+    <dt><code>TDataHandler</code></dt>
+    <dd></dd>
+  </dl>
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">WriteOnlyRequestHandler&lt;TViewModel, TEntity, TDataHandler&gt;</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Quickie.Handlers.Writeonly.Definition.IWriteOnlyRequestHandler-1.html">IWriteOnlyRequestHandler</a>&lt;TViewModel&gt;</div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Quickie_Handlers_Writeonly_Implementation_WriteOnlyRequestHandler_3__ctor_" data-uid="Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler`3.#ctor*"></a>
+
+  <h3 id="Quickie_Handlers_Writeonly_Implementation_WriteOnlyRequestHandler_3__ctor_Quickie_DataHandlers_Writeonly_Definition_IWriteOnlyDataHandler__1__" data-uid="Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler`3.#ctor(Quickie.DataHandlers.Writeonly.Definition.IWriteOnlyDataHandler{`1})">
+  WriteOnlyRequestHandler(IWriteOnlyDataHandler&lt;TEntity&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Abstract class serving as write only request handler.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected WriteOnlyRequestHandler(IWriteOnlyDataHandler&lt;TEntity&gt; dataHandler)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dataHandler</code> <a class="xref" href="Quickie.DataHandlers.Writeonly.Definition.IWriteOnlyDataHandler-1.html">IWriteOnlyDataHandler</a>&lt;TEntity&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Quickie_Handlers_Writeonly_Implementation_WriteOnlyRequestHandler_3_CreateItemAsync_" data-uid="Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler`3.CreateItemAsync*"></a>
+
+  <h3 id="Quickie_Handlers_Writeonly_Implementation_WriteOnlyRequestHandler_3_CreateItemAsync__0_System_Nullable_System_Threading_CancellationToken__" data-uid="Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler`3.CreateItemAsync(`0,System.Nullable{System.Threading.CancellationToken})">
+  CreateItemAsync(TViewModel, CancellationToken?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Data create request.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;ResponseObj&lt;TViewModel&gt;&gt; CreateItemAsync(TViewModel item, CancellationToken? cancellationToken)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <span class="xref">TViewModel</span></dt>
+    <dd><p>Data requested to create.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a>?</dt>
+    <dd><p>Cancellation token</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Quickie.DataObj.ResponseObj-1.html">ResponseObj</a>&lt;TViewModel&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Quickie_Handlers_Writeonly_Implementation_WriteOnlyRequestHandler_3_CreateItemsAsync_" data-uid="Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler`3.CreateItemsAsync*"></a>
+
+  <h3 id="Quickie_Handlers_Writeonly_Implementation_WriteOnlyRequestHandler_3_CreateItemsAsync_System_Collections_Generic_ICollection__0__System_Nullable_System_Threading_CancellationToken__" data-uid="Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler`3.CreateItemsAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})">
+  CreateItemsAsync(ICollection&lt;TViewModel&gt;, CancellationToken?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Data create request.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;ResponseObj&lt;ICollection&lt;TViewModel&gt;&gt;&gt; CreateItemsAsync(ICollection&lt;TViewModel&gt; items, CancellationToken? cancellationToken)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>items</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;TViewModel&gt;</dt>
+    <dd><p>Collection of data requested to create.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a>?</dt>
+    <dd><p>Cancellation token</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Quickie.DataObj.ResponseObj-1.html">ResponseObj</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;TViewModel&gt;&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Quickie_Handlers_Writeonly_Implementation_WriteOnlyRequestHandler_3_MapToCollectionOfDto_" data-uid="Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler`3.MapToCollectionOfDto*"></a>
+
+  <h3 id="Quickie_Handlers_Writeonly_Implementation_WriteOnlyRequestHandler_3_MapToCollectionOfDto_System_Collections_Generic_ICollection__1__" data-uid="Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler`3.MapToCollectionOfDto(System.Collections.Generic.ICollection{`1})">
+  MapToCollectionOfDto(ICollection&lt;TEntity&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Maps a collection of <code class="typeparamref">TEntity</code> entities to a collection of <code class="typeparamref">TViewModel</code> view models.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract ICollection&lt;TViewModel&gt; MapToCollectionOfDto(ICollection&lt;TEntity&gt; entities)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entities</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;TEntity&gt;</dt>
+    <dd><p>Collection of entity.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;TViewModel&gt;</dt>
+    <dd><p>Collection of view model/dto.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Quickie_Handlers_Writeonly_Implementation_WriteOnlyRequestHandler_3_MapToCollectionOfEntity_" data-uid="Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler`3.MapToCollectionOfEntity*"></a>
+
+  <h3 id="Quickie_Handlers_Writeonly_Implementation_WriteOnlyRequestHandler_3_MapToCollectionOfEntity_System_Collections_Generic_ICollection__0__" data-uid="Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler`3.MapToCollectionOfEntity(System.Collections.Generic.ICollection{`0})">
+  MapToCollectionOfEntity(ICollection&lt;TViewModel&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Maps a collection of <code class="typeparamref">TViewModel</code> to a collection of <code class="typeparamref">TEntity</code> entities.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract ICollection&lt;TEntity&gt; MapToCollectionOfEntity(ICollection&lt;TViewModel&gt; requestModels)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestModels</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;TViewModel&gt;</dt>
+    <dd><p>Collection of view model/dto</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;TEntity&gt;</dt>
+    <dd><p>Collection of entity.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Quickie_Handlers_Writeonly_Implementation_WriteOnlyRequestHandler_3_MapToDto_" data-uid="Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler`3.MapToDto*"></a>
+
+  <h3 id="Quickie_Handlers_Writeonly_Implementation_WriteOnlyRequestHandler_3_MapToDto__1_" data-uid="Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler`3.MapToDto(`1)">
+  MapToDto(TEntity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Maps a <code class="typeparamref">TEntity</code> entity to a <code class="typeparamref">TViewModel</code> view model/dto.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract TViewModel MapToDto(TEntity entity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entity</code> <span class="xref">TEntity</span></dt>
+    <dd><p>Entity.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TViewModel</span></dt>
+    <dd><p>View model/dto.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Quickie_Handlers_Writeonly_Implementation_WriteOnlyRequestHandler_3_MapToEntity_" data-uid="Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler`3.MapToEntity*"></a>
+
+  <h3 id="Quickie_Handlers_Writeonly_Implementation_WriteOnlyRequestHandler_3_MapToEntity__0_" data-uid="Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler`3.MapToEntity(`0)">
+  MapToEntity(TViewModel)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Maps a <code class="typeparamref">TViewModel</code> to a <code class="typeparamref">TEntity</code> entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract TEntity MapToEntity(TViewModel requestModel)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestModel</code> <span class="xref">TViewModel</span></dt>
+    <dd><p>The view model/dto to map to an entity</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TEntity</span></dt>
+    <dd><p>Entity.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,743 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler`2
+  commentId: T:Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler`2
+  id: ReadOnlyDataHandler`2
+  parent: Quickie.DataHandlers.Readonly.Implementation
+  children:
+  - Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler`2.#ctor(Microsoft.EntityFrameworkCore.DbContext)
+  - Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler`2.GetByIdAsync(System.Object,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: ReadOnlyDataHandler<TEntity, TDbContext>
+  nameWithType: ReadOnlyDataHandler<TEntity, TDbContext>
+  fullName: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler<TEntity, TDbContext>
+  type: Class
+  source:
+    id: ReadOnlyDataHandler
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Readonly\Implementation\ReadOnlyDataHandler.cs
+    startLine: 6
+  assemblies:
+  - Quickie
+  namespace: Quickie.DataHandlers.Readonly.Implementation
+  syntax:
+    content: 'public abstract class ReadOnlyDataHandler<TEntity, TDbContext> : IReadOnlyDataHandler<TEntity> where TEntity : ReadOnlyEntity where TDbContext : DbContext'
+    typeParameters:
+    - id: TEntity
+    - id: TDbContext
+    content.vb: Public MustInherit Class ReadOnlyDataHandler(Of TEntity As ReadOnlyEntity, TDbContext As DbContext) Implements IReadOnlyDataHandler(Of TEntity)
+  inheritance:
+  - System.Object
+  implements:
+  - Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler{{TEntity}}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: ReadOnlyDataHandler(Of TEntity, TDbContext)
+  fullName.vb: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler(Of TEntity, TDbContext)
+  name.vb: ReadOnlyDataHandler(Of TEntity, TDbContext)
+- uid: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler`2.#ctor(Microsoft.EntityFrameworkCore.DbContext)
+  commentId: M:Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler`2.#ctor(Microsoft.EntityFrameworkCore.DbContext)
+  id: '#ctor(Microsoft.EntityFrameworkCore.DbContext)'
+  parent: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler`2
+  langs:
+  - csharp
+  - vb
+  name: ReadOnlyDataHandler(DbContext)
+  nameWithType: ReadOnlyDataHandler<TEntity, TDbContext>.ReadOnlyDataHandler(DbContext)
+  fullName: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler<TEntity, TDbContext>.ReadOnlyDataHandler(Microsoft.EntityFrameworkCore.DbContext)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Readonly\Implementation\ReadOnlyDataHandler.cs
+    startLine: 6
+  assemblies:
+  - Quickie
+  namespace: Quickie.DataHandlers.Readonly.Implementation
+  syntax:
+    content: protected ReadOnlyDataHandler(DbContext context)
+    parameters:
+    - id: context
+      type: Microsoft.EntityFrameworkCore.DbContext
+    content.vb: Protected Sub New(context As DbContext)
+  overload: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler`2.#ctor*
+  nameWithType.vb: ReadOnlyDataHandler(Of TEntity, TDbContext).New(DbContext)
+  fullName.vb: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler(Of TEntity, TDbContext).New(Microsoft.EntityFrameworkCore.DbContext)
+  name.vb: New(DbContext)
+- uid: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler`2.GetByIdAsync(System.Object,System.Threading.CancellationToken)
+  commentId: M:Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler`2.GetByIdAsync(System.Object,System.Threading.CancellationToken)
+  id: GetByIdAsync(System.Object,System.Threading.CancellationToken)
+  parent: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler`2
+  langs:
+  - csharp
+  - vb
+  name: GetByIdAsync(object, CancellationToken)
+  nameWithType: ReadOnlyDataHandler<TEntity, TDbContext>.GetByIdAsync(object, CancellationToken)
+  fullName: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler<TEntity, TDbContext>.GetByIdAsync(object, System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: GetByIdAsync
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Readonly\Implementation\ReadOnlyDataHandler.cs
+    startLine: 10
+  assemblies:
+  - Quickie
+  namespace: Quickie.DataHandlers.Readonly.Implementation
+  summary: Get data by id. (ID must be primary key or composite key.)
+  example: []
+  syntax:
+    content: public Task<TEntity?> GetByIdAsync(object id, CancellationToken cancellationToken = default)
+    parameters:
+    - id: id
+      type: System.Object
+      description: Unique identifier.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: Cancellation token.
+    return:
+      type: System.Threading.Tasks.Task{{TEntity}}
+      description: Entity object.
+    content.vb: Public Function GetByIdAsync(id As Object, cancellationToken As CancellationToken = Nothing) As Task(Of TEntity)
+  overload: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler`2.GetByIdAsync*
+  implements:
+  - Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler{{TEntity}}.GetByIdAsync(System.Object,System.Threading.CancellationToken)
+  nameWithType.vb: ReadOnlyDataHandler(Of TEntity, TDbContext).GetByIdAsync(Object, CancellationToken)
+  fullName.vb: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler(Of TEntity, TDbContext).GetByIdAsync(Object, System.Threading.CancellationToken)
+  name.vb: GetByIdAsync(Object, CancellationToken)
+references:
+- uid: Quickie.DataHandlers.Readonly.Implementation
+  commentId: N:Quickie.DataHandlers.Readonly.Implementation
+  href: Quickie.html
+  name: Quickie.DataHandlers.Readonly.Implementation
+  nameWithType: Quickie.DataHandlers.Readonly.Implementation
+  fullName: Quickie.DataHandlers.Readonly.Implementation
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataHandlers
+    name: DataHandlers
+    href: Quickie.DataHandlers.html
+  - name: .
+  - uid: Quickie.DataHandlers.Readonly
+    name: Readonly
+    href: Quickie.DataHandlers.Readonly.html
+  - name: .
+  - uid: Quickie.DataHandlers.Readonly.Implementation
+    name: Implementation
+    href: Quickie.DataHandlers.Readonly.Implementation.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataHandlers
+    name: DataHandlers
+    href: Quickie.DataHandlers.html
+  - name: .
+  - uid: Quickie.DataHandlers.Readonly
+    name: Readonly
+    href: Quickie.DataHandlers.Readonly.html
+  - name: .
+  - uid: Quickie.DataHandlers.Readonly.Implementation
+    name: Implementation
+    href: Quickie.DataHandlers.Readonly.Implementation.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler{{TEntity}}
+  commentId: T:Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler{`0}
+  parent: Quickie.DataHandlers.Readonly.Definition
+  definition: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler`1
+  href: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler-1.html
+  name: IReadOnlyDataHandler<TEntity>
+  nameWithType: IReadOnlyDataHandler<TEntity>
+  fullName: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler<TEntity>
+  nameWithType.vb: IReadOnlyDataHandler(Of TEntity)
+  fullName.vb: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler(Of TEntity)
+  name.vb: IReadOnlyDataHandler(Of TEntity)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler`1
+    name: IReadOnlyDataHandler
+    href: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler-1.html
+  - name: <
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler`1
+    name: IReadOnlyDataHandler
+    href: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler`1
+  commentId: T:Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler`1
+  href: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler-1.html
+  name: IReadOnlyDataHandler<TEntity>
+  nameWithType: IReadOnlyDataHandler<TEntity>
+  fullName: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler<TEntity>
+  nameWithType.vb: IReadOnlyDataHandler(Of TEntity)
+  fullName.vb: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler(Of TEntity)
+  name.vb: IReadOnlyDataHandler(Of TEntity)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler`1
+    name: IReadOnlyDataHandler
+    href: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler-1.html
+  - name: <
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler`1
+    name: IReadOnlyDataHandler
+    href: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: Quickie.DataHandlers.Readonly.Definition
+  commentId: N:Quickie.DataHandlers.Readonly.Definition
+  href: Quickie.html
+  name: Quickie.DataHandlers.Readonly.Definition
+  nameWithType: Quickie.DataHandlers.Readonly.Definition
+  fullName: Quickie.DataHandlers.Readonly.Definition
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataHandlers
+    name: DataHandlers
+    href: Quickie.DataHandlers.html
+  - name: .
+  - uid: Quickie.DataHandlers.Readonly
+    name: Readonly
+    href: Quickie.DataHandlers.Readonly.html
+  - name: .
+  - uid: Quickie.DataHandlers.Readonly.Definition
+    name: Definition
+    href: Quickie.DataHandlers.Readonly.Definition.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataHandlers
+    name: DataHandlers
+    href: Quickie.DataHandlers.html
+  - name: .
+  - uid: Quickie.DataHandlers.Readonly
+    name: Readonly
+    href: Quickie.DataHandlers.Readonly.html
+  - name: .
+  - uid: Quickie.DataHandlers.Readonly.Definition
+    name: Definition
+    href: Quickie.DataHandlers.Readonly.Definition.html
+- uid: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler`2.#ctor*
+  commentId: Overload:Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler`2.#ctor
+  href: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler-2.html#Quickie_DataHandlers_Readonly_Implementation_ReadOnlyDataHandler_2__ctor_Microsoft_EntityFrameworkCore_DbContext_
+  name: ReadOnlyDataHandler
+  nameWithType: ReadOnlyDataHandler<TEntity, TDbContext>.ReadOnlyDataHandler
+  fullName: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler<TEntity, TDbContext>.ReadOnlyDataHandler
+  nameWithType.vb: ReadOnlyDataHandler(Of TEntity, TDbContext).New
+  fullName.vb: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler(Of TEntity, TDbContext).New
+  name.vb: New
+- uid: Microsoft.EntityFrameworkCore.DbContext
+  commentId: T:Microsoft.EntityFrameworkCore.DbContext
+  parent: Microsoft.EntityFrameworkCore
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext
+  name: DbContext
+  nameWithType: DbContext
+  fullName: Microsoft.EntityFrameworkCore.DbContext
+- uid: Microsoft.EntityFrameworkCore
+  commentId: N:Microsoft.EntityFrameworkCore
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.EntityFrameworkCore
+  nameWithType: Microsoft.EntityFrameworkCore
+  fullName: Microsoft.EntityFrameworkCore
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.EntityFrameworkCore
+    name: EntityFrameworkCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.EntityFrameworkCore
+    name: EntityFrameworkCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore
+- uid: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler`2.GetByIdAsync*
+  commentId: Overload:Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler`2.GetByIdAsync
+  href: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler-2.html#Quickie_DataHandlers_Readonly_Implementation_ReadOnlyDataHandler_2_GetByIdAsync_System_Object_System_Threading_CancellationToken_
+  name: GetByIdAsync
+  nameWithType: ReadOnlyDataHandler<TEntity, TDbContext>.GetByIdAsync
+  fullName: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler<TEntity, TDbContext>.GetByIdAsync
+  nameWithType.vb: ReadOnlyDataHandler(Of TEntity, TDbContext).GetByIdAsync
+  fullName.vb: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler(Of TEntity, TDbContext).GetByIdAsync
+- uid: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler{{TEntity}}.GetByIdAsync(System.Object,System.Threading.CancellationToken)
+  commentId: M:Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler{`0}.GetByIdAsync(System.Object,System.Threading.CancellationToken)
+  parent: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler{{TEntity}}
+  definition: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler`1.GetByIdAsync(System.Object,System.Threading.CancellationToken)
+  href: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler-1.html#Quickie_DataHandlers_Readonly_Definition_IReadOnlyDataHandler_1_GetByIdAsync_System_Object_System_Threading_CancellationToken_
+  name: GetByIdAsync(object, CancellationToken)
+  nameWithType: IReadOnlyDataHandler<TEntity>.GetByIdAsync(object, CancellationToken)
+  fullName: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler<TEntity>.GetByIdAsync(object, System.Threading.CancellationToken)
+  nameWithType.vb: IReadOnlyDataHandler(Of TEntity).GetByIdAsync(Object, CancellationToken)
+  fullName.vb: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler(Of TEntity).GetByIdAsync(Object, System.Threading.CancellationToken)
+  name.vb: GetByIdAsync(Object, CancellationToken)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler{`0}.GetByIdAsync(System.Object,System.Threading.CancellationToken)
+    name: GetByIdAsync
+    href: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler-1.html#Quickie_DataHandlers_Readonly_Definition_IReadOnlyDataHandler_1_GetByIdAsync_System_Object_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler{`0}.GetByIdAsync(System.Object,System.Threading.CancellationToken)
+    name: GetByIdAsync
+    href: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler-1.html#Quickie_DataHandlers_Readonly_Definition_IReadOnlyDataHandler_1_GetByIdAsync_System_Object_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{{TEntity}}
+  commentId: T:System.Threading.Tasks.Task{`0}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TEntity>
+  nameWithType: Task<TEntity>
+  fullName: System.Threading.Tasks.Task<TEntity>
+  nameWithType.vb: Task(Of TEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of TEntity)
+  name.vb: Task(Of TEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler`1.GetByIdAsync(System.Object,System.Threading.CancellationToken)
+  commentId: M:Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler`1.GetByIdAsync(System.Object,System.Threading.CancellationToken)
+  isExternal: true
+  href: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler-1.html#Quickie_DataHandlers_Readonly_Definition_IReadOnlyDataHandler_1_GetByIdAsync_System_Object_System_Threading_CancellationToken_
+  name: GetByIdAsync(object, CancellationToken)
+  nameWithType: IReadOnlyDataHandler<TEntity>.GetByIdAsync(object, CancellationToken)
+  fullName: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler<TEntity>.GetByIdAsync(object, System.Threading.CancellationToken)
+  nameWithType.vb: IReadOnlyDataHandler(Of TEntity).GetByIdAsync(Object, CancellationToken)
+  fullName.vb: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler(Of TEntity).GetByIdAsync(Object, System.Threading.CancellationToken)
+  name.vb: GetByIdAsync(Object, CancellationToken)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler`1.GetByIdAsync(System.Object,System.Threading.CancellationToken)
+    name: GetByIdAsync
+    href: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler-1.html#Quickie_DataHandlers_Readonly_Definition_IReadOnlyDataHandler_1_GetByIdAsync_System_Object_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler`1.GetByIdAsync(System.Object,System.Threading.CancellationToken)
+    name: GetByIdAsync
+    href: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler-1.html#Quickie_DataHandlers_Readonly_Definition_IReadOnlyDataHandler_1_GetByIdAsync_System_Object_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

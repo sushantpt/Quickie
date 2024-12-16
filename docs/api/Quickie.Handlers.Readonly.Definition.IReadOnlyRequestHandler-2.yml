@@ -1,0 +1,289 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.Handlers.Readonly.Definition.IReadOnlyRequestHandler`2
+  commentId: T:Quickie.Handlers.Readonly.Definition.IReadOnlyRequestHandler`2
+  id: IReadOnlyRequestHandler`2
+  parent: Quickie.Handlers.Readonly.Definition
+  children:
+  - Quickie.Handlers.Readonly.Definition.IReadOnlyRequestHandler`2.GetByIdAsync(`1,System.Nullable{System.Threading.CancellationToken})
+  langs:
+  - csharp
+  - vb
+  name: IReadOnlyRequestHandler<TViewModel, TIdType>
+  nameWithType: IReadOnlyRequestHandler<TViewModel, TIdType>
+  fullName: Quickie.Handlers.Readonly.Definition.IReadOnlyRequestHandler<TViewModel, TIdType>
+  type: Interface
+  source:
+    id: IReadOnlyRequestHandler
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Readonly\Definition\IReadOnlyRequestHandler.cs
+    startLine: 7
+  assemblies:
+  - Quickie
+  namespace: Quickie.Handlers.Readonly.Definition
+  summary: Abstract base class for handling read-only requests, processing operations for the specified view model type.
+  example: []
+  syntax:
+    content: 'public interface IReadOnlyRequestHandler<TViewModel, in TIdType> where TViewModel : ReadOnlyDto where TIdType : IComparable'
+    typeParameters:
+    - id: TViewModel
+      description: The type of the view model that represents the data transfer object for read-only operations.
+    - id: TIdType
+      description: Type of id (int, Guid, string, ...)
+    content.vb: Public Interface IReadOnlyRequestHandler(Of TViewModel As ReadOnlyDto, In TIdType As IComparable)
+  nameWithType.vb: IReadOnlyRequestHandler(Of TViewModel, TIdType)
+  fullName.vb: Quickie.Handlers.Readonly.Definition.IReadOnlyRequestHandler(Of TViewModel, TIdType)
+  name.vb: IReadOnlyRequestHandler(Of TViewModel, TIdType)
+- uid: Quickie.Handlers.Readonly.Definition.IReadOnlyRequestHandler`2.GetByIdAsync(`1,System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.Handlers.Readonly.Definition.IReadOnlyRequestHandler`2.GetByIdAsync(`1,System.Nullable{System.Threading.CancellationToken})
+  id: GetByIdAsync(`1,System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.Handlers.Readonly.Definition.IReadOnlyRequestHandler`2
+  langs:
+  - csharp
+  - vb
+  name: GetByIdAsync(TIdType, CancellationToken?)
+  nameWithType: IReadOnlyRequestHandler<TViewModel, TIdType>.GetByIdAsync(TIdType, CancellationToken?)
+  fullName: Quickie.Handlers.Readonly.Definition.IReadOnlyRequestHandler<TViewModel, TIdType>.GetByIdAsync(TIdType, System.Threading.CancellationToken?)
+  type: Method
+  source:
+    id: GetByIdAsync
+    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Readonly\Definition\IReadOnlyRequestHandler.cs
+    startLine: 15
+  assemblies:
+  - Quickie
+  namespace: Quickie.Handlers.Readonly.Definition
+  summary: Get exact data (single) by id.
+  example: []
+  syntax:
+    content: Task<ResponseObj<TViewModel>> GetByIdAsync(TIdType id, CancellationToken? cancellationToken)
+    parameters:
+    - id: id
+      type: '{TIdType}'
+      description: Identifier of data.
+    - id: cancellationToken
+      type: System.Nullable{System.Threading.CancellationToken}
+      description: Cancellation token.
+    return:
+      type: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{{TViewModel}}}
+      description: Single data wrapped by response dto.
+    content.vb: Function GetByIdAsync(id As TIdType, cancellationToken As CancellationToken?) As Task(Of ResponseObj(Of TViewModel))
+  overload: Quickie.Handlers.Readonly.Definition.IReadOnlyRequestHandler`2.GetByIdAsync*
+  nameWithType.vb: IReadOnlyRequestHandler(Of TViewModel, TIdType).GetByIdAsync(TIdType, CancellationToken?)
+  fullName.vb: Quickie.Handlers.Readonly.Definition.IReadOnlyRequestHandler(Of TViewModel, TIdType).GetByIdAsync(TIdType, System.Threading.CancellationToken?)
+references:
+- uid: Quickie.Handlers.Readonly.Definition
+  commentId: N:Quickie.Handlers.Readonly.Definition
+  href: Quickie.html
+  name: Quickie.Handlers.Readonly.Definition
+  nameWithType: Quickie.Handlers.Readonly.Definition
+  fullName: Quickie.Handlers.Readonly.Definition
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Handlers
+    name: Handlers
+    href: Quickie.Handlers.html
+  - name: .
+  - uid: Quickie.Handlers.Readonly
+    name: Readonly
+    href: Quickie.Handlers.Readonly.html
+  - name: .
+  - uid: Quickie.Handlers.Readonly.Definition
+    name: Definition
+    href: Quickie.Handlers.Readonly.Definition.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Handlers
+    name: Handlers
+    href: Quickie.Handlers.html
+  - name: .
+  - uid: Quickie.Handlers.Readonly
+    name: Readonly
+    href: Quickie.Handlers.Readonly.html
+  - name: .
+  - uid: Quickie.Handlers.Readonly.Definition
+    name: Definition
+    href: Quickie.Handlers.Readonly.Definition.html
+- uid: Quickie.Handlers.Readonly.Definition.IReadOnlyRequestHandler`2.GetByIdAsync*
+  commentId: Overload:Quickie.Handlers.Readonly.Definition.IReadOnlyRequestHandler`2.GetByIdAsync
+  href: Quickie.Handlers.Readonly.Definition.IReadOnlyRequestHandler-2.html#Quickie_Handlers_Readonly_Definition_IReadOnlyRequestHandler_2_GetByIdAsync__1_System_Nullable_System_Threading_CancellationToken__
+  name: GetByIdAsync
+  nameWithType: IReadOnlyRequestHandler<TViewModel, TIdType>.GetByIdAsync
+  fullName: Quickie.Handlers.Readonly.Definition.IReadOnlyRequestHandler<TViewModel, TIdType>.GetByIdAsync
+  nameWithType.vb: IReadOnlyRequestHandler(Of TViewModel, TIdType).GetByIdAsync
+  fullName.vb: Quickie.Handlers.Readonly.Definition.IReadOnlyRequestHandler(Of TViewModel, TIdType).GetByIdAsync
+- uid: '{TIdType}'
+  commentId: '!:TIdType'
+  definition: TIdType
+  name: TIdType
+  nameWithType: TIdType
+  fullName: TIdType
+- uid: System.Nullable{System.Threading.CancellationToken}
+  commentId: T:System.Nullable{System.Threading.CancellationToken}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken?
+  nameWithType: CancellationToken?
+  fullName: System.Threading.CancellationToken?
+  spec.csharp:
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  spec.vb:
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+- uid: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{{TViewModel}}}
+  commentId: T:System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{`0}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ResponseObj<TViewModel>>
+  nameWithType: Task<ResponseObj<TViewModel>>
+  fullName: System.Threading.Tasks.Task<Quickie.DataObj.ResponseObj<TViewModel>>
+  nameWithType.vb: Task(Of ResponseObj(Of TViewModel))
+  fullName.vb: System.Threading.Tasks.Task(Of Quickie.DataObj.ResponseObj(Of TViewModel))
+  name.vb: Task(Of ResponseObj(Of TViewModel))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Quickie.DataObj.ResponseObj`1
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj-1.html
+  - name: <
+  - name: TViewModel
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Quickie.DataObj.ResponseObj`1
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TViewModel
+  - name: )
+  - name: )
+- uid: TIdType
+  name: TIdType
+  nameWithType: TIdType
+  fullName: TIdType
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
