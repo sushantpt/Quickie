@@ -16,8 +16,12 @@ items:
   fullName: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider
   type: Class
   source:
+    remote:
+      path: src/Quickie/Configuration/Idempotency/DefaultProvider/InMemoryIdempotencyProvider.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: InMemoryIdempotencyProvider
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\Idempotency\DefaultProvider\InMemoryIdempotencyProvider.cs
+    path: ../src/Quickie/Configuration/Idempotency/DefaultProvider/InMemoryIdempotencyProvider.cs
     startLine: 7
   assemblies:
   - Quickie
@@ -51,8 +55,12 @@ items:
   fullName: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.ExistsAsync(string)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Configuration/Idempotency/DefaultProvider/InMemoryIdempotencyProvider.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: ExistsAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\Idempotency\DefaultProvider\InMemoryIdempotencyProvider.cs
+    path: ../src/Quickie/Configuration/Idempotency/DefaultProvider/InMemoryIdempotencyProvider.cs
     startLine: 17
   assemblies:
   - Quickie
@@ -87,8 +95,12 @@ items:
   fullName: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.MarkAsync(string)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Configuration/Idempotency/DefaultProvider/InMemoryIdempotencyProvider.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: MarkAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\Idempotency\DefaultProvider\InMemoryIdempotencyProvider.cs
+    path: ../src/Quickie/Configuration/Idempotency/DefaultProvider/InMemoryIdempotencyProvider.cs
     startLine: 27
   assemblies:
   - Quickie
@@ -123,8 +135,12 @@ items:
   fullName: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.RemoveExpiredKeys()
   type: Method
   source:
+    remote:
+      path: src/Quickie/Configuration/Idempotency/DefaultProvider/InMemoryIdempotencyProvider.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: RemoveExpiredKeys
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\Idempotency\DefaultProvider\InMemoryIdempotencyProvider.cs
+    path: ../src/Quickie/Configuration/Idempotency/DefaultProvider/InMemoryIdempotencyProvider.cs
     startLine: 37
   assemblies:
   - Quickie

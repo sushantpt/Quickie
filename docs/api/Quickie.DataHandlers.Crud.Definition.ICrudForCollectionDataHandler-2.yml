@@ -18,8 +18,12 @@ items:
   fullName: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<TEntity, TIdType>
   type: Interface
   source:
+    remote:
+      path: src/Quickie/DataHandlers/Crud/Definition/ICrudForCollectionDataHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: ICrudForCollectionDataHandler
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Crud\Definition\ICrudForCollectionDataHandler.cs
+    path: ../src/Quickie/DataHandlers/Crud/Definition/ICrudForCollectionDataHandler.cs
     startLine: 2
   assemblies:
   - Quickie
@@ -45,8 +49,12 @@ items:
   fullName: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<TEntity, TIdType>.CreateRangeAsync(System.Collections.Generic.ICollection<TEntity>, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/DataHandlers/Crud/Definition/ICrudForCollectionDataHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: CreateRangeAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Crud\Definition\ICrudForCollectionDataHandler.cs
+    path: ../src/Quickie/DataHandlers/Crud/Definition/ICrudForCollectionDataHandler.cs
     startLine: 4
   assemblies:
   - Quickie
@@ -77,8 +85,12 @@ items:
   fullName: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<TEntity, TIdType>.UpdateRangeAsync(System.Collections.Generic.ICollection<TEntity>, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/DataHandlers/Crud/Definition/ICrudForCollectionDataHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: UpdateRangeAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Crud\Definition\ICrudForCollectionDataHandler.cs
+    path: ../src/Quickie/DataHandlers/Crud/Definition/ICrudForCollectionDataHandler.cs
     startLine: 6
   assemblies:
   - Quickie
@@ -109,8 +121,12 @@ items:
   fullName: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<TEntity, TIdType>.DeleteRangeAsync(System.Collections.Generic.ICollection<TIdType>, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/DataHandlers/Crud/Definition/ICrudForCollectionDataHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: DeleteRangeAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Crud\Definition\ICrudForCollectionDataHandler.cs
+    path: ../src/Quickie/DataHandlers/Crud/Definition/ICrudForCollectionDataHandler.cs
     startLine: 8
   assemblies:
   - Quickie
@@ -141,8 +157,12 @@ items:
   fullName: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<TEntity, TIdType>.GetAllAsync(Quickie.DataObj.RequestForDataObj, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/DataHandlers/Crud/Definition/ICrudForCollectionDataHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: GetAllAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Crud\Definition\ICrudForCollectionDataHandler.cs
+    path: ../src/Quickie/DataHandlers/Crud/Definition/ICrudForCollectionDataHandler.cs
     startLine: 10
   assemblies:
   - Quickie
@@ -172,8 +192,12 @@ items:
   fullName: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<TEntity, TIdType>.CountAsync(System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/DataHandlers/Crud/Definition/ICrudForCollectionDataHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: CountAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Crud\Definition\ICrudForCollectionDataHandler.cs
+    path: ../src/Quickie/DataHandlers/Crud/Definition/ICrudForCollectionDataHandler.cs
     startLine: 12
   assemblies:
   - Quickie

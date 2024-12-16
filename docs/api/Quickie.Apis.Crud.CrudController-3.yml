@@ -18,8 +18,12 @@ items:
   fullName: Quickie.Apis.Crud.CrudController<TViewModel, TRequestHandler, TIdType>
   type: Class
   source:
+    remote:
+      path: src/Quickie/Apis/Crud/CrudController.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: CrudController
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Apis\Crud\CrudController.cs
+    path: ../src/Quickie/Apis/Crud/CrudController.cs
     startLine: 9
   assemblies:
   - Quickie
@@ -238,8 +242,12 @@ items:
   fullName: Quickie.Apis.Crud.CrudController<TViewModel, TRequestHandler, TIdType>.CrudController(TRequestHandler)
   type: Constructor
   source:
+    remote:
+      path: src/Quickie/Apis/Crud/CrudController.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Apis\Crud\CrudController.cs
+    path: ../src/Quickie/Apis/Crud/CrudController.cs
     startLine: 9
   assemblies:
   - Quickie
@@ -269,8 +277,12 @@ items:
   fullName: Quickie.Apis.Crud.CrudController<TViewModel, TRequestHandler, TIdType>.CreateAsync(string?, TViewModel, System.Threading.CancellationToken)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Apis/Crud/CrudController.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: CreateAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Apis\Crud\CrudController.cs
+    path: ../src/Quickie/Apis/Crud/CrudController.cs
     startLine: 21
   assemblies:
   - Quickie
@@ -331,8 +343,12 @@ items:
   fullName: Quickie.Apis.Crud.CrudController<TViewModel, TRequestHandler, TIdType>.GetByIdAsync(TIdType, System.Threading.CancellationToken)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Apis/Crud/CrudController.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: GetByIdAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Apis\Crud\CrudController.cs
+    path: ../src/Quickie/Apis/Crud/CrudController.cs
     startLine: 61
   assemblies:
   - Quickie
@@ -383,8 +399,12 @@ items:
   fullName: Quickie.Apis.Crud.CrudController<TViewModel, TRequestHandler, TIdType>.UpdateAsync(TIdType, TViewModel, System.Threading.CancellationToken)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Apis/Crud/CrudController.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: UpdateAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Apis\Crud\CrudController.cs
+    path: ../src/Quickie/Apis/Crud/CrudController.cs
     startLine: 97
   assemblies:
   - Quickie
@@ -442,8 +462,12 @@ items:
   fullName: Quickie.Apis.Crud.CrudController<TViewModel, TRequestHandler, TIdType>.DeleteAsync(TIdType, System.Threading.CancellationToken)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Apis/Crud/CrudController.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: DeleteAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Apis\Crud\CrudController.cs
+    path: ../src/Quickie/Apis/Crud/CrudController.cs
     startLine: 142
   assemblies:
   - Quickie

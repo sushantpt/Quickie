@@ -15,8 +15,12 @@ items:
   fullName: Quickie.Handlers.Editonly.Definition.IEditOnlyRequestHandler<TViewModel, TIdType>
   type: Interface
   source:
+    remote:
+      path: src/Quickie/Handlers/Editonly/Definition/IEditOnlyRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: IEditOnlyRequestHandler
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Editonly\Definition\IEditOnlyRequestHandler.cs
+    path: ../src/Quickie/Handlers/Editonly/Definition/IEditOnlyRequestHandler.cs
     startLine: 7
   assemblies:
   - Quickie
@@ -46,8 +50,12 @@ items:
   fullName: Quickie.Handlers.Editonly.Definition.IEditOnlyRequestHandler<TViewModel, TIdType>.EditAsync(TIdType, TViewModel, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Editonly/Definition/IEditOnlyRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: EditAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Editonly\Definition\IEditOnlyRequestHandler.cs
+    path: ../src/Quickie/Handlers/Editonly/Definition/IEditOnlyRequestHandler.cs
     startLine: 16
   assemblies:
   - Quickie
@@ -85,8 +93,12 @@ items:
   fullName: Quickie.Handlers.Editonly.Definition.IEditOnlyRequestHandler<TViewModel, TIdType>.EditCollectionAsync(System.Collections.Generic.ICollection<TViewModel>, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Editonly/Definition/IEditOnlyRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: EditCollectionAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Editonly\Definition\IEditOnlyRequestHandler.cs
+    path: ../src/Quickie/Handlers/Editonly/Definition/IEditOnlyRequestHandler.cs
     startLine: 24
   assemblies:
   - Quickie

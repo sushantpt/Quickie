@@ -15,8 +15,12 @@ items:
   fullName: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler<TEntity, TDbContext, TIdType>
   type: Class
   source:
+    remote:
+      path: src/Quickie/DataHandlers/Readonly/Implementation/ReadOnlyDataHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: ReadOnlyDataHandler
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Readonly\Implementation\ReadOnlyDataHandler.cs
+    path: ../src/Quickie/DataHandlers/Readonly/Implementation/ReadOnlyDataHandler.cs
     startLine: 9
   assemblies:
   - Quickie
@@ -60,8 +64,12 @@ items:
   fullName: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler<TEntity, TDbContext, TIdType>.ReadOnlyDataHandler(Microsoft.EntityFrameworkCore.DbContext)
   type: Constructor
   source:
+    remote:
+      path: src/Quickie/DataHandlers/Readonly/Implementation/ReadOnlyDataHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Readonly\Implementation\ReadOnlyDataHandler.cs
+    path: ../src/Quickie/DataHandlers/Readonly/Implementation/ReadOnlyDataHandler.cs
     startLine: 9
   assemblies:
   - Quickie
@@ -91,8 +99,12 @@ items:
   fullName: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler<TEntity, TDbContext, TIdType>.GetByIdAsync(TIdType, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/DataHandlers/Readonly/Implementation/ReadOnlyDataHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: GetByIdAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Readonly\Implementation\ReadOnlyDataHandler.cs
+    path: ../src/Quickie/DataHandlers/Readonly/Implementation/ReadOnlyDataHandler.cs
     startLine: 19
   assemblies:
   - Quickie

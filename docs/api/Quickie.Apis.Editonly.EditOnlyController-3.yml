@@ -16,8 +16,12 @@ items:
   fullName: Quickie.Apis.Editonly.EditOnlyController<TViewModel, TRequestHandler, TIdType>
   type: Class
   source:
+    remote:
+      path: src/Quickie/Apis/Editonly/EditOnlyController.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: EditOnlyController
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Apis\Editonly\EditOnlyController.cs
+    path: ../src/Quickie/Apis/Editonly/EditOnlyController.cs
     startLine: 8
   assemblies:
   - Quickie
@@ -236,8 +240,12 @@ items:
   fullName: Quickie.Apis.Editonly.EditOnlyController<TViewModel, TRequestHandler, TIdType>.EditOnlyController(Quickie.Handlers.Editonly.Definition.IEditOnlyRequestHandler<TViewModel, TIdType>)
   type: Constructor
   source:
+    remote:
+      path: src/Quickie/Apis/Editonly/EditOnlyController.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Apis\Editonly\EditOnlyController.cs
+    path: ../src/Quickie/Apis/Editonly/EditOnlyController.cs
     startLine: 8
   assemblies:
   - Quickie
@@ -266,8 +274,12 @@ items:
   fullName: Quickie.Apis.Editonly.EditOnlyController<TViewModel, TRequestHandler, TIdType>.EditAsync(TIdType, TViewModel, System.Threading.CancellationToken)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Apis/Editonly/EditOnlyController.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: EditAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Apis\Editonly\EditOnlyController.cs
+    path: ../src/Quickie/Apis/Editonly/EditOnlyController.cs
     startLine: 19
   assemblies:
   - Quickie
@@ -325,8 +337,12 @@ items:
   fullName: Quickie.Apis.Editonly.EditOnlyController<TViewModel, TRequestHandler, TIdType>.EditCollectionAsync(System.Collections.Generic.ICollection<TViewModel>, System.Threading.CancellationToken)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Apis/Editonly/EditOnlyController.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: EditCollectionAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Apis\Editonly\EditOnlyController.cs
+    path: ../src/Quickie/Apis/Editonly/EditOnlyController.cs
     startLine: 67
   assemblies:
   - Quickie

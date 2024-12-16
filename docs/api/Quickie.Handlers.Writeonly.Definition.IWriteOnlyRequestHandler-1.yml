@@ -15,8 +15,12 @@ items:
   fullName: Quickie.Handlers.Writeonly.Definition.IWriteOnlyRequestHandler<TViewModel>
   type: Interface
   source:
+    remote:
+      path: src/Quickie/Handlers/Writeonly/Definition/IWriteOnlyRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: IWriteOnlyRequestHandler
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Writeonly\Definition\IWriteOnlyRequestHandler.cs
+    path: ../src/Quickie/Handlers/Writeonly/Definition/IWriteOnlyRequestHandler.cs
     startLine: 2
   assemblies:
   - Quickie
@@ -41,8 +45,12 @@ items:
   fullName: Quickie.Handlers.Writeonly.Definition.IWriteOnlyRequestHandler<TViewModel>.CreateItemAsync(TViewModel, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Writeonly/Definition/IWriteOnlyRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: CreateItemAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Writeonly\Definition\IWriteOnlyRequestHandler.cs
+    path: ../src/Quickie/Handlers/Writeonly/Definition/IWriteOnlyRequestHandler.cs
     startLine: 4
   assemblies:
   - Quickie
@@ -72,8 +80,12 @@ items:
   fullName: Quickie.Handlers.Writeonly.Definition.IWriteOnlyRequestHandler<TViewModel>.CreateItemsAsync(System.Collections.Generic.ICollection<TViewModel>, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Writeonly/Definition/IWriteOnlyRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: CreateItemsAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Writeonly\Definition\IWriteOnlyRequestHandler.cs
+    path: ../src/Quickie/Handlers/Writeonly/Definition/IWriteOnlyRequestHandler.cs
     startLine: 5
   assemblies:
   - Quickie

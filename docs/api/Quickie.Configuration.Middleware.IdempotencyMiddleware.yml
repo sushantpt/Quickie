@@ -15,8 +15,12 @@ items:
   fullName: Quickie.Configuration.Middleware.IdempotencyMiddleware
   type: Class
   source:
+    remote:
+      path: src/Quickie/Configuration/Middleware/IdempotencyMiddleware.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: IdempotencyMiddleware
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\Middleware\IdempotencyMiddleware.cs
+    path: ../src/Quickie/Configuration/Middleware/IdempotencyMiddleware.cs
     startLine: 9
   assemblies:
   - Quickie
@@ -48,8 +52,12 @@ items:
   fullName: Quickie.Configuration.Middleware.IdempotencyMiddleware.IdempotencyMiddleware(Quickie.Configuration.Idempotency.IIdempotencyProvider, Microsoft.AspNetCore.Http.RequestDelegate)
   type: Constructor
   source:
+    remote:
+      path: src/Quickie/Configuration/Middleware/IdempotencyMiddleware.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\Middleware\IdempotencyMiddleware.cs
+    path: ../src/Quickie/Configuration/Middleware/IdempotencyMiddleware.cs
     startLine: 9
   assemblies:
   - Quickie
@@ -82,8 +90,12 @@ items:
   fullName: Quickie.Configuration.Middleware.IdempotencyMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Configuration/Middleware/IdempotencyMiddleware.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: InvokeAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\Middleware\IdempotencyMiddleware.cs
+    path: ../src/Quickie/Configuration/Middleware/IdempotencyMiddleware.cs
     startLine: 11
   assemblies:
   - Quickie

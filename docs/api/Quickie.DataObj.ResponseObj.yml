@@ -15,8 +15,12 @@ items:
   fullName: Quickie.DataObj.ResponseObj
   type: Class
   source:
+    remote:
+      path: src/Quickie/DataObj/ResponseObj.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: ResponseObj
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataObj\ResponseObj.cs
+    path: ../src/Quickie/DataObj/ResponseObj.cs
     startLine: 5
   assemblies:
   - Quickie
@@ -48,8 +52,12 @@ items:
   fullName: Quickie.DataObj.ResponseObj.IsSuccess
   type: Property
   source:
+    remote:
+      path: src/Quickie/DataObj/ResponseObj.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: IsSuccess
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataObj\ResponseObj.cs
+    path: ../src/Quickie/DataObj/ResponseObj.cs
     startLine: 10
   assemblies:
   - Quickie
@@ -75,8 +83,12 @@ items:
   fullName: Quickie.DataObj.ResponseObj.Message
   type: Property
   source:
+    remote:
+      path: src/Quickie/DataObj/ResponseObj.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: Message
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataObj\ResponseObj.cs
+    path: ../src/Quickie/DataObj/ResponseObj.cs
     startLine: 15
   assemblies:
   - Quickie

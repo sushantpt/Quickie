@@ -14,8 +14,12 @@ items:
   fullName: Quickie.Types.Editonly.EditOnlyDto
   type: Class
   source:
+    remote:
+      path: src/Quickie/Types/Editonly/EditOnlyDto.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: EditOnlyDto
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Types\Editonly\EditOnlyDto.cs
+    path: ../src/Quickie/Types/Editonly/EditOnlyDto.cs
     startLine: 5
   assemblies:
   - Quickie
@@ -49,8 +53,12 @@ items:
   fullName: Quickie.Types.Editonly.EditOnlyDto.EditOnlyDto()
   type: Constructor
   source:
+    remote:
+      path: src/Quickie/Types/Editonly/EditOnlyDto.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Types\Editonly\EditOnlyDto.cs
+    path: ../src/Quickie/Types/Editonly/EditOnlyDto.cs
     startLine: 5
   assemblies:
   - Quickie

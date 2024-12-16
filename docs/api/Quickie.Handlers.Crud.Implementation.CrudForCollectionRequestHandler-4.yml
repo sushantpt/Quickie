@@ -21,8 +21,12 @@ items:
   fullName: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>
   type: Class
   source:
+    remote:
+      path: src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: CrudForCollectionRequestHandler
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Crud\Implementation\CrudForCollectionRequestHandler.cs
+    path: ../src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
     startLine: 10
   assemblies:
   - Quickie
@@ -68,8 +72,12 @@ items:
   fullName: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.CrudForCollectionRequestHandler(TDataHandler)
   type: Constructor
   source:
+    remote:
+      path: src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Crud\Implementation\CrudForCollectionRequestHandler.cs
+    path: ../src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
     startLine: 10
   assemblies:
   - Quickie
@@ -99,8 +107,12 @@ items:
   fullName: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.CreateRangeAsync(System.Collections.Generic.ICollection<TViewModel>, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: CreateRangeAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Crud\Implementation\CrudForCollectionRequestHandler.cs
+    path: ../src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
     startLine: 20
   assemblies:
   - Quickie
@@ -138,8 +150,12 @@ items:
   fullName: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.UpdateRangeAsync(System.Collections.Generic.ICollection<TViewModel>, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: UpdateRangeAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Crud\Implementation\CrudForCollectionRequestHandler.cs
+    path: ../src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
     startLine: 44
   assemblies:
   - Quickie
@@ -177,8 +193,12 @@ items:
   fullName: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.DeleteRangeAsync(System.Collections.Generic.ICollection<TIdType>, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: DeleteRangeAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Crud\Implementation\CrudForCollectionRequestHandler.cs
+    path: ../src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
     startLine: 65
   assemblies:
   - Quickie
@@ -216,8 +236,12 @@ items:
   fullName: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.GetAllAsync(Quickie.DataObj.RequestForDataObj, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: GetAllAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Crud\Implementation\CrudForCollectionRequestHandler.cs
+    path: ../src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
     startLine: 77
   assemblies:
   - Quickie
@@ -254,8 +278,12 @@ items:
   fullName: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.CountAsync(System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: CountAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Crud\Implementation\CrudForCollectionRequestHandler.cs
+    path: ../src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
     startLine: 104
   assemblies:
   - Quickie
@@ -289,8 +317,12 @@ items:
   fullName: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.MapToCollectionOfDto(System.Collections.Generic.ICollection<TEntity>)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: MapToCollectionOfDto
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Crud\Implementation\CrudForCollectionRequestHandler.cs
+    path: ../src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
     startLine: 111
   assemblies:
   - Quickie
@@ -323,8 +355,12 @@ items:
   fullName: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.MapToCollectionOfEntity(System.Collections.Generic.ICollection<TViewModel>)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: MapToCollectionOfEntity
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Crud\Implementation\CrudForCollectionRequestHandler.cs
+    path: ../src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
     startLine: 118
   assemblies:
   - Quickie

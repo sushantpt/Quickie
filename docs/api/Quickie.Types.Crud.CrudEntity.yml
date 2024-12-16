@@ -13,8 +13,12 @@ items:
   fullName: Quickie.Types.Crud.CrudEntity
   type: Class
   source:
+    remote:
+      path: src/Quickie/Types/Crud/CrudEntity.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: CrudEntity
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Types\Crud\CrudEntity.cs
+    path: ../src/Quickie/Types/Crud/CrudEntity.cs
     startLine: 5
   assemblies:
   - Quickie

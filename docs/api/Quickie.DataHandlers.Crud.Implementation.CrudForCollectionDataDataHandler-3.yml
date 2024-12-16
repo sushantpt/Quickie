@@ -19,8 +19,12 @@ items:
   fullName: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>
   type: Class
   source:
+    remote:
+      path: src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: CrudForCollectionDataDataHandler
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Crud\Implementation\CrudForCollectionDataDataHandler.cs
+    path: ../src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
     startLine: 9
   assemblies:
   - Quickie
@@ -64,8 +68,12 @@ items:
   fullName: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.CrudForCollectionDataDataHandler(TDbContext)
   type: Constructor
   source:
+    remote:
+      path: src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Crud\Implementation\CrudForCollectionDataDataHandler.cs
+    path: ../src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
     startLine: 9
   assemblies:
   - Quickie
@@ -95,8 +103,12 @@ items:
   fullName: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.CreateRangeAsync(System.Collections.Generic.ICollection<TEntity>, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: CreateRangeAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Crud\Implementation\CrudForCollectionDataDataHandler.cs
+    path: ../src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
     startLine: 19
   assemblies:
   - Quickie
@@ -134,8 +146,12 @@ items:
   fullName: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.UpdateRangeAsync(System.Collections.Generic.ICollection<TEntity>, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: UpdateRangeAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Crud\Implementation\CrudForCollectionDataDataHandler.cs
+    path: ../src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
     startLine: 50
   assemblies:
   - Quickie
@@ -173,8 +189,12 @@ items:
   fullName: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.DeleteRangeAsync(System.Collections.Generic.ICollection<TIdType>, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: DeleteRangeAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Crud\Implementation\CrudForCollectionDataDataHandler.cs
+    path: ../src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
     startLine: 81
   assemblies:
   - Quickie
@@ -212,8 +232,12 @@ items:
   fullName: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.GetAllAsync(Quickie.DataObj.RequestForDataObj, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: GetAllAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Crud\Implementation\CrudForCollectionDataDataHandler.cs
+    path: ../src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
     startLine: 110
   assemblies:
   - Quickie
@@ -250,8 +274,12 @@ items:
   fullName: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.CountAsync(System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: CountAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Crud\Implementation\CrudForCollectionDataDataHandler.cs
+    path: ../src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
     startLine: 147
   assemblies:
   - Quickie

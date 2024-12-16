@@ -15,8 +15,12 @@ items:
   fullName: Quickie.Apis.Readonly.ReadOnlyController<TViewModel, TRequestHandler, TIdType>
   type: Class
   source:
+    remote:
+      path: src/Quickie/Apis/Readonly/ReadOnlyController.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: ReadOnlyController
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Apis\Readonly\ReadOnlyController.cs
+    path: ../src/Quickie/Apis/Readonly/ReadOnlyController.cs
     startLine: 8
   assemblies:
   - Quickie
@@ -235,8 +239,12 @@ items:
   fullName: Quickie.Apis.Readonly.ReadOnlyController<TViewModel, TRequestHandler, TIdType>.ReadOnlyController(TRequestHandler)
   type: Constructor
   source:
+    remote:
+      path: src/Quickie/Apis/Readonly/ReadOnlyController.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Apis\Readonly\ReadOnlyController.cs
+    path: ../src/Quickie/Apis/Readonly/ReadOnlyController.cs
     startLine: 8
   assemblies:
   - Quickie
@@ -265,8 +273,12 @@ items:
   fullName: Quickie.Apis.Readonly.ReadOnlyController<TViewModel, TRequestHandler, TIdType>.GetByIdAsync(TIdType, System.Threading.CancellationToken)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Apis/Readonly/ReadOnlyController.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: GetByIdAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Apis\Readonly\ReadOnlyController.cs
+    path: ../src/Quickie/Apis/Readonly/ReadOnlyController.cs
     startLine: 15
   assemblies:
   - Quickie

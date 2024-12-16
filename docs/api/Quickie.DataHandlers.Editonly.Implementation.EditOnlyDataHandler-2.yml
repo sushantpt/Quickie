@@ -16,8 +16,12 @@ items:
   fullName: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler<TEntity, TIdType>
   type: Class
   source:
+    remote:
+      path: src/Quickie/DataHandlers/Editonly/Implementation/EditOnlyDataHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: EditOnlyDataHandler
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Editonly\Implementation\EditOnlyDataHandler.cs
+    path: ../src/Quickie/DataHandlers/Editonly/Implementation/EditOnlyDataHandler.cs
     startLine: 8
   assemblies:
   - Quickie
@@ -59,8 +63,12 @@ items:
   fullName: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler<TEntity, TIdType>.EditOnlyDataHandler(Microsoft.EntityFrameworkCore.DbContext)
   type: Constructor
   source:
+    remote:
+      path: src/Quickie/DataHandlers/Editonly/Implementation/EditOnlyDataHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Editonly\Implementation\EditOnlyDataHandler.cs
+    path: ../src/Quickie/DataHandlers/Editonly/Implementation/EditOnlyDataHandler.cs
     startLine: 8
   assemblies:
   - Quickie
@@ -90,8 +98,12 @@ items:
   fullName: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler<TEntity, TIdType>.EditAsync(TIdType, TEntity, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/DataHandlers/Editonly/Implementation/EditOnlyDataHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: EditAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Editonly\Implementation\EditOnlyDataHandler.cs
+    path: ../src/Quickie/DataHandlers/Editonly/Implementation/EditOnlyDataHandler.cs
     startLine: 19
   assemblies:
   - Quickie
@@ -131,8 +143,12 @@ items:
   fullName: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler<TEntity, TIdType>.EditCollectionAsync(System.Collections.Generic.ICollection<TEntity>, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/DataHandlers/Editonly/Implementation/EditOnlyDataHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: EditCollectionAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Editonly\Implementation\EditOnlyDataHandler.cs
+    path: ../src/Quickie/DataHandlers/Editonly/Implementation/EditOnlyDataHandler.cs
     startLine: 89
   assemblies:
   - Quickie

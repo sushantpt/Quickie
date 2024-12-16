@@ -20,8 +20,12 @@ items:
   fullName: Quickie.Handlers.Crud.Implementation.CrudRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>
   type: Class
   source:
+    remote:
+      path: src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: CrudRequestHandler
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Crud\Implementation\CrudRequestHandler.cs
+    path: ../src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
     startLine: 10
   assemblies:
   - Quickie
@@ -67,8 +71,12 @@ items:
   fullName: Quickie.Handlers.Crud.Implementation.CrudRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.CrudRequestHandler(Quickie.DataHandlers.Crud.Definition.ICrudDataHandler<TEntity, TIdType>)
   type: Constructor
   source:
+    remote:
+      path: src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Crud\Implementation\CrudRequestHandler.cs
+    path: ../src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
     startLine: 10
   assemblies:
   - Quickie
@@ -98,8 +106,12 @@ items:
   fullName: Quickie.Handlers.Crud.Implementation.CrudRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.CreateAsync(TViewModel, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: CreateAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Crud\Implementation\CrudRequestHandler.cs
+    path: ../src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
     startLine: 18
   assemblies:
   - Quickie
@@ -136,8 +148,12 @@ items:
   fullName: Quickie.Handlers.Crud.Implementation.CrudRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.GetByIdAsync(TIdType, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: GetByIdAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Crud\Implementation\CrudRequestHandler.cs
+    path: ../src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
     startLine: 39
   assemblies:
   - Quickie
@@ -178,8 +194,12 @@ items:
   fullName: Quickie.Handlers.Crud.Implementation.CrudRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.UpdateAsync(TIdType, TViewModel, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: UpdateAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Crud\Implementation\CrudRequestHandler.cs
+    path: ../src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
     startLine: 63
   assemblies:
   - Quickie
@@ -219,8 +239,12 @@ items:
   fullName: Quickie.Handlers.Crud.Implementation.CrudRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.DeleteAsync(TIdType, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: DeleteAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Crud\Implementation\CrudRequestHandler.cs
+    path: ../src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
     startLine: 89
   assemblies:
   - Quickie
@@ -261,8 +285,12 @@ items:
   fullName: Quickie.Handlers.Crud.Implementation.CrudRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.MapToEntity(TViewModel)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: MapToEntity
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Crud\Implementation\CrudRequestHandler.cs
+    path: ../src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
     startLine: 105
   assemblies:
   - Quickie
@@ -294,8 +322,12 @@ items:
   fullName: Quickie.Handlers.Crud.Implementation.CrudRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.MapToDto(TEntity)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: MapToDto
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Crud\Implementation\CrudRequestHandler.cs
+    path: ../src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
     startLine: 112
   assemblies:
   - Quickie

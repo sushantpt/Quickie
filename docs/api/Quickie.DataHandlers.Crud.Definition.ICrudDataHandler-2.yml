@@ -17,8 +17,12 @@ items:
   fullName: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler<TEntity, TIdType>
   type: Interface
   source:
+    remote:
+      path: src/Quickie/DataHandlers/Crud/Definition/ICrudDataHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: ICrudDataHandler
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Crud\Definition\ICrudDataHandler.cs
+    path: ../src/Quickie/DataHandlers/Crud/Definition/ICrudDataHandler.cs
     startLine: 2
   assemblies:
   - Quickie
@@ -44,8 +48,12 @@ items:
   fullName: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler<TEntity, TIdType>.CreateAsync(TEntity, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/DataHandlers/Crud/Definition/ICrudDataHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: CreateAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Crud\Definition\ICrudDataHandler.cs
+    path: ../src/Quickie/DataHandlers/Crud/Definition/ICrudDataHandler.cs
     startLine: 4
   assemblies:
   - Quickie
@@ -75,8 +83,12 @@ items:
   fullName: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler<TEntity, TIdType>.GetByIdAsync(TIdType, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/DataHandlers/Crud/Definition/ICrudDataHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: GetByIdAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Crud\Definition\ICrudDataHandler.cs
+    path: ../src/Quickie/DataHandlers/Crud/Definition/ICrudDataHandler.cs
     startLine: 5
   assemblies:
   - Quickie
@@ -106,8 +118,12 @@ items:
   fullName: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler<TEntity, TIdType>.UpdateAsync(TIdType, TEntity, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/DataHandlers/Crud/Definition/ICrudDataHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: UpdateAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Crud\Definition\ICrudDataHandler.cs
+    path: ../src/Quickie/DataHandlers/Crud/Definition/ICrudDataHandler.cs
     startLine: 6
   assemblies:
   - Quickie
@@ -139,8 +155,12 @@ items:
   fullName: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler<TEntity, TIdType>.DeleteAsync(TIdType, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/DataHandlers/Crud/Definition/ICrudDataHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: DeleteAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Crud\Definition\ICrudDataHandler.cs
+    path: ../src/Quickie/DataHandlers/Crud/Definition/ICrudDataHandler.cs
     startLine: 7
   assemblies:
   - Quickie

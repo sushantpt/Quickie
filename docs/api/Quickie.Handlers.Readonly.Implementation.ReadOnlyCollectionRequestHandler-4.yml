@@ -16,8 +16,12 @@ items:
   fullName: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>
   type: Class
   source:
+    remote:
+      path: src/Quickie/Handlers/Readonly/Implementation/ReadOnlyCollectionRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: ReadOnlyCollectionRequestHandler
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Readonly\Implementation\ReadOnlyCollectionRequestHandler.cs
+    path: ../src/Quickie/Handlers/Readonly/Implementation/ReadOnlyCollectionRequestHandler.cs
     startLine: 10
   assemblies:
   - Quickie
@@ -63,8 +67,12 @@ items:
   fullName: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.ReadOnlyCollectionRequestHandler(Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler<TEntity, TIdType>)
   type: Constructor
   source:
+    remote:
+      path: src/Quickie/Handlers/Readonly/Implementation/ReadOnlyCollectionRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Readonly\Implementation\ReadOnlyCollectionRequestHandler.cs
+    path: ../src/Quickie/Handlers/Readonly/Implementation/ReadOnlyCollectionRequestHandler.cs
     startLine: 10
   assemblies:
   - Quickie
@@ -94,8 +102,12 @@ items:
   fullName: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.GetAsync<TRequestModel>(TRequestModel?, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Readonly/Implementation/ReadOnlyCollectionRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: GetAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Readonly\Implementation\ReadOnlyCollectionRequestHandler.cs
+    path: ../src/Quickie/Handlers/Readonly/Implementation/ReadOnlyCollectionRequestHandler.cs
     startLine: 20
   assemblies:
   - Quickie
@@ -136,8 +148,12 @@ items:
   fullName: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.MapToDto(System.Collections.Generic.ICollection<TEntity>)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Readonly/Implementation/ReadOnlyCollectionRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: MapToDto
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Readonly\Implementation\ReadOnlyCollectionRequestHandler.cs
+    path: ../src/Quickie/Handlers/Readonly/Implementation/ReadOnlyCollectionRequestHandler.cs
     startLine: 38
   assemblies:
   - Quickie

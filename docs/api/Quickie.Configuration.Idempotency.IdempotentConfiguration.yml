@@ -17,8 +17,12 @@ items:
   fullName: Quickie.Configuration.Idempotency.IdempotentConfiguration
   type: Class
   source:
+    remote:
+      path: src/Quickie/Configuration/Idempotency/IdempotentConfiguration.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: IdempotentConfiguration
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\Idempotency\IdempotentConfiguration.cs
+    path: ../src/Quickie/Configuration/Idempotency/IdempotentConfiguration.cs
     startLine: 4
   assemblies:
   - Quickie
@@ -48,8 +52,12 @@ items:
   fullName: Quickie.Configuration.Idempotency.IdempotentConfiguration.Enable
   type: Property
   source:
+    remote:
+      path: src/Quickie/Configuration/Idempotency/IdempotentConfiguration.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: Enable
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\Idempotency\IdempotentConfiguration.cs
+    path: ../src/Quickie/Configuration/Idempotency/IdempotentConfiguration.cs
     startLine: 9
   assemblies:
   - Quickie
@@ -75,8 +83,12 @@ items:
   fullName: Quickie.Configuration.Idempotency.IdempotentConfiguration.Provider
   type: Property
   source:
+    remote:
+      path: src/Quickie/Configuration/Idempotency/IdempotentConfiguration.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: Provider
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\Idempotency\IdempotentConfiguration.cs
+    path: ../src/Quickie/Configuration/Idempotency/IdempotentConfiguration.cs
     startLine: 14
   assemblies:
   - Quickie
@@ -102,8 +114,12 @@ items:
   fullName: Quickie.Configuration.Idempotency.IdempotentConfiguration.IdempotencyLifespan
   type: Property
   source:
+    remote:
+      path: src/Quickie/Configuration/Idempotency/IdempotentConfiguration.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: IdempotencyLifespan
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\Idempotency\IdempotentConfiguration.cs
+    path: ../src/Quickie/Configuration/Idempotency/IdempotentConfiguration.cs
     startLine: 19
   assemblies:
   - Quickie
@@ -129,8 +145,12 @@ items:
   fullName: Quickie.Configuration.Idempotency.IdempotentConfiguration.RunBackgroundServiceEveryHour
   type: Property
   source:
+    remote:
+      path: src/Quickie/Configuration/Idempotency/IdempotentConfiguration.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: RunBackgroundServiceEveryHour
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\Idempotency\IdempotentConfiguration.cs
+    path: ../src/Quickie/Configuration/Idempotency/IdempotentConfiguration.cs
     startLine: 24
   assemblies:
   - Quickie

@@ -20,8 +20,12 @@ items:
   fullName: Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler<TViewModel, TEntity, TDataHandler>
   type: Class
   source:
+    remote:
+      path: src/Quickie/Handlers/Writeonly/Implementation/WriteOnlyRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: WriteOnlyRequestHandler
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Writeonly\Implementation\WriteOnlyRequestHandler.cs
+    path: ../src/Quickie/Handlers/Writeonly/Implementation/WriteOnlyRequestHandler.cs
     startLine: 11
   assemblies:
   - Quickie
@@ -65,8 +69,12 @@ items:
   fullName: Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler<TViewModel, TEntity, TDataHandler>.WriteOnlyRequestHandler(Quickie.DataHandlers.Writeonly.Definition.IWriteOnlyDataHandler<TEntity>)
   type: Constructor
   source:
+    remote:
+      path: src/Quickie/Handlers/Writeonly/Implementation/WriteOnlyRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Writeonly\Implementation\WriteOnlyRequestHandler.cs
+    path: ../src/Quickie/Handlers/Writeonly/Implementation/WriteOnlyRequestHandler.cs
     startLine: 11
   assemblies:
   - Quickie
@@ -96,8 +104,12 @@ items:
   fullName: Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler<TViewModel, TEntity, TDataHandler>.CreateItemAsync(TViewModel, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Writeonly/Implementation/WriteOnlyRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: CreateItemAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Writeonly\Implementation\WriteOnlyRequestHandler.cs
+    path: ../src/Quickie/Handlers/Writeonly/Implementation/WriteOnlyRequestHandler.cs
     startLine: 19
   assemblies:
   - Quickie
@@ -134,8 +146,12 @@ items:
   fullName: Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler<TViewModel, TEntity, TDataHandler>.CreateItemsAsync(System.Collections.Generic.ICollection<TViewModel>, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Writeonly/Implementation/WriteOnlyRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: CreateItemsAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Writeonly\Implementation\WriteOnlyRequestHandler.cs
+    path: ../src/Quickie/Handlers/Writeonly/Implementation/WriteOnlyRequestHandler.cs
     startLine: 43
   assemblies:
   - Quickie
@@ -173,8 +189,12 @@ items:
   fullName: Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler<TViewModel, TEntity, TDataHandler>.MapToEntity(TViewModel)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Writeonly/Implementation/WriteOnlyRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: MapToEntity
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Writeonly\Implementation\WriteOnlyRequestHandler.cs
+    path: ../src/Quickie/Handlers/Writeonly/Implementation/WriteOnlyRequestHandler.cs
     startLine: 66
   assemblies:
   - Quickie
@@ -206,8 +226,12 @@ items:
   fullName: Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler<TViewModel, TEntity, TDataHandler>.MapToDto(TEntity)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Writeonly/Implementation/WriteOnlyRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: MapToDto
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Writeonly\Implementation\WriteOnlyRequestHandler.cs
+    path: ../src/Quickie/Handlers/Writeonly/Implementation/WriteOnlyRequestHandler.cs
     startLine: 73
   assemblies:
   - Quickie
@@ -239,8 +263,12 @@ items:
   fullName: Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler<TViewModel, TEntity, TDataHandler>.MapToCollectionOfEntity(System.Collections.Generic.ICollection<TViewModel>)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Writeonly/Implementation/WriteOnlyRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: MapToCollectionOfEntity
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Writeonly\Implementation\WriteOnlyRequestHandler.cs
+    path: ../src/Quickie/Handlers/Writeonly/Implementation/WriteOnlyRequestHandler.cs
     startLine: 80
   assemblies:
   - Quickie
@@ -273,8 +301,12 @@ items:
   fullName: Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler<TViewModel, TEntity, TDataHandler>.MapToCollectionOfDto(System.Collections.Generic.ICollection<TEntity>)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Writeonly/Implementation/WriteOnlyRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: MapToCollectionOfDto
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Writeonly\Implementation\WriteOnlyRequestHandler.cs
+    path: ../src/Quickie/Handlers/Writeonly/Implementation/WriteOnlyRequestHandler.cs
     startLine: 87
   assemblies:
   - Quickie

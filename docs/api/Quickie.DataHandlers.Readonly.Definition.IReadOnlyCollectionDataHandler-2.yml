@@ -14,8 +14,12 @@ items:
   fullName: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler<TEntity, TIdType>
   type: Interface
   source:
+    remote:
+      path: src/Quickie/DataHandlers/Readonly/Definition/IReadOnlyCollectionDataHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: IReadOnlyCollectionDataHandler
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Readonly\Definition\IReadOnlyCollectionDataHandler.cs
+    path: ../src/Quickie/DataHandlers/Readonly/Definition/IReadOnlyCollectionDataHandler.cs
     startLine: 7
   assemblies:
   - Quickie
@@ -45,8 +49,12 @@ items:
   fullName: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler<TEntity, TIdType>.GetByFilterAsync<TRequestModel>(System.Linq.Expressions.Expression<System.Func<TEntity, bool>>?, TRequestModel?, bool?, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/DataHandlers/Readonly/Definition/IReadOnlyCollectionDataHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: GetByFilterAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\DataHandlers\Readonly\Definition\IReadOnlyCollectionDataHandler.cs
+    path: ../src/Quickie/DataHandlers/Readonly/Definition/IReadOnlyCollectionDataHandler.cs
     startLine: 17
   assemblies:
   - Quickie

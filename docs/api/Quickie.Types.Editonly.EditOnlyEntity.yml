@@ -14,8 +14,12 @@ items:
   fullName: Quickie.Types.Editonly.EditOnlyEntity
   type: Class
   source:
+    remote:
+      path: src/Quickie/Types/Editonly/EditOnlyEntity.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: EditOnlyEntity
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Types\Editonly\EditOnlyEntity.cs
+    path: ../src/Quickie/Types/Editonly/EditOnlyEntity.cs
     startLine: 5
   assemblies:
   - Quickie
@@ -47,8 +51,12 @@ items:
   fullName: Quickie.Types.Editonly.EditOnlyEntity.EditOnlyEntity()
   type: Constructor
   source:
+    remote:
+      path: src/Quickie/Types/Editonly/EditOnlyEntity.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Types\Editonly\EditOnlyEntity.cs
+    path: ../src/Quickie/Types/Editonly/EditOnlyEntity.cs
     startLine: 5
   assemblies:
   - Quickie

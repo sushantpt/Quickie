@@ -16,8 +16,12 @@ items:
   fullName: Quickie.Configuration.Idempotency.IIdempotencyProvider
   type: Interface
   source:
+    remote:
+      path: src/Quickie/Configuration/Idempotency/IIdempotencyProvider.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: IIdempotencyProvider
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\Idempotency\IIdempotencyProvider.cs
+    path: ../src/Quickie/Configuration/Idempotency/IIdempotencyProvider.cs
     startLine: 5
   assemblies:
   - Quickie
@@ -39,8 +43,12 @@ items:
   fullName: Quickie.Configuration.Idempotency.IIdempotencyProvider.ExistsAsync(string)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Configuration/Idempotency/IIdempotencyProvider.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: ExistsAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\Idempotency\IIdempotencyProvider.cs
+    path: ../src/Quickie/Configuration/Idempotency/IIdempotencyProvider.cs
     startLine: 12
   assemblies:
   - Quickie
@@ -73,8 +81,12 @@ items:
   fullName: Quickie.Configuration.Idempotency.IIdempotencyProvider.MarkAsync(string)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Configuration/Idempotency/IIdempotencyProvider.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: MarkAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\Idempotency\IIdempotencyProvider.cs
+    path: ../src/Quickie/Configuration/Idempotency/IIdempotencyProvider.cs
     startLine: 19
   assemblies:
   - Quickie
@@ -107,8 +119,12 @@ items:
   fullName: Quickie.Configuration.Idempotency.IIdempotencyProvider.RemoveExpiredKeys()
   type: Method
   source:
+    remote:
+      path: src/Quickie/Configuration/Idempotency/IIdempotencyProvider.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: RemoveExpiredKeys
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\Idempotency\IIdempotencyProvider.cs
+    path: ../src/Quickie/Configuration/Idempotency/IIdempotencyProvider.cs
     startLine: 25
   assemblies:
   - Quickie

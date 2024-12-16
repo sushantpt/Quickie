@@ -15,8 +15,12 @@ items:
   fullName: Quickie.Apis.Readonly.ReadOnlyCollectionController<TViewModel, TRequestHandler, TRequestForDataModel, TIdType>
   type: Class
   source:
+    remote:
+      path: src/Quickie/Apis/Readonly/ReadOnlyCollectionController.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: ReadOnlyCollectionController
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Apis\Readonly\ReadOnlyCollectionController.cs
+    path: ../src/Quickie/Apis/Readonly/ReadOnlyCollectionController.cs
     startLine: 9
   assemblies:
   - Quickie
@@ -237,8 +241,12 @@ items:
   fullName: Quickie.Apis.Readonly.ReadOnlyCollectionController<TViewModel, TRequestHandler, TRequestForDataModel, TIdType>.ReadOnlyCollectionController(TRequestHandler)
   type: Constructor
   source:
+    remote:
+      path: src/Quickie/Apis/Readonly/ReadOnlyCollectionController.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Apis\Readonly\ReadOnlyCollectionController.cs
+    path: ../src/Quickie/Apis/Readonly/ReadOnlyCollectionController.cs
     startLine: 9
   assemblies:
   - Quickie
@@ -267,8 +275,12 @@ items:
   fullName: Quickie.Apis.Readonly.ReadOnlyCollectionController<TViewModel, TRequestHandler, TRequestForDataModel, TIdType>.GetAsync(TRequestForDataModel, System.Threading.CancellationToken)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Apis/Readonly/ReadOnlyCollectionController.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: GetAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Apis\Readonly\ReadOnlyCollectionController.cs
+    path: ../src/Quickie/Apis/Readonly/ReadOnlyCollectionController.cs
     startLine: 21
   assemblies:
   - Quickie

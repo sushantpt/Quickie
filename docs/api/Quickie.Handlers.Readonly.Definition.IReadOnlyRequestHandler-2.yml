@@ -14,8 +14,12 @@ items:
   fullName: Quickie.Handlers.Readonly.Definition.IReadOnlyRequestHandler<TViewModel, TIdType>
   type: Interface
   source:
+    remote:
+      path: src/Quickie/Handlers/Readonly/Definition/IReadOnlyRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: IReadOnlyRequestHandler
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Readonly\Definition\IReadOnlyRequestHandler.cs
+    path: ../src/Quickie/Handlers/Readonly/Definition/IReadOnlyRequestHandler.cs
     startLine: 7
   assemblies:
   - Quickie
@@ -45,8 +49,12 @@ items:
   fullName: Quickie.Handlers.Readonly.Definition.IReadOnlyRequestHandler<TViewModel, TIdType>.GetByIdAsync(TIdType, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Readonly/Definition/IReadOnlyRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: GetByIdAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Readonly\Definition\IReadOnlyRequestHandler.cs
+    path: ../src/Quickie/Handlers/Readonly/Definition/IReadOnlyRequestHandler.cs
     startLine: 15
   assemblies:
   - Quickie

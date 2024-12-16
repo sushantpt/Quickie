@@ -20,8 +20,12 @@ items:
   fullName: Quickie.Handlers.Editonly.Implementation.EditOnlyRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>
   type: Class
   source:
+    remote:
+      path: src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: EditOnlyRequestHandler
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Editonly\Implementation\EditOnlyRequestHandler.cs
+    path: ../src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
     startLine: 10
   assemblies:
   - Quickie
@@ -67,8 +71,12 @@ items:
   fullName: Quickie.Handlers.Editonly.Implementation.EditOnlyRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.EditOnlyRequestHandler(Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler<TEntity, TIdType>)
   type: Constructor
   source:
+    remote:
+      path: src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Editonly\Implementation\EditOnlyRequestHandler.cs
+    path: ../src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
     startLine: 10
   assemblies:
   - Quickie
@@ -98,8 +106,12 @@ items:
   fullName: Quickie.Handlers.Editonly.Implementation.EditOnlyRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.EditAsync(TIdType, TViewModel, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: EditAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Editonly\Implementation\EditOnlyRequestHandler.cs
+    path: ../src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
     startLine: 19
   assemblies:
   - Quickie
@@ -139,8 +151,12 @@ items:
   fullName: Quickie.Handlers.Editonly.Implementation.EditOnlyRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.EditCollectionAsync(System.Collections.Generic.ICollection<TViewModel>, System.Threading.CancellationToken?)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: EditCollectionAsync
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Editonly\Implementation\EditOnlyRequestHandler.cs
+    path: ../src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
     startLine: 52
   assemblies:
   - Quickie
@@ -178,8 +194,12 @@ items:
   fullName: Quickie.Handlers.Editonly.Implementation.EditOnlyRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.MapToEntity(TViewModel)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: MapToEntity
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Editonly\Implementation\EditOnlyRequestHandler.cs
+    path: ../src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
     startLine: 79
   assemblies:
   - Quickie
@@ -211,8 +231,12 @@ items:
   fullName: Quickie.Handlers.Editonly.Implementation.EditOnlyRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.MapToDto(TEntity)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: MapToDto
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Editonly\Implementation\EditOnlyRequestHandler.cs
+    path: ../src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
     startLine: 86
   assemblies:
   - Quickie
@@ -244,8 +268,12 @@ items:
   fullName: Quickie.Handlers.Editonly.Implementation.EditOnlyRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.MapToCollectionOfEntity(System.Collections.Generic.ICollection<TViewModel>)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: MapToCollectionOfEntity
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Editonly\Implementation\EditOnlyRequestHandler.cs
+    path: ../src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
     startLine: 93
   assemblies:
   - Quickie
@@ -278,8 +306,12 @@ items:
   fullName: Quickie.Handlers.Editonly.Implementation.EditOnlyRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.MapToCollectionOfDto(System.Collections.Generic.ICollection<TEntity>)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: MapToCollectionOfDto
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Handlers\Editonly\Implementation\EditOnlyRequestHandler.cs
+    path: ../src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
     startLine: 100
   assemblies:
   - Quickie

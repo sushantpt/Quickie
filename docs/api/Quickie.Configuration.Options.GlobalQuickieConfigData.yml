@@ -15,8 +15,12 @@ items:
   fullName: Quickie.Configuration.Options.GlobalQuickieConfigData
   type: Class
   source:
+    remote:
+      path: src/Quickie/Configuration/Options/GlobalQuickieConfigData.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: GlobalQuickieConfigData
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\Options\GlobalQuickieConfigData.cs
+    path: ../src/Quickie/Configuration/Options/GlobalQuickieConfigData.cs
     startLine: 5
   assemblies:
   - Quickie
@@ -48,8 +52,12 @@ items:
   fullName: Quickie.Configuration.Options.GlobalQuickieConfigData.Options
   type: Property
   source:
+    remote:
+      path: src/Quickie/Configuration/Options/GlobalQuickieConfigData.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: Options
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\Options\GlobalQuickieConfigData.cs
+    path: ../src/Quickie/Configuration/Options/GlobalQuickieConfigData.cs
     startLine: 13
   assemblies:
   - Quickie
@@ -79,8 +87,12 @@ items:
   fullName: Quickie.Configuration.Options.GlobalQuickieConfigData.Initialize(Quickie.Configuration.QuickieOptions)
   type: Method
   source:
+    remote:
+      path: src/Quickie/Configuration/Options/GlobalQuickieConfigData.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: Initialize
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\Options\GlobalQuickieConfigData.cs
+    path: ../src/Quickie/Configuration/Options/GlobalQuickieConfigData.cs
     startLine: 24
   assemblies:
   - Quickie

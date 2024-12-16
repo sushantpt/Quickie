@@ -16,8 +16,12 @@ items:
   fullName: Quickie.Configuration.QuickieOptions
   type: Class
   source:
+    remote:
+      path: src/Quickie/Configuration/QuickieOptions.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: QuickieOptions
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\QuickieOptions.cs
+    path: ../src/Quickie/Configuration/QuickieOptions.cs
     startLine: 5
   assemblies:
   - Quickie
@@ -49,8 +53,12 @@ items:
   fullName: Quickie.Configuration.QuickieOptions.IdempotencyConfiguration
   type: Property
   source:
+    remote:
+      path: src/Quickie/Configuration/QuickieOptions.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: IdempotencyConfiguration
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\QuickieOptions.cs
+    path: ../src/Quickie/Configuration/QuickieOptions.cs
     startLine: 10
   assemblies:
   - Quickie
@@ -76,8 +84,12 @@ items:
   fullName: Quickie.Configuration.QuickieOptions.RateLimitingConfiguration
   type: Property
   source:
+    remote:
+      path: src/Quickie/Configuration/QuickieOptions.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: RateLimitingConfiguration
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\QuickieOptions.cs
+    path: ../src/Quickie/Configuration/QuickieOptions.cs
     startLine: 15
   assemblies:
   - Quickie
@@ -103,8 +115,12 @@ items:
   fullName: Quickie.Configuration.QuickieOptions.ShowCustomErrorMessage
   type: Property
   source:
+    remote:
+      path: src/Quickie/Configuration/QuickieOptions.cs
+      branch: master
+      repo: https://github.com/sushantpt/Quickie.git
     id: ShowCustomErrorMessage
-    path: C:\Users\stpt4\OneDrive\Desktop\libs\Quickie\src\Quickie\Configuration\QuickieOptions.cs
+    path: ../src/Quickie/Configuration/QuickieOptions.cs
     startLine: 20
   assemblies:
   - Quickie
