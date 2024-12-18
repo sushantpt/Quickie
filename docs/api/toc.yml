@@ -2,208 +2,295 @@
 items:
 - uid: Quickie.Apis.Crud
   name: Quickie.Apis.Crud
+  type: Namespace
   items:
   - uid: Quickie.Apis.Crud.CrudController`3
     name: CrudController<TViewModel, TRequestHandler, TIdType>
+    type: Class
   - uid: Quickie.Apis.Crud.CrudForCollectionController`3
     name: CrudForCollectionController<TViewModel, TRequestHandler, TIdType>
+    type: Class
 - uid: Quickie.Apis.Editonly
   name: Quickie.Apis.Editonly
+  type: Namespace
   items:
   - uid: Quickie.Apis.Editonly.EditOnlyController`3
     name: EditOnlyController<TViewModel, TRequestHandler, TIdType>
+    type: Class
 - uid: Quickie.Apis.Readonly
   name: Quickie.Apis.Readonly
+  type: Namespace
   items:
   - uid: Quickie.Apis.Readonly.ReadOnlyCollectionController`4
     name: ReadOnlyCollectionController<TViewModel, TRequestHandler, TRequestForDataModel, TIdType>
+    type: Class
   - uid: Quickie.Apis.Readonly.ReadOnlyController`3
     name: ReadOnlyController<TViewModel, TRequestHandler, TIdType>
+    type: Class
 - uid: Quickie.Apis.Writeonly
   name: Quickie.Apis.Writeonly
+  type: Namespace
   items:
   - uid: Quickie.Apis.Writeonly.WriteOnlyController`2
     name: WriteOnlyController<TViewModel, TRequestHandler>
+    type: Class
 - uid: Quickie.Base
   name: Quickie.Base
+  type: Namespace
   items:
   - uid: Quickie.Base.QuickieBaseApi
     name: QuickieBaseApi
+    type: Class
 - uid: Quickie.Configuration
   name: Quickie.Configuration
+  type: Namespace
   items:
   - uid: Quickie.Configuration.DependencyResolver
     name: DependencyResolver
+    type: Class
   - uid: Quickie.Configuration.QuickieExtension
     name: QuickieExtension
+    type: Class
   - uid: Quickie.Configuration.QuickieOptions
     name: QuickieOptions
+    type: Class
 - uid: Quickie.Configuration.Idempotency
   name: Quickie.Configuration.Idempotency
+  type: Namespace
   items:
   - uid: Quickie.Configuration.Idempotency.IIdempotencyProvider
     name: IIdempotencyProvider
+    type: Interface
   - uid: Quickie.Configuration.Idempotency.IdempotencyBackgroundService
     name: IdempotencyBackgroundService
+    type: Class
   - uid: Quickie.Configuration.Idempotency.IdempotentConfiguration
     name: IdempotentConfiguration
+    type: Class
 - uid: Quickie.Configuration.Idempotency.DefaultProvider
   name: Quickie.Configuration.Idempotency.DefaultProvider
+  type: Namespace
   items:
   - uid: Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider
     name: InMemoryIdempotencyProvider
+    type: Class
 - uid: Quickie.Configuration.Middleware
   name: Quickie.Configuration.Middleware
+  type: Namespace
   items:
   - uid: Quickie.Configuration.Middleware.IdempotencyMiddleware
     name: IdempotencyMiddleware
+    type: Class
 - uid: Quickie.Configuration.Options
   name: Quickie.Configuration.Options
+  type: Namespace
   items:
   - uid: Quickie.Configuration.Options.GlobalQuickieConfigData
     name: GlobalQuickieConfigData
+    type: Class
   - uid: Quickie.Configuration.Options.RateLimitConfiguration
     name: RateLimitConfiguration
+    type: Class
 - uid: Quickie.DataHandlers.Crud.Definition
   name: Quickie.DataHandlers.Crud.Definition
+  type: Namespace
   items:
   - uid: Quickie.DataHandlers.Crud.Definition.ICrudDataHandler`2
     name: ICrudDataHandler<TEntity, TIdType>
+    type: Interface
   - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2
     name: ICrudForCollectionDataHandler<TEntity, TIdType>
+    type: Interface
 - uid: Quickie.DataHandlers.Crud.Implementation
   name: Quickie.DataHandlers.Crud.Implementation
+  type: Namespace
   items:
   - uid: Quickie.DataHandlers.Crud.Implementation.CrudDataHandler`3
     name: CrudDataHandler<TEntity, TDbContext, TIdType>
+    type: Class
   - uid: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3
     name: CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>
+    type: Class
 - uid: Quickie.DataHandlers.Editonly.Definition
   name: Quickie.DataHandlers.Editonly.Definition
+  type: Namespace
   items:
   - uid: Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler`2
     name: IEditOnlyDataHandler<TEntity, TIdType>
+    type: Interface
 - uid: Quickie.DataHandlers.Editonly.Implementation
   name: Quickie.DataHandlers.Editonly.Implementation
+  type: Namespace
   items:
   - uid: Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler`2
     name: EditOnlyDataHandler<TEntity, TIdType>
+    type: Class
 - uid: Quickie.DataHandlers.Readonly.Definition
   name: Quickie.DataHandlers.Readonly.Definition
+  type: Namespace
   items:
   - uid: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler`2
     name: IReadOnlyCollectionDataHandler<TEntity, TIdType>
+    type: Interface
   - uid: Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler`2
     name: IReadOnlyDataHandler<TEntity, TIdType>
+    type: Interface
 - uid: Quickie.DataHandlers.Readonly.Implementation
   name: Quickie.DataHandlers.Readonly.Implementation
+  type: Namespace
   items:
   - uid: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyCollectionDataHandler`3
     name: ReadOnlyCollectionDataHandler<TEntity, TDbContext, TIdType>
+    type: Class
   - uid: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler`3
     name: ReadOnlyDataHandler<TEntity, TDbContext, TIdType>
+    type: Class
 - uid: Quickie.DataHandlers.Writeonly.Definition
   name: Quickie.DataHandlers.Writeonly.Definition
+  type: Namespace
   items:
   - uid: Quickie.DataHandlers.Writeonly.Definition.IWriteOnlyDataHandler`1
     name: IWriteOnlyDataHandler<TEntity>
+    type: Interface
 - uid: Quickie.DataHandlers.Writeonly.Implementation
   name: Quickie.DataHandlers.Writeonly.Implementation
+  type: Namespace
   items:
   - uid: Quickie.DataHandlers.Writeonly.Implementation.WriteOnlyDataHandler`2
     name: WriteOnlyDataHandler<TEntity, TDbContext>
+    type: Class
 - uid: Quickie.DataObj
   name: Quickie.DataObj
+  type: Namespace
   items:
   - uid: Quickie.DataObj.DetailedResponseObj
     name: DetailedResponseObj
+    type: Class
   - uid: Quickie.DataObj.PaginatedDataObj`1
     name: PaginatedDataObj<TObject>
+    type: Class
   - uid: Quickie.DataObj.RequestForDataObj
     name: RequestForDataObj
+    type: Class
   - uid: Quickie.DataObj.ResponseObj
     name: ResponseObj
+    type: Class
   - uid: Quickie.DataObj.ResponseObj`1
     name: ResponseObj<TData>
+    type: Class
 - uid: Quickie.Handlers.Crud.Definition
   name: Quickie.Handlers.Crud.Definition
+  type: Namespace
   items:
   - uid: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2
     name: ICrudForCollectionRequestHandler<TViewModel, TIdType>
+    type: Interface
   - uid: Quickie.Handlers.Crud.Definition.ICrudRequestHandler`2
     name: ICrudRequestHandler<TViewModel, TIdType>
+    type: Interface
 - uid: Quickie.Handlers.Crud.Implementation
   name: Quickie.Handlers.Crud.Implementation
+  type: Namespace
   items:
   - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4
     name: CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>
+    type: Class
   - uid: Quickie.Handlers.Crud.Implementation.CrudRequestHandler`4
     name: CrudRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>
+    type: Class
 - uid: Quickie.Handlers.Editonly.Definition
   name: Quickie.Handlers.Editonly.Definition
+  type: Namespace
   items:
   - uid: Quickie.Handlers.Editonly.Definition.IEditOnlyRequestHandler`2
     name: IEditOnlyRequestHandler<TViewModel, TIdType>
+    type: Interface
 - uid: Quickie.Handlers.Editonly.Implementation
   name: Quickie.Handlers.Editonly.Implementation
+  type: Namespace
   items:
   - uid: Quickie.Handlers.Editonly.Implementation.EditOnlyRequestHandler`4
     name: EditOnlyRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>
+    type: Class
 - uid: Quickie.Handlers.Readonly.Definition
   name: Quickie.Handlers.Readonly.Definition
+  type: Namespace
   items:
   - uid: Quickie.Handlers.Readonly.Definition.IReadOnlyCollectionRequestHandler`2
     name: IReadOnlyCollectionRequestHandler<TViewModel, TIdType>
+    type: Interface
   - uid: Quickie.Handlers.Readonly.Definition.IReadOnlyRequestHandler`2
     name: IReadOnlyRequestHandler<TViewModel, TIdType>
+    type: Interface
 - uid: Quickie.Handlers.Readonly.Implementation
   name: Quickie.Handlers.Readonly.Implementation
+  type: Namespace
   items:
   - uid: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler`4
     name: ReadOnlyCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>
+    type: Class
   - uid: Quickie.Handlers.Readonly.Implementation.ReadOnlyRequestHandler`4
     name: ReadOnlyRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>
+    type: Class
 - uid: Quickie.Handlers.Writeonly.Definition
   name: Quickie.Handlers.Writeonly.Definition
+  type: Namespace
   items:
   - uid: Quickie.Handlers.Writeonly.Definition.IWriteOnlyRequestHandler`1
     name: IWriteOnlyRequestHandler<TViewModel>
+    type: Interface
 - uid: Quickie.Handlers.Writeonly.Implementation
   name: Quickie.Handlers.Writeonly.Implementation
+  type: Namespace
   items:
   - uid: Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler`3
     name: WriteOnlyRequestHandler<TViewModel, TEntity, TDataHandler>
+    type: Class
 - uid: Quickie.Types
   name: Quickie.Types
+  type: Namespace
   items:
   - uid: Quickie.Types.ErrorStatusEnum
     name: ErrorStatusEnum
+    type: Enum
 - uid: Quickie.Types.Crud
   name: Quickie.Types.Crud
+  type: Namespace
   items:
   - uid: Quickie.Types.Crud.CrudDto
     name: CrudDto
+    type: Class
   - uid: Quickie.Types.Crud.CrudEntity
     name: CrudEntity
+    type: Class
 - uid: Quickie.Types.Editonly
   name: Quickie.Types.Editonly
+  type: Namespace
   items:
   - uid: Quickie.Types.Editonly.EditOnlyDto
     name: EditOnlyDto
+    type: Class
   - uid: Quickie.Types.Editonly.EditOnlyEntity
     name: EditOnlyEntity
+    type: Class
 - uid: Quickie.Types.Readonly
   name: Quickie.Types.Readonly
+  type: Namespace
   items:
   - uid: Quickie.Types.Readonly.ReadOnlyDto
     name: ReadOnlyDto
+    type: Class
   - uid: Quickie.Types.Readonly.ReadOnlyEntity
     name: ReadOnlyEntity
+    type: Class
 - uid: Quickie.Types.Writable
   name: Quickie.Types.Writable
+  type: Namespace
   items:
   - uid: Quickie.Types.Writable.WriteOnlyDto
     name: WriteOnlyDto
+    type: Class
   - uid: Quickie.Types.Writable.WriteOnlyEntity
     name: WriteOnlyEntity
+    type: Class
 memberLayout: SamePage

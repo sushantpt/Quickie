@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Readonly/Definition/IReadOnlyRequestHandler.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: IReadOnlyRequestHandler
     path: ../src/Quickie/Handlers/Readonly/Definition/IReadOnlyRequestHandler.cs
@@ -51,7 +51,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Readonly/Definition/IReadOnlyRequestHandler.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: GetByIdAsync
     path: ../src/Quickie/Handlers/Readonly/Definition/IReadOnlyRequestHandler.cs

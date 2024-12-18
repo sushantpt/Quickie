@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Crud/Implementation/CrudDataHandler.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: CrudDataHandler
     path: ../src/Quickie/DataHandlers/Crud/Implementation/CrudDataHandler.cs
@@ -69,7 +69,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Crud/Implementation/CrudDataHandler.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../src/Quickie/DataHandlers/Crud/Implementation/CrudDataHandler.cs
@@ -104,7 +104,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Crud/Implementation/CrudDataHandler.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: CreateAsync
     path: ../src/Quickie/DataHandlers/Crud/Implementation/CrudDataHandler.cs
@@ -146,7 +146,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Crud/Implementation/CrudDataHandler.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: GetByIdAsync
     path: ../src/Quickie/DataHandlers/Crud/Implementation/CrudDataHandler.cs
@@ -188,7 +188,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Crud/Implementation/CrudDataHandler.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: UpdateAsync
     path: ../src/Quickie/DataHandlers/Crud/Implementation/CrudDataHandler.cs
@@ -233,7 +233,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Crud/Implementation/CrudDataHandler.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: DeleteAsync
     path: ../src/Quickie/DataHandlers/Crud/Implementation/CrudDataHandler.cs

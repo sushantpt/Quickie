@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: EditOnlyRequestHandler
     path: ../src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
@@ -73,7 +73,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
@@ -108,7 +108,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: EditAsync
     path: ../src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
@@ -153,7 +153,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: EditCollectionAsync
     path: ../src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
@@ -196,7 +196,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: MapToEntity
     path: ../src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
@@ -233,7 +233,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: MapToDto
     path: ../src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
@@ -270,7 +270,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: MapToCollectionOfEntity
     path: ../src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
@@ -308,7 +308,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: MapToCollectionOfDto
     path: ../src/Quickie/Handlers/Editonly/Implementation/EditOnlyRequestHandler.cs

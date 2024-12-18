@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Readonly/Implementation/ReadOnlyRequestHandler.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: ReadOnlyRequestHandler
     path: ../src/Quickie/Handlers/Readonly/Implementation/ReadOnlyRequestHandler.cs
@@ -69,7 +69,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Readonly/Implementation/ReadOnlyRequestHandler.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../src/Quickie/Handlers/Readonly/Implementation/ReadOnlyRequestHandler.cs
@@ -103,7 +103,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Readonly/Implementation/ReadOnlyRequestHandler.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: GetByIdAsync
     path: ../src/Quickie/Handlers/Readonly/Implementation/ReadOnlyRequestHandler.cs
@@ -149,7 +149,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Readonly/Implementation/ReadOnlyRequestHandler.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: MapToDto
     path: ../src/Quickie/Handlers/Readonly/Implementation/ReadOnlyRequestHandler.cs
