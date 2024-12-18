@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.DataHandlers.Readonly.Implementation
+  commentId: N:Quickie.DataHandlers.Readonly.Implementation
+  id: Quickie.DataHandlers.Readonly.Implementation
+  children:
+  - Quickie.DataHandlers.Readonly.Implementation.ReadOnlyCollectionDataHandler`3
+  - Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler`3
+  langs:
+  - csharp
+  - vb
+  name: Quickie.DataHandlers.Readonly.Implementation
+  nameWithType: Quickie.DataHandlers.Readonly.Implementation
+  fullName: Quickie.DataHandlers.Readonly.Implementation
+  type: Namespace
+  assemblies:
+  - Quickie
+references:
+- uid: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyCollectionDataHandler`3
+  commentId: T:Quickie.DataHandlers.Readonly.Implementation.ReadOnlyCollectionDataHandler`3
+  href: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyCollectionDataHandler-3.html
+  name: ReadOnlyCollectionDataHandler<TEntity, TDbContext, TIdType>
+  nameWithType: ReadOnlyCollectionDataHandler<TEntity, TDbContext, TIdType>
+  fullName: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyCollectionDataHandler<TEntity, TDbContext, TIdType>
+  nameWithType.vb: ReadOnlyCollectionDataHandler(Of TEntity, TDbContext, TIdType)
+  fullName.vb: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyCollectionDataHandler(Of TEntity, TDbContext, TIdType)
+  name.vb: ReadOnlyCollectionDataHandler(Of TEntity, TDbContext, TIdType)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyCollectionDataHandler`3
+    name: ReadOnlyCollectionDataHandler
+    href: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyCollectionDataHandler-3.html
+  - name: <
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TDbContext
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyCollectionDataHandler`3
+    name: ReadOnlyCollectionDataHandler
+    href: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyCollectionDataHandler-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TDbContext
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: )
+- uid: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler`3
+  commentId: T:Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler`3
+  href: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler-3.html
+  name: ReadOnlyDataHandler<TEntity, TDbContext, TIdType>
+  nameWithType: ReadOnlyDataHandler<TEntity, TDbContext, TIdType>
+  fullName: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler<TEntity, TDbContext, TIdType>
+  nameWithType.vb: ReadOnlyDataHandler(Of TEntity, TDbContext, TIdType)
+  fullName.vb: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler(Of TEntity, TDbContext, TIdType)
+  name.vb: ReadOnlyDataHandler(Of TEntity, TDbContext, TIdType)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler`3
+    name: ReadOnlyDataHandler
+    href: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler-3.html
+  - name: <
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TDbContext
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler`3
+    name: ReadOnlyDataHandler
+    href: Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TDbContext
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: )

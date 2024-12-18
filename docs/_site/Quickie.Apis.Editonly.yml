@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.Apis.Editonly
+  commentId: N:Quickie.Apis.Editonly
+  id: Quickie.Apis.Editonly
+  children:
+  - Quickie.Apis.Editonly.EditOnlyController`3
+  langs:
+  - csharp
+  - vb
+  name: Quickie.Apis.Editonly
+  nameWithType: Quickie.Apis.Editonly
+  fullName: Quickie.Apis.Editonly
+  type: Namespace
+  assemblies:
+  - Quickie
+references:
+- uid: Quickie.Apis.Editonly.EditOnlyController`3
+  commentId: T:Quickie.Apis.Editonly.EditOnlyController`3
+  href: Quickie.Apis.Editonly.EditOnlyController-3.html
+  name: EditOnlyController<TViewModel, TRequestHandler, TIdType>
+  nameWithType: EditOnlyController<TViewModel, TRequestHandler, TIdType>
+  fullName: Quickie.Apis.Editonly.EditOnlyController<TViewModel, TRequestHandler, TIdType>
+  nameWithType.vb: EditOnlyController(Of TViewModel, TRequestHandler, TIdType)
+  fullName.vb: Quickie.Apis.Editonly.EditOnlyController(Of TViewModel, TRequestHandler, TIdType)
+  name.vb: EditOnlyController(Of TViewModel, TRequestHandler, TIdType)
+  spec.csharp:
+  - uid: Quickie.Apis.Editonly.EditOnlyController`3
+    name: EditOnlyController
+    href: Quickie.Apis.Editonly.EditOnlyController-3.html
+  - name: <
+  - name: TViewModel
+  - name: ','
+  - name: " "
+  - name: TRequestHandler
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.Apis.Editonly.EditOnlyController`3
+    name: EditOnlyController
+    href: Quickie.Apis.Editonly.EditOnlyController-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TViewModel
+  - name: ','
+  - name: " "
+  - name: TRequestHandler
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: )

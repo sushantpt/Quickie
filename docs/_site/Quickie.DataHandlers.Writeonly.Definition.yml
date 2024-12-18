@@ -1,0 +1,42 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.DataHandlers.Writeonly.Definition
+  commentId: N:Quickie.DataHandlers.Writeonly.Definition
+  id: Quickie.DataHandlers.Writeonly.Definition
+  children:
+  - Quickie.DataHandlers.Writeonly.Definition.IWriteOnlyDataHandler`1
+  langs:
+  - csharp
+  - vb
+  name: Quickie.DataHandlers.Writeonly.Definition
+  nameWithType: Quickie.DataHandlers.Writeonly.Definition
+  fullName: Quickie.DataHandlers.Writeonly.Definition
+  type: Namespace
+  assemblies:
+  - Quickie
+references:
+- uid: Quickie.DataHandlers.Writeonly.Definition.IWriteOnlyDataHandler`1
+  commentId: T:Quickie.DataHandlers.Writeonly.Definition.IWriteOnlyDataHandler`1
+  href: Quickie.DataHandlers.Writeonly.Definition.IWriteOnlyDataHandler-1.html
+  name: IWriteOnlyDataHandler<TEntity>
+  nameWithType: IWriteOnlyDataHandler<TEntity>
+  fullName: Quickie.DataHandlers.Writeonly.Definition.IWriteOnlyDataHandler<TEntity>
+  nameWithType.vb: IWriteOnlyDataHandler(Of TEntity)
+  fullName.vb: Quickie.DataHandlers.Writeonly.Definition.IWriteOnlyDataHandler(Of TEntity)
+  name.vb: IWriteOnlyDataHandler(Of TEntity)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Writeonly.Definition.IWriteOnlyDataHandler`1
+    name: IWriteOnlyDataHandler
+    href: Quickie.DataHandlers.Writeonly.Definition.IWriteOnlyDataHandler-1.html
+  - name: <
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.DataHandlers.Writeonly.Definition.IWriteOnlyDataHandler`1
+    name: IWriteOnlyDataHandler
+    href: Quickie.DataHandlers.Writeonly.Definition.IWriteOnlyDataHandler-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )

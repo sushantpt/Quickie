@@ -9,7 +9,7 @@
           ]
         }
       ],
-      "dest": "_site/api",
+      "dest": "_site",
       "allowCompilationErrors": true
     }
   ],
@@ -19,12 +19,12 @@
         "files": [
           "/**/*.{md,yml}",
           "toc.yml",
-          "docs/**.md",
-          "docs/**.yml",
+          "docs/_site/**.md",
+          "docs/_site/**.yml",
           "*.md",
-          "docs/*.md",
-          "api/**.yml",
-          "api/index.md"
+          "docs/_site/*.md",
+          "_site/api/**.yml",
+          "_site/api/index.md"
         ]
       }
     ],

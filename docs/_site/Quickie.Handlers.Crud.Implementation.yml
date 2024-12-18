@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.Handlers.Crud.Implementation
+  commentId: N:Quickie.Handlers.Crud.Implementation
+  id: Quickie.Handlers.Crud.Implementation
+  children:
+  - Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4
+  - Quickie.Handlers.Crud.Implementation.CrudRequestHandler`4
+  langs:
+  - csharp
+  - vb
+  name: Quickie.Handlers.Crud.Implementation
+  nameWithType: Quickie.Handlers.Crud.Implementation
+  fullName: Quickie.Handlers.Crud.Implementation
+  type: Namespace
+  assemblies:
+  - Quickie
+references:
+- uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4
+  commentId: T:Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4
+  href: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler-4.html
+  name: CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>
+  nameWithType: CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>
+  fullName: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>
+  nameWithType.vb: CrudForCollectionRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType)
+  fullName.vb: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType)
+  name.vb: CrudForCollectionRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType)
+  spec.csharp:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4
+    name: CrudForCollectionRequestHandler
+    href: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler-4.html
+  - name: <
+  - name: TViewModel
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TDataHandler
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4
+    name: CrudForCollectionRequestHandler
+    href: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler-4.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TViewModel
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TDataHandler
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: )
+- uid: Quickie.Handlers.Crud.Implementation.CrudRequestHandler`4
+  commentId: T:Quickie.Handlers.Crud.Implementation.CrudRequestHandler`4
+  href: Quickie.Handlers.Crud.Implementation.CrudRequestHandler-4.html
+  name: CrudRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>
+  nameWithType: CrudRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>
+  fullName: Quickie.Handlers.Crud.Implementation.CrudRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>
+  nameWithType.vb: CrudRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType)
+  fullName.vb: Quickie.Handlers.Crud.Implementation.CrudRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType)
+  name.vb: CrudRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType)
+  spec.csharp:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudRequestHandler`4
+    name: CrudRequestHandler
+    href: Quickie.Handlers.Crud.Implementation.CrudRequestHandler-4.html
+  - name: <
+  - name: TViewModel
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TDataHandler
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudRequestHandler`4
+    name: CrudRequestHandler
+    href: Quickie.Handlers.Crud.Implementation.CrudRequestHandler-4.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TViewModel
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TDataHandler
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: )

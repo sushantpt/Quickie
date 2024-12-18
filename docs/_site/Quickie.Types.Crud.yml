@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.Types.Crud
+  commentId: N:Quickie.Types.Crud
+  id: Quickie.Types.Crud
+  children:
+  - Quickie.Types.Crud.CrudDto
+  - Quickie.Types.Crud.CrudEntity
+  langs:
+  - csharp
+  - vb
+  name: Quickie.Types.Crud
+  nameWithType: Quickie.Types.Crud
+  fullName: Quickie.Types.Crud
+  type: Namespace
+  assemblies:
+  - Quickie
+references:
+- uid: Quickie.Types.Crud.CrudDto
+  commentId: T:Quickie.Types.Crud.CrudDto
+  href: Quickie.Types.Crud.CrudDto.html
+  name: CrudDto
+  nameWithType: CrudDto
+  fullName: Quickie.Types.Crud.CrudDto
+- uid: Quickie.Types.Crud.CrudEntity
+  commentId: T:Quickie.Types.Crud.CrudEntity
+  href: Quickie.Types.Crud.CrudEntity.html
+  name: CrudEntity
+  nameWithType: CrudEntity
+  fullName: Quickie.Types.Crud.CrudEntity

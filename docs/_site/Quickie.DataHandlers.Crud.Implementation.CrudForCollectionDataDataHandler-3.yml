@@ -1,0 +1,1654 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3
+  commentId: T:Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3
+  id: CrudForCollectionDataDataHandler`3
+  parent: Quickie.DataHandlers.Crud.Implementation
+  children:
+  - Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.#ctor(`2)
+  - Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.CountAsync(System.Nullable{System.Threading.CancellationToken})
+  - Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.CreateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  - Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.DeleteRangeAsync(System.Collections.Generic.ICollection{`1},System.Nullable{System.Threading.CancellationToken})
+  - Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+  - Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.UpdateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  langs:
+  - csharp
+  - vb
+  name: CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>
+  nameWithType: CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>
+  fullName: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>
+  type: Class
+  source:
+    remote:
+      path: src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
+      branch: gh-pages
+      repo: https://github.com/sushantpt/Quickie.git
+    id: CrudForCollectionDataDataHandler
+    path: ../src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
+    startLine: 9
+  assemblies:
+  - Quickie
+  namespace: Quickie.DataHandlers.Crud.Implementation
+  summary: Abstract class serving as CRUD for collection request handler.
+  example: []
+  syntax:
+    content: 'public abstract class CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext> : ICrudForCollectionDataHandler<TEntity, TIdType> where TEntity : CrudEntity where TIdType : IComparable where TDbContext : DbContext'
+    typeParameters:
+    - id: TEntity
+      description: Entity
+    - id: TIdType
+      description: 'Type of identifier. eg: int, string, ...'
+    - id: TDbContext
+      description: Db context
+    content.vb: Public MustInherit Class CrudForCollectionDataDataHandler(Of TEntity As CrudEntity, TIdType As IComparable, TDbContext As DbContext) Implements ICrudForCollectionDataHandler(Of TEntity, TIdType)
+  inheritance:
+  - System.Object
+  implements:
+  - Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{{TEntity},{TIdType}}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext)
+  fullName.vb: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext)
+  name.vb: CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext)
+- uid: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.#ctor(`2)
+  commentId: M:Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.#ctor(`2)
+  id: '#ctor(`2)'
+  parent: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3
+  langs:
+  - csharp
+  - vb
+  name: CrudForCollectionDataDataHandler(TDbContext)
+  nameWithType: CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.CrudForCollectionDataDataHandler(TDbContext)
+  fullName: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.CrudForCollectionDataDataHandler(TDbContext)
+  type: Constructor
+  source:
+    remote:
+      path: src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
+      branch: gh-pages
+      repo: https://github.com/sushantpt/Quickie.git
+    id: .ctor
+    path: ../src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
+    startLine: 9
+  assemblies:
+  - Quickie
+  namespace: Quickie.DataHandlers.Crud.Implementation
+  summary: Abstract class serving as CRUD for collection request handler.
+  example: []
+  syntax:
+    content: protected CrudForCollectionDataDataHandler(TDbContext dbContext)
+    parameters:
+    - id: dbContext
+      type: '{TDbContext}'
+      description: Db context
+    content.vb: Protected Sub New(dbContext As TDbContext)
+  overload: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.#ctor*
+  nameWithType.vb: CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext).New(TDbContext)
+  fullName.vb: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext).New(TDbContext)
+  name.vb: New(TDbContext)
+- uid: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.CreateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.CreateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  id: CreateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3
+  langs:
+  - csharp
+  - vb
+  name: CreateRangeAsync(ICollection<TEntity>, CancellationToken?)
+  nameWithType: CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.CreateRangeAsync(ICollection<TEntity>, CancellationToken?)
+  fullName: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.CreateRangeAsync(System.Collections.Generic.ICollection<TEntity>, System.Threading.CancellationToken?)
+  type: Method
+  source:
+    remote:
+      path: src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
+      branch: gh-pages
+      repo: https://github.com/sushantpt/Quickie.git
+    id: CreateRangeAsync
+    path: ../src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
+    startLine: 19
+  assemblies:
+  - Quickie
+  namespace: Quickie.DataHandlers.Crud.Implementation
+  summary: Data create request.
+  example: []
+  syntax:
+    content: public Task<ResponseObj<ICollection<TEntity>>> CreateRangeAsync(ICollection<TEntity> entities, CancellationToken? cancellationToken = null)
+    parameters:
+    - id: entities
+      type: System.Collections.Generic.ICollection{{TEntity}}
+      description: Collection of data requested to create.
+    - id: cancellationToken
+      type: System.Nullable{System.Threading.CancellationToken}
+      description: Cancellation token
+    return:
+      type: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{System.Collections.Generic.ICollection{{TEntity}}}}
+      description: ''
+    content.vb: Public Function CreateRangeAsync(entities As ICollection(Of TEntity), cancellationToken As CancellationToken? = Nothing) As Task(Of ResponseObj(Of ICollection(Of TEntity)))
+  overload: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.CreateRangeAsync*
+  implements:
+  - Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{{TEntity},{TIdType}}.CreateRangeAsync(System.Collections.Generic.ICollection{{TEntity}},System.Nullable{System.Threading.CancellationToken})
+  nameWithType.vb: CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext).CreateRangeAsync(ICollection(Of TEntity), CancellationToken?)
+  fullName.vb: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext).CreateRangeAsync(System.Collections.Generic.ICollection(Of TEntity), System.Threading.CancellationToken?)
+  name.vb: CreateRangeAsync(ICollection(Of TEntity), CancellationToken?)
+- uid: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.UpdateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.UpdateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  id: UpdateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3
+  langs:
+  - csharp
+  - vb
+  name: UpdateRangeAsync(ICollection<TEntity>, CancellationToken?)
+  nameWithType: CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.UpdateRangeAsync(ICollection<TEntity>, CancellationToken?)
+  fullName: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.UpdateRangeAsync(System.Collections.Generic.ICollection<TEntity>, System.Threading.CancellationToken?)
+  type: Method
+  source:
+    remote:
+      path: src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
+      branch: gh-pages
+      repo: https://github.com/sushantpt/Quickie.git
+    id: UpdateRangeAsync
+    path: ../src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
+    startLine: 50
+  assemblies:
+  - Quickie
+  namespace: Quickie.DataHandlers.Crud.Implementation
+  summary: Update request.
+  example: []
+  syntax:
+    content: public Task<ResponseObj<ICollection<TEntity>>> UpdateRangeAsync(ICollection<TEntity> entities, CancellationToken? cancellationToken = null)
+    parameters:
+    - id: entities
+      type: System.Collections.Generic.ICollection{{TEntity}}
+      description: Requested collection data
+    - id: cancellationToken
+      type: System.Nullable{System.Threading.CancellationToken}
+      description: Cancellation token
+    return:
+      type: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{System.Collections.Generic.ICollection{{TEntity}}}}
+      description: ''
+    content.vb: Public Function UpdateRangeAsync(entities As ICollection(Of TEntity), cancellationToken As CancellationToken? = Nothing) As Task(Of ResponseObj(Of ICollection(Of TEntity)))
+  overload: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.UpdateRangeAsync*
+  implements:
+  - Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{{TEntity},{TIdType}}.UpdateRangeAsync(System.Collections.Generic.ICollection{{TEntity}},System.Nullable{System.Threading.CancellationToken})
+  nameWithType.vb: CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext).UpdateRangeAsync(ICollection(Of TEntity), CancellationToken?)
+  fullName.vb: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext).UpdateRangeAsync(System.Collections.Generic.ICollection(Of TEntity), System.Threading.CancellationToken?)
+  name.vb: UpdateRangeAsync(ICollection(Of TEntity), CancellationToken?)
+- uid: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.DeleteRangeAsync(System.Collections.Generic.ICollection{`1},System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.DeleteRangeAsync(System.Collections.Generic.ICollection{`1},System.Nullable{System.Threading.CancellationToken})
+  id: DeleteRangeAsync(System.Collections.Generic.ICollection{`1},System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3
+  langs:
+  - csharp
+  - vb
+  name: DeleteRangeAsync(ICollection<TIdType>, CancellationToken?)
+  nameWithType: CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.DeleteRangeAsync(ICollection<TIdType>, CancellationToken?)
+  fullName: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.DeleteRangeAsync(System.Collections.Generic.ICollection<TIdType>, System.Threading.CancellationToken?)
+  type: Method
+  source:
+    remote:
+      path: src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
+      branch: gh-pages
+      repo: https://github.com/sushantpt/Quickie.git
+    id: DeleteRangeAsync
+    path: ../src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
+    startLine: 81
+  assemblies:
+  - Quickie
+  namespace: Quickie.DataHandlers.Crud.Implementation
+  summary: Delete request.
+  example: []
+  syntax:
+    content: public Task<ResponseObj> DeleteRangeAsync(ICollection<TIdType> ids, CancellationToken? cancellationToken = null)
+    parameters:
+    - id: ids
+      type: System.Collections.Generic.ICollection{{TIdType}}
+      description: Identifiers of the data to remove.
+    - id: cancellationToken
+      type: System.Nullable{System.Threading.CancellationToken}
+      description: Cancellation token
+    return:
+      type: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj}
+      description: ''
+    content.vb: Public Function DeleteRangeAsync(ids As ICollection(Of TIdType), cancellationToken As CancellationToken? = Nothing) As Task(Of ResponseObj)
+  overload: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.DeleteRangeAsync*
+  implements:
+  - Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{{TEntity},{TIdType}}.DeleteRangeAsync(System.Collections.Generic.ICollection{{TIdType}},System.Nullable{System.Threading.CancellationToken})
+  nameWithType.vb: CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext).DeleteRangeAsync(ICollection(Of TIdType), CancellationToken?)
+  fullName.vb: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext).DeleteRangeAsync(System.Collections.Generic.ICollection(Of TIdType), System.Threading.CancellationToken?)
+  name.vb: DeleteRangeAsync(ICollection(Of TIdType), CancellationToken?)
+- uid: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+  id: GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3
+  langs:
+  - csharp
+  - vb
+  name: GetAllAsync(RequestForDataObj, CancellationToken?)
+  nameWithType: CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.GetAllAsync(RequestForDataObj, CancellationToken?)
+  fullName: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.GetAllAsync(Quickie.DataObj.RequestForDataObj, System.Threading.CancellationToken?)
+  type: Method
+  source:
+    remote:
+      path: src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
+      branch: gh-pages
+      repo: https://github.com/sushantpt/Quickie.git
+    id: GetAllAsync
+    path: ../src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
+    startLine: 110
+  assemblies:
+  - Quickie
+  namespace: Quickie.DataHandlers.Crud.Implementation
+  summary: Get data.
+  example: []
+  syntax:
+    content: public Task<ResponseObj<PaginatedDataObj<TEntity>>> GetAllAsync(RequestForDataObj request, CancellationToken? cancellationToken = null)
+    parameters:
+    - id: request
+      type: Quickie.DataObj.RequestForDataObj
+      description: Data request filter
+    - id: cancellationToken
+      type: System.Nullable{System.Threading.CancellationToken}
+      description: Cancellation token
+    return:
+      type: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{Quickie.DataObj.PaginatedDataObj{{TEntity}}}}
+      description: ''
+    content.vb: Public Function GetAllAsync(request As RequestForDataObj, cancellationToken As CancellationToken? = Nothing) As Task(Of ResponseObj(Of PaginatedDataObj(Of TEntity)))
+  overload: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.GetAllAsync*
+  implements:
+  - Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{{TEntity},{TIdType}}.GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+  nameWithType.vb: CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext).GetAllAsync(RequestForDataObj, CancellationToken?)
+  fullName.vb: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext).GetAllAsync(Quickie.DataObj.RequestForDataObj, System.Threading.CancellationToken?)
+- uid: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.CountAsync(System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.CountAsync(System.Nullable{System.Threading.CancellationToken})
+  id: CountAsync(System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3
+  langs:
+  - csharp
+  - vb
+  name: CountAsync(CancellationToken?)
+  nameWithType: CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.CountAsync(CancellationToken?)
+  fullName: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.CountAsync(System.Threading.CancellationToken?)
+  type: Method
+  source:
+    remote:
+      path: src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
+      branch: gh-pages
+      repo: https://github.com/sushantpt/Quickie.git
+    id: CountAsync
+    path: ../src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
+    startLine: 147
+  assemblies:
+  - Quickie
+  namespace: Quickie.DataHandlers.Crud.Implementation
+  summary: Count.
+  example: []
+  syntax:
+    content: public Task<ResponseObj<int>> CountAsync(CancellationToken? cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Nullable{System.Threading.CancellationToken}
+      description: Cancellation token
+    return:
+      type: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{System.Int32}}
+      description: ''
+    content.vb: Public Function CountAsync(cancellationToken As CancellationToken? = Nothing) As Task(Of ResponseObj(Of Integer))
+  overload: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.CountAsync*
+  implements:
+  - Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{{TEntity},{TIdType}}.CountAsync(System.Nullable{System.Threading.CancellationToken})
+  nameWithType.vb: CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext).CountAsync(CancellationToken?)
+  fullName.vb: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext).CountAsync(System.Threading.CancellationToken?)
+references:
+- uid: Quickie.DataHandlers.Crud.Implementation
+  commentId: N:Quickie.DataHandlers.Crud.Implementation
+  href: Quickie.html
+  name: Quickie.DataHandlers.Crud.Implementation
+  nameWithType: Quickie.DataHandlers.Crud.Implementation
+  fullName: Quickie.DataHandlers.Crud.Implementation
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataHandlers
+    name: DataHandlers
+    href: Quickie.DataHandlers.html
+  - name: .
+  - uid: Quickie.DataHandlers.Crud
+    name: Crud
+    href: Quickie.DataHandlers.Crud.html
+  - name: .
+  - uid: Quickie.DataHandlers.Crud.Implementation
+    name: Implementation
+    href: Quickie.DataHandlers.Crud.Implementation.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataHandlers
+    name: DataHandlers
+    href: Quickie.DataHandlers.html
+  - name: .
+  - uid: Quickie.DataHandlers.Crud
+    name: Crud
+    href: Quickie.DataHandlers.Crud.html
+  - name: .
+  - uid: Quickie.DataHandlers.Crud.Implementation
+    name: Implementation
+    href: Quickie.DataHandlers.Crud.Implementation.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{{TEntity},{TIdType}}
+  commentId: T:Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{`0,`1}
+  parent: Quickie.DataHandlers.Crud.Definition
+  definition: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2
+  href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html
+  name: ICrudForCollectionDataHandler<TEntity, TIdType>
+  nameWithType: ICrudForCollectionDataHandler<TEntity, TIdType>
+  fullName: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<TEntity, TIdType>
+  nameWithType.vb: ICrudForCollectionDataHandler(Of TEntity, TIdType)
+  fullName.vb: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler(Of TEntity, TIdType)
+  name.vb: ICrudForCollectionDataHandler(Of TEntity, TIdType)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2
+    name: ICrudForCollectionDataHandler
+    href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html
+  - name: <
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2
+    name: ICrudForCollectionDataHandler
+    href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2
+  commentId: T:Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2
+  href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html
+  name: ICrudForCollectionDataHandler<TEntity, TIdType>
+  nameWithType: ICrudForCollectionDataHandler<TEntity, TIdType>
+  fullName: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<TEntity, TIdType>
+  nameWithType.vb: ICrudForCollectionDataHandler(Of TEntity, TIdType)
+  fullName.vb: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler(Of TEntity, TIdType)
+  name.vb: ICrudForCollectionDataHandler(Of TEntity, TIdType)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2
+    name: ICrudForCollectionDataHandler
+    href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html
+  - name: <
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2
+    name: ICrudForCollectionDataHandler
+    href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: )
+- uid: Quickie.DataHandlers.Crud.Definition
+  commentId: N:Quickie.DataHandlers.Crud.Definition
+  href: Quickie.html
+  name: Quickie.DataHandlers.Crud.Definition
+  nameWithType: Quickie.DataHandlers.Crud.Definition
+  fullName: Quickie.DataHandlers.Crud.Definition
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataHandlers
+    name: DataHandlers
+    href: Quickie.DataHandlers.html
+  - name: .
+  - uid: Quickie.DataHandlers.Crud
+    name: Crud
+    href: Quickie.DataHandlers.Crud.html
+  - name: .
+  - uid: Quickie.DataHandlers.Crud.Definition
+    name: Definition
+    href: Quickie.DataHandlers.Crud.Definition.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataHandlers
+    name: DataHandlers
+    href: Quickie.DataHandlers.html
+  - name: .
+  - uid: Quickie.DataHandlers.Crud
+    name: Crud
+    href: Quickie.DataHandlers.Crud.html
+  - name: .
+  - uid: Quickie.DataHandlers.Crud.Definition
+    name: Definition
+    href: Quickie.DataHandlers.Crud.Definition.html
+- uid: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.#ctor*
+  commentId: Overload:Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.#ctor
+  href: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler-3.html#Quickie_DataHandlers_Crud_Implementation_CrudForCollectionDataDataHandler_3__ctor__2_
+  name: CrudForCollectionDataDataHandler
+  nameWithType: CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.CrudForCollectionDataDataHandler
+  fullName: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.CrudForCollectionDataDataHandler
+  nameWithType.vb: CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext).New
+  fullName.vb: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext).New
+  name.vb: New
+- uid: '{TDbContext}'
+  commentId: '!:TDbContext'
+  definition: TDbContext
+  name: TDbContext
+  nameWithType: TDbContext
+  fullName: TDbContext
+- uid: TDbContext
+  name: TDbContext
+  nameWithType: TDbContext
+  fullName: TDbContext
+- uid: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.CreateRangeAsync*
+  commentId: Overload:Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.CreateRangeAsync
+  href: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler-3.html#Quickie_DataHandlers_Crud_Implementation_CrudForCollectionDataDataHandler_3_CreateRangeAsync_System_Collections_Generic_ICollection__0__System_Nullable_System_Threading_CancellationToken__
+  name: CreateRangeAsync
+  nameWithType: CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.CreateRangeAsync
+  fullName: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.CreateRangeAsync
+  nameWithType.vb: CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext).CreateRangeAsync
+  fullName.vb: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext).CreateRangeAsync
+- uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{{TEntity},{TIdType}}.CreateRangeAsync(System.Collections.Generic.ICollection{{TEntity}},System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{`0,`1}.CreateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{{TEntity},{TIdType}}
+  definition: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2.CreateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_CreateRangeAsync_System_Collections_Generic_ICollection__0__System_Nullable_System_Threading_CancellationToken__
+  name: CreateRangeAsync(ICollection<TEntity>, CancellationToken?)
+  nameWithType: ICrudForCollectionDataHandler<TEntity, TIdType>.CreateRangeAsync(ICollection<TEntity>, CancellationToken?)
+  fullName: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<TEntity, TIdType>.CreateRangeAsync(System.Collections.Generic.ICollection<TEntity>, System.Threading.CancellationToken?)
+  nameWithType.vb: ICrudForCollectionDataHandler(Of TEntity, TIdType).CreateRangeAsync(ICollection(Of TEntity), CancellationToken?)
+  fullName.vb: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler(Of TEntity, TIdType).CreateRangeAsync(System.Collections.Generic.ICollection(Of TEntity), System.Threading.CancellationToken?)
+  name.vb: CreateRangeAsync(ICollection(Of TEntity), CancellationToken?)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{`0,`1}.CreateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+    name: CreateRangeAsync
+    href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_CreateRangeAsync_System_Collections_Generic_ICollection__0__System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TEntity
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{`0,`1}.CreateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+    name: CreateRangeAsync
+    href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_CreateRangeAsync_System_Collections_Generic_ICollection__0__System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+- uid: System.Collections.Generic.ICollection{{TEntity}}
+  commentId: T:System.Collections.Generic.ICollection{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<TEntity>
+  nameWithType: ICollection<TEntity>
+  fullName: System.Collections.Generic.ICollection<TEntity>
+  nameWithType.vb: ICollection(Of TEntity)
+  fullName.vb: System.Collections.Generic.ICollection(Of TEntity)
+  name.vb: ICollection(Of TEntity)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: System.Nullable{System.Threading.CancellationToken}
+  commentId: T:System.Nullable{System.Threading.CancellationToken}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken?
+  nameWithType: CancellationToken?
+  fullName: System.Threading.CancellationToken?
+  spec.csharp:
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  spec.vb:
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+- uid: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{System.Collections.Generic.ICollection{{TEntity}}}}
+  commentId: T:System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{System.Collections.Generic.ICollection{`0}}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ResponseObj<ICollection<TEntity>>>
+  nameWithType: Task<ResponseObj<ICollection<TEntity>>>
+  fullName: System.Threading.Tasks.Task<Quickie.DataObj.ResponseObj<System.Collections.Generic.ICollection<TEntity>>>
+  nameWithType.vb: Task(Of ResponseObj(Of ICollection(Of TEntity)))
+  fullName.vb: System.Threading.Tasks.Task(Of Quickie.DataObj.ResponseObj(Of System.Collections.Generic.ICollection(Of TEntity)))
+  name.vb: Task(Of ResponseObj(Of ICollection(Of TEntity)))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Quickie.DataObj.ResponseObj`1
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj-1.html
+  - name: <
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TEntity
+  - name: '>'
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Quickie.DataObj.ResponseObj`1
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+  - name: )
+  - name: )
+- uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2.CreateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2.CreateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  isExternal: true
+  href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_CreateRangeAsync_System_Collections_Generic_ICollection__0__System_Nullable_System_Threading_CancellationToken__
+  name: CreateRangeAsync(ICollection<TEntity>, CancellationToken?)
+  nameWithType: ICrudForCollectionDataHandler<TEntity, TIdType>.CreateRangeAsync(ICollection<TEntity>, CancellationToken?)
+  fullName: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<TEntity, TIdType>.CreateRangeAsync(System.Collections.Generic.ICollection<TEntity>, System.Threading.CancellationToken?)
+  nameWithType.vb: ICrudForCollectionDataHandler(Of TEntity, TIdType).CreateRangeAsync(ICollection(Of TEntity), CancellationToken?)
+  fullName.vb: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler(Of TEntity, TIdType).CreateRangeAsync(System.Collections.Generic.ICollection(Of TEntity), System.Threading.CancellationToken?)
+  name.vb: CreateRangeAsync(ICollection(Of TEntity), CancellationToken?)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2.CreateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+    name: CreateRangeAsync
+    href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_CreateRangeAsync_System_Collections_Generic_ICollection__0__System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TEntity
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2.CreateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+    name: CreateRangeAsync
+    href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_CreateRangeAsync_System_Collections_Generic_ICollection__0__System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.UpdateRangeAsync*
+  commentId: Overload:Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.UpdateRangeAsync
+  href: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler-3.html#Quickie_DataHandlers_Crud_Implementation_CrudForCollectionDataDataHandler_3_UpdateRangeAsync_System_Collections_Generic_ICollection__0__System_Nullable_System_Threading_CancellationToken__
+  name: UpdateRangeAsync
+  nameWithType: CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.UpdateRangeAsync
+  fullName: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.UpdateRangeAsync
+  nameWithType.vb: CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext).UpdateRangeAsync
+  fullName.vb: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext).UpdateRangeAsync
+- uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{{TEntity},{TIdType}}.UpdateRangeAsync(System.Collections.Generic.ICollection{{TEntity}},System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{`0,`1}.UpdateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{{TEntity},{TIdType}}
+  definition: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2.UpdateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_UpdateRangeAsync_System_Collections_Generic_ICollection__0__System_Nullable_System_Threading_CancellationToken__
+  name: UpdateRangeAsync(ICollection<TEntity>, CancellationToken?)
+  nameWithType: ICrudForCollectionDataHandler<TEntity, TIdType>.UpdateRangeAsync(ICollection<TEntity>, CancellationToken?)
+  fullName: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<TEntity, TIdType>.UpdateRangeAsync(System.Collections.Generic.ICollection<TEntity>, System.Threading.CancellationToken?)
+  nameWithType.vb: ICrudForCollectionDataHandler(Of TEntity, TIdType).UpdateRangeAsync(ICollection(Of TEntity), CancellationToken?)
+  fullName.vb: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler(Of TEntity, TIdType).UpdateRangeAsync(System.Collections.Generic.ICollection(Of TEntity), System.Threading.CancellationToken?)
+  name.vb: UpdateRangeAsync(ICollection(Of TEntity), CancellationToken?)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{`0,`1}.UpdateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+    name: UpdateRangeAsync
+    href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_UpdateRangeAsync_System_Collections_Generic_ICollection__0__System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TEntity
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{`0,`1}.UpdateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+    name: UpdateRangeAsync
+    href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_UpdateRangeAsync_System_Collections_Generic_ICollection__0__System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+- uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2.UpdateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2.UpdateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  isExternal: true
+  href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_UpdateRangeAsync_System_Collections_Generic_ICollection__0__System_Nullable_System_Threading_CancellationToken__
+  name: UpdateRangeAsync(ICollection<TEntity>, CancellationToken?)
+  nameWithType: ICrudForCollectionDataHandler<TEntity, TIdType>.UpdateRangeAsync(ICollection<TEntity>, CancellationToken?)
+  fullName: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<TEntity, TIdType>.UpdateRangeAsync(System.Collections.Generic.ICollection<TEntity>, System.Threading.CancellationToken?)
+  nameWithType.vb: ICrudForCollectionDataHandler(Of TEntity, TIdType).UpdateRangeAsync(ICollection(Of TEntity), CancellationToken?)
+  fullName.vb: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler(Of TEntity, TIdType).UpdateRangeAsync(System.Collections.Generic.ICollection(Of TEntity), System.Threading.CancellationToken?)
+  name.vb: UpdateRangeAsync(ICollection(Of TEntity), CancellationToken?)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2.UpdateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+    name: UpdateRangeAsync
+    href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_UpdateRangeAsync_System_Collections_Generic_ICollection__0__System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TEntity
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2.UpdateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+    name: UpdateRangeAsync
+    href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_UpdateRangeAsync_System_Collections_Generic_ICollection__0__System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+- uid: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.DeleteRangeAsync*
+  commentId: Overload:Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.DeleteRangeAsync
+  href: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler-3.html#Quickie_DataHandlers_Crud_Implementation_CrudForCollectionDataDataHandler_3_DeleteRangeAsync_System_Collections_Generic_ICollection__1__System_Nullable_System_Threading_CancellationToken__
+  name: DeleteRangeAsync
+  nameWithType: CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.DeleteRangeAsync
+  fullName: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.DeleteRangeAsync
+  nameWithType.vb: CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext).DeleteRangeAsync
+  fullName.vb: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext).DeleteRangeAsync
+- uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{{TEntity},{TIdType}}.DeleteRangeAsync(System.Collections.Generic.ICollection{{TIdType}},System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{`0,`1}.DeleteRangeAsync(System.Collections.Generic.ICollection{`1},System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{{TEntity},{TIdType}}
+  definition: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2.DeleteRangeAsync(System.Collections.Generic.ICollection{`1},System.Nullable{System.Threading.CancellationToken})
+  href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_DeleteRangeAsync_System_Collections_Generic_ICollection__1__System_Nullable_System_Threading_CancellationToken__
+  name: DeleteRangeAsync(ICollection<TIdType>, CancellationToken?)
+  nameWithType: ICrudForCollectionDataHandler<TEntity, TIdType>.DeleteRangeAsync(ICollection<TIdType>, CancellationToken?)
+  fullName: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<TEntity, TIdType>.DeleteRangeAsync(System.Collections.Generic.ICollection<TIdType>, System.Threading.CancellationToken?)
+  nameWithType.vb: ICrudForCollectionDataHandler(Of TEntity, TIdType).DeleteRangeAsync(ICollection(Of TIdType), CancellationToken?)
+  fullName.vb: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler(Of TEntity, TIdType).DeleteRangeAsync(System.Collections.Generic.ICollection(Of TIdType), System.Threading.CancellationToken?)
+  name.vb: DeleteRangeAsync(ICollection(Of TIdType), CancellationToken?)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{`0,`1}.DeleteRangeAsync(System.Collections.Generic.ICollection{`1},System.Nullable{System.Threading.CancellationToken})
+    name: DeleteRangeAsync
+    href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_DeleteRangeAsync_System_Collections_Generic_ICollection__1__System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TIdType
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{`0,`1}.DeleteRangeAsync(System.Collections.Generic.ICollection{`1},System.Nullable{System.Threading.CancellationToken})
+    name: DeleteRangeAsync
+    href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_DeleteRangeAsync_System_Collections_Generic_ICollection__1__System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TIdType
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+- uid: System.Collections.Generic.ICollection{{TIdType}}
+  commentId: T:System.Collections.Generic.ICollection{`2}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<TIdType>
+  nameWithType: ICollection<TIdType>
+  fullName: System.Collections.Generic.ICollection<TIdType>
+  nameWithType.vb: ICollection(Of TIdType)
+  fullName.vb: System.Collections.Generic.ICollection(Of TIdType)
+  name.vb: ICollection(Of TIdType)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TIdType
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TIdType
+  - name: )
+- uid: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj}
+  commentId: T:System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ResponseObj>
+  nameWithType: Task<ResponseObj>
+  fullName: System.Threading.Tasks.Task<Quickie.DataObj.ResponseObj>
+  nameWithType.vb: Task(Of ResponseObj)
+  fullName.vb: System.Threading.Tasks.Task(Of Quickie.DataObj.ResponseObj)
+  name.vb: Task(Of ResponseObj)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Quickie.DataObj.ResponseObj
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Quickie.DataObj.ResponseObj
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj.html
+  - name: )
+- uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2.DeleteRangeAsync(System.Collections.Generic.ICollection{`1},System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2.DeleteRangeAsync(System.Collections.Generic.ICollection{`1},System.Nullable{System.Threading.CancellationToken})
+  isExternal: true
+  href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_DeleteRangeAsync_System_Collections_Generic_ICollection__1__System_Nullable_System_Threading_CancellationToken__
+  name: DeleteRangeAsync(ICollection<TIdType>, CancellationToken?)
+  nameWithType: ICrudForCollectionDataHandler<TEntity, TIdType>.DeleteRangeAsync(ICollection<TIdType>, CancellationToken?)
+  fullName: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<TEntity, TIdType>.DeleteRangeAsync(System.Collections.Generic.ICollection<TIdType>, System.Threading.CancellationToken?)
+  nameWithType.vb: ICrudForCollectionDataHandler(Of TEntity, TIdType).DeleteRangeAsync(ICollection(Of TIdType), CancellationToken?)
+  fullName.vb: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler(Of TEntity, TIdType).DeleteRangeAsync(System.Collections.Generic.ICollection(Of TIdType), System.Threading.CancellationToken?)
+  name.vb: DeleteRangeAsync(ICollection(Of TIdType), CancellationToken?)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2.DeleteRangeAsync(System.Collections.Generic.ICollection{`1},System.Nullable{System.Threading.CancellationToken})
+    name: DeleteRangeAsync
+    href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_DeleteRangeAsync_System_Collections_Generic_ICollection__1__System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TIdType
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2.DeleteRangeAsync(System.Collections.Generic.ICollection{`1},System.Nullable{System.Threading.CancellationToken})
+    name: DeleteRangeAsync
+    href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_DeleteRangeAsync_System_Collections_Generic_ICollection__1__System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TIdType
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+- uid: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.GetAllAsync*
+  commentId: Overload:Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.GetAllAsync
+  href: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler-3.html#Quickie_DataHandlers_Crud_Implementation_CrudForCollectionDataDataHandler_3_GetAllAsync_Quickie_DataObj_RequestForDataObj_System_Nullable_System_Threading_CancellationToken__
+  name: GetAllAsync
+  nameWithType: CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.GetAllAsync
+  fullName: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.GetAllAsync
+  nameWithType.vb: CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext).GetAllAsync
+  fullName.vb: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext).GetAllAsync
+- uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{{TEntity},{TIdType}}.GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{`0,`1}.GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{{TEntity},{TIdType}}
+  definition: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2.GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+  href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_GetAllAsync_Quickie_DataObj_RequestForDataObj_System_Nullable_System_Threading_CancellationToken__
+  name: GetAllAsync(RequestForDataObj, CancellationToken?)
+  nameWithType: ICrudForCollectionDataHandler<TEntity, TIdType>.GetAllAsync(RequestForDataObj, CancellationToken?)
+  fullName: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<TEntity, TIdType>.GetAllAsync(Quickie.DataObj.RequestForDataObj, System.Threading.CancellationToken?)
+  nameWithType.vb: ICrudForCollectionDataHandler(Of TEntity, TIdType).GetAllAsync(RequestForDataObj, CancellationToken?)
+  fullName.vb: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler(Of TEntity, TIdType).GetAllAsync(Quickie.DataObj.RequestForDataObj, System.Threading.CancellationToken?)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{`0,`1}.GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+    name: GetAllAsync
+    href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_GetAllAsync_Quickie_DataObj_RequestForDataObj_System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - uid: Quickie.DataObj.RequestForDataObj
+    name: RequestForDataObj
+    href: Quickie.DataObj.RequestForDataObj.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{`0,`1}.GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+    name: GetAllAsync
+    href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_GetAllAsync_Quickie_DataObj_RequestForDataObj_System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - uid: Quickie.DataObj.RequestForDataObj
+    name: RequestForDataObj
+    href: Quickie.DataObj.RequestForDataObj.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+- uid: Quickie.DataObj.RequestForDataObj
+  commentId: T:Quickie.DataObj.RequestForDataObj
+  parent: Quickie.DataObj
+  href: Quickie.DataObj.RequestForDataObj.html
+  name: RequestForDataObj
+  nameWithType: RequestForDataObj
+  fullName: Quickie.DataObj.RequestForDataObj
+- uid: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{Quickie.DataObj.PaginatedDataObj{{TEntity}}}}
+  commentId: T:System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{Quickie.DataObj.PaginatedDataObj{`0}}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ResponseObj<PaginatedDataObj<TEntity>>>
+  nameWithType: Task<ResponseObj<PaginatedDataObj<TEntity>>>
+  fullName: System.Threading.Tasks.Task<Quickie.DataObj.ResponseObj<Quickie.DataObj.PaginatedDataObj<TEntity>>>
+  nameWithType.vb: Task(Of ResponseObj(Of PaginatedDataObj(Of TEntity)))
+  fullName.vb: System.Threading.Tasks.Task(Of Quickie.DataObj.ResponseObj(Of Quickie.DataObj.PaginatedDataObj(Of TEntity)))
+  name.vb: Task(Of ResponseObj(Of PaginatedDataObj(Of TEntity)))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Quickie.DataObj.ResponseObj`1
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj-1.html
+  - name: <
+  - uid: Quickie.DataObj.PaginatedDataObj`1
+    name: PaginatedDataObj
+    href: Quickie.DataObj.PaginatedDataObj-1.html
+  - name: <
+  - name: TEntity
+  - name: '>'
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Quickie.DataObj.ResponseObj`1
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Quickie.DataObj.PaginatedDataObj`1
+    name: PaginatedDataObj
+    href: Quickie.DataObj.PaginatedDataObj-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+  - name: )
+  - name: )
+- uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2.GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2.GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+  isExternal: true
+  href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_GetAllAsync_Quickie_DataObj_RequestForDataObj_System_Nullable_System_Threading_CancellationToken__
+  name: GetAllAsync(RequestForDataObj, CancellationToken?)
+  nameWithType: ICrudForCollectionDataHandler<TEntity, TIdType>.GetAllAsync(RequestForDataObj, CancellationToken?)
+  fullName: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<TEntity, TIdType>.GetAllAsync(Quickie.DataObj.RequestForDataObj, System.Threading.CancellationToken?)
+  nameWithType.vb: ICrudForCollectionDataHandler(Of TEntity, TIdType).GetAllAsync(RequestForDataObj, CancellationToken?)
+  fullName.vb: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler(Of TEntity, TIdType).GetAllAsync(Quickie.DataObj.RequestForDataObj, System.Threading.CancellationToken?)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2.GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+    name: GetAllAsync
+    href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_GetAllAsync_Quickie_DataObj_RequestForDataObj_System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - uid: Quickie.DataObj.RequestForDataObj
+    name: RequestForDataObj
+    href: Quickie.DataObj.RequestForDataObj.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2.GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+    name: GetAllAsync
+    href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_GetAllAsync_Quickie_DataObj_RequestForDataObj_System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - uid: Quickie.DataObj.RequestForDataObj
+    name: RequestForDataObj
+    href: Quickie.DataObj.RequestForDataObj.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+- uid: Quickie.DataObj
+  commentId: N:Quickie.DataObj
+  href: Quickie.html
+  name: Quickie.DataObj
+  nameWithType: Quickie.DataObj
+  fullName: Quickie.DataObj
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataObj
+    name: DataObj
+    href: Quickie.DataObj.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataObj
+    name: DataObj
+    href: Quickie.DataObj.html
+- uid: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.CountAsync*
+  commentId: Overload:Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3.CountAsync
+  href: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler-3.html#Quickie_DataHandlers_Crud_Implementation_CrudForCollectionDataDataHandler_3_CountAsync_System_Nullable_System_Threading_CancellationToken__
+  name: CountAsync
+  nameWithType: CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.CountAsync
+  fullName: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>.CountAsync
+  nameWithType.vb: CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext).CountAsync
+  fullName.vb: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext).CountAsync
+- uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{{TEntity},{TIdType}}.CountAsync(System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{`0,`1}.CountAsync(System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{{TEntity},{TIdType}}
+  definition: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2.CountAsync(System.Nullable{System.Threading.CancellationToken})
+  href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_CountAsync_System_Nullable_System_Threading_CancellationToken__
+  name: CountAsync(CancellationToken?)
+  nameWithType: ICrudForCollectionDataHandler<TEntity, TIdType>.CountAsync(CancellationToken?)
+  fullName: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<TEntity, TIdType>.CountAsync(System.Threading.CancellationToken?)
+  nameWithType.vb: ICrudForCollectionDataHandler(Of TEntity, TIdType).CountAsync(CancellationToken?)
+  fullName.vb: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler(Of TEntity, TIdType).CountAsync(System.Threading.CancellationToken?)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{`0,`1}.CountAsync(System.Nullable{System.Threading.CancellationToken})
+    name: CountAsync
+    href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_CountAsync_System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{`0,`1}.CountAsync(System.Nullable{System.Threading.CancellationToken})
+    name: CountAsync
+    href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_CountAsync_System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+- uid: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{System.Int32}}
+  commentId: T:System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{System.Int32}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ResponseObj<int>>
+  nameWithType: Task<ResponseObj<int>>
+  fullName: System.Threading.Tasks.Task<Quickie.DataObj.ResponseObj<int>>
+  nameWithType.vb: Task(Of ResponseObj(Of Integer))
+  fullName.vb: System.Threading.Tasks.Task(Of Quickie.DataObj.ResponseObj(Of Integer))
+  name.vb: Task(Of ResponseObj(Of Integer))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Quickie.DataObj.ResponseObj`1
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj-1.html
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Quickie.DataObj.ResponseObj`1
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  - name: )
+- uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2.CountAsync(System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2.CountAsync(System.Nullable{System.Threading.CancellationToken})
+  isExternal: true
+  href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_CountAsync_System_Nullable_System_Threading_CancellationToken__
+  name: CountAsync(CancellationToken?)
+  nameWithType: ICrudForCollectionDataHandler<TEntity, TIdType>.CountAsync(CancellationToken?)
+  fullName: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<TEntity, TIdType>.CountAsync(System.Threading.CancellationToken?)
+  nameWithType.vb: ICrudForCollectionDataHandler(Of TEntity, TIdType).CountAsync(CancellationToken?)
+  fullName.vb: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler(Of TEntity, TIdType).CountAsync(System.Threading.CancellationToken?)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2.CountAsync(System.Nullable{System.Threading.CancellationToken})
+    name: CountAsync
+    href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_CountAsync_System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2.CountAsync(System.Nullable{System.Threading.CancellationToken})
+    name: CountAsync
+    href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html#Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_2_CountAsync_System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )

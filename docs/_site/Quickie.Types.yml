@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.Types
+  commentId: N:Quickie.Types
+  id: Quickie.Types
+  children:
+  - Quickie.Types.ErrorStatusEnum
+  langs:
+  - csharp
+  - vb
+  name: Quickie.Types
+  nameWithType: Quickie.Types
+  fullName: Quickie.Types
+  type: Namespace
+  assemblies:
+  - Quickie
+references:
+- uid: Quickie.Types.ErrorStatusEnum
+  commentId: T:Quickie.Types.ErrorStatusEnum
+  parent: Quickie.Types
+  href: Quickie.Types.ErrorStatusEnum.html
+  name: ErrorStatusEnum
+  nameWithType: ErrorStatusEnum
+  fullName: Quickie.Types.ErrorStatusEnum
+- uid: Quickie.Types
+  commentId: N:Quickie.Types
+  href: Quickie.html
+  name: Quickie.Types
+  nameWithType: Quickie.Types
+  fullName: Quickie.Types
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Types
+    name: Types
+    href: Quickie.Types.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Types
+    name: Types
+    href: Quickie.Types.html

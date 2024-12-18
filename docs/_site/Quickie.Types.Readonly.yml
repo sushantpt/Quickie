@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.Types.Readonly
+  commentId: N:Quickie.Types.Readonly
+  id: Quickie.Types.Readonly
+  children:
+  - Quickie.Types.Readonly.ReadOnlyDto
+  - Quickie.Types.Readonly.ReadOnlyEntity
+  langs:
+  - csharp
+  - vb
+  name: Quickie.Types.Readonly
+  nameWithType: Quickie.Types.Readonly
+  fullName: Quickie.Types.Readonly
+  type: Namespace
+  assemblies:
+  - Quickie
+references:
+- uid: Quickie.Types.Readonly.ReadOnlyDto
+  commentId: T:Quickie.Types.Readonly.ReadOnlyDto
+  href: Quickie.Types.Readonly.ReadOnlyDto.html
+  name: ReadOnlyDto
+  nameWithType: ReadOnlyDto
+  fullName: Quickie.Types.Readonly.ReadOnlyDto
+- uid: Quickie.Types.Readonly.ReadOnlyEntity
+  commentId: T:Quickie.Types.Readonly.ReadOnlyEntity
+  href: Quickie.Types.Readonly.ReadOnlyEntity.html
+  name: ReadOnlyEntity
+  nameWithType: ReadOnlyEntity
+  fullName: Quickie.Types.Readonly.ReadOnlyEntity

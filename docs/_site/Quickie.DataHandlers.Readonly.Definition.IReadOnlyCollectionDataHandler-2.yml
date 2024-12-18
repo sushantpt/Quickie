@@ -1,0 +1,449 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler`2
+  commentId: T:Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler`2
+  id: IReadOnlyCollectionDataHandler`2
+  parent: Quickie.DataHandlers.Readonly.Definition
+  children:
+  - Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler`2.GetByFilterAsync``1(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},``0,System.Nullable{System.Boolean},System.Nullable{System.Threading.CancellationToken})
+  langs:
+  - csharp
+  - vb
+  name: IReadOnlyCollectionDataHandler<TEntity, TIdType>
+  nameWithType: IReadOnlyCollectionDataHandler<TEntity, TIdType>
+  fullName: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler<TEntity, TIdType>
+  type: Interface
+  source:
+    remote:
+      path: src/Quickie/DataHandlers/Readonly/Definition/IReadOnlyCollectionDataHandler.cs
+      branch: gh-pages
+      repo: https://github.com/sushantpt/Quickie.git
+    id: IReadOnlyCollectionDataHandler
+    path: ../src/Quickie/DataHandlers/Readonly/Definition/IReadOnlyCollectionDataHandler.cs
+    startLine: 7
+  assemblies:
+  - Quickie
+  namespace: Quickie.DataHandlers.Readonly.Definition
+  summary: Defines read-only data access operations for collections of entities. Provides methods to retrieve data with optional filtering and pagination.
+  example: []
+  syntax:
+    content: 'public interface IReadOnlyCollectionDataHandler<TEntity, in TIdType> where TEntity : ReadOnlyEntity where TIdType : IComparable'
+    typeParameters:
+    - id: TEntity
+      description: The type of entity to do read-only operations.
+    - id: TIdType
+      description: Type of id (int, Guid, string, ...)
+    content.vb: Public Interface IReadOnlyCollectionDataHandler(Of TEntity As ReadOnlyEntity, In TIdType As IComparable)
+  nameWithType.vb: IReadOnlyCollectionDataHandler(Of TEntity, TIdType)
+  fullName.vb: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler(Of TEntity, TIdType)
+  name.vb: IReadOnlyCollectionDataHandler(Of TEntity, TIdType)
+- uid: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler`2.GetByFilterAsync``1(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},``0,System.Nullable{System.Boolean},System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler`2.GetByFilterAsync``1(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},``0,System.Nullable{System.Boolean},System.Nullable{System.Threading.CancellationToken})
+  id: GetByFilterAsync``1(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},``0,System.Nullable{System.Boolean},System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler`2
+  langs:
+  - csharp
+  - vb
+  name: GetByFilterAsync<TRequestModel>(Expression<Func<TEntity, bool>>?, TRequestModel?, bool?, CancellationToken?)
+  nameWithType: IReadOnlyCollectionDataHandler<TEntity, TIdType>.GetByFilterAsync<TRequestModel>(Expression<Func<TEntity, bool>>?, TRequestModel?, bool?, CancellationToken?)
+  fullName: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler<TEntity, TIdType>.GetByFilterAsync<TRequestModel>(System.Linq.Expressions.Expression<System.Func<TEntity, bool>>?, TRequestModel?, bool?, System.Threading.CancellationToken?)
+  type: Method
+  source:
+    remote:
+      path: src/Quickie/DataHandlers/Readonly/Definition/IReadOnlyCollectionDataHandler.cs
+      branch: gh-pages
+      repo: https://github.com/sushantpt/Quickie.git
+    id: GetByFilterAsync
+    path: ../src/Quickie/DataHandlers/Readonly/Definition/IReadOnlyCollectionDataHandler.cs
+    startLine: 17
+  assemblies:
+  - Quickie
+  namespace: Quickie.DataHandlers.Readonly.Definition
+  summary: Get a paginated collection of entities that match the specified filter.
+  example: []
+  syntax:
+    content: 'Task<PaginatedDataObj<TEntity>> GetByFilterAsync<TRequestModel>(Expression<Func<TEntity, bool>>? filter, TRequestModel? request, bool? track = false, CancellationToken? cancellationToken = null) where TRequestModel : RequestForDataObj'
+    parameters:
+    - id: filter
+      type: System.Linq.Expressions.Expression{System.Func{{TEntity},System.Boolean}}
+      description: A predicate function to define your condition.
+    - id: request
+      type: '{TRequestModel}'
+      description: The pagination request object.
+    - id: track
+      type: System.Nullable{System.Boolean}
+      description: A flag indicating whether to track changes for the retrieved entities. Set to <code>false</code> to disable change tracking for read-only queries. Default is <code>false</code>.
+    - id: cancellationToken
+      type: System.Nullable{System.Threading.CancellationToken}
+      description: Cancellation token.
+    typeParameters:
+    - id: TRequestModel
+    return:
+      type: System.Threading.Tasks.Task{Quickie.DataObj.PaginatedDataObj{{TEntity}}}
+      description: Paginated data.
+    content.vb: Function GetByFilterAsync(Of TRequestModel As RequestForDataObj)(filter As Expression(Of Func(Of TEntity, Boolean)), request As TRequestModel, track As Boolean? = False, cancellationToken As CancellationToken? = Nothing) As Task(Of PaginatedDataObj(Of TEntity))
+  overload: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler`2.GetByFilterAsync*
+  nameWithType.vb: IReadOnlyCollectionDataHandler(Of TEntity, TIdType).GetByFilterAsync(Of TRequestModel)(Expression(Of Func(Of TEntity, Boolean)), TRequestModel, Boolean?, CancellationToken?)
+  fullName.vb: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler(Of TEntity, TIdType).GetByFilterAsync(Of TRequestModel)(System.Linq.Expressions.Expression(Of System.Func(Of TEntity, Boolean)), TRequestModel, Boolean?, System.Threading.CancellationToken?)
+  name.vb: GetByFilterAsync(Of TRequestModel)(Expression(Of Func(Of TEntity, Boolean)), TRequestModel, Boolean?, CancellationToken?)
+references:
+- uid: Quickie.DataHandlers.Readonly.Definition
+  commentId: N:Quickie.DataHandlers.Readonly.Definition
+  href: Quickie.html
+  name: Quickie.DataHandlers.Readonly.Definition
+  nameWithType: Quickie.DataHandlers.Readonly.Definition
+  fullName: Quickie.DataHandlers.Readonly.Definition
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataHandlers
+    name: DataHandlers
+    href: Quickie.DataHandlers.html
+  - name: .
+  - uid: Quickie.DataHandlers.Readonly
+    name: Readonly
+    href: Quickie.DataHandlers.Readonly.html
+  - name: .
+  - uid: Quickie.DataHandlers.Readonly.Definition
+    name: Definition
+    href: Quickie.DataHandlers.Readonly.Definition.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataHandlers
+    name: DataHandlers
+    href: Quickie.DataHandlers.html
+  - name: .
+  - uid: Quickie.DataHandlers.Readonly
+    name: Readonly
+    href: Quickie.DataHandlers.Readonly.html
+  - name: .
+  - uid: Quickie.DataHandlers.Readonly.Definition
+    name: Definition
+    href: Quickie.DataHandlers.Readonly.Definition.html
+- uid: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler`2.GetByFilterAsync*
+  commentId: Overload:Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler`2.GetByFilterAsync
+  href: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler-2.html#Quickie_DataHandlers_Readonly_Definition_IReadOnlyCollectionDataHandler_2_GetByFilterAsync__1_System_Linq_Expressions_Expression_System_Func__0_System_Boolean_____0_System_Nullable_System_Boolean__System_Nullable_System_Threading_CancellationToken__
+  name: GetByFilterAsync
+  nameWithType: IReadOnlyCollectionDataHandler<TEntity, TIdType>.GetByFilterAsync
+  fullName: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler<TEntity, TIdType>.GetByFilterAsync
+  nameWithType.vb: IReadOnlyCollectionDataHandler(Of TEntity, TIdType).GetByFilterAsync
+  fullName.vb: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler(Of TEntity, TIdType).GetByFilterAsync
+- uid: System.Linq.Expressions.Expression{System.Func{{TEntity},System.Boolean}}
+  commentId: T:System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}}
+  parent: System.Linq.Expressions
+  definition: System.Linq.Expressions.Expression`1
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: Expression<Func<TEntity, bool>>
+  nameWithType: Expression<Func<TEntity, bool>>
+  fullName: System.Linq.Expressions.Expression<System.Func<TEntity, bool>>
+  nameWithType.vb: Expression(Of Func(Of TEntity, Boolean))
+  fullName.vb: System.Linq.Expressions.Expression(Of System.Func(Of TEntity, Boolean))
+  name.vb: Expression(Of Func(Of TEntity, Boolean))
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: )
+- uid: '{TRequestModel}'
+  commentId: '!:TRequestModel'
+  definition: TRequestModel
+  name: TRequestModel
+  nameWithType: TRequestModel
+  fullName: TRequestModel
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool?
+  nameWithType: bool?
+  fullName: bool?
+  nameWithType.vb: Boolean?
+  fullName.vb: Boolean?
+  name.vb: Boolean?
+  spec.csharp:
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+- uid: System.Nullable{System.Threading.CancellationToken}
+  commentId: T:System.Nullable{System.Threading.CancellationToken}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken?
+  nameWithType: CancellationToken?
+  fullName: System.Threading.CancellationToken?
+  spec.csharp:
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  spec.vb:
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+- uid: System.Threading.Tasks.Task{Quickie.DataObj.PaginatedDataObj{{TEntity}}}
+  commentId: T:System.Threading.Tasks.Task{Quickie.DataObj.PaginatedDataObj{`0}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<PaginatedDataObj<TEntity>>
+  nameWithType: Task<PaginatedDataObj<TEntity>>
+  fullName: System.Threading.Tasks.Task<Quickie.DataObj.PaginatedDataObj<TEntity>>
+  nameWithType.vb: Task(Of PaginatedDataObj(Of TEntity))
+  fullName.vb: System.Threading.Tasks.Task(Of Quickie.DataObj.PaginatedDataObj(Of TEntity))
+  name.vb: Task(Of PaginatedDataObj(Of TEntity))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Quickie.DataObj.PaginatedDataObj`1
+    name: PaginatedDataObj
+    href: Quickie.DataObj.PaginatedDataObj-1.html
+  - name: <
+  - name: TEntity
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Quickie.DataObj.PaginatedDataObj`1
+    name: PaginatedDataObj
+    href: Quickie.DataObj.PaginatedDataObj-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+  - name: )
+- uid: System.Linq.Expressions.Expression`1
+  commentId: T:System.Linq.Expressions.Expression`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: Expression<TDelegate>
+  nameWithType: Expression<TDelegate>
+  fullName: System.Linq.Expressions.Expression<TDelegate>
+  nameWithType.vb: Expression(Of TDelegate)
+  fullName.vb: System.Linq.Expressions.Expression(Of TDelegate)
+  name.vb: Expression(Of TDelegate)
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - name: TDelegate
+  - name: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDelegate
+  - name: )
+- uid: System.Linq.Expressions
+  commentId: N:System.Linq.Expressions
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Linq.Expressions
+  nameWithType: System.Linq.Expressions
+  fullName: System.Linq.Expressions
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Linq
+    name: Linq
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq
+  - name: .
+  - uid: System.Linq.Expressions
+    name: Expressions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Linq
+    name: Linq
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq
+  - name: .
+  - uid: System.Linq.Expressions
+    name: Expressions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions
+- uid: TRequestModel
+  name: TRequestModel
+  nameWithType: TRequestModel
+  fullName: TRequestModel
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
