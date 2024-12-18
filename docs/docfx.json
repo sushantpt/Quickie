@@ -9,24 +9,29 @@
           ]
         }
       ],
-      "dest": "api"
+      "dest": "api",
+      "allowCompilationErrors": true
     }
   ],
   "build": {
     "content": [
       {
         "files": [
-          "**/*.{md,yml}"
-        ],
-        "exclude": [
-          "_site/**"
+          "/**/*.{md,yml}",
+          "toc.yml",
+          "docs/**.md",
+          "docs/**.yml",
+          "*.md",
+          "docs/*.md",
+          "api/**.yml",
+          "api/index.md"
         ]
       }
     ],
     "resource": [
       {
         "files": [
-          "docs/images/**"
+          "images/**"
         ]
       }
     ],
