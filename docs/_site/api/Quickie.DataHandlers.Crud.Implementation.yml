@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.DataHandlers.Crud.Implementation
+  commentId: N:Quickie.DataHandlers.Crud.Implementation
+  id: Quickie.DataHandlers.Crud.Implementation
+  children:
+  - Quickie.DataHandlers.Crud.Implementation.CrudDataHandler`3
+  - Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3
+  langs:
+  - csharp
+  - vb
+  name: Quickie.DataHandlers.Crud.Implementation
+  nameWithType: Quickie.DataHandlers.Crud.Implementation
+  fullName: Quickie.DataHandlers.Crud.Implementation
+  type: Namespace
+  assemblies:
+  - Quickie
+references:
+- uid: Quickie.DataHandlers.Crud.Implementation.CrudDataHandler`3
+  commentId: T:Quickie.DataHandlers.Crud.Implementation.CrudDataHandler`3
+  href: Quickie.DataHandlers.Crud.Implementation.CrudDataHandler-3.html
+  name: CrudDataHandler<TEntity, TDbContext, TIdType>
+  nameWithType: CrudDataHandler<TEntity, TDbContext, TIdType>
+  fullName: Quickie.DataHandlers.Crud.Implementation.CrudDataHandler<TEntity, TDbContext, TIdType>
+  nameWithType.vb: CrudDataHandler(Of TEntity, TDbContext, TIdType)
+  fullName.vb: Quickie.DataHandlers.Crud.Implementation.CrudDataHandler(Of TEntity, TDbContext, TIdType)
+  name.vb: CrudDataHandler(Of TEntity, TDbContext, TIdType)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Crud.Implementation.CrudDataHandler`3
+    name: CrudDataHandler
+    href: Quickie.DataHandlers.Crud.Implementation.CrudDataHandler-3.html
+  - name: <
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TDbContext
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.DataHandlers.Crud.Implementation.CrudDataHandler`3
+    name: CrudDataHandler
+    href: Quickie.DataHandlers.Crud.Implementation.CrudDataHandler-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TDbContext
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: )
+- uid: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3
+  commentId: T:Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3
+  href: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler-3.html
+  name: CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>
+  nameWithType: CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>
+  fullName: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>
+  nameWithType.vb: CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext)
+  fullName.vb: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext)
+  name.vb: CrudForCollectionDataDataHandler(Of TEntity, TIdType, TDbContext)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3
+    name: CrudForCollectionDataDataHandler
+    href: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler-3.html
+  - name: <
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: ','
+  - name: " "
+  - name: TDbContext
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler`3
+    name: CrudForCollectionDataDataHandler
+    href: Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: ','
+  - name: " "
+  - name: TDbContext
+  - name: )

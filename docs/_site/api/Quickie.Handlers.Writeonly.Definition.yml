@@ -1,0 +1,42 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.Handlers.Writeonly.Definition
+  commentId: N:Quickie.Handlers.Writeonly.Definition
+  id: Quickie.Handlers.Writeonly.Definition
+  children:
+  - Quickie.Handlers.Writeonly.Definition.IWriteOnlyRequestHandler`1
+  langs:
+  - csharp
+  - vb
+  name: Quickie.Handlers.Writeonly.Definition
+  nameWithType: Quickie.Handlers.Writeonly.Definition
+  fullName: Quickie.Handlers.Writeonly.Definition
+  type: Namespace
+  assemblies:
+  - Quickie
+references:
+- uid: Quickie.Handlers.Writeonly.Definition.IWriteOnlyRequestHandler`1
+  commentId: T:Quickie.Handlers.Writeonly.Definition.IWriteOnlyRequestHandler`1
+  href: Quickie.Handlers.Writeonly.Definition.IWriteOnlyRequestHandler-1.html
+  name: IWriteOnlyRequestHandler<TViewModel>
+  nameWithType: IWriteOnlyRequestHandler<TViewModel>
+  fullName: Quickie.Handlers.Writeonly.Definition.IWriteOnlyRequestHandler<TViewModel>
+  nameWithType.vb: IWriteOnlyRequestHandler(Of TViewModel)
+  fullName.vb: Quickie.Handlers.Writeonly.Definition.IWriteOnlyRequestHandler(Of TViewModel)
+  name.vb: IWriteOnlyRequestHandler(Of TViewModel)
+  spec.csharp:
+  - uid: Quickie.Handlers.Writeonly.Definition.IWriteOnlyRequestHandler`1
+    name: IWriteOnlyRequestHandler
+    href: Quickie.Handlers.Writeonly.Definition.IWriteOnlyRequestHandler-1.html
+  - name: <
+  - name: TViewModel
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.Handlers.Writeonly.Definition.IWriteOnlyRequestHandler`1
+    name: IWriteOnlyRequestHandler
+    href: Quickie.Handlers.Writeonly.Definition.IWriteOnlyRequestHandler-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TViewModel
+  - name: )

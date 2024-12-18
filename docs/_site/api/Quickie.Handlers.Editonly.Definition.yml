@@ -1,0 +1,48 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.Handlers.Editonly.Definition
+  commentId: N:Quickie.Handlers.Editonly.Definition
+  id: Quickie.Handlers.Editonly.Definition
+  children:
+  - Quickie.Handlers.Editonly.Definition.IEditOnlyRequestHandler`2
+  langs:
+  - csharp
+  - vb
+  name: Quickie.Handlers.Editonly.Definition
+  nameWithType: Quickie.Handlers.Editonly.Definition
+  fullName: Quickie.Handlers.Editonly.Definition
+  type: Namespace
+  assemblies:
+  - Quickie
+references:
+- uid: Quickie.Handlers.Editonly.Definition.IEditOnlyRequestHandler`2
+  commentId: T:Quickie.Handlers.Editonly.Definition.IEditOnlyRequestHandler`2
+  href: Quickie.Handlers.Editonly.Definition.IEditOnlyRequestHandler-2.html
+  name: IEditOnlyRequestHandler<TViewModel, TIdType>
+  nameWithType: IEditOnlyRequestHandler<TViewModel, TIdType>
+  fullName: Quickie.Handlers.Editonly.Definition.IEditOnlyRequestHandler<TViewModel, TIdType>
+  nameWithType.vb: IEditOnlyRequestHandler(Of TViewModel, TIdType)
+  fullName.vb: Quickie.Handlers.Editonly.Definition.IEditOnlyRequestHandler(Of TViewModel, TIdType)
+  name.vb: IEditOnlyRequestHandler(Of TViewModel, TIdType)
+  spec.csharp:
+  - uid: Quickie.Handlers.Editonly.Definition.IEditOnlyRequestHandler`2
+    name: IEditOnlyRequestHandler
+    href: Quickie.Handlers.Editonly.Definition.IEditOnlyRequestHandler-2.html
+  - name: <
+  - name: TViewModel
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.Handlers.Editonly.Definition.IEditOnlyRequestHandler`2
+    name: IEditOnlyRequestHandler
+    href: Quickie.Handlers.Editonly.Definition.IEditOnlyRequestHandler-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TViewModel
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: )

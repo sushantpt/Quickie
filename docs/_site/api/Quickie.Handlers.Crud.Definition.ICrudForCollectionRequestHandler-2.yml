@@ -1,0 +1,754 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2
+  commentId: T:Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2
+  id: ICrudForCollectionRequestHandler`2
+  parent: Quickie.Handlers.Crud.Definition
+  children:
+  - Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.CountAsync(System.Nullable{System.Threading.CancellationToken})
+  - Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.CreateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  - Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.DeleteRangeAsync(System.Collections.Generic.ICollection{`1},System.Nullable{System.Threading.CancellationToken})
+  - Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+  - Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.UpdateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  langs:
+  - csharp
+  - vb
+  name: ICrudForCollectionRequestHandler<TViewModel, TIdType>
+  nameWithType: ICrudForCollectionRequestHandler<TViewModel, TIdType>
+  fullName: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler<TViewModel, TIdType>
+  type: Interface
+  source:
+    remote:
+      path: src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
+      branch: gh-pages
+      repo: https://github.com/sushantpt/Quickie.git
+    id: ICrudForCollectionRequestHandler
+    path: ../src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
+    startLine: 2
+  assemblies:
+  - Quickie
+  namespace: Quickie.Handlers.Crud.Definition
+  syntax:
+    content: 'public interface ICrudForCollectionRequestHandler<TViewModel, TIdType> where TViewModel : CrudDto where TIdType : IComparable'
+    typeParameters:
+    - id: TViewModel
+    - id: TIdType
+    content.vb: Public Interface ICrudForCollectionRequestHandler(Of TViewModel As CrudDto, TIdType As IComparable)
+  nameWithType.vb: ICrudForCollectionRequestHandler(Of TViewModel, TIdType)
+  fullName.vb: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler(Of TViewModel, TIdType)
+  name.vb: ICrudForCollectionRequestHandler(Of TViewModel, TIdType)
+- uid: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.CreateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.CreateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  id: CreateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2
+  langs:
+  - csharp
+  - vb
+  name: CreateRangeAsync(ICollection<TViewModel>, CancellationToken?)
+  nameWithType: ICrudForCollectionRequestHandler<TViewModel, TIdType>.CreateRangeAsync(ICollection<TViewModel>, CancellationToken?)
+  fullName: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler<TViewModel, TIdType>.CreateRangeAsync(System.Collections.Generic.ICollection<TViewModel>, System.Threading.CancellationToken?)
+  type: Method
+  source:
+    remote:
+      path: src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
+      branch: gh-pages
+      repo: https://github.com/sushantpt/Quickie.git
+    id: CreateRangeAsync
+    path: ../src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
+    startLine: 4
+  assemblies:
+  - Quickie
+  namespace: Quickie.Handlers.Crud.Definition
+  syntax:
+    content: Task<ResponseObj<ICollection<TViewModel>>> CreateRangeAsync(ICollection<TViewModel> entities, CancellationToken? cancellationToken = null)
+    parameters:
+    - id: entities
+      type: System.Collections.Generic.ICollection{{TViewModel}}
+    - id: cancellationToken
+      type: System.Nullable{System.Threading.CancellationToken}
+    return:
+      type: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{System.Collections.Generic.ICollection{{TViewModel}}}}
+    content.vb: Function CreateRangeAsync(entities As ICollection(Of TViewModel), cancellationToken As CancellationToken? = Nothing) As Task(Of ResponseObj(Of ICollection(Of TViewModel)))
+  overload: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.CreateRangeAsync*
+  nameWithType.vb: ICrudForCollectionRequestHandler(Of TViewModel, TIdType).CreateRangeAsync(ICollection(Of TViewModel), CancellationToken?)
+  fullName.vb: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler(Of TViewModel, TIdType).CreateRangeAsync(System.Collections.Generic.ICollection(Of TViewModel), System.Threading.CancellationToken?)
+  name.vb: CreateRangeAsync(ICollection(Of TViewModel), CancellationToken?)
+- uid: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.UpdateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.UpdateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  id: UpdateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2
+  langs:
+  - csharp
+  - vb
+  name: UpdateRangeAsync(ICollection<TViewModel>, CancellationToken?)
+  nameWithType: ICrudForCollectionRequestHandler<TViewModel, TIdType>.UpdateRangeAsync(ICollection<TViewModel>, CancellationToken?)
+  fullName: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler<TViewModel, TIdType>.UpdateRangeAsync(System.Collections.Generic.ICollection<TViewModel>, System.Threading.CancellationToken?)
+  type: Method
+  source:
+    remote:
+      path: src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
+      branch: gh-pages
+      repo: https://github.com/sushantpt/Quickie.git
+    id: UpdateRangeAsync
+    path: ../src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
+    startLine: 6
+  assemblies:
+  - Quickie
+  namespace: Quickie.Handlers.Crud.Definition
+  syntax:
+    content: Task<ResponseObj<ICollection<TViewModel>>> UpdateRangeAsync(ICollection<TViewModel> entities, CancellationToken? cancellationToken = null)
+    parameters:
+    - id: entities
+      type: System.Collections.Generic.ICollection{{TViewModel}}
+    - id: cancellationToken
+      type: System.Nullable{System.Threading.CancellationToken}
+    return:
+      type: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{System.Collections.Generic.ICollection{{TViewModel}}}}
+    content.vb: Function UpdateRangeAsync(entities As ICollection(Of TViewModel), cancellationToken As CancellationToken? = Nothing) As Task(Of ResponseObj(Of ICollection(Of TViewModel)))
+  overload: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.UpdateRangeAsync*
+  nameWithType.vb: ICrudForCollectionRequestHandler(Of TViewModel, TIdType).UpdateRangeAsync(ICollection(Of TViewModel), CancellationToken?)
+  fullName.vb: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler(Of TViewModel, TIdType).UpdateRangeAsync(System.Collections.Generic.ICollection(Of TViewModel), System.Threading.CancellationToken?)
+  name.vb: UpdateRangeAsync(ICollection(Of TViewModel), CancellationToken?)
+- uid: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.DeleteRangeAsync(System.Collections.Generic.ICollection{`1},System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.DeleteRangeAsync(System.Collections.Generic.ICollection{`1},System.Nullable{System.Threading.CancellationToken})
+  id: DeleteRangeAsync(System.Collections.Generic.ICollection{`1},System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2
+  langs:
+  - csharp
+  - vb
+  name: DeleteRangeAsync(ICollection<TIdType>, CancellationToken?)
+  nameWithType: ICrudForCollectionRequestHandler<TViewModel, TIdType>.DeleteRangeAsync(ICollection<TIdType>, CancellationToken?)
+  fullName: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler<TViewModel, TIdType>.DeleteRangeAsync(System.Collections.Generic.ICollection<TIdType>, System.Threading.CancellationToken?)
+  type: Method
+  source:
+    remote:
+      path: src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
+      branch: gh-pages
+      repo: https://github.com/sushantpt/Quickie.git
+    id: DeleteRangeAsync
+    path: ../src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
+    startLine: 8
+  assemblies:
+  - Quickie
+  namespace: Quickie.Handlers.Crud.Definition
+  syntax:
+    content: Task<ResponseObj> DeleteRangeAsync(ICollection<TIdType> ids, CancellationToken? cancellationToken = null)
+    parameters:
+    - id: ids
+      type: System.Collections.Generic.ICollection{{TIdType}}
+    - id: cancellationToken
+      type: System.Nullable{System.Threading.CancellationToken}
+    return:
+      type: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj}
+    content.vb: Function DeleteRangeAsync(ids As ICollection(Of TIdType), cancellationToken As CancellationToken? = Nothing) As Task(Of ResponseObj)
+  overload: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.DeleteRangeAsync*
+  nameWithType.vb: ICrudForCollectionRequestHandler(Of TViewModel, TIdType).DeleteRangeAsync(ICollection(Of TIdType), CancellationToken?)
+  fullName.vb: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler(Of TViewModel, TIdType).DeleteRangeAsync(System.Collections.Generic.ICollection(Of TIdType), System.Threading.CancellationToken?)
+  name.vb: DeleteRangeAsync(ICollection(Of TIdType), CancellationToken?)
+- uid: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+  id: GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2
+  langs:
+  - csharp
+  - vb
+  name: GetAllAsync(RequestForDataObj, CancellationToken?)
+  nameWithType: ICrudForCollectionRequestHandler<TViewModel, TIdType>.GetAllAsync(RequestForDataObj, CancellationToken?)
+  fullName: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler<TViewModel, TIdType>.GetAllAsync(Quickie.DataObj.RequestForDataObj, System.Threading.CancellationToken?)
+  type: Method
+  source:
+    remote:
+      path: src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
+      branch: gh-pages
+      repo: https://github.com/sushantpt/Quickie.git
+    id: GetAllAsync
+    path: ../src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
+    startLine: 10
+  assemblies:
+  - Quickie
+  namespace: Quickie.Handlers.Crud.Definition
+  syntax:
+    content: Task<ResponseObj<PaginatedDataObj<TViewModel>>> GetAllAsync(RequestForDataObj request, CancellationToken? cancellationToken = null)
+    parameters:
+    - id: request
+      type: Quickie.DataObj.RequestForDataObj
+    - id: cancellationToken
+      type: System.Nullable{System.Threading.CancellationToken}
+    return:
+      type: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{Quickie.DataObj.PaginatedDataObj{{TViewModel}}}}
+    content.vb: Function GetAllAsync(request As RequestForDataObj, cancellationToken As CancellationToken? = Nothing) As Task(Of ResponseObj(Of PaginatedDataObj(Of TViewModel)))
+  overload: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.GetAllAsync*
+  nameWithType.vb: ICrudForCollectionRequestHandler(Of TViewModel, TIdType).GetAllAsync(RequestForDataObj, CancellationToken?)
+  fullName.vb: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler(Of TViewModel, TIdType).GetAllAsync(Quickie.DataObj.RequestForDataObj, System.Threading.CancellationToken?)
+- uid: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.CountAsync(System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.CountAsync(System.Nullable{System.Threading.CancellationToken})
+  id: CountAsync(System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2
+  langs:
+  - csharp
+  - vb
+  name: CountAsync(CancellationToken?)
+  nameWithType: ICrudForCollectionRequestHandler<TViewModel, TIdType>.CountAsync(CancellationToken?)
+  fullName: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler<TViewModel, TIdType>.CountAsync(System.Threading.CancellationToken?)
+  type: Method
+  source:
+    remote:
+      path: src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
+      branch: gh-pages
+      repo: https://github.com/sushantpt/Quickie.git
+    id: CountAsync
+    path: ../src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
+    startLine: 12
+  assemblies:
+  - Quickie
+  namespace: Quickie.Handlers.Crud.Definition
+  syntax:
+    content: Task<ResponseObj<int>> CountAsync(CancellationToken? cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Nullable{System.Threading.CancellationToken}
+    return:
+      type: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{System.Int32}}
+    content.vb: Function CountAsync(cancellationToken As CancellationToken? = Nothing) As Task(Of ResponseObj(Of Integer))
+  overload: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.CountAsync*
+  nameWithType.vb: ICrudForCollectionRequestHandler(Of TViewModel, TIdType).CountAsync(CancellationToken?)
+  fullName.vb: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler(Of TViewModel, TIdType).CountAsync(System.Threading.CancellationToken?)
+references:
+- uid: Quickie.Handlers.Crud.Definition
+  commentId: N:Quickie.Handlers.Crud.Definition
+  href: Quickie.html
+  name: Quickie.Handlers.Crud.Definition
+  nameWithType: Quickie.Handlers.Crud.Definition
+  fullName: Quickie.Handlers.Crud.Definition
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Handlers
+    name: Handlers
+    href: Quickie.Handlers.html
+  - name: .
+  - uid: Quickie.Handlers.Crud
+    name: Crud
+    href: Quickie.Handlers.Crud.html
+  - name: .
+  - uid: Quickie.Handlers.Crud.Definition
+    name: Definition
+    href: Quickie.Handlers.Crud.Definition.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Handlers
+    name: Handlers
+    href: Quickie.Handlers.html
+  - name: .
+  - uid: Quickie.Handlers.Crud
+    name: Crud
+    href: Quickie.Handlers.Crud.html
+  - name: .
+  - uid: Quickie.Handlers.Crud.Definition
+    name: Definition
+    href: Quickie.Handlers.Crud.Definition.html
+- uid: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.CreateRangeAsync*
+  commentId: Overload:Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.CreateRangeAsync
+  href: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler-2.html#Quickie_Handlers_Crud_Definition_ICrudForCollectionRequestHandler_2_CreateRangeAsync_System_Collections_Generic_ICollection__0__System_Nullable_System_Threading_CancellationToken__
+  name: CreateRangeAsync
+  nameWithType: ICrudForCollectionRequestHandler<TViewModel, TIdType>.CreateRangeAsync
+  fullName: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler<TViewModel, TIdType>.CreateRangeAsync
+  nameWithType.vb: ICrudForCollectionRequestHandler(Of TViewModel, TIdType).CreateRangeAsync
+  fullName.vb: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler(Of TViewModel, TIdType).CreateRangeAsync
+- uid: System.Collections.Generic.ICollection{{TViewModel}}
+  commentId: T:System.Collections.Generic.ICollection{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<TViewModel>
+  nameWithType: ICollection<TViewModel>
+  fullName: System.Collections.Generic.ICollection<TViewModel>
+  nameWithType.vb: ICollection(Of TViewModel)
+  fullName.vb: System.Collections.Generic.ICollection(Of TViewModel)
+  name.vb: ICollection(Of TViewModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TViewModel
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TViewModel
+  - name: )
+- uid: System.Nullable{System.Threading.CancellationToken}
+  commentId: T:System.Nullable{System.Threading.CancellationToken}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken?
+  nameWithType: CancellationToken?
+  fullName: System.Threading.CancellationToken?
+  spec.csharp:
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  spec.vb:
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+- uid: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{System.Collections.Generic.ICollection{{TViewModel}}}}
+  commentId: T:System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{System.Collections.Generic.ICollection{`0}}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ResponseObj<ICollection<TViewModel>>>
+  nameWithType: Task<ResponseObj<ICollection<TViewModel>>>
+  fullName: System.Threading.Tasks.Task<Quickie.DataObj.ResponseObj<System.Collections.Generic.ICollection<TViewModel>>>
+  nameWithType.vb: Task(Of ResponseObj(Of ICollection(Of TViewModel)))
+  fullName.vb: System.Threading.Tasks.Task(Of Quickie.DataObj.ResponseObj(Of System.Collections.Generic.ICollection(Of TViewModel)))
+  name.vb: Task(Of ResponseObj(Of ICollection(Of TViewModel)))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Quickie.DataObj.ResponseObj`1
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj-1.html
+  - name: <
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TViewModel
+  - name: '>'
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Quickie.DataObj.ResponseObj`1
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TViewModel
+  - name: )
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.UpdateRangeAsync*
+  commentId: Overload:Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.UpdateRangeAsync
+  href: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler-2.html#Quickie_Handlers_Crud_Definition_ICrudForCollectionRequestHandler_2_UpdateRangeAsync_System_Collections_Generic_ICollection__0__System_Nullable_System_Threading_CancellationToken__
+  name: UpdateRangeAsync
+  nameWithType: ICrudForCollectionRequestHandler<TViewModel, TIdType>.UpdateRangeAsync
+  fullName: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler<TViewModel, TIdType>.UpdateRangeAsync
+  nameWithType.vb: ICrudForCollectionRequestHandler(Of TViewModel, TIdType).UpdateRangeAsync
+  fullName.vb: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler(Of TViewModel, TIdType).UpdateRangeAsync
+- uid: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.DeleteRangeAsync*
+  commentId: Overload:Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.DeleteRangeAsync
+  href: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler-2.html#Quickie_Handlers_Crud_Definition_ICrudForCollectionRequestHandler_2_DeleteRangeAsync_System_Collections_Generic_ICollection__1__System_Nullable_System_Threading_CancellationToken__
+  name: DeleteRangeAsync
+  nameWithType: ICrudForCollectionRequestHandler<TViewModel, TIdType>.DeleteRangeAsync
+  fullName: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler<TViewModel, TIdType>.DeleteRangeAsync
+  nameWithType.vb: ICrudForCollectionRequestHandler(Of TViewModel, TIdType).DeleteRangeAsync
+  fullName.vb: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler(Of TViewModel, TIdType).DeleteRangeAsync
+- uid: System.Collections.Generic.ICollection{{TIdType}}
+  commentId: T:System.Collections.Generic.ICollection{`2}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<TIdType>
+  nameWithType: ICollection<TIdType>
+  fullName: System.Collections.Generic.ICollection<TIdType>
+  nameWithType.vb: ICollection(Of TIdType)
+  fullName.vb: System.Collections.Generic.ICollection(Of TIdType)
+  name.vb: ICollection(Of TIdType)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TIdType
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TIdType
+  - name: )
+- uid: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj}
+  commentId: T:System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ResponseObj>
+  nameWithType: Task<ResponseObj>
+  fullName: System.Threading.Tasks.Task<Quickie.DataObj.ResponseObj>
+  nameWithType.vb: Task(Of ResponseObj)
+  fullName.vb: System.Threading.Tasks.Task(Of Quickie.DataObj.ResponseObj)
+  name.vb: Task(Of ResponseObj)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Quickie.DataObj.ResponseObj
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Quickie.DataObj.ResponseObj
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj.html
+  - name: )
+- uid: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.GetAllAsync*
+  commentId: Overload:Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.GetAllAsync
+  href: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler-2.html#Quickie_Handlers_Crud_Definition_ICrudForCollectionRequestHandler_2_GetAllAsync_Quickie_DataObj_RequestForDataObj_System_Nullable_System_Threading_CancellationToken__
+  name: GetAllAsync
+  nameWithType: ICrudForCollectionRequestHandler<TViewModel, TIdType>.GetAllAsync
+  fullName: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler<TViewModel, TIdType>.GetAllAsync
+  nameWithType.vb: ICrudForCollectionRequestHandler(Of TViewModel, TIdType).GetAllAsync
+  fullName.vb: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler(Of TViewModel, TIdType).GetAllAsync
+- uid: Quickie.DataObj.RequestForDataObj
+  commentId: T:Quickie.DataObj.RequestForDataObj
+  parent: Quickie.DataObj
+  href: Quickie.DataObj.RequestForDataObj.html
+  name: RequestForDataObj
+  nameWithType: RequestForDataObj
+  fullName: Quickie.DataObj.RequestForDataObj
+- uid: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{Quickie.DataObj.PaginatedDataObj{{TViewModel}}}}
+  commentId: T:System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{Quickie.DataObj.PaginatedDataObj{`0}}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ResponseObj<PaginatedDataObj<TViewModel>>>
+  nameWithType: Task<ResponseObj<PaginatedDataObj<TViewModel>>>
+  fullName: System.Threading.Tasks.Task<Quickie.DataObj.ResponseObj<Quickie.DataObj.PaginatedDataObj<TViewModel>>>
+  nameWithType.vb: Task(Of ResponseObj(Of PaginatedDataObj(Of TViewModel)))
+  fullName.vb: System.Threading.Tasks.Task(Of Quickie.DataObj.ResponseObj(Of Quickie.DataObj.PaginatedDataObj(Of TViewModel)))
+  name.vb: Task(Of ResponseObj(Of PaginatedDataObj(Of TViewModel)))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Quickie.DataObj.ResponseObj`1
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj-1.html
+  - name: <
+  - uid: Quickie.DataObj.PaginatedDataObj`1
+    name: PaginatedDataObj
+    href: Quickie.DataObj.PaginatedDataObj-1.html
+  - name: <
+  - name: TViewModel
+  - name: '>'
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Quickie.DataObj.ResponseObj`1
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Quickie.DataObj.PaginatedDataObj`1
+    name: PaginatedDataObj
+    href: Quickie.DataObj.PaginatedDataObj-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TViewModel
+  - name: )
+  - name: )
+  - name: )
+- uid: Quickie.DataObj
+  commentId: N:Quickie.DataObj
+  href: Quickie.html
+  name: Quickie.DataObj
+  nameWithType: Quickie.DataObj
+  fullName: Quickie.DataObj
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataObj
+    name: DataObj
+    href: Quickie.DataObj.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataObj
+    name: DataObj
+    href: Quickie.DataObj.html
+- uid: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.CountAsync*
+  commentId: Overload:Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.CountAsync
+  href: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler-2.html#Quickie_Handlers_Crud_Definition_ICrudForCollectionRequestHandler_2_CountAsync_System_Nullable_System_Threading_CancellationToken__
+  name: CountAsync
+  nameWithType: ICrudForCollectionRequestHandler<TViewModel, TIdType>.CountAsync
+  fullName: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler<TViewModel, TIdType>.CountAsync
+  nameWithType.vb: ICrudForCollectionRequestHandler(Of TViewModel, TIdType).CountAsync
+  fullName.vb: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler(Of TViewModel, TIdType).CountAsync
+- uid: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{System.Int32}}
+  commentId: T:System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{System.Int32}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ResponseObj<int>>
+  nameWithType: Task<ResponseObj<int>>
+  fullName: System.Threading.Tasks.Task<Quickie.DataObj.ResponseObj<int>>
+  nameWithType.vb: Task(Of ResponseObj(Of Integer))
+  fullName.vb: System.Threading.Tasks.Task(Of Quickie.DataObj.ResponseObj(Of Integer))
+  name.vb: Task(Of ResponseObj(Of Integer))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Quickie.DataObj.ResponseObj`1
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj-1.html
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Quickie.DataObj.ResponseObj`1
+    name: ResponseObj
+    href: Quickie.DataObj.ResponseObj-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  - name: )

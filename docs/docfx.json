@@ -9,7 +9,7 @@
           ]
         }
       ],
-      "dest": "api",
+      "dest": "_site/api",
       "allowCompilationErrors": true
     }
   ],

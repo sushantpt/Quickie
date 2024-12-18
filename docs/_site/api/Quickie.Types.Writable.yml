@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.Types.Writable
+  commentId: N:Quickie.Types.Writable
+  id: Quickie.Types.Writable
+  children:
+  - Quickie.Types.Writable.WriteOnlyDto
+  - Quickie.Types.Writable.WriteOnlyEntity
+  langs:
+  - csharp
+  - vb
+  name: Quickie.Types.Writable
+  nameWithType: Quickie.Types.Writable
+  fullName: Quickie.Types.Writable
+  type: Namespace
+  assemblies:
+  - Quickie
+references:
+- uid: Quickie.Types.Writable.WriteOnlyDto
+  commentId: T:Quickie.Types.Writable.WriteOnlyDto
+  href: Quickie.Types.Writable.WriteOnlyDto.html
+  name: WriteOnlyDto
+  nameWithType: WriteOnlyDto
+  fullName: Quickie.Types.Writable.WriteOnlyDto
+- uid: Quickie.Types.Writable.WriteOnlyEntity
+  commentId: T:Quickie.Types.Writable.WriteOnlyEntity
+  href: Quickie.Types.Writable.WriteOnlyEntity.html
+  name: WriteOnlyEntity
+  nameWithType: WriteOnlyEntity
+  fullName: Quickie.Types.Writable.WriteOnlyEntity

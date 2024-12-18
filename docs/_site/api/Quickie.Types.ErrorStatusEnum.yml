@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.Types.ErrorStatusEnum
+  commentId: T:Quickie.Types.ErrorStatusEnum
+  id: ErrorStatusEnum
+  parent: Quickie.Types
+  children:
+  - Quickie.Types.ErrorStatusEnum.Critical
+  - Quickie.Types.ErrorStatusEnum.Info
+  - Quickie.Types.ErrorStatusEnum.Warning
+  langs:
+  - csharp
+  - vb
+  name: ErrorStatusEnum
+  nameWithType: ErrorStatusEnum
+  fullName: Quickie.Types.ErrorStatusEnum
+  type: Enum
+  source:
+    remote:
+      path: src/Quickie/Types/ErrorStatusEnum.cs
+      branch: gh-pages
+      repo: https://github.com/sushantpt/Quickie.git
+    id: ErrorStatusEnum
+    path: ../src/Quickie/Types/ErrorStatusEnum.cs
+    startLine: 5
+  assemblies:
+  - Quickie
+  namespace: Quickie.Types
+  summary: Status representing the different severity levels of an error or message.
+  example: []
+  syntax:
+    content: public enum ErrorStatusEnum
+    content.vb: Public Enum ErrorStatusEnum
+- uid: Quickie.Types.ErrorStatusEnum.Info
+  commentId: F:Quickie.Types.ErrorStatusEnum.Info
+  id: Info
+  parent: Quickie.Types.ErrorStatusEnum
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: ErrorStatusEnum.Info
+  fullName: Quickie.Types.ErrorStatusEnum.Info
+  type: Field
+  source:
+    remote:
+      path: src/Quickie/Types/ErrorStatusEnum.cs
+      branch: gh-pages
+      repo: https://github.com/sushantpt/Quickie.git
+    id: Info
+    path: ../src/Quickie/Types/ErrorStatusEnum.cs
+    startLine: 10
+  assemblies:
+  - Quickie
+  namespace: Quickie.Types
+  summary: Represents informational messages that do not indicate any issues. These are typically non-critical and meant for logging or user information.
+  example: []
+  syntax:
+    content: Info = 0
+    return:
+      type: Quickie.Types.ErrorStatusEnum
+- uid: Quickie.Types.ErrorStatusEnum.Warning
+  commentId: F:Quickie.Types.ErrorStatusEnum.Warning
+  id: Warning
+  parent: Quickie.Types.ErrorStatusEnum
+  langs:
+  - csharp
+  - vb
+  name: Warning
+  nameWithType: ErrorStatusEnum.Warning
+  fullName: Quickie.Types.ErrorStatusEnum.Warning
+  type: Field
+  source:
+    remote:
+      path: src/Quickie/Types/ErrorStatusEnum.cs
+      branch: gh-pages
+      repo: https://github.com/sushantpt/Quickie.git
+    id: Warning
+    path: ../src/Quickie/Types/ErrorStatusEnum.cs
+    startLine: 15
+  assemblies:
+  - Quickie
+  namespace: Quickie.Types
+  summary: Represents warning messages that indicate potential issues. These require attention but do not block the operation or indicate a failure.
+  example: []
+  syntax:
+    content: Warning = 1
+    return:
+      type: Quickie.Types.ErrorStatusEnum
+- uid: Quickie.Types.ErrorStatusEnum.Critical
+  commentId: F:Quickie.Types.ErrorStatusEnum.Critical
+  id: Critical
+  parent: Quickie.Types.ErrorStatusEnum
+  langs:
+  - csharp
+  - vb
+  name: Critical
+  nameWithType: ErrorStatusEnum.Critical
+  fullName: Quickie.Types.ErrorStatusEnum.Critical
+  type: Field
+  source:
+    remote:
+      path: src/Quickie/Types/ErrorStatusEnum.cs
+      branch: gh-pages
+      repo: https://github.com/sushantpt/Quickie.git
+    id: Critical
+    path: ../src/Quickie/Types/ErrorStatusEnum.cs
+    startLine: 20
+  assemblies:
+  - Quickie
+  namespace: Quickie.Types
+  summary: Represents critical errors that require immediate attention. These typically indicate a failure or something that must be fixed for the application to function properly.
+  example: []
+  syntax:
+    content: Critical = 2
+    return:
+      type: Quickie.Types.ErrorStatusEnum
+references:
+- uid: Quickie.Types
+  commentId: N:Quickie.Types
+  href: Quickie.html
+  name: Quickie.Types
+  nameWithType: Quickie.Types
+  fullName: Quickie.Types
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Types
+    name: Types
+    href: Quickie.Types.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Types
+    name: Types
+    href: Quickie.Types.html
+- uid: Quickie.Types.ErrorStatusEnum
+  commentId: T:Quickie.Types.ErrorStatusEnum
+  parent: Quickie.Types
+  href: Quickie.Types.ErrorStatusEnum.html
+  name: ErrorStatusEnum
+  nameWithType: ErrorStatusEnum
+  fullName: Quickie.Types.ErrorStatusEnum
