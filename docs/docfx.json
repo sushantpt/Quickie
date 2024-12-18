@@ -9,7 +9,7 @@
           ]
         }
       ],
-      "dest": "_site",
+      "dest": "api",
       "allowCompilationErrors": true
     }
   ],
@@ -19,12 +19,12 @@
         "files": [
           "/**/*.{md,yml}",
           "toc.yml",
-          "docs/_site/**.md",
-          "docs/_site/**.yml",
+          "docs/**.md",
+          "docs/**.yml",
           "*.md",
-          "docs/_site/*.md",
-          "_site/api/**.yml",
-          "_site/api/index.md"
+          "docs/*.md",
+          "api/**.yml",
+          "api/index.md"
         ]
       }
     ],
@@ -35,7 +35,6 @@
         ]
       }
     ],
-    "output": "_site",
     "template": [
       "default",
       "modern",
