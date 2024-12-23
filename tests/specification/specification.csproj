@@ -27,8 +27,4 @@
       <ProjectReference Include="..\..\src\Quickie\Quickie.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="MinimalApis\" />
-    </ItemGroup>
-
 </Project>

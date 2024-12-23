@@ -10,7 +10,6 @@ public static class CrudEndpoints
     /// </summary>
     /// <param name="app">The IEndpointRouteBuilder instance to add endpoints to</param>
     /// <param name="baseRoute">The base route for all CRUD endpoints <c>(e.g., "/api/resources")</c></param>
-    /// <param name="requestHandler">The type of the request handler that implements business logic of type ICrudRequestHandler</param>
     /// <typeparam name="TViewModel">The type of the view model/DTO used for data transfer of type CrudDto</typeparam>
     /// <typeparam name="TRequestHandler">The type of the request handler that implements business logic of type ICrudRequestHandler</typeparam>
     /// <typeparam name="TIdType">The type of the primary key/identifier of type IComparable</typeparam>
@@ -29,19 +28,19 @@ public static class CrudEndpoints
     /// );
     /// </code>
     /// </example>
-    public static void AddEndpoints<TViewModel, TRequestHandler, TIdType>(this IEndpointRouteBuilder app, string baseRoute, TRequestHandler requestHandler) 
+    public static void AddCrudEndpoints<TViewModel, TRequestHandler, TIdType>(this IEndpointRouteBuilder app, string baseRoute) 
         where TViewModel : CrudDto where TRequestHandler : ICrudRequestHandler<TViewModel, TIdType> where TIdType : IComparable 
     {
         var options = GlobalQuickieConfigData.Options;
         
         // Create
-        app.MapPost(baseRoute, async Task<IResult> ([FromHeader(Name = "X-Idempotency-Key")] string? idempotencyKey, [FromBody] TViewModel request, CancellationToken cancellationToken) =>
+        app.MapPost(baseRoute, async Task<IResult> (TRequestHandler handler, [FromHeader(Name = "X-Idempotency-Key")] string? idempotencyKey, [FromBody] TViewModel request, CancellationToken cancellationToken) =>
         {
             try
             {
                 ArgumentNullException.ThrowIfNull(request);
                 
-                var response = await requestHandler.CreateAsync(request, cancellationToken);
+                var response = await handler.CreateAsync(request, cancellationToken);
                 return response is { IsSuccess: true } ? Results.Created($"{baseRoute}/", response) : Results.BadRequest(response);
             }
             catch (Exception ex)
@@ -57,7 +56,7 @@ public static class CrudEndpoints
         });
 
         // Get by ID
-        app.MapGet($"{baseRoute}/{{id}}", async Task<IResult> (TIdType id, CancellationToken cancellationToken) =>
+        app.MapGet($"{baseRoute}/{{id}}", async Task<IResult> (TRequestHandler requestHandler, TIdType id, CancellationToken cancellationToken) =>
         {
             try
             {
@@ -83,7 +82,7 @@ public static class CrudEndpoints
         });
 
         // Update
-        app.MapPut($"{baseRoute}/{{id}}", async Task<IResult> (TIdType id, [FromBody] TViewModel request, CancellationToken cancellationToken) =>
+        app.MapPut($"{baseRoute}/{{id}}", async Task<IResult> (TRequestHandler requestHandler, TIdType id, [FromBody] TViewModel request, CancellationToken cancellationToken) =>
         {
             try
             {
@@ -109,7 +108,7 @@ public static class CrudEndpoints
         });
 
         // Delete
-        app.MapDelete($"{baseRoute}/{{id}}", async Task<IResult> (TIdType id, CancellationToken cancellationToken) =>
+        app.MapDelete($"{baseRoute}/{{id}}", async Task<IResult> (TRequestHandler requestHandler, TIdType id, CancellationToken cancellationToken) =>
         {
             try
             {
