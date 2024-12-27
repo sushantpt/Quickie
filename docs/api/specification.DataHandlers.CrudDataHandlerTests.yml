@@ -1,0 +1,760 @@
+### YamlMime:ManagedReference
+items:
+- uid: specification.DataHandlers.CrudDataHandlerTests
+  commentId: T:specification.DataHandlers.CrudDataHandlerTests
+  id: CrudDataHandlerTests
+  parent: specification.DataHandlers
+  children:
+  - specification.DataHandlers.CrudDataHandlerTests.#ctor
+  - specification.DataHandlers.CrudDataHandlerTests.CreateAsync_ShouldReturnFailure_WhenSaveFails
+  - specification.DataHandlers.CrudDataHandlerTests.CreateAsync_ShouldReturnSuccess_WhenEntityIsAdded
+  - specification.DataHandlers.CrudDataHandlerTests.DeleteAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+  - specification.DataHandlers.CrudDataHandlerTests.DeleteAsync_ShouldReturnSuccess_WhenEntityIsDeleted
+  - specification.DataHandlers.CrudDataHandlerTests.GetByIdAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+  - specification.DataHandlers.CrudDataHandlerTests.GetByIdAsync_ShouldReturnSuccess_WhenEntityExists
+  - specification.DataHandlers.CrudDataHandlerTests.UpdateAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+  - specification.DataHandlers.CrudDataHandlerTests.UpdateAsync_ShouldReturnSuccess_WhenEntityIsUpdated
+  langs:
+  - csharp
+  - vb
+  name: CrudDataHandlerTests
+  nameWithType: CrudDataHandlerTests
+  fullName: specification.DataHandlers.CrudDataHandlerTests
+  type: Class
+  source:
+    remote:
+      path: tests/specification/DataHandlers/CrudDataHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: CrudDataHandlerTests
+    path: ../tests/specification/DataHandlers/CrudDataHandlerTests.cs
+    startLine: 14
+  assemblies:
+  - specification
+  namespace: specification.DataHandlers
+  summary: Tests of CRUD data handler.
+  example: []
+  syntax:
+    content: public class CrudDataHandlerTests
+    content.vb: Public Class CrudDataHandlerTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: specification.DataHandlers.CrudDataHandlerTests.#ctor
+  commentId: M:specification.DataHandlers.CrudDataHandlerTests.#ctor
+  id: '#ctor'
+  parent: specification.DataHandlers.CrudDataHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: CrudDataHandlerTests()
+  nameWithType: CrudDataHandlerTests.CrudDataHandlerTests()
+  fullName: specification.DataHandlers.CrudDataHandlerTests.CrudDataHandlerTests()
+  type: Constructor
+  source:
+    remote:
+      path: tests/specification/DataHandlers/CrudDataHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: .ctor
+    path: ../tests/specification/DataHandlers/CrudDataHandlerTests.cs
+    startLine: 20
+  assemblies:
+  - specification
+  namespace: specification.DataHandlers
+  syntax:
+    content: public CrudDataHandlerTests()
+    content.vb: Public Sub New()
+  overload: specification.DataHandlers.CrudDataHandlerTests.#ctor*
+  nameWithType.vb: CrudDataHandlerTests.New()
+  fullName.vb: specification.DataHandlers.CrudDataHandlerTests.New()
+  name.vb: New()
+- uid: specification.DataHandlers.CrudDataHandlerTests.CreateAsync_ShouldReturnSuccess_WhenEntityIsAdded
+  commentId: M:specification.DataHandlers.CrudDataHandlerTests.CreateAsync_ShouldReturnSuccess_WhenEntityIsAdded
+  id: CreateAsync_ShouldReturnSuccess_WhenEntityIsAdded
+  parent: specification.DataHandlers.CrudDataHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: CreateAsync_ShouldReturnSuccess_WhenEntityIsAdded()
+  nameWithType: CrudDataHandlerTests.CreateAsync_ShouldReturnSuccess_WhenEntityIsAdded()
+  fullName: specification.DataHandlers.CrudDataHandlerTests.CreateAsync_ShouldReturnSuccess_WhenEntityIsAdded()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/DataHandlers/CrudDataHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: CreateAsync_ShouldReturnSuccess_WhenEntityIsAdded
+    path: ../tests/specification/DataHandlers/CrudDataHandlerTests.cs
+    startLine: 34
+  assemblies:
+  - specification
+  namespace: specification.DataHandlers
+  summary: CreateAsync returns success with newly created data.
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CreateAsync_ShouldReturnSuccess_WhenEntityIsAdded()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function CreateAsync_ShouldReturnSuccess_WhenEntityIsAdded() As Task
+  overload: specification.DataHandlers.CrudDataHandlerTests.CreateAsync_ShouldReturnSuccess_WhenEntityIsAdded*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: specification.DataHandlers.CrudDataHandlerTests.CreateAsync_ShouldReturnFailure_WhenSaveFails
+  commentId: M:specification.DataHandlers.CrudDataHandlerTests.CreateAsync_ShouldReturnFailure_WhenSaveFails
+  id: CreateAsync_ShouldReturnFailure_WhenSaveFails
+  parent: specification.DataHandlers.CrudDataHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: CreateAsync_ShouldReturnFailure_WhenSaveFails()
+  nameWithType: CrudDataHandlerTests.CreateAsync_ShouldReturnFailure_WhenSaveFails()
+  fullName: specification.DataHandlers.CrudDataHandlerTests.CreateAsync_ShouldReturnFailure_WhenSaveFails()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/DataHandlers/CrudDataHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: CreateAsync_ShouldReturnFailure_WhenSaveFails
+    path: ../tests/specification/DataHandlers/CrudDataHandlerTests.cs
+    startLine: 55
+  assemblies:
+  - specification
+  namespace: specification.DataHandlers
+  summary: CreateAsync returns failure message when something went wrong.
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CreateAsync_ShouldReturnFailure_WhenSaveFails()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function CreateAsync_ShouldReturnFailure_WhenSaveFails() As Task
+  overload: specification.DataHandlers.CrudDataHandlerTests.CreateAsync_ShouldReturnFailure_WhenSaveFails*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: specification.DataHandlers.CrudDataHandlerTests.GetByIdAsync_ShouldReturnSuccess_WhenEntityExists
+  commentId: M:specification.DataHandlers.CrudDataHandlerTests.GetByIdAsync_ShouldReturnSuccess_WhenEntityExists
+  id: GetByIdAsync_ShouldReturnSuccess_WhenEntityExists
+  parent: specification.DataHandlers.CrudDataHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: GetByIdAsync_ShouldReturnSuccess_WhenEntityExists()
+  nameWithType: CrudDataHandlerTests.GetByIdAsync_ShouldReturnSuccess_WhenEntityExists()
+  fullName: specification.DataHandlers.CrudDataHandlerTests.GetByIdAsync_ShouldReturnSuccess_WhenEntityExists()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/DataHandlers/CrudDataHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: GetByIdAsync_ShouldReturnSuccess_WhenEntityExists
+    path: ../tests/specification/DataHandlers/CrudDataHandlerTests.cs
+    startLine: 73
+  assemblies:
+  - specification
+  namespace: specification.DataHandlers
+  summary: GetDataAsync returning data when it exists.
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task GetByIdAsync_ShouldReturnSuccess_WhenEntityExists()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function GetByIdAsync_ShouldReturnSuccess_WhenEntityExists() As Task
+  overload: specification.DataHandlers.CrudDataHandlerTests.GetByIdAsync_ShouldReturnSuccess_WhenEntityExists*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: specification.DataHandlers.CrudDataHandlerTests.GetByIdAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+  commentId: M:specification.DataHandlers.CrudDataHandlerTests.GetByIdAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+  id: GetByIdAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+  parent: specification.DataHandlers.CrudDataHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: GetByIdAsync_ShouldReturnFailure_WhenEntityDoesNotExist()
+  nameWithType: CrudDataHandlerTests.GetByIdAsync_ShouldReturnFailure_WhenEntityDoesNotExist()
+  fullName: specification.DataHandlers.CrudDataHandlerTests.GetByIdAsync_ShouldReturnFailure_WhenEntityDoesNotExist()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/DataHandlers/CrudDataHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: GetByIdAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+    path: ../tests/specification/DataHandlers/CrudDataHandlerTests.cs
+    startLine: 89
+  assemblies:
+  - specification
+  namespace: specification.DataHandlers
+  summary: GetDataAsync when data does not exist.
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task GetByIdAsync_ShouldReturnFailure_WhenEntityDoesNotExist()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function GetByIdAsync_ShouldReturnFailure_WhenEntityDoesNotExist() As Task
+  overload: specification.DataHandlers.CrudDataHandlerTests.GetByIdAsync_ShouldReturnFailure_WhenEntityDoesNotExist*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: specification.DataHandlers.CrudDataHandlerTests.UpdateAsync_ShouldReturnSuccess_WhenEntityIsUpdated
+  commentId: M:specification.DataHandlers.CrudDataHandlerTests.UpdateAsync_ShouldReturnSuccess_WhenEntityIsUpdated
+  id: UpdateAsync_ShouldReturnSuccess_WhenEntityIsUpdated
+  parent: specification.DataHandlers.CrudDataHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: UpdateAsync_ShouldReturnSuccess_WhenEntityIsUpdated()
+  nameWithType: CrudDataHandlerTests.UpdateAsync_ShouldReturnSuccess_WhenEntityIsUpdated()
+  fullName: specification.DataHandlers.CrudDataHandlerTests.UpdateAsync_ShouldReturnSuccess_WhenEntityIsUpdated()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/DataHandlers/CrudDataHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: UpdateAsync_ShouldReturnSuccess_WhenEntityIsUpdated
+    path: ../tests/specification/DataHandlers/CrudDataHandlerTests.cs
+    startLine: 104
+  assemblies:
+  - specification
+  namespace: specification.DataHandlers
+  summary: Update success returns with updated data and message. (integration test)
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task UpdateAsync_ShouldReturnSuccess_WhenEntityIsUpdated()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function UpdateAsync_ShouldReturnSuccess_WhenEntityIsUpdated() As Task
+  overload: specification.DataHandlers.CrudDataHandlerTests.UpdateAsync_ShouldReturnSuccess_WhenEntityIsUpdated*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: specification.DataHandlers.CrudDataHandlerTests.UpdateAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+  commentId: M:specification.DataHandlers.CrudDataHandlerTests.UpdateAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+  id: UpdateAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+  parent: specification.DataHandlers.CrudDataHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: UpdateAsync_ShouldReturnFailure_WhenEntityDoesNotExist()
+  nameWithType: CrudDataHandlerTests.UpdateAsync_ShouldReturnFailure_WhenEntityDoesNotExist()
+  fullName: specification.DataHandlers.CrudDataHandlerTests.UpdateAsync_ShouldReturnFailure_WhenEntityDoesNotExist()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/DataHandlers/CrudDataHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: UpdateAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+    path: ../tests/specification/DataHandlers/CrudDataHandlerTests.cs
+    startLine: 136
+  assemblies:
+  - specification
+  namespace: specification.DataHandlers
+  summary: Update failure returns with failure message.
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task UpdateAsync_ShouldReturnFailure_WhenEntityDoesNotExist()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function UpdateAsync_ShouldReturnFailure_WhenEntityDoesNotExist() As Task
+  overload: specification.DataHandlers.CrudDataHandlerTests.UpdateAsync_ShouldReturnFailure_WhenEntityDoesNotExist*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: specification.DataHandlers.CrudDataHandlerTests.DeleteAsync_ShouldReturnSuccess_WhenEntityIsDeleted
+  commentId: M:specification.DataHandlers.CrudDataHandlerTests.DeleteAsync_ShouldReturnSuccess_WhenEntityIsDeleted
+  id: DeleteAsync_ShouldReturnSuccess_WhenEntityIsDeleted
+  parent: specification.DataHandlers.CrudDataHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: DeleteAsync_ShouldReturnSuccess_WhenEntityIsDeleted()
+  nameWithType: CrudDataHandlerTests.DeleteAsync_ShouldReturnSuccess_WhenEntityIsDeleted()
+  fullName: specification.DataHandlers.CrudDataHandlerTests.DeleteAsync_ShouldReturnSuccess_WhenEntityIsDeleted()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/DataHandlers/CrudDataHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: DeleteAsync_ShouldReturnSuccess_WhenEntityIsDeleted
+    path: ../tests/specification/DataHandlers/CrudDataHandlerTests.cs
+    startLine: 151
+  assemblies:
+  - specification
+  namespace: specification.DataHandlers
+  summary: Successful deletion of data.
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task DeleteAsync_ShouldReturnSuccess_WhenEntityIsDeleted()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function DeleteAsync_ShouldReturnSuccess_WhenEntityIsDeleted() As Task
+  overload: specification.DataHandlers.CrudDataHandlerTests.DeleteAsync_ShouldReturnSuccess_WhenEntityIsDeleted*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: specification.DataHandlers.CrudDataHandlerTests.DeleteAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+  commentId: M:specification.DataHandlers.CrudDataHandlerTests.DeleteAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+  id: DeleteAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+  parent: specification.DataHandlers.CrudDataHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: DeleteAsync_ShouldReturnFailure_WhenEntityDoesNotExist()
+  nameWithType: CrudDataHandlerTests.DeleteAsync_ShouldReturnFailure_WhenEntityDoesNotExist()
+  fullName: specification.DataHandlers.CrudDataHandlerTests.DeleteAsync_ShouldReturnFailure_WhenEntityDoesNotExist()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/DataHandlers/CrudDataHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: DeleteAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+    path: ../tests/specification/DataHandlers/CrudDataHandlerTests.cs
+    startLine: 167
+  assemblies:
+  - specification
+  namespace: specification.DataHandlers
+  summary: When data to delete does not exist.
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task DeleteAsync_ShouldReturnFailure_WhenEntityDoesNotExist()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function DeleteAsync_ShouldReturnFailure_WhenEntityDoesNotExist() As Task
+  overload: specification.DataHandlers.CrudDataHandlerTests.DeleteAsync_ShouldReturnFailure_WhenEntityDoesNotExist*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+references:
+- uid: specification.DataHandlers
+  commentId: N:specification.DataHandlers
+  href: specification.html
+  name: specification.DataHandlers
+  nameWithType: specification.DataHandlers
+  fullName: specification.DataHandlers
+  spec.csharp:
+  - uid: specification
+    name: specification
+    href: specification.html
+  - name: .
+  - uid: specification.DataHandlers
+    name: DataHandlers
+    href: specification.DataHandlers.html
+  spec.vb:
+  - uid: specification
+    name: specification
+    href: specification.html
+  - name: .
+  - uid: specification.DataHandlers
+    name: DataHandlers
+    href: specification.DataHandlers.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: specification.DataHandlers.CrudDataHandlerTests.#ctor*
+  commentId: Overload:specification.DataHandlers.CrudDataHandlerTests.#ctor
+  href: specification.DataHandlers.CrudDataHandlerTests.html#specification_DataHandlers_CrudDataHandlerTests__ctor
+  name: CrudDataHandlerTests
+  nameWithType: CrudDataHandlerTests.CrudDataHandlerTests
+  fullName: specification.DataHandlers.CrudDataHandlerTests.CrudDataHandlerTests
+  nameWithType.vb: CrudDataHandlerTests.New
+  fullName.vb: specification.DataHandlers.CrudDataHandlerTests.New
+  name.vb: New
+- uid: specification.DataHandlers.CrudDataHandlerTests.CreateAsync_ShouldReturnSuccess_WhenEntityIsAdded*
+  commentId: Overload:specification.DataHandlers.CrudDataHandlerTests.CreateAsync_ShouldReturnSuccess_WhenEntityIsAdded
+  href: specification.DataHandlers.CrudDataHandlerTests.html#specification_DataHandlers_CrudDataHandlerTests_CreateAsync_ShouldReturnSuccess_WhenEntityIsAdded
+  name: CreateAsync_ShouldReturnSuccess_WhenEntityIsAdded
+  nameWithType: CrudDataHandlerTests.CreateAsync_ShouldReturnSuccess_WhenEntityIsAdded
+  fullName: specification.DataHandlers.CrudDataHandlerTests.CreateAsync_ShouldReturnSuccess_WhenEntityIsAdded
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: specification.DataHandlers.CrudDataHandlerTests.CreateAsync_ShouldReturnFailure_WhenSaveFails*
+  commentId: Overload:specification.DataHandlers.CrudDataHandlerTests.CreateAsync_ShouldReturnFailure_WhenSaveFails
+  href: specification.DataHandlers.CrudDataHandlerTests.html#specification_DataHandlers_CrudDataHandlerTests_CreateAsync_ShouldReturnFailure_WhenSaveFails
+  name: CreateAsync_ShouldReturnFailure_WhenSaveFails
+  nameWithType: CrudDataHandlerTests.CreateAsync_ShouldReturnFailure_WhenSaveFails
+  fullName: specification.DataHandlers.CrudDataHandlerTests.CreateAsync_ShouldReturnFailure_WhenSaveFails
+- uid: specification.DataHandlers.CrudDataHandlerTests.GetByIdAsync_ShouldReturnSuccess_WhenEntityExists*
+  commentId: Overload:specification.DataHandlers.CrudDataHandlerTests.GetByIdAsync_ShouldReturnSuccess_WhenEntityExists
+  href: specification.DataHandlers.CrudDataHandlerTests.html#specification_DataHandlers_CrudDataHandlerTests_GetByIdAsync_ShouldReturnSuccess_WhenEntityExists
+  name: GetByIdAsync_ShouldReturnSuccess_WhenEntityExists
+  nameWithType: CrudDataHandlerTests.GetByIdAsync_ShouldReturnSuccess_WhenEntityExists
+  fullName: specification.DataHandlers.CrudDataHandlerTests.GetByIdAsync_ShouldReturnSuccess_WhenEntityExists
+- uid: specification.DataHandlers.CrudDataHandlerTests.GetByIdAsync_ShouldReturnFailure_WhenEntityDoesNotExist*
+  commentId: Overload:specification.DataHandlers.CrudDataHandlerTests.GetByIdAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+  href: specification.DataHandlers.CrudDataHandlerTests.html#specification_DataHandlers_CrudDataHandlerTests_GetByIdAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+  name: GetByIdAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+  nameWithType: CrudDataHandlerTests.GetByIdAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+  fullName: specification.DataHandlers.CrudDataHandlerTests.GetByIdAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+- uid: specification.DataHandlers.CrudDataHandlerTests.UpdateAsync_ShouldReturnSuccess_WhenEntityIsUpdated*
+  commentId: Overload:specification.DataHandlers.CrudDataHandlerTests.UpdateAsync_ShouldReturnSuccess_WhenEntityIsUpdated
+  href: specification.DataHandlers.CrudDataHandlerTests.html#specification_DataHandlers_CrudDataHandlerTests_UpdateAsync_ShouldReturnSuccess_WhenEntityIsUpdated
+  name: UpdateAsync_ShouldReturnSuccess_WhenEntityIsUpdated
+  nameWithType: CrudDataHandlerTests.UpdateAsync_ShouldReturnSuccess_WhenEntityIsUpdated
+  fullName: specification.DataHandlers.CrudDataHandlerTests.UpdateAsync_ShouldReturnSuccess_WhenEntityIsUpdated
+- uid: specification.DataHandlers.CrudDataHandlerTests.UpdateAsync_ShouldReturnFailure_WhenEntityDoesNotExist*
+  commentId: Overload:specification.DataHandlers.CrudDataHandlerTests.UpdateAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+  href: specification.DataHandlers.CrudDataHandlerTests.html#specification_DataHandlers_CrudDataHandlerTests_UpdateAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+  name: UpdateAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+  nameWithType: CrudDataHandlerTests.UpdateAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+  fullName: specification.DataHandlers.CrudDataHandlerTests.UpdateAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+- uid: specification.DataHandlers.CrudDataHandlerTests.DeleteAsync_ShouldReturnSuccess_WhenEntityIsDeleted*
+  commentId: Overload:specification.DataHandlers.CrudDataHandlerTests.DeleteAsync_ShouldReturnSuccess_WhenEntityIsDeleted
+  href: specification.DataHandlers.CrudDataHandlerTests.html#specification_DataHandlers_CrudDataHandlerTests_DeleteAsync_ShouldReturnSuccess_WhenEntityIsDeleted
+  name: DeleteAsync_ShouldReturnSuccess_WhenEntityIsDeleted
+  nameWithType: CrudDataHandlerTests.DeleteAsync_ShouldReturnSuccess_WhenEntityIsDeleted
+  fullName: specification.DataHandlers.CrudDataHandlerTests.DeleteAsync_ShouldReturnSuccess_WhenEntityIsDeleted
+- uid: specification.DataHandlers.CrudDataHandlerTests.DeleteAsync_ShouldReturnFailure_WhenEntityDoesNotExist*
+  commentId: Overload:specification.DataHandlers.CrudDataHandlerTests.DeleteAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+  href: specification.DataHandlers.CrudDataHandlerTests.html#specification_DataHandlers_CrudDataHandlerTests_DeleteAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+  name: DeleteAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+  nameWithType: CrudDataHandlerTests.DeleteAsync_ShouldReturnFailure_WhenEntityDoesNotExist
+  fullName: specification.DataHandlers.CrudDataHandlerTests.DeleteAsync_ShouldReturnFailure_WhenEntityDoesNotExist

@@ -23,7 +23,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
-      branch: master
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: CrudForCollectionRequestHandler
     path: ../src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
@@ -47,6 +47,8 @@ items:
     content.vb: Public MustInherit Class CrudForCollectionRequestHandler(Of TViewModel As CrudDto, TEntity As CrudEntity, TDataHandler As ICrudForCollectionDataHandler(Of TEntity, TIdType), TIdType As IComparable) Implements ICrudForCollectionRequestHandler(Of TViewModel, TIdType)
   inheritance:
   - System.Object
+  derivedClasses:
+  - specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete
   implements:
   - Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler{{TViewModel},{TIdType}}
   inheritedMembers:
@@ -74,7 +76,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
-      branch: master
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
@@ -109,7 +111,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
-      branch: master
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: CreateRangeAsync
     path: ../src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
@@ -152,7 +154,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
-      branch: master
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: UpdateRangeAsync
     path: ../src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
@@ -195,7 +197,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
-      branch: master
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: DeleteRangeAsync
     path: ../src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
@@ -238,7 +240,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
-      branch: master
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: GetAllAsync
     path: ../src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
@@ -280,7 +282,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
-      branch: master
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: CountAsync
     path: ../src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
@@ -319,7 +321,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
-      branch: master
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: MapToCollectionOfDto
     path: ../src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
@@ -357,7 +359,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs
-      branch: master
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: MapToCollectionOfEntity
     path: ../src/Quickie/Handlers/Crud/Implementation/CrudForCollectionRequestHandler.cs

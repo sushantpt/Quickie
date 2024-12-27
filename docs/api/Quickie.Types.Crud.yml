@@ -18,13 +18,45 @@ items:
 references:
 - uid: Quickie.Types.Crud.CrudDto
   commentId: T:Quickie.Types.Crud.CrudDto
+  parent: Quickie.Types.Crud
   href: Quickie.Types.Crud.CrudDto.html
   name: CrudDto
   nameWithType: CrudDto
   fullName: Quickie.Types.Crud.CrudDto
 - uid: Quickie.Types.Crud.CrudEntity
   commentId: T:Quickie.Types.Crud.CrudEntity
+  parent: Quickie.Types.Crud
   href: Quickie.Types.Crud.CrudEntity.html
   name: CrudEntity
   nameWithType: CrudEntity
   fullName: Quickie.Types.Crud.CrudEntity
+- uid: Quickie.Types.Crud
+  commentId: N:Quickie.Types.Crud
+  href: Quickie.html
+  name: Quickie.Types.Crud
+  nameWithType: Quickie.Types.Crud
+  fullName: Quickie.Types.Crud
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Types
+    name: Types
+    href: Quickie.Types.html
+  - name: .
+  - uid: Quickie.Types.Crud
+    name: Crud
+    href: Quickie.Types.Crud.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Types
+    name: Types
+    href: Quickie.Types.html
+  - name: .
+  - uid: Quickie.Types.Crud
+    name: Crud
+    href: Quickie.Types.Crud.html

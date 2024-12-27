@@ -1,0 +1,25 @@
+@sample.minimalapi_HostAddress = http://localhost:5220
+
+### Create Todo
+POST http://localhost:5220/api/todos
+Content-Type: application/json
+
+{
+  "title": "Test Todo yayay",
+  "description": "Testing CRUD operations"
+}
+
+### Get Todo by ID
+GET http://localhost:5220/api/todos/3
+
+### Update Todo
+PUT http://localhost:5220/api/todos/1
+Content-Type: application/json
+
+{
+  "title": "Updated Todo",
+  "description": "Updated description"
+}
+
+### Delete Todo
+DELETE http://localhost:5220/api/todos/1

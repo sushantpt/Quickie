@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: src/Quickie/Types/Readonly/ReadOnlyDto.cs
-      branch: master
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: ReadOnlyDto
     path: ../src/Quickie/Types/Readonly/ReadOnlyDto.cs
@@ -31,6 +31,8 @@ items:
     content.vb: Public MustInherit Class ReadOnlyDto Implements IEquatable(Of ReadOnlyDto)
   inheritance:
   - System.Object
+  derivedClasses:
+  - specification.Helpers.Dtos.ReadOnlyDtoConcrete
   implements:
   - System.IEquatable{Quickie.Types.Readonly.ReadOnlyDto}
   inheritedMembers:
@@ -55,7 +57,7 @@ items:
   source:
     remote:
       path: src/Quickie/Types/Readonly/ReadOnlyDto.cs
-      branch: master
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../src/Quickie/Types/Readonly/ReadOnlyDto.cs

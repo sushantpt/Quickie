@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: specification.Helpers.Dtos
+  commentId: N:specification.Helpers.Dtos
+  id: specification.Helpers.Dtos
+  children:
+  - specification.Helpers.Dtos.CrudDtoConcrete
+  - specification.Helpers.Dtos.EditOnlyDtoConcrete
+  - specification.Helpers.Dtos.FilterResult
+  - specification.Helpers.Dtos.ReadOnlyCollectionDataRequest
+  - specification.Helpers.Dtos.ReadOnlyDtoConcrete
+  - specification.Helpers.Dtos.WriteOnlyDtoConcrete
+  langs:
+  - csharp
+  - vb
+  name: specification.Helpers.Dtos
+  nameWithType: specification.Helpers.Dtos
+  fullName: specification.Helpers.Dtos
+  type: Namespace
+  assemblies:
+  - specification
+references:
+- uid: specification.Helpers.Dtos.CrudDtoConcrete
+  commentId: T:specification.Helpers.Dtos.CrudDtoConcrete
+  parent: specification.Helpers.Dtos
+  href: specification.Helpers.Dtos.CrudDtoConcrete.html
+  name: CrudDtoConcrete
+  nameWithType: CrudDtoConcrete
+  fullName: specification.Helpers.Dtos.CrudDtoConcrete
+- uid: specification.Helpers.Dtos.EditOnlyDtoConcrete
+  commentId: T:specification.Helpers.Dtos.EditOnlyDtoConcrete
+  parent: specification.Helpers.Dtos
+  href: specification.Helpers.Dtos.EditOnlyDtoConcrete.html
+  name: EditOnlyDtoConcrete
+  nameWithType: EditOnlyDtoConcrete
+  fullName: specification.Helpers.Dtos.EditOnlyDtoConcrete
+- uid: specification.Helpers.Dtos.FilterResult
+  commentId: T:specification.Helpers.Dtos.FilterResult
+  href: specification.Helpers.Dtos.FilterResult.html
+  name: FilterResult
+  nameWithType: FilterResult
+  fullName: specification.Helpers.Dtos.FilterResult
+- uid: specification.Helpers.Dtos.ReadOnlyCollectionDataRequest
+  commentId: T:specification.Helpers.Dtos.ReadOnlyCollectionDataRequest
+  href: specification.Helpers.Dtos.ReadOnlyCollectionDataRequest.html
+  name: ReadOnlyCollectionDataRequest
+  nameWithType: ReadOnlyCollectionDataRequest
+  fullName: specification.Helpers.Dtos.ReadOnlyCollectionDataRequest
+- uid: specification.Helpers.Dtos.ReadOnlyDtoConcrete
+  commentId: T:specification.Helpers.Dtos.ReadOnlyDtoConcrete
+  parent: specification.Helpers.Dtos
+  href: specification.Helpers.Dtos.ReadOnlyDtoConcrete.html
+  name: ReadOnlyDtoConcrete
+  nameWithType: ReadOnlyDtoConcrete
+  fullName: specification.Helpers.Dtos.ReadOnlyDtoConcrete
+- uid: specification.Helpers.Dtos.WriteOnlyDtoConcrete
+  commentId: T:specification.Helpers.Dtos.WriteOnlyDtoConcrete
+  parent: specification.Helpers.Dtos
+  href: specification.Helpers.Dtos.WriteOnlyDtoConcrete.html
+  name: WriteOnlyDtoConcrete
+  nameWithType: WriteOnlyDtoConcrete
+  fullName: specification.Helpers.Dtos.WriteOnlyDtoConcrete
+- uid: specification.Helpers.Dtos
+  commentId: N:specification.Helpers.Dtos
+  href: specification.html
+  name: specification.Helpers.Dtos
+  nameWithType: specification.Helpers.Dtos
+  fullName: specification.Helpers.Dtos
+  spec.csharp:
+  - uid: specification
+    name: specification
+    href: specification.html
+  - name: .
+  - uid: specification.Helpers
+    name: Helpers
+    href: specification.Helpers.html
+  - name: .
+  - uid: specification.Helpers.Dtos
+    name: Dtos
+    href: specification.Helpers.Dtos.html
+  spec.vb:
+  - uid: specification
+    name: specification
+    href: specification.html
+  - name: .
+  - uid: specification.Helpers
+    name: Helpers
+    href: specification.Helpers.html
+  - name: .
+  - uid: specification.Helpers.Dtos
+    name: Dtos
+    href: specification.Helpers.Dtos.html

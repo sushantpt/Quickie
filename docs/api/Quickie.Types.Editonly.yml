@@ -18,13 +18,45 @@ items:
 references:
 - uid: Quickie.Types.Editonly.EditOnlyDto
   commentId: T:Quickie.Types.Editonly.EditOnlyDto
+  parent: Quickie.Types.Editonly
   href: Quickie.Types.Editonly.EditOnlyDto.html
   name: EditOnlyDto
   nameWithType: EditOnlyDto
   fullName: Quickie.Types.Editonly.EditOnlyDto
 - uid: Quickie.Types.Editonly.EditOnlyEntity
   commentId: T:Quickie.Types.Editonly.EditOnlyEntity
+  parent: Quickie.Types.Editonly
   href: Quickie.Types.Editonly.EditOnlyEntity.html
   name: EditOnlyEntity
   nameWithType: EditOnlyEntity
   fullName: Quickie.Types.Editonly.EditOnlyEntity
+- uid: Quickie.Types.Editonly
+  commentId: N:Quickie.Types.Editonly
+  href: Quickie.html
+  name: Quickie.Types.Editonly
+  nameWithType: Quickie.Types.Editonly
+  fullName: Quickie.Types.Editonly
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Types
+    name: Types
+    href: Quickie.Types.html
+  - name: .
+  - uid: Quickie.Types.Editonly
+    name: Editonly
+    href: Quickie.Types.Editonly.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Types
+    name: Types
+    href: Quickie.Types.html
+  - name: .
+  - uid: Quickie.Types.Editonly
+    name: Editonly
+    href: Quickie.Types.Editonly.html

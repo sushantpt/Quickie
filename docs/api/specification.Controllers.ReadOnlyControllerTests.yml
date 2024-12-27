@@ -1,0 +1,619 @@
+### YamlMime:ManagedReference
+items:
+- uid: specification.Controllers.ReadOnlyControllerTests
+  commentId: T:specification.Controllers.ReadOnlyControllerTests
+  id: ReadOnlyControllerTests
+  parent: specification.Controllers
+  children:
+  - specification.Controllers.ReadOnlyControllerTests.#ctor
+  - specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_ExceptionThrown_ReturnsBadRequestWithGenericMessage
+  - specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_ExceptionThrown_WithCustomErrorMessageEnabled
+  - specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_NotFound_ReturnsNotFoundResponse
+  - specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_NullOrEmptyId_BadRequest
+  - specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_ValidId_ReturnsOkResponse
+  langs:
+  - csharp
+  - vb
+  name: ReadOnlyControllerTests
+  nameWithType: ReadOnlyControllerTests
+  fullName: specification.Controllers.ReadOnlyControllerTests
+  type: Class
+  source:
+    remote:
+      path: tests/specification/Controllers/ReadOnlyControllerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: ReadOnlyControllerTests
+    path: ../tests/specification/Controllers/ReadOnlyControllerTests.cs
+    startLine: 15
+  assemblies:
+  - specification
+  namespace: specification.Controllers
+  summary: Tests for ReadOnlyController.
+  example: []
+  syntax:
+    content: public class ReadOnlyControllerTests
+    content.vb: Public Class ReadOnlyControllerTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: specification.Controllers.ReadOnlyControllerTests.#ctor
+  commentId: M:specification.Controllers.ReadOnlyControllerTests.#ctor
+  id: '#ctor'
+  parent: specification.Controllers.ReadOnlyControllerTests
+  langs:
+  - csharp
+  - vb
+  name: ReadOnlyControllerTests()
+  nameWithType: ReadOnlyControllerTests.ReadOnlyControllerTests()
+  fullName: specification.Controllers.ReadOnlyControllerTests.ReadOnlyControllerTests()
+  type: Constructor
+  source:
+    remote:
+      path: tests/specification/Controllers/ReadOnlyControllerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: .ctor
+    path: ../tests/specification/Controllers/ReadOnlyControllerTests.cs
+    startLine: 20
+  assemblies:
+  - specification
+  namespace: specification.Controllers
+  syntax:
+    content: public ReadOnlyControllerTests()
+    content.vb: Public Sub New()
+  overload: specification.Controllers.ReadOnlyControllerTests.#ctor*
+  nameWithType.vb: ReadOnlyControllerTests.New()
+  fullName.vb: specification.Controllers.ReadOnlyControllerTests.New()
+  name.vb: New()
+- uid: specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_ValidId_ReturnsOkResponse
+  commentId: M:specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_ValidId_ReturnsOkResponse
+  id: GetByIdAsync_ValidId_ReturnsOkResponse
+  parent: specification.Controllers.ReadOnlyControllerTests
+  langs:
+  - csharp
+  - vb
+  name: GetByIdAsync_ValidId_ReturnsOkResponse()
+  nameWithType: ReadOnlyControllerTests.GetByIdAsync_ValidId_ReturnsOkResponse()
+  fullName: specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_ValidId_ReturnsOkResponse()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/Controllers/ReadOnlyControllerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: GetByIdAsync_ValidId_ReturnsOkResponse
+    path: ../tests/specification/Controllers/ReadOnlyControllerTests.cs
+    startLine: 35
+  assemblies:
+  - specification
+  namespace: specification.Controllers
+  summary: successful get by id with valid request
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task GetByIdAsync_ValidId_ReturnsOkResponse()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function GetByIdAsync_ValidId_ReturnsOkResponse() As Task
+  overload: specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_ValidId_ReturnsOkResponse*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_NotFound_ReturnsNotFoundResponse
+  commentId: M:specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_NotFound_ReturnsNotFoundResponse
+  id: GetByIdAsync_NotFound_ReturnsNotFoundResponse
+  parent: specification.Controllers.ReadOnlyControllerTests
+  langs:
+  - csharp
+  - vb
+  name: GetByIdAsync_NotFound_ReturnsNotFoundResponse()
+  nameWithType: ReadOnlyControllerTests.GetByIdAsync_NotFound_ReturnsNotFoundResponse()
+  fullName: specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_NotFound_ReturnsNotFoundResponse()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/Controllers/ReadOnlyControllerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: GetByIdAsync_NotFound_ReturnsNotFoundResponse
+    path: ../tests/specification/Controllers/ReadOnlyControllerTests.cs
+    startLine: 67
+  assemblies:
+  - specification
+  namespace: specification.Controllers
+  summary: Get by id returns not found when handler returns unsuccessful response
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task GetByIdAsync_NotFound_ReturnsNotFoundResponse()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function GetByIdAsync_NotFound_ReturnsNotFoundResponse() As Task
+  overload: specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_NotFound_ReturnsNotFoundResponse*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_ExceptionThrown_ReturnsBadRequestWithGenericMessage
+  commentId: M:specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_ExceptionThrown_ReturnsBadRequestWithGenericMessage
+  id: GetByIdAsync_ExceptionThrown_ReturnsBadRequestWithGenericMessage
+  parent: specification.Controllers.ReadOnlyControllerTests
+  langs:
+  - csharp
+  - vb
+  name: GetByIdAsync_ExceptionThrown_ReturnsBadRequestWithGenericMessage()
+  nameWithType: ReadOnlyControllerTests.GetByIdAsync_ExceptionThrown_ReturnsBadRequestWithGenericMessage()
+  fullName: specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_ExceptionThrown_ReturnsBadRequestWithGenericMessage()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/Controllers/ReadOnlyControllerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: GetByIdAsync_ExceptionThrown_ReturnsBadRequestWithGenericMessage
+    path: ../tests/specification/Controllers/ReadOnlyControllerTests.cs
+    startLine: 99
+  assemblies:
+  - specification
+  namespace: specification.Controllers
+  summary: exception handling test with custom error message disabled
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task GetByIdAsync_ExceptionThrown_ReturnsBadRequestWithGenericMessage()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function GetByIdAsync_ExceptionThrown_ReturnsBadRequestWithGenericMessage() As Task
+  overload: specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_ExceptionThrown_ReturnsBadRequestWithGenericMessage*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_ExceptionThrown_WithCustomErrorMessageEnabled
+  commentId: M:specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_ExceptionThrown_WithCustomErrorMessageEnabled
+  id: GetByIdAsync_ExceptionThrown_WithCustomErrorMessageEnabled
+  parent: specification.Controllers.ReadOnlyControllerTests
+  langs:
+  - csharp
+  - vb
+  name: GetByIdAsync_ExceptionThrown_WithCustomErrorMessageEnabled()
+  nameWithType: ReadOnlyControllerTests.GetByIdAsync_ExceptionThrown_WithCustomErrorMessageEnabled()
+  fullName: specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_ExceptionThrown_WithCustomErrorMessageEnabled()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/Controllers/ReadOnlyControllerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: GetByIdAsync_ExceptionThrown_WithCustomErrorMessageEnabled
+    path: ../tests/specification/Controllers/ReadOnlyControllerTests.cs
+    startLine: 123
+  assemblies:
+  - specification
+  namespace: specification.Controllers
+  summary: exception handling test with custom error message enabled
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task GetByIdAsync_ExceptionThrown_WithCustomErrorMessageEnabled()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function GetByIdAsync_ExceptionThrown_WithCustomErrorMessageEnabled() As Task
+  overload: specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_ExceptionThrown_WithCustomErrorMessageEnabled*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_NullOrEmptyId_BadRequest
+  commentId: M:specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_NullOrEmptyId_BadRequest
+  id: GetByIdAsync_NullOrEmptyId_BadRequest
+  parent: specification.Controllers.ReadOnlyControllerTests
+  langs:
+  - csharp
+  - vb
+  name: GetByIdAsync_NullOrEmptyId_BadRequest()
+  nameWithType: ReadOnlyControllerTests.GetByIdAsync_NullOrEmptyId_BadRequest()
+  fullName: specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_NullOrEmptyId_BadRequest()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/Controllers/ReadOnlyControllerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: GetByIdAsync_NullOrEmptyId_BadRequest
+    path: ../tests/specification/Controllers/ReadOnlyControllerTests.cs
+    startLine: 155
+  assemblies:
+  - specification
+  namespace: specification.Controllers
+  summary: get by id with null or empty id throws exception
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task GetByIdAsync_NullOrEmptyId_BadRequest()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function GetByIdAsync_NullOrEmptyId_BadRequest() As Task
+  overload: specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_NullOrEmptyId_BadRequest*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+references:
+- uid: specification.Controllers
+  commentId: N:specification.Controllers
+  href: specification.html
+  name: specification.Controllers
+  nameWithType: specification.Controllers
+  fullName: specification.Controllers
+  spec.csharp:
+  - uid: specification
+    name: specification
+    href: specification.html
+  - name: .
+  - uid: specification.Controllers
+    name: Controllers
+    href: specification.Controllers.html
+  spec.vb:
+  - uid: specification
+    name: specification
+    href: specification.html
+  - name: .
+  - uid: specification.Controllers
+    name: Controllers
+    href: specification.Controllers.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: specification.Controllers.ReadOnlyControllerTests.#ctor*
+  commentId: Overload:specification.Controllers.ReadOnlyControllerTests.#ctor
+  href: specification.Controllers.ReadOnlyControllerTests.html#specification_Controllers_ReadOnlyControllerTests__ctor
+  name: ReadOnlyControllerTests
+  nameWithType: ReadOnlyControllerTests.ReadOnlyControllerTests
+  fullName: specification.Controllers.ReadOnlyControllerTests.ReadOnlyControllerTests
+  nameWithType.vb: ReadOnlyControllerTests.New
+  fullName.vb: specification.Controllers.ReadOnlyControllerTests.New
+  name.vb: New
+- uid: specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_ValidId_ReturnsOkResponse*
+  commentId: Overload:specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_ValidId_ReturnsOkResponse
+  href: specification.Controllers.ReadOnlyControllerTests.html#specification_Controllers_ReadOnlyControllerTests_GetByIdAsync_ValidId_ReturnsOkResponse
+  name: GetByIdAsync_ValidId_ReturnsOkResponse
+  nameWithType: ReadOnlyControllerTests.GetByIdAsync_ValidId_ReturnsOkResponse
+  fullName: specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_ValidId_ReturnsOkResponse
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_NotFound_ReturnsNotFoundResponse*
+  commentId: Overload:specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_NotFound_ReturnsNotFoundResponse
+  href: specification.Controllers.ReadOnlyControllerTests.html#specification_Controllers_ReadOnlyControllerTests_GetByIdAsync_NotFound_ReturnsNotFoundResponse
+  name: GetByIdAsync_NotFound_ReturnsNotFoundResponse
+  nameWithType: ReadOnlyControllerTests.GetByIdAsync_NotFound_ReturnsNotFoundResponse
+  fullName: specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_NotFound_ReturnsNotFoundResponse
+- uid: specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_ExceptionThrown_ReturnsBadRequestWithGenericMessage*
+  commentId: Overload:specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_ExceptionThrown_ReturnsBadRequestWithGenericMessage
+  href: specification.Controllers.ReadOnlyControllerTests.html#specification_Controllers_ReadOnlyControllerTests_GetByIdAsync_ExceptionThrown_ReturnsBadRequestWithGenericMessage
+  name: GetByIdAsync_ExceptionThrown_ReturnsBadRequestWithGenericMessage
+  nameWithType: ReadOnlyControllerTests.GetByIdAsync_ExceptionThrown_ReturnsBadRequestWithGenericMessage
+  fullName: specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_ExceptionThrown_ReturnsBadRequestWithGenericMessage
+- uid: specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_ExceptionThrown_WithCustomErrorMessageEnabled*
+  commentId: Overload:specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_ExceptionThrown_WithCustomErrorMessageEnabled
+  href: specification.Controllers.ReadOnlyControllerTests.html#specification_Controllers_ReadOnlyControllerTests_GetByIdAsync_ExceptionThrown_WithCustomErrorMessageEnabled
+  name: GetByIdAsync_ExceptionThrown_WithCustomErrorMessageEnabled
+  nameWithType: ReadOnlyControllerTests.GetByIdAsync_ExceptionThrown_WithCustomErrorMessageEnabled
+  fullName: specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_ExceptionThrown_WithCustomErrorMessageEnabled
+- uid: specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_NullOrEmptyId_BadRequest*
+  commentId: Overload:specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_NullOrEmptyId_BadRequest
+  href: specification.Controllers.ReadOnlyControllerTests.html#specification_Controllers_ReadOnlyControllerTests_GetByIdAsync_NullOrEmptyId_BadRequest
+  name: GetByIdAsync_NullOrEmptyId_BadRequest
+  nameWithType: ReadOnlyControllerTests.GetByIdAsync_NullOrEmptyId_BadRequest
+  fullName: specification.Controllers.ReadOnlyControllerTests.GetByIdAsync_NullOrEmptyId_BadRequest

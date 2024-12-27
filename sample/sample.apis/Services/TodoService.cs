@@ -1,4 +1,3 @@
-using Quickie.DataHandlers.Crud.Definition;
 using Quickie.Handlers.Crud.Implementation;
 using sample.apis.Dtos;
 using sample.apis.Entities;
@@ -6,7 +5,7 @@ using sample.apis.Repositories;
 
 namespace sample.apis.Services;
 
-public class TodoService(ICrudDataHandler<TodoEntity, int> dataHandler) : CrudRequestHandler<TodoDto, TodoEntity, ITodoRepo, int>(dataHandler), ITodoService
+public class TodoService(ITodoRepo dataHandler) : CrudRequestHandler<TodoDto, TodoEntity, ITodoRepo, int>(dataHandler), ITodoService
 {
     protected override TodoEntity MapToEntity(TodoDto request)
     {

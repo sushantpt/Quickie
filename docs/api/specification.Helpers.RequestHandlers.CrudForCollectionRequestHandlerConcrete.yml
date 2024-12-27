@@ -1,0 +1,1644 @@
+### YamlMime:ManagedReference
+items:
+- uid: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete
+  commentId: T:specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete
+  id: CrudForCollectionRequestHandlerConcrete
+  parent: specification.Helpers.RequestHandlers
+  children:
+  - specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.#ctor(Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32})
+  - specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.MapToCollectionOfDto(System.Collections.Generic.ICollection{specification.Helpers.Entities.CrudEntityConcrete})
+  - specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.MapToCollectionOfEntity(System.Collections.Generic.ICollection{specification.Helpers.Dtos.CrudDtoConcrete})
+  langs:
+  - csharp
+  - vb
+  name: CrudForCollectionRequestHandlerConcrete
+  nameWithType: CrudForCollectionRequestHandlerConcrete
+  fullName: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete
+  type: Class
+  source:
+    remote:
+      path: tests/specification/Helpers/RequestHandlers/CrudForCollectionRequestHandlerConcrete.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: CrudForCollectionRequestHandlerConcrete
+    path: ../tests/specification/Helpers/RequestHandlers/CrudForCollectionRequestHandlerConcrete.cs
+    startLine: 7
+  assemblies:
+  - specification
+  namespace: specification.Helpers.RequestHandlers
+  syntax:
+    content: 'public class CrudForCollectionRequestHandlerConcrete : CrudForCollectionRequestHandler<CrudDtoConcrete, CrudEntityConcrete, ICrudForCollectionDataHandler<CrudEntityConcrete, int>, int>, ICrudForCollectionRequestHandler<CrudDtoConcrete, int>'
+    content.vb: Public Class CrudForCollectionRequestHandlerConcrete Inherits CrudForCollectionRequestHandler(Of CrudDtoConcrete, CrudEntityConcrete, ICrudForCollectionDataHandler(Of CrudEntityConcrete, Integer), Integer) Implements ICrudForCollectionRequestHandler(Of CrudDtoConcrete, Integer)
+  inheritance:
+  - System.Object
+  - Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}
+  implements:
+  - Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,System.Int32}
+  inheritedMembers:
+  - Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.CreateRangeAsync(System.Collections.Generic.ICollection{specification.Helpers.Dtos.CrudDtoConcrete},System.Nullable{System.Threading.CancellationToken})
+  - Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.UpdateRangeAsync(System.Collections.Generic.ICollection{specification.Helpers.Dtos.CrudDtoConcrete},System.Nullable{System.Threading.CancellationToken})
+  - Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.DeleteRangeAsync(System.Collections.Generic.ICollection{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  - Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+  - Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.CountAsync(System.Nullable{System.Threading.CancellationToken})
+  - Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.MapToCollectionOfDto(System.Collections.Generic.ICollection{specification.Helpers.Entities.CrudEntityConcrete})
+  - Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.MapToCollectionOfEntity(System.Collections.Generic.ICollection{specification.Helpers.Dtos.CrudDtoConcrete})
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.#ctor(Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32})
+  commentId: M:specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.#ctor(Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32})
+  id: '#ctor(Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32})'
+  parent: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete
+  langs:
+  - csharp
+  - vb
+  name: CrudForCollectionRequestHandlerConcrete(ICrudForCollectionDataHandler<CrudEntityConcrete, int>)
+  nameWithType: CrudForCollectionRequestHandlerConcrete.CrudForCollectionRequestHandlerConcrete(ICrudForCollectionDataHandler<CrudEntityConcrete, int>)
+  fullName: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.CrudForCollectionRequestHandlerConcrete(Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<specification.Helpers.Entities.CrudEntityConcrete, int>)
+  type: Constructor
+  source:
+    remote:
+      path: tests/specification/Helpers/RequestHandlers/CrudForCollectionRequestHandlerConcrete.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: .ctor
+    path: ../tests/specification/Helpers/RequestHandlers/CrudForCollectionRequestHandlerConcrete.cs
+    startLine: 7
+  assemblies:
+  - specification
+  namespace: specification.Helpers.RequestHandlers
+  syntax:
+    content: public CrudForCollectionRequestHandlerConcrete(ICrudForCollectionDataHandler<CrudEntityConcrete, int> dataHandler)
+    parameters:
+    - id: dataHandler
+      type: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32}
+    content.vb: Public Sub New(dataHandler As ICrudForCollectionDataHandler(Of CrudEntityConcrete, Integer))
+  overload: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.#ctor*
+  nameWithType.vb: CrudForCollectionRequestHandlerConcrete.New(ICrudForCollectionDataHandler(Of CrudEntityConcrete, Integer))
+  fullName.vb: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.New(Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler(Of specification.Helpers.Entities.CrudEntityConcrete, Integer))
+  name.vb: New(ICrudForCollectionDataHandler(Of CrudEntityConcrete, Integer))
+- uid: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.MapToCollectionOfDto(System.Collections.Generic.ICollection{specification.Helpers.Entities.CrudEntityConcrete})
+  commentId: M:specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.MapToCollectionOfDto(System.Collections.Generic.ICollection{specification.Helpers.Entities.CrudEntityConcrete})
+  id: MapToCollectionOfDto(System.Collections.Generic.ICollection{specification.Helpers.Entities.CrudEntityConcrete})
+  parent: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete
+  langs:
+  - csharp
+  - vb
+  name: MapToCollectionOfDto(ICollection<CrudEntityConcrete>)
+  nameWithType: CrudForCollectionRequestHandlerConcrete.MapToCollectionOfDto(ICollection<CrudEntityConcrete>)
+  fullName: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.MapToCollectionOfDto(System.Collections.Generic.ICollection<specification.Helpers.Entities.CrudEntityConcrete>)
+  type: Method
+  source:
+    remote:
+      path: tests/specification/Helpers/RequestHandlers/CrudForCollectionRequestHandlerConcrete.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: MapToCollectionOfDto
+    path: ../tests/specification/Helpers/RequestHandlers/CrudForCollectionRequestHandlerConcrete.cs
+    startLine: 9
+  assemblies:
+  - specification
+  namespace: specification.Helpers.RequestHandlers
+  summary: Maps a collection of <xref href="specification.Helpers.Entities.CrudEntityConcrete" data-throw-if-not-resolved="false"></xref> to a collection of <xref href="specification.Helpers.Dtos.CrudDtoConcrete" data-throw-if-not-resolved="false"></xref> dto.
+  example: []
+  syntax:
+    content: protected override ICollection<CrudDtoConcrete> MapToCollectionOfDto(ICollection<CrudEntityConcrete> entity)
+    parameters:
+    - id: entity
+      type: System.Collections.Generic.ICollection{specification.Helpers.Entities.CrudEntityConcrete}
+      description: ''
+    return:
+      type: System.Collections.Generic.ICollection{specification.Helpers.Dtos.CrudDtoConcrete}
+      description: ''
+    content.vb: Protected Overrides Function MapToCollectionOfDto(entity As ICollection(Of CrudEntityConcrete)) As ICollection(Of CrudDtoConcrete)
+  overridden: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.MapToCollectionOfDto(System.Collections.Generic.ICollection{specification.Helpers.Entities.CrudEntityConcrete})
+  overload: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.MapToCollectionOfDto*
+  nameWithType.vb: CrudForCollectionRequestHandlerConcrete.MapToCollectionOfDto(ICollection(Of CrudEntityConcrete))
+  fullName.vb: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.MapToCollectionOfDto(System.Collections.Generic.ICollection(Of specification.Helpers.Entities.CrudEntityConcrete))
+  name.vb: MapToCollectionOfDto(ICollection(Of CrudEntityConcrete))
+- uid: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.MapToCollectionOfEntity(System.Collections.Generic.ICollection{specification.Helpers.Dtos.CrudDtoConcrete})
+  commentId: M:specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.MapToCollectionOfEntity(System.Collections.Generic.ICollection{specification.Helpers.Dtos.CrudDtoConcrete})
+  id: MapToCollectionOfEntity(System.Collections.Generic.ICollection{specification.Helpers.Dtos.CrudDtoConcrete})
+  parent: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete
+  langs:
+  - csharp
+  - vb
+  name: MapToCollectionOfEntity(ICollection<CrudDtoConcrete>)
+  nameWithType: CrudForCollectionRequestHandlerConcrete.MapToCollectionOfEntity(ICollection<CrudDtoConcrete>)
+  fullName: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.MapToCollectionOfEntity(System.Collections.Generic.ICollection<specification.Helpers.Dtos.CrudDtoConcrete>)
+  type: Method
+  source:
+    remote:
+      path: tests/specification/Helpers/RequestHandlers/CrudForCollectionRequestHandlerConcrete.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: MapToCollectionOfEntity
+    path: ../tests/specification/Helpers/RequestHandlers/CrudForCollectionRequestHandlerConcrete.cs
+    startLine: 14
+  assemblies:
+  - specification
+  namespace: specification.Helpers.RequestHandlers
+  summary: Maps a collection of <xref href="specification.Helpers.Dtos.CrudDtoConcrete" data-throw-if-not-resolved="false"></xref> to a collection of <xref href="specification.Helpers.Entities.CrudEntityConcrete" data-throw-if-not-resolved="false"></xref> entity.
+  example: []
+  syntax:
+    content: protected override ICollection<CrudEntityConcrete> MapToCollectionOfEntity(ICollection<CrudDtoConcrete> entity)
+    parameters:
+    - id: entity
+      type: System.Collections.Generic.ICollection{specification.Helpers.Dtos.CrudDtoConcrete}
+      description: ''
+    return:
+      type: System.Collections.Generic.ICollection{specification.Helpers.Entities.CrudEntityConcrete}
+      description: ''
+    content.vb: Protected Overrides Function MapToCollectionOfEntity(entity As ICollection(Of CrudDtoConcrete)) As ICollection(Of CrudEntityConcrete)
+  overridden: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.MapToCollectionOfEntity(System.Collections.Generic.ICollection{specification.Helpers.Dtos.CrudDtoConcrete})
+  overload: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.MapToCollectionOfEntity*
+  nameWithType.vb: CrudForCollectionRequestHandlerConcrete.MapToCollectionOfEntity(ICollection(Of CrudDtoConcrete))
+  fullName.vb: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.MapToCollectionOfEntity(System.Collections.Generic.ICollection(Of specification.Helpers.Dtos.CrudDtoConcrete))
+  name.vb: MapToCollectionOfEntity(ICollection(Of CrudDtoConcrete))
+references:
+- uid: specification.Helpers.RequestHandlers
+  commentId: N:specification.Helpers.RequestHandlers
+  href: specification.html
+  name: specification.Helpers.RequestHandlers
+  nameWithType: specification.Helpers.RequestHandlers
+  fullName: specification.Helpers.RequestHandlers
+  spec.csharp:
+  - uid: specification
+    name: specification
+    href: specification.html
+  - name: .
+  - uid: specification.Helpers
+    name: Helpers
+    href: specification.Helpers.html
+  - name: .
+  - uid: specification.Helpers.RequestHandlers
+    name: RequestHandlers
+    href: specification.Helpers.RequestHandlers.html
+  spec.vb:
+  - uid: specification
+    name: specification
+    href: specification.html
+  - name: .
+  - uid: specification.Helpers
+    name: Helpers
+    href: specification.Helpers.html
+  - name: .
+  - uid: specification.Helpers.RequestHandlers
+    name: RequestHandlers
+    href: specification.Helpers.RequestHandlers.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}
+  commentId: T:Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}
+  parent: Quickie.Handlers.Crud.Implementation
+  definition: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4
+  href: specification.Helpers.Dtos.CrudDtoConcrete.html
+  name: CrudForCollectionRequestHandler<CrudDtoConcrete, CrudEntityConcrete, ICrudForCollectionDataHandler<CrudEntityConcrete, int>, int>
+  nameWithType: CrudForCollectionRequestHandler<CrudDtoConcrete, CrudEntityConcrete, ICrudForCollectionDataHandler<CrudEntityConcrete, int>, int>
+  fullName: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler<specification.Helpers.Dtos.CrudDtoConcrete, specification.Helpers.Entities.CrudEntityConcrete, Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<specification.Helpers.Entities.CrudEntityConcrete, int>, int>
+  nameWithType.vb: CrudForCollectionRequestHandler(Of CrudDtoConcrete, CrudEntityConcrete, ICrudForCollectionDataHandler(Of CrudEntityConcrete, Integer), Integer)
+  fullName.vb: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler(Of specification.Helpers.Dtos.CrudDtoConcrete, specification.Helpers.Entities.CrudEntityConcrete, Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler(Of specification.Helpers.Entities.CrudEntityConcrete, Integer), Integer)
+  name.vb: CrudForCollectionRequestHandler(Of CrudDtoConcrete, CrudEntityConcrete, ICrudForCollectionDataHandler(Of CrudEntityConcrete, Integer), Integer)
+  spec.csharp:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4
+    name: CrudForCollectionRequestHandler
+  - name: <
+  - uid: specification.Helpers.Dtos.CrudDtoConcrete
+    name: CrudDtoConcrete
+    href: specification.Helpers.Dtos.CrudDtoConcrete.html
+  - name: ','
+  - name: " "
+  - uid: specification.Helpers.Entities.CrudEntityConcrete
+    name: CrudEntityConcrete
+    href: specification.Helpers.Entities.CrudEntityConcrete.html
+  - name: ','
+  - name: " "
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2
+    name: ICrudForCollectionDataHandler
+  - name: <
+  - uid: specification.Helpers.Entities.CrudEntityConcrete
+    name: CrudEntityConcrete
+    href: specification.Helpers.Entities.CrudEntityConcrete.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4
+    name: CrudForCollectionRequestHandler
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: specification.Helpers.Dtos.CrudDtoConcrete
+    name: CrudDtoConcrete
+    href: specification.Helpers.Dtos.CrudDtoConcrete.html
+  - name: ','
+  - name: " "
+  - uid: specification.Helpers.Entities.CrudEntityConcrete
+    name: CrudEntityConcrete
+    href: specification.Helpers.Entities.CrudEntityConcrete.html
+  - name: ','
+  - name: " "
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2
+    name: ICrudForCollectionDataHandler
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: specification.Helpers.Entities.CrudEntityConcrete
+    name: CrudEntityConcrete
+    href: specification.Helpers.Entities.CrudEntityConcrete.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,System.Int32}
+  commentId: T:Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,System.Int32}
+  parent: Quickie.Handlers.Crud.Definition
+  definition: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2
+  href: specification.Helpers.Dtos.CrudDtoConcrete.html
+  name: ICrudForCollectionRequestHandler<CrudDtoConcrete, int>
+  nameWithType: ICrudForCollectionRequestHandler<CrudDtoConcrete, int>
+  fullName: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler<specification.Helpers.Dtos.CrudDtoConcrete, int>
+  nameWithType.vb: ICrudForCollectionRequestHandler(Of CrudDtoConcrete, Integer)
+  fullName.vb: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler(Of specification.Helpers.Dtos.CrudDtoConcrete, Integer)
+  name.vb: ICrudForCollectionRequestHandler(Of CrudDtoConcrete, Integer)
+  spec.csharp:
+  - uid: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2
+    name: ICrudForCollectionRequestHandler
+  - name: <
+  - uid: specification.Helpers.Dtos.CrudDtoConcrete
+    name: CrudDtoConcrete
+    href: specification.Helpers.Dtos.CrudDtoConcrete.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2
+    name: ICrudForCollectionRequestHandler
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: specification.Helpers.Dtos.CrudDtoConcrete
+    name: CrudDtoConcrete
+    href: specification.Helpers.Dtos.CrudDtoConcrete.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.CreateRangeAsync(System.Collections.Generic.ICollection{specification.Helpers.Dtos.CrudDtoConcrete},System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.CreateRangeAsync(System.Collections.Generic.ICollection{specification.Helpers.Dtos.CrudDtoConcrete},System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}
+  definition: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.CreateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: CreateRangeAsync(ICollection<CrudDtoConcrete>, CancellationToken?)
+  nameWithType: CrudForCollectionRequestHandler<CrudDtoConcrete, CrudEntityConcrete, ICrudForCollectionDataHandler<CrudEntityConcrete, int>, int>.CreateRangeAsync(ICollection<CrudDtoConcrete>, CancellationToken?)
+  fullName: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler<specification.Helpers.Dtos.CrudDtoConcrete, specification.Helpers.Entities.CrudEntityConcrete, Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<specification.Helpers.Entities.CrudEntityConcrete, int>, int>.CreateRangeAsync(System.Collections.Generic.ICollection<specification.Helpers.Dtos.CrudDtoConcrete>, System.Threading.CancellationToken?)
+  nameWithType.vb: CrudForCollectionRequestHandler(Of CrudDtoConcrete, CrudEntityConcrete, ICrudForCollectionDataHandler(Of CrudEntityConcrete, Integer), Integer).CreateRangeAsync(ICollection(Of CrudDtoConcrete), CancellationToken?)
+  fullName.vb: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler(Of specification.Helpers.Dtos.CrudDtoConcrete, specification.Helpers.Entities.CrudEntityConcrete, Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler(Of specification.Helpers.Entities.CrudEntityConcrete, Integer), Integer).CreateRangeAsync(System.Collections.Generic.ICollection(Of specification.Helpers.Dtos.CrudDtoConcrete), System.Threading.CancellationToken?)
+  name.vb: CreateRangeAsync(ICollection(Of CrudDtoConcrete), CancellationToken?)
+  spec.csharp:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.CreateRangeAsync(System.Collections.Generic.ICollection{specification.Helpers.Dtos.CrudDtoConcrete},System.Nullable{System.Threading.CancellationToken})
+    name: CreateRangeAsync
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: specification.Helpers.Dtos.CrudDtoConcrete
+    name: CrudDtoConcrete
+    href: specification.Helpers.Dtos.CrudDtoConcrete.html
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.CreateRangeAsync(System.Collections.Generic.ICollection{specification.Helpers.Dtos.CrudDtoConcrete},System.Nullable{System.Threading.CancellationToken})
+    name: CreateRangeAsync
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: specification.Helpers.Dtos.CrudDtoConcrete
+    name: CrudDtoConcrete
+    href: specification.Helpers.Dtos.CrudDtoConcrete.html
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+- uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.UpdateRangeAsync(System.Collections.Generic.ICollection{specification.Helpers.Dtos.CrudDtoConcrete},System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.UpdateRangeAsync(System.Collections.Generic.ICollection{specification.Helpers.Dtos.CrudDtoConcrete},System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}
+  definition: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.UpdateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: UpdateRangeAsync(ICollection<CrudDtoConcrete>, CancellationToken?)
+  nameWithType: CrudForCollectionRequestHandler<CrudDtoConcrete, CrudEntityConcrete, ICrudForCollectionDataHandler<CrudEntityConcrete, int>, int>.UpdateRangeAsync(ICollection<CrudDtoConcrete>, CancellationToken?)
+  fullName: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler<specification.Helpers.Dtos.CrudDtoConcrete, specification.Helpers.Entities.CrudEntityConcrete, Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<specification.Helpers.Entities.CrudEntityConcrete, int>, int>.UpdateRangeAsync(System.Collections.Generic.ICollection<specification.Helpers.Dtos.CrudDtoConcrete>, System.Threading.CancellationToken?)
+  nameWithType.vb: CrudForCollectionRequestHandler(Of CrudDtoConcrete, CrudEntityConcrete, ICrudForCollectionDataHandler(Of CrudEntityConcrete, Integer), Integer).UpdateRangeAsync(ICollection(Of CrudDtoConcrete), CancellationToken?)
+  fullName.vb: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler(Of specification.Helpers.Dtos.CrudDtoConcrete, specification.Helpers.Entities.CrudEntityConcrete, Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler(Of specification.Helpers.Entities.CrudEntityConcrete, Integer), Integer).UpdateRangeAsync(System.Collections.Generic.ICollection(Of specification.Helpers.Dtos.CrudDtoConcrete), System.Threading.CancellationToken?)
+  name.vb: UpdateRangeAsync(ICollection(Of CrudDtoConcrete), CancellationToken?)
+  spec.csharp:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.UpdateRangeAsync(System.Collections.Generic.ICollection{specification.Helpers.Dtos.CrudDtoConcrete},System.Nullable{System.Threading.CancellationToken})
+    name: UpdateRangeAsync
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: specification.Helpers.Dtos.CrudDtoConcrete
+    name: CrudDtoConcrete
+    href: specification.Helpers.Dtos.CrudDtoConcrete.html
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.UpdateRangeAsync(System.Collections.Generic.ICollection{specification.Helpers.Dtos.CrudDtoConcrete},System.Nullable{System.Threading.CancellationToken})
+    name: UpdateRangeAsync
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: specification.Helpers.Dtos.CrudDtoConcrete
+    name: CrudDtoConcrete
+    href: specification.Helpers.Dtos.CrudDtoConcrete.html
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+- uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.DeleteRangeAsync(System.Collections.Generic.ICollection{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.DeleteRangeAsync(System.Collections.Generic.ICollection{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}
+  definition: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.DeleteRangeAsync(System.Collections.Generic.ICollection{`3},System.Nullable{System.Threading.CancellationToken})
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: DeleteRangeAsync(ICollection<int>, CancellationToken?)
+  nameWithType: CrudForCollectionRequestHandler<CrudDtoConcrete, CrudEntityConcrete, ICrudForCollectionDataHandler<CrudEntityConcrete, int>, int>.DeleteRangeAsync(ICollection<int>, CancellationToken?)
+  fullName: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler<specification.Helpers.Dtos.CrudDtoConcrete, specification.Helpers.Entities.CrudEntityConcrete, Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<specification.Helpers.Entities.CrudEntityConcrete, int>, int>.DeleteRangeAsync(System.Collections.Generic.ICollection<int>, System.Threading.CancellationToken?)
+  nameWithType.vb: CrudForCollectionRequestHandler(Of CrudDtoConcrete, CrudEntityConcrete, ICrudForCollectionDataHandler(Of CrudEntityConcrete, Integer), Integer).DeleteRangeAsync(ICollection(Of Integer), CancellationToken?)
+  fullName.vb: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler(Of specification.Helpers.Dtos.CrudDtoConcrete, specification.Helpers.Entities.CrudEntityConcrete, Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler(Of specification.Helpers.Entities.CrudEntityConcrete, Integer), Integer).DeleteRangeAsync(System.Collections.Generic.ICollection(Of Integer), System.Threading.CancellationToken?)
+  name.vb: DeleteRangeAsync(ICollection(Of Integer), CancellationToken?)
+  spec.csharp:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.DeleteRangeAsync(System.Collections.Generic.ICollection{System.Int32},System.Nullable{System.Threading.CancellationToken})
+    name: DeleteRangeAsync
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.DeleteRangeAsync(System.Collections.Generic.ICollection{System.Int32},System.Nullable{System.Threading.CancellationToken})
+    name: DeleteRangeAsync
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+- uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}
+  definition: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetAllAsync(RequestForDataObj, CancellationToken?)
+  nameWithType: CrudForCollectionRequestHandler<CrudDtoConcrete, CrudEntityConcrete, ICrudForCollectionDataHandler<CrudEntityConcrete, int>, int>.GetAllAsync(RequestForDataObj, CancellationToken?)
+  fullName: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler<specification.Helpers.Dtos.CrudDtoConcrete, specification.Helpers.Entities.CrudEntityConcrete, Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<specification.Helpers.Entities.CrudEntityConcrete, int>, int>.GetAllAsync(Quickie.DataObj.RequestForDataObj, System.Threading.CancellationToken?)
+  nameWithType.vb: CrudForCollectionRequestHandler(Of CrudDtoConcrete, CrudEntityConcrete, ICrudForCollectionDataHandler(Of CrudEntityConcrete, Integer), Integer).GetAllAsync(RequestForDataObj, CancellationToken?)
+  fullName.vb: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler(Of specification.Helpers.Dtos.CrudDtoConcrete, specification.Helpers.Entities.CrudEntityConcrete, Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler(Of specification.Helpers.Entities.CrudEntityConcrete, Integer), Integer).GetAllAsync(Quickie.DataObj.RequestForDataObj, System.Threading.CancellationToken?)
+  spec.csharp:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+    name: GetAllAsync
+  - name: (
+  - uid: Quickie.DataObj.RequestForDataObj
+    name: RequestForDataObj
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+    name: GetAllAsync
+  - name: (
+  - uid: Quickie.DataObj.RequestForDataObj
+    name: RequestForDataObj
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+- uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.CountAsync(System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.CountAsync(System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}
+  definition: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.CountAsync(System.Nullable{System.Threading.CancellationToken})
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CountAsync(CancellationToken?)
+  nameWithType: CrudForCollectionRequestHandler<CrudDtoConcrete, CrudEntityConcrete, ICrudForCollectionDataHandler<CrudEntityConcrete, int>, int>.CountAsync(CancellationToken?)
+  fullName: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler<specification.Helpers.Dtos.CrudDtoConcrete, specification.Helpers.Entities.CrudEntityConcrete, Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<specification.Helpers.Entities.CrudEntityConcrete, int>, int>.CountAsync(System.Threading.CancellationToken?)
+  nameWithType.vb: CrudForCollectionRequestHandler(Of CrudDtoConcrete, CrudEntityConcrete, ICrudForCollectionDataHandler(Of CrudEntityConcrete, Integer), Integer).CountAsync(CancellationToken?)
+  fullName.vb: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler(Of specification.Helpers.Dtos.CrudDtoConcrete, specification.Helpers.Entities.CrudEntityConcrete, Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler(Of specification.Helpers.Entities.CrudEntityConcrete, Integer), Integer).CountAsync(System.Threading.CancellationToken?)
+  spec.csharp:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.CountAsync(System.Nullable{System.Threading.CancellationToken})
+    name: CountAsync
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.CountAsync(System.Nullable{System.Threading.CancellationToken})
+    name: CountAsync
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+- uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.MapToCollectionOfDto(System.Collections.Generic.ICollection{specification.Helpers.Entities.CrudEntityConcrete})
+  commentId: M:Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.MapToCollectionOfDto(System.Collections.Generic.ICollection{specification.Helpers.Entities.CrudEntityConcrete})
+  parent: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}
+  definition: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.MapToCollectionOfDto(System.Collections.Generic.ICollection{`1})
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: MapToCollectionOfDto(ICollection<CrudEntityConcrete>)
+  nameWithType: CrudForCollectionRequestHandler<CrudDtoConcrete, CrudEntityConcrete, ICrudForCollectionDataHandler<CrudEntityConcrete, int>, int>.MapToCollectionOfDto(ICollection<CrudEntityConcrete>)
+  fullName: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler<specification.Helpers.Dtos.CrudDtoConcrete, specification.Helpers.Entities.CrudEntityConcrete, Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<specification.Helpers.Entities.CrudEntityConcrete, int>, int>.MapToCollectionOfDto(System.Collections.Generic.ICollection<specification.Helpers.Entities.CrudEntityConcrete>)
+  nameWithType.vb: CrudForCollectionRequestHandler(Of CrudDtoConcrete, CrudEntityConcrete, ICrudForCollectionDataHandler(Of CrudEntityConcrete, Integer), Integer).MapToCollectionOfDto(ICollection(Of CrudEntityConcrete))
+  fullName.vb: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler(Of specification.Helpers.Dtos.CrudDtoConcrete, specification.Helpers.Entities.CrudEntityConcrete, Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler(Of specification.Helpers.Entities.CrudEntityConcrete, Integer), Integer).MapToCollectionOfDto(System.Collections.Generic.ICollection(Of specification.Helpers.Entities.CrudEntityConcrete))
+  name.vb: MapToCollectionOfDto(ICollection(Of CrudEntityConcrete))
+  spec.csharp:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.MapToCollectionOfDto(System.Collections.Generic.ICollection{specification.Helpers.Entities.CrudEntityConcrete})
+    name: MapToCollectionOfDto
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: specification.Helpers.Entities.CrudEntityConcrete
+    name: CrudEntityConcrete
+    href: specification.Helpers.Entities.CrudEntityConcrete.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.MapToCollectionOfDto(System.Collections.Generic.ICollection{specification.Helpers.Entities.CrudEntityConcrete})
+    name: MapToCollectionOfDto
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: specification.Helpers.Entities.CrudEntityConcrete
+    name: CrudEntityConcrete
+    href: specification.Helpers.Entities.CrudEntityConcrete.html
+  - name: )
+  - name: )
+- uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.MapToCollectionOfEntity(System.Collections.Generic.ICollection{specification.Helpers.Dtos.CrudDtoConcrete})
+  commentId: M:Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.MapToCollectionOfEntity(System.Collections.Generic.ICollection{specification.Helpers.Dtos.CrudDtoConcrete})
+  parent: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}
+  definition: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.MapToCollectionOfEntity(System.Collections.Generic.ICollection{`0})
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: MapToCollectionOfEntity(ICollection<CrudDtoConcrete>)
+  nameWithType: CrudForCollectionRequestHandler<CrudDtoConcrete, CrudEntityConcrete, ICrudForCollectionDataHandler<CrudEntityConcrete, int>, int>.MapToCollectionOfEntity(ICollection<CrudDtoConcrete>)
+  fullName: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler<specification.Helpers.Dtos.CrudDtoConcrete, specification.Helpers.Entities.CrudEntityConcrete, Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<specification.Helpers.Entities.CrudEntityConcrete, int>, int>.MapToCollectionOfEntity(System.Collections.Generic.ICollection<specification.Helpers.Dtos.CrudDtoConcrete>)
+  nameWithType.vb: CrudForCollectionRequestHandler(Of CrudDtoConcrete, CrudEntityConcrete, ICrudForCollectionDataHandler(Of CrudEntityConcrete, Integer), Integer).MapToCollectionOfEntity(ICollection(Of CrudDtoConcrete))
+  fullName.vb: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler(Of specification.Helpers.Dtos.CrudDtoConcrete, specification.Helpers.Entities.CrudEntityConcrete, Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler(Of specification.Helpers.Entities.CrudEntityConcrete, Integer), Integer).MapToCollectionOfEntity(System.Collections.Generic.ICollection(Of specification.Helpers.Dtos.CrudDtoConcrete))
+  name.vb: MapToCollectionOfEntity(ICollection(Of CrudDtoConcrete))
+  spec.csharp:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.MapToCollectionOfEntity(System.Collections.Generic.ICollection{specification.Helpers.Dtos.CrudDtoConcrete})
+    name: MapToCollectionOfEntity
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: specification.Helpers.Dtos.CrudDtoConcrete
+    name: CrudDtoConcrete
+    href: specification.Helpers.Dtos.CrudDtoConcrete.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler{specification.Helpers.Dtos.CrudDtoConcrete,specification.Helpers.Entities.CrudEntityConcrete,Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32},System.Int32}.MapToCollectionOfEntity(System.Collections.Generic.ICollection{specification.Helpers.Dtos.CrudDtoConcrete})
+    name: MapToCollectionOfEntity
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: specification.Helpers.Dtos.CrudDtoConcrete
+    name: CrudDtoConcrete
+    href: specification.Helpers.Dtos.CrudDtoConcrete.html
+  - name: )
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4
+  commentId: T:Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4
+  href: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler-4.html
+  name: CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>
+  nameWithType: CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>
+  fullName: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>
+  nameWithType.vb: CrudForCollectionRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType)
+  fullName.vb: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType)
+  name.vb: CrudForCollectionRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType)
+  spec.csharp:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4
+    name: CrudForCollectionRequestHandler
+    href: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler-4.html
+  - name: <
+  - name: TViewModel
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TDataHandler
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4
+    name: CrudForCollectionRequestHandler
+    href: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler-4.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TViewModel
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TDataHandler
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: )
+- uid: Quickie.Handlers.Crud.Implementation
+  commentId: N:Quickie.Handlers.Crud.Implementation
+  href: Quickie.html
+  name: Quickie.Handlers.Crud.Implementation
+  nameWithType: Quickie.Handlers.Crud.Implementation
+  fullName: Quickie.Handlers.Crud.Implementation
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Handlers
+    name: Handlers
+    href: Quickie.Handlers.html
+  - name: .
+  - uid: Quickie.Handlers.Crud
+    name: Crud
+    href: Quickie.Handlers.Crud.html
+  - name: .
+  - uid: Quickie.Handlers.Crud.Implementation
+    name: Implementation
+    href: Quickie.Handlers.Crud.Implementation.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Handlers
+    name: Handlers
+    href: Quickie.Handlers.html
+  - name: .
+  - uid: Quickie.Handlers.Crud
+    name: Crud
+    href: Quickie.Handlers.Crud.html
+  - name: .
+  - uid: Quickie.Handlers.Crud.Implementation
+    name: Implementation
+    href: Quickie.Handlers.Crud.Implementation.html
+- uid: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2
+  commentId: T:Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2
+  href: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler-2.html
+  name: ICrudForCollectionRequestHandler<TViewModel, TIdType>
+  nameWithType: ICrudForCollectionRequestHandler<TViewModel, TIdType>
+  fullName: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler<TViewModel, TIdType>
+  nameWithType.vb: ICrudForCollectionRequestHandler(Of TViewModel, TIdType)
+  fullName.vb: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler(Of TViewModel, TIdType)
+  name.vb: ICrudForCollectionRequestHandler(Of TViewModel, TIdType)
+  spec.csharp:
+  - uid: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2
+    name: ICrudForCollectionRequestHandler
+    href: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler-2.html
+  - name: <
+  - name: TViewModel
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2
+    name: ICrudForCollectionRequestHandler
+    href: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TViewModel
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: )
+- uid: Quickie.Handlers.Crud.Definition
+  commentId: N:Quickie.Handlers.Crud.Definition
+  href: Quickie.html
+  name: Quickie.Handlers.Crud.Definition
+  nameWithType: Quickie.Handlers.Crud.Definition
+  fullName: Quickie.Handlers.Crud.Definition
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Handlers
+    name: Handlers
+    href: Quickie.Handlers.html
+  - name: .
+  - uid: Quickie.Handlers.Crud
+    name: Crud
+    href: Quickie.Handlers.Crud.html
+  - name: .
+  - uid: Quickie.Handlers.Crud.Definition
+    name: Definition
+    href: Quickie.Handlers.Crud.Definition.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Handlers
+    name: Handlers
+    href: Quickie.Handlers.html
+  - name: .
+  - uid: Quickie.Handlers.Crud
+    name: Crud
+    href: Quickie.Handlers.Crud.html
+  - name: .
+  - uid: Quickie.Handlers.Crud.Definition
+    name: Definition
+    href: Quickie.Handlers.Crud.Definition.html
+- uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.CreateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.CreateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: CreateRangeAsync(ICollection<TViewModel>, CancellationToken?)
+  nameWithType: CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.CreateRangeAsync(ICollection<TViewModel>, CancellationToken?)
+  fullName: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.CreateRangeAsync(System.Collections.Generic.ICollection<TViewModel>, System.Threading.CancellationToken?)
+  nameWithType.vb: CrudForCollectionRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType).CreateRangeAsync(ICollection(Of TViewModel), CancellationToken?)
+  fullName.vb: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType).CreateRangeAsync(System.Collections.Generic.ICollection(Of TViewModel), System.Threading.CancellationToken?)
+  name.vb: CreateRangeAsync(ICollection(Of TViewModel), CancellationToken?)
+  spec.csharp:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.CreateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+    name: CreateRangeAsync
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TViewModel
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.CreateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+    name: CreateRangeAsync
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TViewModel
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+- uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.UpdateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.UpdateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: UpdateRangeAsync(ICollection<TViewModel>, CancellationToken?)
+  nameWithType: CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.UpdateRangeAsync(ICollection<TViewModel>, CancellationToken?)
+  fullName: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.UpdateRangeAsync(System.Collections.Generic.ICollection<TViewModel>, System.Threading.CancellationToken?)
+  nameWithType.vb: CrudForCollectionRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType).UpdateRangeAsync(ICollection(Of TViewModel), CancellationToken?)
+  fullName.vb: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType).UpdateRangeAsync(System.Collections.Generic.ICollection(Of TViewModel), System.Threading.CancellationToken?)
+  name.vb: UpdateRangeAsync(ICollection(Of TViewModel), CancellationToken?)
+  spec.csharp:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.UpdateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+    name: UpdateRangeAsync
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TViewModel
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.UpdateRangeAsync(System.Collections.Generic.ICollection{`0},System.Nullable{System.Threading.CancellationToken})
+    name: UpdateRangeAsync
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TViewModel
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+- uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.DeleteRangeAsync(System.Collections.Generic.ICollection{`3},System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.DeleteRangeAsync(System.Collections.Generic.ICollection{`3},System.Nullable{System.Threading.CancellationToken})
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: DeleteRangeAsync(ICollection<TIdType>, CancellationToken?)
+  nameWithType: CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.DeleteRangeAsync(ICollection<TIdType>, CancellationToken?)
+  fullName: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.DeleteRangeAsync(System.Collections.Generic.ICollection<TIdType>, System.Threading.CancellationToken?)
+  nameWithType.vb: CrudForCollectionRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType).DeleteRangeAsync(ICollection(Of TIdType), CancellationToken?)
+  fullName.vb: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType).DeleteRangeAsync(System.Collections.Generic.ICollection(Of TIdType), System.Threading.CancellationToken?)
+  name.vb: DeleteRangeAsync(ICollection(Of TIdType), CancellationToken?)
+  spec.csharp:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.DeleteRangeAsync(System.Collections.Generic.ICollection{`3},System.Nullable{System.Threading.CancellationToken})
+    name: DeleteRangeAsync
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TIdType
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.DeleteRangeAsync(System.Collections.Generic.ICollection{`3},System.Nullable{System.Threading.CancellationToken})
+    name: DeleteRangeAsync
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TIdType
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+- uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetAllAsync(RequestForDataObj, CancellationToken?)
+  nameWithType: CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.GetAllAsync(RequestForDataObj, CancellationToken?)
+  fullName: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.GetAllAsync(Quickie.DataObj.RequestForDataObj, System.Threading.CancellationToken?)
+  nameWithType.vb: CrudForCollectionRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType).GetAllAsync(RequestForDataObj, CancellationToken?)
+  fullName.vb: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType).GetAllAsync(Quickie.DataObj.RequestForDataObj, System.Threading.CancellationToken?)
+  spec.csharp:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+    name: GetAllAsync
+  - name: (
+  - uid: Quickie.DataObj.RequestForDataObj
+    name: RequestForDataObj
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.GetAllAsync(Quickie.DataObj.RequestForDataObj,System.Nullable{System.Threading.CancellationToken})
+    name: GetAllAsync
+  - name: (
+  - uid: Quickie.DataObj.RequestForDataObj
+    name: RequestForDataObj
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+- uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.CountAsync(System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.CountAsync(System.Nullable{System.Threading.CancellationToken})
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CountAsync(CancellationToken?)
+  nameWithType: CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.CountAsync(CancellationToken?)
+  fullName: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.CountAsync(System.Threading.CancellationToken?)
+  nameWithType.vb: CrudForCollectionRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType).CountAsync(CancellationToken?)
+  fullName.vb: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType).CountAsync(System.Threading.CancellationToken?)
+  spec.csharp:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.CountAsync(System.Nullable{System.Threading.CancellationToken})
+    name: CountAsync
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.CountAsync(System.Nullable{System.Threading.CancellationToken})
+    name: CountAsync
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+- uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.MapToCollectionOfDto(System.Collections.Generic.ICollection{`1})
+  commentId: M:Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.MapToCollectionOfDto(System.Collections.Generic.ICollection{`1})
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: MapToCollectionOfDto(ICollection<TEntity>)
+  nameWithType: CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.MapToCollectionOfDto(ICollection<TEntity>)
+  fullName: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.MapToCollectionOfDto(System.Collections.Generic.ICollection<TEntity>)
+  nameWithType.vb: CrudForCollectionRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType).MapToCollectionOfDto(ICollection(Of TEntity))
+  fullName.vb: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType).MapToCollectionOfDto(System.Collections.Generic.ICollection(Of TEntity))
+  name.vb: MapToCollectionOfDto(ICollection(Of TEntity))
+  spec.csharp:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.MapToCollectionOfDto(System.Collections.Generic.ICollection{`1})
+    name: MapToCollectionOfDto
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TEntity
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.MapToCollectionOfDto(System.Collections.Generic.ICollection{`1})
+    name: MapToCollectionOfDto
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+  - name: )
+- uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.MapToCollectionOfEntity(System.Collections.Generic.ICollection{`0})
+  commentId: M:Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.MapToCollectionOfEntity(System.Collections.Generic.ICollection{`0})
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: MapToCollectionOfEntity(ICollection<TViewModel>)
+  nameWithType: CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.MapToCollectionOfEntity(ICollection<TViewModel>)
+  fullName: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.MapToCollectionOfEntity(System.Collections.Generic.ICollection<TViewModel>)
+  nameWithType.vb: CrudForCollectionRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType).MapToCollectionOfEntity(ICollection(Of TViewModel))
+  fullName.vb: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType).MapToCollectionOfEntity(System.Collections.Generic.ICollection(Of TViewModel))
+  name.vb: MapToCollectionOfEntity(ICollection(Of TViewModel))
+  spec.csharp:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.MapToCollectionOfEntity(System.Collections.Generic.ICollection{`0})
+    name: MapToCollectionOfEntity
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TViewModel
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler`4.MapToCollectionOfEntity(System.Collections.Generic.ICollection{`0})
+    name: MapToCollectionOfEntity
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TViewModel
+  - name: )
+  - name: )
+- uid: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.#ctor*
+  commentId: Overload:specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.#ctor
+  href: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.html#specification_Helpers_RequestHandlers_CrudForCollectionRequestHandlerConcrete__ctor_Quickie_DataHandlers_Crud_Definition_ICrudForCollectionDataHandler_specification_Helpers_Entities_CrudEntityConcrete_System_Int32__
+  name: CrudForCollectionRequestHandlerConcrete
+  nameWithType: CrudForCollectionRequestHandlerConcrete.CrudForCollectionRequestHandlerConcrete
+  fullName: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.CrudForCollectionRequestHandlerConcrete
+  nameWithType.vb: CrudForCollectionRequestHandlerConcrete.New
+  fullName.vb: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.New
+  name.vb: New
+- uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32}
+  commentId: T:Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler{specification.Helpers.Entities.CrudEntityConcrete,System.Int32}
+  parent: Quickie.DataHandlers.Crud.Definition
+  definition: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2
+  href: specification.Helpers.Entities.CrudEntityConcrete.html
+  name: ICrudForCollectionDataHandler<CrudEntityConcrete, int>
+  nameWithType: ICrudForCollectionDataHandler<CrudEntityConcrete, int>
+  fullName: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<specification.Helpers.Entities.CrudEntityConcrete, int>
+  nameWithType.vb: ICrudForCollectionDataHandler(Of CrudEntityConcrete, Integer)
+  fullName.vb: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler(Of specification.Helpers.Entities.CrudEntityConcrete, Integer)
+  name.vb: ICrudForCollectionDataHandler(Of CrudEntityConcrete, Integer)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2
+    name: ICrudForCollectionDataHandler
+  - name: <
+  - uid: specification.Helpers.Entities.CrudEntityConcrete
+    name: CrudEntityConcrete
+    href: specification.Helpers.Entities.CrudEntityConcrete.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2
+    name: ICrudForCollectionDataHandler
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: specification.Helpers.Entities.CrudEntityConcrete
+    name: CrudEntityConcrete
+    href: specification.Helpers.Entities.CrudEntityConcrete.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2
+  commentId: T:Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2
+  href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html
+  name: ICrudForCollectionDataHandler<TEntity, TIdType>
+  nameWithType: ICrudForCollectionDataHandler<TEntity, TIdType>
+  fullName: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<TEntity, TIdType>
+  nameWithType.vb: ICrudForCollectionDataHandler(Of TEntity, TIdType)
+  fullName.vb: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler(Of TEntity, TIdType)
+  name.vb: ICrudForCollectionDataHandler(Of TEntity, TIdType)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2
+    name: ICrudForCollectionDataHandler
+    href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html
+  - name: <
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler`2
+    name: ICrudForCollectionDataHandler
+    href: Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: )
+- uid: Quickie.DataHandlers.Crud.Definition
+  commentId: N:Quickie.DataHandlers.Crud.Definition
+  href: Quickie.html
+  name: Quickie.DataHandlers.Crud.Definition
+  nameWithType: Quickie.DataHandlers.Crud.Definition
+  fullName: Quickie.DataHandlers.Crud.Definition
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataHandlers
+    name: DataHandlers
+    href: Quickie.DataHandlers.html
+  - name: .
+  - uid: Quickie.DataHandlers.Crud
+    name: Crud
+    href: Quickie.DataHandlers.Crud.html
+  - name: .
+  - uid: Quickie.DataHandlers.Crud.Definition
+    name: Definition
+    href: Quickie.DataHandlers.Crud.Definition.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataHandlers
+    name: DataHandlers
+    href: Quickie.DataHandlers.html
+  - name: .
+  - uid: Quickie.DataHandlers.Crud
+    name: Crud
+    href: Quickie.DataHandlers.Crud.html
+  - name: .
+  - uid: Quickie.DataHandlers.Crud.Definition
+    name: Definition
+    href: Quickie.DataHandlers.Crud.Definition.html
+- uid: specification.Helpers.Entities.CrudEntityConcrete
+  commentId: T:specification.Helpers.Entities.CrudEntityConcrete
+  parent: specification.Helpers.Entities
+  href: specification.Helpers.Entities.CrudEntityConcrete.html
+  name: CrudEntityConcrete
+  nameWithType: CrudEntityConcrete
+  fullName: specification.Helpers.Entities.CrudEntityConcrete
+- uid: specification.Helpers.Dtos.CrudDtoConcrete
+  commentId: T:specification.Helpers.Dtos.CrudDtoConcrete
+  parent: specification.Helpers.Dtos
+  href: specification.Helpers.Dtos.CrudDtoConcrete.html
+  name: CrudDtoConcrete
+  nameWithType: CrudDtoConcrete
+  fullName: specification.Helpers.Dtos.CrudDtoConcrete
+- uid: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.MapToCollectionOfDto*
+  commentId: Overload:specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.MapToCollectionOfDto
+  href: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.html#specification_Helpers_RequestHandlers_CrudForCollectionRequestHandlerConcrete_MapToCollectionOfDto_System_Collections_Generic_ICollection_specification_Helpers_Entities_CrudEntityConcrete__
+  name: MapToCollectionOfDto
+  nameWithType: CrudForCollectionRequestHandlerConcrete.MapToCollectionOfDto
+  fullName: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.MapToCollectionOfDto
+- uid: System.Collections.Generic.ICollection{specification.Helpers.Entities.CrudEntityConcrete}
+  commentId: T:System.Collections.Generic.ICollection{specification.Helpers.Entities.CrudEntityConcrete}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<CrudEntityConcrete>
+  nameWithType: ICollection<CrudEntityConcrete>
+  fullName: System.Collections.Generic.ICollection<specification.Helpers.Entities.CrudEntityConcrete>
+  nameWithType.vb: ICollection(Of CrudEntityConcrete)
+  fullName.vb: System.Collections.Generic.ICollection(Of specification.Helpers.Entities.CrudEntityConcrete)
+  name.vb: ICollection(Of CrudEntityConcrete)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: specification.Helpers.Entities.CrudEntityConcrete
+    name: CrudEntityConcrete
+    href: specification.Helpers.Entities.CrudEntityConcrete.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: specification.Helpers.Entities.CrudEntityConcrete
+    name: CrudEntityConcrete
+    href: specification.Helpers.Entities.CrudEntityConcrete.html
+  - name: )
+- uid: System.Collections.Generic.ICollection{specification.Helpers.Dtos.CrudDtoConcrete}
+  commentId: T:System.Collections.Generic.ICollection{specification.Helpers.Dtos.CrudDtoConcrete}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<CrudDtoConcrete>
+  nameWithType: ICollection<CrudDtoConcrete>
+  fullName: System.Collections.Generic.ICollection<specification.Helpers.Dtos.CrudDtoConcrete>
+  nameWithType.vb: ICollection(Of CrudDtoConcrete)
+  fullName.vb: System.Collections.Generic.ICollection(Of specification.Helpers.Dtos.CrudDtoConcrete)
+  name.vb: ICollection(Of CrudDtoConcrete)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: specification.Helpers.Dtos.CrudDtoConcrete
+    name: CrudDtoConcrete
+    href: specification.Helpers.Dtos.CrudDtoConcrete.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: specification.Helpers.Dtos.CrudDtoConcrete
+    name: CrudDtoConcrete
+    href: specification.Helpers.Dtos.CrudDtoConcrete.html
+  - name: )
+- uid: specification.Helpers.Entities
+  commentId: N:specification.Helpers.Entities
+  href: specification.html
+  name: specification.Helpers.Entities
+  nameWithType: specification.Helpers.Entities
+  fullName: specification.Helpers.Entities
+  spec.csharp:
+  - uid: specification
+    name: specification
+    href: specification.html
+  - name: .
+  - uid: specification.Helpers
+    name: Helpers
+    href: specification.Helpers.html
+  - name: .
+  - uid: specification.Helpers.Entities
+    name: Entities
+    href: specification.Helpers.Entities.html
+  spec.vb:
+  - uid: specification
+    name: specification
+    href: specification.html
+  - name: .
+  - uid: specification.Helpers
+    name: Helpers
+    href: specification.Helpers.html
+  - name: .
+  - uid: specification.Helpers.Entities
+    name: Entities
+    href: specification.Helpers.Entities.html
+- uid: specification.Helpers.Dtos
+  commentId: N:specification.Helpers.Dtos
+  href: specification.html
+  name: specification.Helpers.Dtos
+  nameWithType: specification.Helpers.Dtos
+  fullName: specification.Helpers.Dtos
+  spec.csharp:
+  - uid: specification
+    name: specification
+    href: specification.html
+  - name: .
+  - uid: specification.Helpers
+    name: Helpers
+    href: specification.Helpers.html
+  - name: .
+  - uid: specification.Helpers.Dtos
+    name: Dtos
+    href: specification.Helpers.Dtos.html
+  spec.vb:
+  - uid: specification
+    name: specification
+    href: specification.html
+  - name: .
+  - uid: specification.Helpers
+    name: Helpers
+    href: specification.Helpers.html
+  - name: .
+  - uid: specification.Helpers.Dtos
+    name: Dtos
+    href: specification.Helpers.Dtos.html
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.MapToCollectionOfEntity*
+  commentId: Overload:specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.MapToCollectionOfEntity
+  href: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.html#specification_Helpers_RequestHandlers_CrudForCollectionRequestHandlerConcrete_MapToCollectionOfEntity_System_Collections_Generic_ICollection_specification_Helpers_Dtos_CrudDtoConcrete__
+  name: MapToCollectionOfEntity
+  nameWithType: CrudForCollectionRequestHandlerConcrete.MapToCollectionOfEntity
+  fullName: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.MapToCollectionOfEntity

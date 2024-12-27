@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Configuration | Quickie </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Configuration | Quickie ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/sushantpt/Quickie/blob/f-minimalapi/docs/docs/configuration.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-S4FG36P7BW"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-S4FG36P7BW');
+      </script>
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Quickie">
+            Quickie
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="configuration">Configuration</h1>
+
+<p>Quickie offers flexible configuration options to customize its behavior according to your application needs. This guide covers all available configuration options and their usage.</p>
+<h2 id="basic-setup">Basic Setup</h2>
+<p>To configure Quickie in your application, you need to add it to both your service collection and middleware pipeline:</p>
+<pre><code class="lang-csharp">// In Program.cs
+builder.Services.QuickieConfig();
+
+// In middleware pipeline
+app.AddQuickie();
+</code></pre>
+<p>Above configuration will enable default options. Default options include:</p>
+<ul>
+<li>Rate limiting
+<ul>
+<li>Accept 1 request (<code>PermitLimit</code>) every 6 seconds (<code>FromSeconds</code>) or simply understanding: allow only 10 API request every 1 minute.</li>
+<li>Policy name as Quickie-Rl-Policy.</li>
+</ul>
+</li>
+<li>Idempotency is disabled.</li>
+<li>Custom error message is enabled. API client will see custom generic message instead of the real error message.</li>
+</ul>
+<h2 id="idempotency-configuration">Idempotency Configuration</h2>
+<p>Idempotency prevents duplicate API request. You can make your POST call idempotent. To enable idempotency:</p>
+<pre><code class="lang-csharp">builder.Services.QuickieConfig(options =&gt; {
+    options.IdempotencyConfiguration = new IdempotentConfiguration {
+        Enable = true,                                    // enable idempotency support
+        IdempotencyLifespan = TimeSpan.FromHours(2),     // set key lifespan (default: 1 hour)
+        RunBackgroundServiceEveryHour = 2,               // cleanup interval (default: 1 hour)
+        Provider = new CustomIdempotencyProvider()        // optional: custom provider
+    };
+});
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Enable</code></td>
+<td><code>bool</code></td>
+<td><code>false</code></td>
+<td>Enables/disables idempotency support</td>
+</tr>
+<tr>
+<td><code>Provider</code></td>
+<td><code>IIdempotencyProvider</code></td>
+<td><code>InMemoryIdempotencyProvider</code></td>
+<td>Custom provider for idempotency handling. By default, its handle by Quickie using in-memory configuration. <a href="https://sushantpt.github.io/Quickie/api/Quickie.Configuration.Idempotency.IIdempotencyProvider.html">more</a></td>
+</tr>
+<tr>
+<td><code>IdempotencyLifespan</code></td>
+<td><code>TimeSpan</code></td>
+<td>1 hour</td>
+<td>Duration for which idempotency keys remain valid</td>
+</tr>
+<tr>
+<td><code>RunBackgroundServiceEveryHour</code></td>
+<td><code>int</code></td>
+<td>1</td>
+<td>Interval (in hours) for cleanup service (0-24)</td>
+</tr>
+</tbody>
+</table>
+<p><a href="https://sushantpt.github.io/Quickie/api/Quickie.Configuration.Idempotency.IdempotentConfiguration.html?q=IdempotentConfiguration">doc</a></p>
+<h2 id="custom-idempotency-provider">Custom Idempotency provider</h2>
+<p>Instead of Quickie's default idempotency provider, you can have your own custom provider using Redis, MongoDB, SQL databases, or any other storage solution. Implement your provider with <code>IIdempotencyProvider</code>. Here is an example using <a href="https://redis.io/docs/latest/develop/clients/dotnet/">Redis</a>:</p>
+<pre><code class="lang-csharp">public class RedisIdempotencyProvider : IIdempotencyProvider
+{
+    private readonly IConnectionMultiplexer _redis;
+    private readonly TimeSpan _keyLifespan;
+
+    public RedisIdempotencyProvider(IConnectionMultiplexer redis, TimeSpan keyLifespan)
+    {
+        _redis = redis;
+        _keyLifespan = keyLifespan;
+    }
+
+    public async ValueTask&lt;bool&gt; ExistsAsync(string key)
+    {
+        var db = _redis.GetDatabase();
+        return await db.KeyExistsAsync(key);
+    }
+
+    public async ValueTask MarkAsync(string key)
+    {
+        var db = _redis.GetDatabase();
+        await db.StringSetAsync(key, &quot;1&quot;, _keyLifespan);
+    }
+
+    public async ValueTask RemoveExpiredKeys()
+    {
+        await ValueTask.CompletedTask;
+    }
+}
+</code></pre>
+<p>Now, configuration look something like this:</p>
+<pre><code class="lang-csharp">builder.Services.QuickieConfig(options =&gt; {
+    options.IdempotencyConfiguration = new IdempotentConfiguration {
+        Enable = true,
+        IdempotencyLifespan = TimeSpan.FromHours(2),
+        RunBackgroundServiceEveryHour = 2,
+        Provider = new RedisIdempotencyProvider()
+    };
+});
+</code></pre>
+<h2 id="rate-limiting-configuration">Rate Limiting Configuration</h2>
+<p>Quickie provides rate limiting options based on IP address by default. To customize:</p>
+<ul>
+<li>If you want to disable:</li>
+</ul>
+<pre><code class="lang-csharp">builder.Services.QuickieConfig(options =&gt; {
+    options.RateLimitingConfiguration = new RateLimitConfiguration {
+        DisableRateLimiting = true // this disables rate limiting
+    };
+});
+</code></pre>
+<h4 id="customize">Customize:</h4>
+<ul>
+<li>Scenario: Allow 100 request in duration of 60 seconds.</li>
+</ul>
+<pre><code class="lang-csharp">builder.Services.QuickieConfig(options =&gt; {
+    options.RateLimitingConfiguration = new RateLimitConfiguration {
+        PermitLimit = 100,
+        FromSeconds = 60
+    };
+});
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>DisableRateLimiting</code></td>
+<td>bool</td>
+<td><code>false</code></td>
+<td>Disables/enables rate limiting</td>
+</tr>
+<tr>
+<td><code>PolicyName</code></td>
+<td>string</td>
+<td>&quot;Quickie-Rl-Policy&quot;</td>
+<td>Name of the rate limit policy. This <strong>cannot</strong> be changed.</td>
+</tr>
+<tr>
+<td><code>PermitLimit</code></td>
+<td>int</td>
+<td>1</td>
+<td>Number of allowed requests per window</td>
+</tr>
+<tr>
+<td><code>FromSeconds</code></td>
+<td>int</td>
+<td>6</td>
+<td>Time window duration in seconds</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Internally, Quickie uses the sliding door algorithm with IP addresses to check for rate limiting. <a href="https://sushantpt.github.io/Quickie/api/Quickie.Configuration.QuickieExtension.html">src</a></p>
+</blockquote>
+<h2 id="error-message-configuration">Error Message Configuration</h2>
+<p>Configure how you want to show your error messages: show actual error or generic message.</p>
+<ul>
+<li>Show generic message</li>
+</ul>
+<pre><code class="lang-csharp">builder.Services.QuickieConfig(options =&gt; {
+    options.ShowCustomErrorMessage = true;
+});
+</code></pre>
+<p>Above configuration will show custom generic error message for all sorta errors.</p>
+<h4 id="example">Example:</h4>
+<p>If database related occur while creating an entity, instead of showing actual error, it will show: <code>Data not created.</code></p>
+<ul>
+<li>Show actual error</li>
+</ul>
+<pre><code class="lang-csharp">builder.Services.QuickieConfig(options =&gt; {
+    options.ShowCustomErrorMessage = false;
+});
+</code></pre>
+<p>Above configuration will show actual error message for all sorta errors.</p>
+<h4 id="example-1">Example:</h4>
+<p>If database related occur while creating an entity, it will show: <code>The specified key 'user_id' was not ...</code></p>
+<p>Configuration src doc <a href="../api/Quickie.Configuration.html">here</a></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/sushantpt/Quickie/blob/f-minimalapi/docs/docs/configuration.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

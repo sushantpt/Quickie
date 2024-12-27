@@ -1,0 +1,1080 @@
+### YamlMime:ManagedReference
+items:
+- uid: specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete
+  commentId: T:specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete
+  id: ReadOnlyCollectionRequestHandlerConcrete
+  parent: specification.Helpers.RequestHandlers
+  children:
+  - specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete.#ctor(Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler{specification.Helpers.Entities.ReadOnlyEntityConcrete,System.Int32})
+  - specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete.MapToDto(System.Collections.Generic.ICollection{specification.Helpers.Entities.ReadOnlyEntityConcrete})
+  langs:
+  - csharp
+  - vb
+  name: ReadOnlyCollectionRequestHandlerConcrete
+  nameWithType: ReadOnlyCollectionRequestHandlerConcrete
+  fullName: specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete
+  type: Class
+  source:
+    remote:
+      path: tests/specification/Helpers/RequestHandlers/ReadOnlyCollectionRequestHandlerConcrete.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: ReadOnlyCollectionRequestHandlerConcrete
+    path: ../tests/specification/Helpers/RequestHandlers/ReadOnlyCollectionRequestHandlerConcrete.cs
+    startLine: 9
+  assemblies:
+  - specification
+  namespace: specification.Helpers.RequestHandlers
+  syntax:
+    content: 'public class ReadOnlyCollectionRequestHandlerConcrete : ReadOnlyCollectionRequestHandler<ReadOnlyDtoConcrete, ReadOnlyEntityConcrete, IReadOnlyCollectionDataHandler<ReadOnlyEntityConcrete, int>, int>, IReadOnlyCollectionRequestHandler<ReadOnlyDtoConcrete, int>'
+    content.vb: Public Class ReadOnlyCollectionRequestHandlerConcrete Inherits ReadOnlyCollectionRequestHandler(Of ReadOnlyDtoConcrete, ReadOnlyEntityConcrete, IReadOnlyCollectionDataHandler(Of ReadOnlyEntityConcrete, Integer), Integer) Implements IReadOnlyCollectionRequestHandler(Of ReadOnlyDtoConcrete, Integer)
+  inheritance:
+  - System.Object
+  - Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler{specification.Helpers.Dtos.ReadOnlyDtoConcrete,specification.Helpers.Entities.ReadOnlyEntityConcrete,Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler{specification.Helpers.Entities.ReadOnlyEntityConcrete,System.Int32},System.Int32}
+  implements:
+  - Quickie.Handlers.Readonly.Definition.IReadOnlyCollectionRequestHandler{specification.Helpers.Dtos.ReadOnlyDtoConcrete,System.Int32}
+  inheritedMembers:
+  - Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler{specification.Helpers.Dtos.ReadOnlyDtoConcrete,specification.Helpers.Entities.ReadOnlyEntityConcrete,Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler{specification.Helpers.Entities.ReadOnlyEntityConcrete,System.Int32},System.Int32}.GetAsync``1({TRequestModel},System.Nullable{System.Threading.CancellationToken})
+  - Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler{specification.Helpers.Dtos.ReadOnlyDtoConcrete,specification.Helpers.Entities.ReadOnlyEntityConcrete,Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler{specification.Helpers.Entities.ReadOnlyEntityConcrete,System.Int32},System.Int32}.MapToDto(System.Collections.Generic.ICollection{specification.Helpers.Entities.ReadOnlyEntityConcrete})
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete.#ctor(Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler{specification.Helpers.Entities.ReadOnlyEntityConcrete,System.Int32})
+  commentId: M:specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete.#ctor(Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler{specification.Helpers.Entities.ReadOnlyEntityConcrete,System.Int32})
+  id: '#ctor(Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler{specification.Helpers.Entities.ReadOnlyEntityConcrete,System.Int32})'
+  parent: specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete
+  langs:
+  - csharp
+  - vb
+  name: ReadOnlyCollectionRequestHandlerConcrete(IReadOnlyCollectionDataHandler<ReadOnlyEntityConcrete, int>)
+  nameWithType: ReadOnlyCollectionRequestHandlerConcrete.ReadOnlyCollectionRequestHandlerConcrete(IReadOnlyCollectionDataHandler<ReadOnlyEntityConcrete, int>)
+  fullName: specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete.ReadOnlyCollectionRequestHandlerConcrete(Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler<specification.Helpers.Entities.ReadOnlyEntityConcrete, int>)
+  type: Constructor
+  source:
+    remote:
+      path: tests/specification/Helpers/RequestHandlers/ReadOnlyCollectionRequestHandlerConcrete.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: .ctor
+    path: ../tests/specification/Helpers/RequestHandlers/ReadOnlyCollectionRequestHandlerConcrete.cs
+    startLine: 9
+  assemblies:
+  - specification
+  namespace: specification.Helpers.RequestHandlers
+  syntax:
+    content: public ReadOnlyCollectionRequestHandlerConcrete(IReadOnlyCollectionDataHandler<ReadOnlyEntityConcrete, int> dataHandler)
+    parameters:
+    - id: dataHandler
+      type: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler{specification.Helpers.Entities.ReadOnlyEntityConcrete,System.Int32}
+    content.vb: Public Sub New(dataHandler As IReadOnlyCollectionDataHandler(Of ReadOnlyEntityConcrete, Integer))
+  overload: specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete.#ctor*
+  nameWithType.vb: ReadOnlyCollectionRequestHandlerConcrete.New(IReadOnlyCollectionDataHandler(Of ReadOnlyEntityConcrete, Integer))
+  fullName.vb: specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete.New(Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler(Of specification.Helpers.Entities.ReadOnlyEntityConcrete, Integer))
+  name.vb: New(IReadOnlyCollectionDataHandler(Of ReadOnlyEntityConcrete, Integer))
+- uid: specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete.MapToDto(System.Collections.Generic.ICollection{specification.Helpers.Entities.ReadOnlyEntityConcrete})
+  commentId: M:specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete.MapToDto(System.Collections.Generic.ICollection{specification.Helpers.Entities.ReadOnlyEntityConcrete})
+  id: MapToDto(System.Collections.Generic.ICollection{specification.Helpers.Entities.ReadOnlyEntityConcrete})
+  parent: specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete
+  langs:
+  - csharp
+  - vb
+  name: MapToDto(ICollection<ReadOnlyEntityConcrete>)
+  nameWithType: ReadOnlyCollectionRequestHandlerConcrete.MapToDto(ICollection<ReadOnlyEntityConcrete>)
+  fullName: specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete.MapToDto(System.Collections.Generic.ICollection<specification.Helpers.Entities.ReadOnlyEntityConcrete>)
+  type: Method
+  source:
+    remote:
+      path: tests/specification/Helpers/RequestHandlers/ReadOnlyCollectionRequestHandlerConcrete.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: MapToDto
+    path: ../tests/specification/Helpers/RequestHandlers/ReadOnlyCollectionRequestHandlerConcrete.cs
+    startLine: 11
+  assemblies:
+  - specification
+  namespace: specification.Helpers.RequestHandlers
+  summary: Mapping profile. Map from collection of Entity type to your collection of data transfer object.
+  example: []
+  syntax:
+    content: protected override ICollection<ReadOnlyDtoConcrete> MapToDto(ICollection<ReadOnlyEntityConcrete> entity)
+    parameters:
+    - id: entity
+      type: System.Collections.Generic.ICollection{specification.Helpers.Entities.ReadOnlyEntityConcrete}
+      description: Collection of entity object.
+    return:
+      type: System.Collections.Generic.ICollection{specification.Helpers.Dtos.ReadOnlyDtoConcrete}
+      description: Mapped from collection of Entity, a collection data transfer object.
+    content.vb: Protected Overrides Function MapToDto(entity As ICollection(Of ReadOnlyEntityConcrete)) As ICollection(Of ReadOnlyDtoConcrete)
+  overridden: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler{specification.Helpers.Dtos.ReadOnlyDtoConcrete,specification.Helpers.Entities.ReadOnlyEntityConcrete,Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler{specification.Helpers.Entities.ReadOnlyEntityConcrete,System.Int32},System.Int32}.MapToDto(System.Collections.Generic.ICollection{specification.Helpers.Entities.ReadOnlyEntityConcrete})
+  overload: specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete.MapToDto*
+  nameWithType.vb: ReadOnlyCollectionRequestHandlerConcrete.MapToDto(ICollection(Of ReadOnlyEntityConcrete))
+  fullName.vb: specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete.MapToDto(System.Collections.Generic.ICollection(Of specification.Helpers.Entities.ReadOnlyEntityConcrete))
+  name.vb: MapToDto(ICollection(Of ReadOnlyEntityConcrete))
+references:
+- uid: specification.Helpers.RequestHandlers
+  commentId: N:specification.Helpers.RequestHandlers
+  href: specification.html
+  name: specification.Helpers.RequestHandlers
+  nameWithType: specification.Helpers.RequestHandlers
+  fullName: specification.Helpers.RequestHandlers
+  spec.csharp:
+  - uid: specification
+    name: specification
+    href: specification.html
+  - name: .
+  - uid: specification.Helpers
+    name: Helpers
+    href: specification.Helpers.html
+  - name: .
+  - uid: specification.Helpers.RequestHandlers
+    name: RequestHandlers
+    href: specification.Helpers.RequestHandlers.html
+  spec.vb:
+  - uid: specification
+    name: specification
+    href: specification.html
+  - name: .
+  - uid: specification.Helpers
+    name: Helpers
+    href: specification.Helpers.html
+  - name: .
+  - uid: specification.Helpers.RequestHandlers
+    name: RequestHandlers
+    href: specification.Helpers.RequestHandlers.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler{specification.Helpers.Dtos.ReadOnlyDtoConcrete,specification.Helpers.Entities.ReadOnlyEntityConcrete,Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler{specification.Helpers.Entities.ReadOnlyEntityConcrete,System.Int32},System.Int32}
+  commentId: T:Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler{specification.Helpers.Dtos.ReadOnlyDtoConcrete,specification.Helpers.Entities.ReadOnlyEntityConcrete,Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler{specification.Helpers.Entities.ReadOnlyEntityConcrete,System.Int32},System.Int32}
+  parent: Quickie.Handlers.Readonly.Implementation
+  definition: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler`4
+  href: specification.Helpers.Dtos.ReadOnlyDtoConcrete.html
+  name: ReadOnlyCollectionRequestHandler<ReadOnlyDtoConcrete, ReadOnlyEntityConcrete, IReadOnlyCollectionDataHandler<ReadOnlyEntityConcrete, int>, int>
+  nameWithType: ReadOnlyCollectionRequestHandler<ReadOnlyDtoConcrete, ReadOnlyEntityConcrete, IReadOnlyCollectionDataHandler<ReadOnlyEntityConcrete, int>, int>
+  fullName: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler<specification.Helpers.Dtos.ReadOnlyDtoConcrete, specification.Helpers.Entities.ReadOnlyEntityConcrete, Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler<specification.Helpers.Entities.ReadOnlyEntityConcrete, int>, int>
+  nameWithType.vb: ReadOnlyCollectionRequestHandler(Of ReadOnlyDtoConcrete, ReadOnlyEntityConcrete, IReadOnlyCollectionDataHandler(Of ReadOnlyEntityConcrete, Integer), Integer)
+  fullName.vb: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler(Of specification.Helpers.Dtos.ReadOnlyDtoConcrete, specification.Helpers.Entities.ReadOnlyEntityConcrete, Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler(Of specification.Helpers.Entities.ReadOnlyEntityConcrete, Integer), Integer)
+  name.vb: ReadOnlyCollectionRequestHandler(Of ReadOnlyDtoConcrete, ReadOnlyEntityConcrete, IReadOnlyCollectionDataHandler(Of ReadOnlyEntityConcrete, Integer), Integer)
+  spec.csharp:
+  - uid: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler`4
+    name: ReadOnlyCollectionRequestHandler
+  - name: <
+  - uid: specification.Helpers.Dtos.ReadOnlyDtoConcrete
+    name: ReadOnlyDtoConcrete
+    href: specification.Helpers.Dtos.ReadOnlyDtoConcrete.html
+  - name: ','
+  - name: " "
+  - uid: specification.Helpers.Entities.ReadOnlyEntityConcrete
+    name: ReadOnlyEntityConcrete
+    href: specification.Helpers.Entities.ReadOnlyEntityConcrete.html
+  - name: ','
+  - name: " "
+  - uid: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler`2
+    name: IReadOnlyCollectionDataHandler
+  - name: <
+  - uid: specification.Helpers.Entities.ReadOnlyEntityConcrete
+    name: ReadOnlyEntityConcrete
+    href: specification.Helpers.Entities.ReadOnlyEntityConcrete.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler`4
+    name: ReadOnlyCollectionRequestHandler
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: specification.Helpers.Dtos.ReadOnlyDtoConcrete
+    name: ReadOnlyDtoConcrete
+    href: specification.Helpers.Dtos.ReadOnlyDtoConcrete.html
+  - name: ','
+  - name: " "
+  - uid: specification.Helpers.Entities.ReadOnlyEntityConcrete
+    name: ReadOnlyEntityConcrete
+    href: specification.Helpers.Entities.ReadOnlyEntityConcrete.html
+  - name: ','
+  - name: " "
+  - uid: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler`2
+    name: IReadOnlyCollectionDataHandler
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: specification.Helpers.Entities.ReadOnlyEntityConcrete
+    name: ReadOnlyEntityConcrete
+    href: specification.Helpers.Entities.ReadOnlyEntityConcrete.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Quickie.Handlers.Readonly.Definition.IReadOnlyCollectionRequestHandler{specification.Helpers.Dtos.ReadOnlyDtoConcrete,System.Int32}
+  commentId: T:Quickie.Handlers.Readonly.Definition.IReadOnlyCollectionRequestHandler{specification.Helpers.Dtos.ReadOnlyDtoConcrete,System.Int32}
+  parent: Quickie.Handlers.Readonly.Definition
+  definition: Quickie.Handlers.Readonly.Definition.IReadOnlyCollectionRequestHandler`2
+  href: specification.Helpers.Dtos.ReadOnlyDtoConcrete.html
+  name: IReadOnlyCollectionRequestHandler<ReadOnlyDtoConcrete, int>
+  nameWithType: IReadOnlyCollectionRequestHandler<ReadOnlyDtoConcrete, int>
+  fullName: Quickie.Handlers.Readonly.Definition.IReadOnlyCollectionRequestHandler<specification.Helpers.Dtos.ReadOnlyDtoConcrete, int>
+  nameWithType.vb: IReadOnlyCollectionRequestHandler(Of ReadOnlyDtoConcrete, Integer)
+  fullName.vb: Quickie.Handlers.Readonly.Definition.IReadOnlyCollectionRequestHandler(Of specification.Helpers.Dtos.ReadOnlyDtoConcrete, Integer)
+  name.vb: IReadOnlyCollectionRequestHandler(Of ReadOnlyDtoConcrete, Integer)
+  spec.csharp:
+  - uid: Quickie.Handlers.Readonly.Definition.IReadOnlyCollectionRequestHandler`2
+    name: IReadOnlyCollectionRequestHandler
+  - name: <
+  - uid: specification.Helpers.Dtos.ReadOnlyDtoConcrete
+    name: ReadOnlyDtoConcrete
+    href: specification.Helpers.Dtos.ReadOnlyDtoConcrete.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.Handlers.Readonly.Definition.IReadOnlyCollectionRequestHandler`2
+    name: IReadOnlyCollectionRequestHandler
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: specification.Helpers.Dtos.ReadOnlyDtoConcrete
+    name: ReadOnlyDtoConcrete
+    href: specification.Helpers.Dtos.ReadOnlyDtoConcrete.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler{specification.Helpers.Dtos.ReadOnlyDtoConcrete,specification.Helpers.Entities.ReadOnlyEntityConcrete,Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler{specification.Helpers.Entities.ReadOnlyEntityConcrete,System.Int32},System.Int32}.GetAsync``1({TRequestModel},System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler{specification.Helpers.Dtos.ReadOnlyDtoConcrete,specification.Helpers.Entities.ReadOnlyEntityConcrete,Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler{specification.Helpers.Entities.ReadOnlyEntityConcrete,System.Int32},System.Int32}.GetAsync``1(``0,System.Nullable{System.Threading.CancellationToken})
+  parent: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler{specification.Helpers.Dtos.ReadOnlyDtoConcrete,specification.Helpers.Entities.ReadOnlyEntityConcrete,Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler{specification.Helpers.Entities.ReadOnlyEntityConcrete,System.Int32},System.Int32}
+  definition: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler`4.GetAsync``1(``0,System.Nullable{System.Threading.CancellationToken})
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetAsync<TRequestModel>(TRequestModel, CancellationToken?)
+  nameWithType: ReadOnlyCollectionRequestHandler<ReadOnlyDtoConcrete, ReadOnlyEntityConcrete, IReadOnlyCollectionDataHandler<ReadOnlyEntityConcrete, int>, int>.GetAsync<TRequestModel>(TRequestModel, CancellationToken?)
+  fullName: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler<specification.Helpers.Dtos.ReadOnlyDtoConcrete, specification.Helpers.Entities.ReadOnlyEntityConcrete, Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler<specification.Helpers.Entities.ReadOnlyEntityConcrete, int>, int>.GetAsync<TRequestModel>(TRequestModel, System.Threading.CancellationToken?)
+  nameWithType.vb: ReadOnlyCollectionRequestHandler(Of ReadOnlyDtoConcrete, ReadOnlyEntityConcrete, IReadOnlyCollectionDataHandler(Of ReadOnlyEntityConcrete, Integer), Integer).GetAsync(Of TRequestModel)(TRequestModel, CancellationToken?)
+  fullName.vb: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler(Of specification.Helpers.Dtos.ReadOnlyDtoConcrete, specification.Helpers.Entities.ReadOnlyEntityConcrete, Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler(Of specification.Helpers.Entities.ReadOnlyEntityConcrete, Integer), Integer).GetAsync(Of TRequestModel)(TRequestModel, System.Threading.CancellationToken?)
+  name.vb: GetAsync(Of TRequestModel)(TRequestModel, CancellationToken?)
+  spec.csharp:
+  - uid: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler{specification.Helpers.Dtos.ReadOnlyDtoConcrete,specification.Helpers.Entities.ReadOnlyEntityConcrete,Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler{specification.Helpers.Entities.ReadOnlyEntityConcrete,System.Int32},System.Int32}.GetAsync``1(``0,System.Nullable{System.Threading.CancellationToken})
+    name: GetAsync
+  - name: <
+  - name: TRequestModel
+  - name: '>'
+  - name: (
+  - name: TRequestModel
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler{specification.Helpers.Dtos.ReadOnlyDtoConcrete,specification.Helpers.Entities.ReadOnlyEntityConcrete,Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler{specification.Helpers.Entities.ReadOnlyEntityConcrete,System.Int32},System.Int32}.GetAsync``1(``0,System.Nullable{System.Threading.CancellationToken})
+    name: GetAsync
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TRequestModel
+  - name: )
+  - name: (
+  - name: TRequestModel
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+- uid: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler{specification.Helpers.Dtos.ReadOnlyDtoConcrete,specification.Helpers.Entities.ReadOnlyEntityConcrete,Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler{specification.Helpers.Entities.ReadOnlyEntityConcrete,System.Int32},System.Int32}.MapToDto(System.Collections.Generic.ICollection{specification.Helpers.Entities.ReadOnlyEntityConcrete})
+  commentId: M:Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler{specification.Helpers.Dtos.ReadOnlyDtoConcrete,specification.Helpers.Entities.ReadOnlyEntityConcrete,Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler{specification.Helpers.Entities.ReadOnlyEntityConcrete,System.Int32},System.Int32}.MapToDto(System.Collections.Generic.ICollection{specification.Helpers.Entities.ReadOnlyEntityConcrete})
+  parent: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler{specification.Helpers.Dtos.ReadOnlyDtoConcrete,specification.Helpers.Entities.ReadOnlyEntityConcrete,Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler{specification.Helpers.Entities.ReadOnlyEntityConcrete,System.Int32},System.Int32}
+  definition: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler`4.MapToDto(System.Collections.Generic.ICollection{`1})
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: MapToDto(ICollection<ReadOnlyEntityConcrete>)
+  nameWithType: ReadOnlyCollectionRequestHandler<ReadOnlyDtoConcrete, ReadOnlyEntityConcrete, IReadOnlyCollectionDataHandler<ReadOnlyEntityConcrete, int>, int>.MapToDto(ICollection<ReadOnlyEntityConcrete>)
+  fullName: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler<specification.Helpers.Dtos.ReadOnlyDtoConcrete, specification.Helpers.Entities.ReadOnlyEntityConcrete, Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler<specification.Helpers.Entities.ReadOnlyEntityConcrete, int>, int>.MapToDto(System.Collections.Generic.ICollection<specification.Helpers.Entities.ReadOnlyEntityConcrete>)
+  nameWithType.vb: ReadOnlyCollectionRequestHandler(Of ReadOnlyDtoConcrete, ReadOnlyEntityConcrete, IReadOnlyCollectionDataHandler(Of ReadOnlyEntityConcrete, Integer), Integer).MapToDto(ICollection(Of ReadOnlyEntityConcrete))
+  fullName.vb: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler(Of specification.Helpers.Dtos.ReadOnlyDtoConcrete, specification.Helpers.Entities.ReadOnlyEntityConcrete, Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler(Of specification.Helpers.Entities.ReadOnlyEntityConcrete, Integer), Integer).MapToDto(System.Collections.Generic.ICollection(Of specification.Helpers.Entities.ReadOnlyEntityConcrete))
+  name.vb: MapToDto(ICollection(Of ReadOnlyEntityConcrete))
+  spec.csharp:
+  - uid: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler{specification.Helpers.Dtos.ReadOnlyDtoConcrete,specification.Helpers.Entities.ReadOnlyEntityConcrete,Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler{specification.Helpers.Entities.ReadOnlyEntityConcrete,System.Int32},System.Int32}.MapToDto(System.Collections.Generic.ICollection{specification.Helpers.Entities.ReadOnlyEntityConcrete})
+    name: MapToDto
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: specification.Helpers.Entities.ReadOnlyEntityConcrete
+    name: ReadOnlyEntityConcrete
+    href: specification.Helpers.Entities.ReadOnlyEntityConcrete.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler{specification.Helpers.Dtos.ReadOnlyDtoConcrete,specification.Helpers.Entities.ReadOnlyEntityConcrete,Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler{specification.Helpers.Entities.ReadOnlyEntityConcrete,System.Int32},System.Int32}.MapToDto(System.Collections.Generic.ICollection{specification.Helpers.Entities.ReadOnlyEntityConcrete})
+    name: MapToDto
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: specification.Helpers.Entities.ReadOnlyEntityConcrete
+    name: ReadOnlyEntityConcrete
+    href: specification.Helpers.Entities.ReadOnlyEntityConcrete.html
+  - name: )
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler`4
+  commentId: T:Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler`4
+  href: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler-4.html
+  name: ReadOnlyCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>
+  nameWithType: ReadOnlyCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>
+  fullName: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>
+  nameWithType.vb: ReadOnlyCollectionRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType)
+  fullName.vb: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType)
+  name.vb: ReadOnlyCollectionRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType)
+  spec.csharp:
+  - uid: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler`4
+    name: ReadOnlyCollectionRequestHandler
+    href: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler-4.html
+  - name: <
+  - name: TViewModel
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TDataHandler
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler`4
+    name: ReadOnlyCollectionRequestHandler
+    href: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler-4.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TViewModel
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TDataHandler
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: )
+- uid: Quickie.Handlers.Readonly.Implementation
+  commentId: N:Quickie.Handlers.Readonly.Implementation
+  href: Quickie.html
+  name: Quickie.Handlers.Readonly.Implementation
+  nameWithType: Quickie.Handlers.Readonly.Implementation
+  fullName: Quickie.Handlers.Readonly.Implementation
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Handlers
+    name: Handlers
+    href: Quickie.Handlers.html
+  - name: .
+  - uid: Quickie.Handlers.Readonly
+    name: Readonly
+    href: Quickie.Handlers.Readonly.html
+  - name: .
+  - uid: Quickie.Handlers.Readonly.Implementation
+    name: Implementation
+    href: Quickie.Handlers.Readonly.Implementation.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Handlers
+    name: Handlers
+    href: Quickie.Handlers.html
+  - name: .
+  - uid: Quickie.Handlers.Readonly
+    name: Readonly
+    href: Quickie.Handlers.Readonly.html
+  - name: .
+  - uid: Quickie.Handlers.Readonly.Implementation
+    name: Implementation
+    href: Quickie.Handlers.Readonly.Implementation.html
+- uid: Quickie.Handlers.Readonly.Definition.IReadOnlyCollectionRequestHandler`2
+  commentId: T:Quickie.Handlers.Readonly.Definition.IReadOnlyCollectionRequestHandler`2
+  href: Quickie.Handlers.Readonly.Definition.IReadOnlyCollectionRequestHandler-2.html
+  name: IReadOnlyCollectionRequestHandler<TViewModel, TIdType>
+  nameWithType: IReadOnlyCollectionRequestHandler<TViewModel, TIdType>
+  fullName: Quickie.Handlers.Readonly.Definition.IReadOnlyCollectionRequestHandler<TViewModel, TIdType>
+  nameWithType.vb: IReadOnlyCollectionRequestHandler(Of TViewModel, TIdType)
+  fullName.vb: Quickie.Handlers.Readonly.Definition.IReadOnlyCollectionRequestHandler(Of TViewModel, TIdType)
+  name.vb: IReadOnlyCollectionRequestHandler(Of TViewModel, TIdType)
+  spec.csharp:
+  - uid: Quickie.Handlers.Readonly.Definition.IReadOnlyCollectionRequestHandler`2
+    name: IReadOnlyCollectionRequestHandler
+    href: Quickie.Handlers.Readonly.Definition.IReadOnlyCollectionRequestHandler-2.html
+  - name: <
+  - name: TViewModel
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.Handlers.Readonly.Definition.IReadOnlyCollectionRequestHandler`2
+    name: IReadOnlyCollectionRequestHandler
+    href: Quickie.Handlers.Readonly.Definition.IReadOnlyCollectionRequestHandler-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TViewModel
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: )
+- uid: Quickie.Handlers.Readonly.Definition
+  commentId: N:Quickie.Handlers.Readonly.Definition
+  href: Quickie.html
+  name: Quickie.Handlers.Readonly.Definition
+  nameWithType: Quickie.Handlers.Readonly.Definition
+  fullName: Quickie.Handlers.Readonly.Definition
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Handlers
+    name: Handlers
+    href: Quickie.Handlers.html
+  - name: .
+  - uid: Quickie.Handlers.Readonly
+    name: Readonly
+    href: Quickie.Handlers.Readonly.html
+  - name: .
+  - uid: Quickie.Handlers.Readonly.Definition
+    name: Definition
+    href: Quickie.Handlers.Readonly.Definition.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Handlers
+    name: Handlers
+    href: Quickie.Handlers.html
+  - name: .
+  - uid: Quickie.Handlers.Readonly
+    name: Readonly
+    href: Quickie.Handlers.Readonly.html
+  - name: .
+  - uid: Quickie.Handlers.Readonly.Definition
+    name: Definition
+    href: Quickie.Handlers.Readonly.Definition.html
+- uid: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler`4.GetAsync``1(``0,System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler`4.GetAsync``1(``0,System.Nullable{System.Threading.CancellationToken})
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetAsync<TRequestModel>(TRequestModel, CancellationToken?)
+  nameWithType: ReadOnlyCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.GetAsync<TRequestModel>(TRequestModel, CancellationToken?)
+  fullName: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.GetAsync<TRequestModel>(TRequestModel, System.Threading.CancellationToken?)
+  nameWithType.vb: ReadOnlyCollectionRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType).GetAsync(Of TRequestModel)(TRequestModel, CancellationToken?)
+  fullName.vb: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType).GetAsync(Of TRequestModel)(TRequestModel, System.Threading.CancellationToken?)
+  name.vb: GetAsync(Of TRequestModel)(TRequestModel, CancellationToken?)
+  spec.csharp:
+  - uid: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler`4.GetAsync``1(``0,System.Nullable{System.Threading.CancellationToken})
+    name: GetAsync
+  - name: <
+  - name: TRequestModel
+  - name: '>'
+  - name: (
+  - name: TRequestModel
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler`4.GetAsync``1(``0,System.Nullable{System.Threading.CancellationToken})
+    name: GetAsync
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TRequestModel
+  - name: )
+  - name: (
+  - name: TRequestModel
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+- uid: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler`4.MapToDto(System.Collections.Generic.ICollection{`1})
+  commentId: M:Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler`4.MapToDto(System.Collections.Generic.ICollection{`1})
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: MapToDto(ICollection<TEntity>)
+  nameWithType: ReadOnlyCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.MapToDto(ICollection<TEntity>)
+  fullName: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>.MapToDto(System.Collections.Generic.ICollection<TEntity>)
+  nameWithType.vb: ReadOnlyCollectionRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType).MapToDto(ICollection(Of TEntity))
+  fullName.vb: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler(Of TViewModel, TEntity, TDataHandler, TIdType).MapToDto(System.Collections.Generic.ICollection(Of TEntity))
+  name.vb: MapToDto(ICollection(Of TEntity))
+  spec.csharp:
+  - uid: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler`4.MapToDto(System.Collections.Generic.ICollection{`1})
+    name: MapToDto
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TEntity
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler`4.MapToDto(System.Collections.Generic.ICollection{`1})
+    name: MapToDto
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+  - name: )
+- uid: specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete.#ctor*
+  commentId: Overload:specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete.#ctor
+  href: specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete.html#specification_Helpers_RequestHandlers_ReadOnlyCollectionRequestHandlerConcrete__ctor_Quickie_DataHandlers_Readonly_Definition_IReadOnlyCollectionDataHandler_specification_Helpers_Entities_ReadOnlyEntityConcrete_System_Int32__
+  name: ReadOnlyCollectionRequestHandlerConcrete
+  nameWithType: ReadOnlyCollectionRequestHandlerConcrete.ReadOnlyCollectionRequestHandlerConcrete
+  fullName: specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete.ReadOnlyCollectionRequestHandlerConcrete
+  nameWithType.vb: ReadOnlyCollectionRequestHandlerConcrete.New
+  fullName.vb: specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete.New
+  name.vb: New
+- uid: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler{specification.Helpers.Entities.ReadOnlyEntityConcrete,System.Int32}
+  commentId: T:Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler{specification.Helpers.Entities.ReadOnlyEntityConcrete,System.Int32}
+  parent: Quickie.DataHandlers.Readonly.Definition
+  definition: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler`2
+  href: specification.Helpers.Entities.ReadOnlyEntityConcrete.html
+  name: IReadOnlyCollectionDataHandler<ReadOnlyEntityConcrete, int>
+  nameWithType: IReadOnlyCollectionDataHandler<ReadOnlyEntityConcrete, int>
+  fullName: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler<specification.Helpers.Entities.ReadOnlyEntityConcrete, int>
+  nameWithType.vb: IReadOnlyCollectionDataHandler(Of ReadOnlyEntityConcrete, Integer)
+  fullName.vb: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler(Of specification.Helpers.Entities.ReadOnlyEntityConcrete, Integer)
+  name.vb: IReadOnlyCollectionDataHandler(Of ReadOnlyEntityConcrete, Integer)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler`2
+    name: IReadOnlyCollectionDataHandler
+  - name: <
+  - uid: specification.Helpers.Entities.ReadOnlyEntityConcrete
+    name: ReadOnlyEntityConcrete
+    href: specification.Helpers.Entities.ReadOnlyEntityConcrete.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler`2
+    name: IReadOnlyCollectionDataHandler
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: specification.Helpers.Entities.ReadOnlyEntityConcrete
+    name: ReadOnlyEntityConcrete
+    href: specification.Helpers.Entities.ReadOnlyEntityConcrete.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler`2
+  commentId: T:Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler`2
+  href: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler-2.html
+  name: IReadOnlyCollectionDataHandler<TEntity, TIdType>
+  nameWithType: IReadOnlyCollectionDataHandler<TEntity, TIdType>
+  fullName: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler<TEntity, TIdType>
+  nameWithType.vb: IReadOnlyCollectionDataHandler(Of TEntity, TIdType)
+  fullName.vb: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler(Of TEntity, TIdType)
+  name.vb: IReadOnlyCollectionDataHandler(Of TEntity, TIdType)
+  spec.csharp:
+  - uid: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler`2
+    name: IReadOnlyCollectionDataHandler
+    href: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler-2.html
+  - name: <
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: '>'
+  spec.vb:
+  - uid: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler`2
+    name: IReadOnlyCollectionDataHandler
+    href: Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TIdType
+  - name: )
+- uid: Quickie.DataHandlers.Readonly.Definition
+  commentId: N:Quickie.DataHandlers.Readonly.Definition
+  href: Quickie.html
+  name: Quickie.DataHandlers.Readonly.Definition
+  nameWithType: Quickie.DataHandlers.Readonly.Definition
+  fullName: Quickie.DataHandlers.Readonly.Definition
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataHandlers
+    name: DataHandlers
+    href: Quickie.DataHandlers.html
+  - name: .
+  - uid: Quickie.DataHandlers.Readonly
+    name: Readonly
+    href: Quickie.DataHandlers.Readonly.html
+  - name: .
+  - uid: Quickie.DataHandlers.Readonly.Definition
+    name: Definition
+    href: Quickie.DataHandlers.Readonly.Definition.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.DataHandlers
+    name: DataHandlers
+    href: Quickie.DataHandlers.html
+  - name: .
+  - uid: Quickie.DataHandlers.Readonly
+    name: Readonly
+    href: Quickie.DataHandlers.Readonly.html
+  - name: .
+  - uid: Quickie.DataHandlers.Readonly.Definition
+    name: Definition
+    href: Quickie.DataHandlers.Readonly.Definition.html
+- uid: specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete.MapToDto*
+  commentId: Overload:specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete.MapToDto
+  href: specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete.html#specification_Helpers_RequestHandlers_ReadOnlyCollectionRequestHandlerConcrete_MapToDto_System_Collections_Generic_ICollection_specification_Helpers_Entities_ReadOnlyEntityConcrete__
+  name: MapToDto
+  nameWithType: ReadOnlyCollectionRequestHandlerConcrete.MapToDto
+  fullName: specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete.MapToDto
+- uid: System.Collections.Generic.ICollection{specification.Helpers.Entities.ReadOnlyEntityConcrete}
+  commentId: T:System.Collections.Generic.ICollection{specification.Helpers.Entities.ReadOnlyEntityConcrete}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<ReadOnlyEntityConcrete>
+  nameWithType: ICollection<ReadOnlyEntityConcrete>
+  fullName: System.Collections.Generic.ICollection<specification.Helpers.Entities.ReadOnlyEntityConcrete>
+  nameWithType.vb: ICollection(Of ReadOnlyEntityConcrete)
+  fullName.vb: System.Collections.Generic.ICollection(Of specification.Helpers.Entities.ReadOnlyEntityConcrete)
+  name.vb: ICollection(Of ReadOnlyEntityConcrete)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: specification.Helpers.Entities.ReadOnlyEntityConcrete
+    name: ReadOnlyEntityConcrete
+    href: specification.Helpers.Entities.ReadOnlyEntityConcrete.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: specification.Helpers.Entities.ReadOnlyEntityConcrete
+    name: ReadOnlyEntityConcrete
+    href: specification.Helpers.Entities.ReadOnlyEntityConcrete.html
+  - name: )
+- uid: System.Collections.Generic.ICollection{specification.Helpers.Dtos.ReadOnlyDtoConcrete}
+  commentId: T:System.Collections.Generic.ICollection{specification.Helpers.Dtos.ReadOnlyDtoConcrete}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<ReadOnlyDtoConcrete>
+  nameWithType: ICollection<ReadOnlyDtoConcrete>
+  fullName: System.Collections.Generic.ICollection<specification.Helpers.Dtos.ReadOnlyDtoConcrete>
+  nameWithType.vb: ICollection(Of ReadOnlyDtoConcrete)
+  fullName.vb: System.Collections.Generic.ICollection(Of specification.Helpers.Dtos.ReadOnlyDtoConcrete)
+  name.vb: ICollection(Of ReadOnlyDtoConcrete)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: specification.Helpers.Dtos.ReadOnlyDtoConcrete
+    name: ReadOnlyDtoConcrete
+    href: specification.Helpers.Dtos.ReadOnlyDtoConcrete.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: specification.Helpers.Dtos.ReadOnlyDtoConcrete
+    name: ReadOnlyDtoConcrete
+    href: specification.Helpers.Dtos.ReadOnlyDtoConcrete.html
+  - name: )
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

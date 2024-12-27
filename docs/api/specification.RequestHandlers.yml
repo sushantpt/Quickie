@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: specification.RequestHandlers
+  commentId: N:specification.RequestHandlers
+  id: specification.RequestHandlers
+  children:
+  - specification.RequestHandlers.CrudForCollectionRequestHandlerTests
+  - specification.RequestHandlers.CrudRequestHandlerTests
+  - specification.RequestHandlers.EditOnlyRequestHandlerTests
+  - specification.RequestHandlers.ReadOnlyCollectionRequestHandlerTests
+  - specification.RequestHandlers.ReadOnlyRequestHandlerTests
+  - specification.RequestHandlers.WriteOnlyRequestHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: specification.RequestHandlers
+  nameWithType: specification.RequestHandlers
+  fullName: specification.RequestHandlers
+  type: Namespace
+  assemblies:
+  - specification
+references:
+- uid: specification.RequestHandlers.CrudForCollectionRequestHandlerTests
+  commentId: T:specification.RequestHandlers.CrudForCollectionRequestHandlerTests
+  href: specification.RequestHandlers.CrudForCollectionRequestHandlerTests.html
+  name: CrudForCollectionRequestHandlerTests
+  nameWithType: CrudForCollectionRequestHandlerTests
+  fullName: specification.RequestHandlers.CrudForCollectionRequestHandlerTests
+- uid: specification.RequestHandlers.CrudRequestHandlerTests
+  commentId: T:specification.RequestHandlers.CrudRequestHandlerTests
+  href: specification.RequestHandlers.CrudRequestHandlerTests.html
+  name: CrudRequestHandlerTests
+  nameWithType: CrudRequestHandlerTests
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests
+- uid: specification.RequestHandlers.EditOnlyRequestHandlerTests
+  commentId: T:specification.RequestHandlers.EditOnlyRequestHandlerTests
+  href: specification.RequestHandlers.EditOnlyRequestHandlerTests.html
+  name: EditOnlyRequestHandlerTests
+  nameWithType: EditOnlyRequestHandlerTests
+  fullName: specification.RequestHandlers.EditOnlyRequestHandlerTests
+- uid: specification.RequestHandlers.ReadOnlyCollectionRequestHandlerTests
+  commentId: T:specification.RequestHandlers.ReadOnlyCollectionRequestHandlerTests
+  href: specification.RequestHandlers.ReadOnlyCollectionRequestHandlerTests.html
+  name: ReadOnlyCollectionRequestHandlerTests
+  nameWithType: ReadOnlyCollectionRequestHandlerTests
+  fullName: specification.RequestHandlers.ReadOnlyCollectionRequestHandlerTests
+- uid: specification.RequestHandlers.ReadOnlyRequestHandlerTests
+  commentId: T:specification.RequestHandlers.ReadOnlyRequestHandlerTests
+  href: specification.RequestHandlers.ReadOnlyRequestHandlerTests.html
+  name: ReadOnlyRequestHandlerTests
+  nameWithType: ReadOnlyRequestHandlerTests
+  fullName: specification.RequestHandlers.ReadOnlyRequestHandlerTests
+- uid: specification.RequestHandlers.WriteOnlyRequestHandlerTests
+  commentId: T:specification.RequestHandlers.WriteOnlyRequestHandlerTests
+  href: specification.RequestHandlers.WriteOnlyRequestHandlerTests.html
+  name: WriteOnlyRequestHandlerTests
+  nameWithType: WriteOnlyRequestHandlerTests
+  fullName: specification.RequestHandlers.WriteOnlyRequestHandlerTests

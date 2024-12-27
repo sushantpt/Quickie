@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Readonly/Implementation/ReadOnlyDataHandler.cs
-      branch: master
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: ReadOnlyDataHandler
     path: ../src/Quickie/DataHandlers/Readonly/Implementation/ReadOnlyDataHandler.cs
@@ -39,6 +39,8 @@ items:
     content.vb: Public MustInherit Class ReadOnlyDataHandler(Of TEntity As ReadOnlyEntity, TDbContext As DbContext, TIdType As IComparable) Implements IReadOnlyDataHandler(Of TEntity, TIdType)
   inheritance:
   - System.Object
+  derivedClasses:
+  - specification.Helpers.DataHandlers.ReadOnlyDataHandlerConcrete
   implements:
   - Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler{{TEntity},{TIdType}}
   inheritedMembers:
@@ -66,7 +68,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Readonly/Implementation/ReadOnlyDataHandler.cs
-      branch: master
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../src/Quickie/DataHandlers/Readonly/Implementation/ReadOnlyDataHandler.cs
@@ -101,7 +103,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Readonly/Implementation/ReadOnlyDataHandler.cs
-      branch: master
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: GetByIdAsync
     path: ../src/Quickie/DataHandlers/Readonly/Implementation/ReadOnlyDataHandler.cs

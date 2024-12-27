@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.MinimalApis.ReadOnly
+  commentId: N:Quickie.MinimalApis.ReadOnly
+  id: Quickie.MinimalApis.ReadOnly
+  children:
+  - Quickie.MinimalApis.ReadOnly.ReadOnlyCollectionEndpoints
+  - Quickie.MinimalApis.ReadOnly.ReadOnlyEndpoints
+  langs:
+  - csharp
+  - vb
+  name: Quickie.MinimalApis.ReadOnly
+  nameWithType: Quickie.MinimalApis.ReadOnly
+  fullName: Quickie.MinimalApis.ReadOnly
+  type: Namespace
+  assemblies:
+  - Quickie
+references:
+- uid: Quickie.MinimalApis.ReadOnly.ReadOnlyCollectionEndpoints
+  commentId: T:Quickie.MinimalApis.ReadOnly.ReadOnlyCollectionEndpoints
+  href: Quickie.MinimalApis.ReadOnly.ReadOnlyCollectionEndpoints.html
+  name: ReadOnlyCollectionEndpoints
+  nameWithType: ReadOnlyCollectionEndpoints
+  fullName: Quickie.MinimalApis.ReadOnly.ReadOnlyCollectionEndpoints
+- uid: Quickie.MinimalApis.ReadOnly.ReadOnlyEndpoints
+  commentId: T:Quickie.MinimalApis.ReadOnly.ReadOnlyEndpoints
+  href: Quickie.MinimalApis.ReadOnly.ReadOnlyEndpoints.html
+  name: ReadOnlyEndpoints
+  nameWithType: ReadOnlyEndpoints
+  fullName: Quickie.MinimalApis.ReadOnly.ReadOnlyEndpoints

@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: src/Quickie/Configuration/DependencyResolver.cs
-      branch: master
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: DependencyResolver
     path: ../src/Quickie/Configuration/DependencyResolver.cs
@@ -54,7 +54,7 @@ items:
   source:
     remote:
       path: src/Quickie/Configuration/DependencyResolver.cs
-      branch: master
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: AddDataHandlersDependency
     path: ../src/Quickie/Configuration/DependencyResolver.cs
