@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: CrudRequestHandler
     path: ../src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
@@ -46,6 +46,8 @@ items:
     content.vb: Public MustInherit Class CrudRequestHandler(Of TViewModel As CrudDto, TEntity As CrudEntity, TDataHandler As ICrudDataHandler(Of TEntity, TIdType), TIdType As IComparable) Implements ICrudRequestHandler(Of TViewModel, TIdType)
   inheritance:
   - System.Object
+  derivedClasses:
+  - specification.Helpers.RequestHandlers.CrudRequestHandlerConcrete
   implements:
   - Quickie.Handlers.Crud.Definition.ICrudRequestHandler{{TViewModel},{TIdType}}
   inheritedMembers:
@@ -73,7 +75,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
@@ -108,7 +110,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: CreateAsync
     path: ../src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
@@ -150,7 +152,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: GetByIdAsync
     path: ../src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
@@ -196,7 +198,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: UpdateAsync
     path: ../src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
@@ -241,7 +243,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: DeleteAsync
     path: ../src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
@@ -287,7 +289,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: MapToEntity
     path: ../src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
@@ -324,7 +326,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: MapToDto
     path: ../src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs

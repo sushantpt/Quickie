@@ -1,0 +1,415 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.MinimalApis.WriteOnly.WriteOnlyEndpoints
+  commentId: T:Quickie.MinimalApis.WriteOnly.WriteOnlyEndpoints
+  id: WriteOnlyEndpoints
+  parent: Quickie.MinimalApis.WriteOnly
+  children:
+  - Quickie.MinimalApis.WriteOnly.WriteOnlyEndpoints.AddWriteOnlyEndpoints``2(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder,System.String)
+  langs:
+  - csharp
+  - vb
+  name: WriteOnlyEndpoints
+  nameWithType: WriteOnlyEndpoints
+  fullName: Quickie.MinimalApis.WriteOnly.WriteOnlyEndpoints
+  type: Class
+  source:
+    remote:
+      path: src/Quickie/MinimalApis/WriteOnly/WriteOnlyEndpoints.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: WriteOnlyEndpoints
+    path: ../src/Quickie/MinimalApis/WriteOnly/WriteOnlyEndpoints.cs
+    startLine: 5
+  assemblies:
+  - Quickie
+  namespace: Quickie.MinimalApis.WriteOnly
+  summary: Provides extension methods for adding write-only (POST) endpoints
+  example: []
+  syntax:
+    content: public static class WriteOnlyEndpoints
+    content.vb: Public Module WriteOnlyEndpoints
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Quickie.MinimalApis.WriteOnly.WriteOnlyEndpoints.AddWriteOnlyEndpoints``2(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder,System.String)
+  commentId: M:Quickie.MinimalApis.WriteOnly.WriteOnlyEndpoints.AddWriteOnlyEndpoints``2(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder,System.String)
+  id: AddWriteOnlyEndpoints``2(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder,System.String)
+  isExtensionMethod: true
+  parent: Quickie.MinimalApis.WriteOnly.WriteOnlyEndpoints
+  langs:
+  - csharp
+  - vb
+  name: AddWriteOnlyEndpoints<TViewModel, TRequestHandler>(IEndpointRouteBuilder, string)
+  nameWithType: WriteOnlyEndpoints.AddWriteOnlyEndpoints<TViewModel, TRequestHandler>(IEndpointRouteBuilder, string)
+  fullName: Quickie.MinimalApis.WriteOnly.WriteOnlyEndpoints.AddWriteOnlyEndpoints<TViewModel, TRequestHandler>(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string)
+  type: Method
+  source:
+    remote:
+      path: src/Quickie/MinimalApis/WriteOnly/WriteOnlyEndpoints.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: AddWriteOnlyEndpoints
+    path: ../src/Quickie/MinimalApis/WriteOnly/WriteOnlyEndpoints.cs
+    startLine: 14
+  assemblies:
+  - Quickie
+  namespace: Quickie.MinimalApis.WriteOnly
+  summary: Adds write-only endpoints for creating single or bulk resources
+  example: []
+  syntax:
+    content: 'public static void AddWriteOnlyEndpoints<TViewModel, TRequestHandler>(this IEndpointRouteBuilder app, string baseRoute) where TViewModel : WriteOnlyDto where TRequestHandler : IWriteOnlyRequestHandler<TViewModel>'
+    parameters:
+    - id: app
+      type: Microsoft.AspNetCore.Routing.IEndpointRouteBuilder
+      description: The IEndpointRouteBuilder instance to add endpoints to
+    - id: baseRoute
+      type: System.String
+      description: The base route for all CRUD endpoints <code>(e.g., "/api/resources")</code>
+    typeParameters:
+    - id: TViewModel
+      description: The type of the view model/DTO used for data transfer of type CrudDto
+    - id: TRequestHandler
+      description: The type of the request handler that implements business logic of type ICrudRequestHandler
+    content.vb: Public Shared Sub AddWriteOnlyEndpoints(Of TViewModel As WriteOnlyDto, TRequestHandler As IWriteOnlyRequestHandler(Of TViewModel))(app As IEndpointRouteBuilder, baseRoute As String)
+  overload: Quickie.MinimalApis.WriteOnly.WriteOnlyEndpoints.AddWriteOnlyEndpoints*
+  nameWithType.vb: WriteOnlyEndpoints.AddWriteOnlyEndpoints(Of TViewModel, TRequestHandler)(IEndpointRouteBuilder, String)
+  fullName.vb: Quickie.MinimalApis.WriteOnly.WriteOnlyEndpoints.AddWriteOnlyEndpoints(Of TViewModel, TRequestHandler)(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, String)
+  name.vb: AddWriteOnlyEndpoints(Of TViewModel, TRequestHandler)(IEndpointRouteBuilder, String)
+references:
+- uid: Quickie.MinimalApis.WriteOnly
+  commentId: N:Quickie.MinimalApis.WriteOnly
+  href: Quickie.html
+  name: Quickie.MinimalApis.WriteOnly
+  nameWithType: Quickie.MinimalApis.WriteOnly
+  fullName: Quickie.MinimalApis.WriteOnly
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.MinimalApis
+    name: MinimalApis
+    href: Quickie.MinimalApis.html
+  - name: .
+  - uid: Quickie.MinimalApis.WriteOnly
+    name: WriteOnly
+    href: Quickie.MinimalApis.WriteOnly.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.MinimalApis
+    name: MinimalApis
+    href: Quickie.MinimalApis.html
+  - name: .
+  - uid: Quickie.MinimalApis.WriteOnly
+    name: WriteOnly
+    href: Quickie.MinimalApis.WriteOnly.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Quickie.MinimalApis.WriteOnly.WriteOnlyEndpoints.AddWriteOnlyEndpoints*
+  commentId: Overload:Quickie.MinimalApis.WriteOnly.WriteOnlyEndpoints.AddWriteOnlyEndpoints
+  href: Quickie.MinimalApis.WriteOnly.WriteOnlyEndpoints.html#Quickie_MinimalApis_WriteOnly_WriteOnlyEndpoints_AddWriteOnlyEndpoints__2_Microsoft_AspNetCore_Routing_IEndpointRouteBuilder_System_String_
+  name: AddWriteOnlyEndpoints
+  nameWithType: WriteOnlyEndpoints.AddWriteOnlyEndpoints
+  fullName: Quickie.MinimalApis.WriteOnly.WriteOnlyEndpoints.AddWriteOnlyEndpoints
+- uid: Microsoft.AspNetCore.Routing.IEndpointRouteBuilder
+  commentId: T:Microsoft.AspNetCore.Routing.IEndpointRouteBuilder
+  parent: Microsoft.AspNetCore.Routing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.routing.iendpointroutebuilder
+  name: IEndpointRouteBuilder
+  nameWithType: IEndpointRouteBuilder
+  fullName: Microsoft.AspNetCore.Routing.IEndpointRouteBuilder
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Microsoft.AspNetCore.Routing
+  commentId: N:Microsoft.AspNetCore.Routing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.AspNetCore.Routing
+  nameWithType: Microsoft.AspNetCore.Routing
+  fullName: Microsoft.AspNetCore.Routing
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.AspNetCore
+    name: AspNetCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore
+  - name: .
+  - uid: Microsoft.AspNetCore.Routing
+    name: Routing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.routing
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.AspNetCore
+    name: AspNetCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore
+  - name: .
+  - uid: Microsoft.AspNetCore.Routing
+    name: Routing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.routing

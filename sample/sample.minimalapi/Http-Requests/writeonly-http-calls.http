@@ -1,0 +1,11 @@
+### Create Todo
+POST http://localhost:5220/api/create/todos
+Content-Type: application/json
+X-Idempotency-Key: ad3e95ce-aa70-4002-9abb-a37b3198b58c
+
+{
+  "name": "New Write-Only Todo",
+  "description": "This is a write-only Todo item"
+}
+
+

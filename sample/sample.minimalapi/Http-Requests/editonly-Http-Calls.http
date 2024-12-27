@@ -1,0 +1,9 @@
+### Update Todo
+PUT http://localhost:5220/api/editonly/todos/ad3e95ce-aa70-4002-9abb-a37b3198b58c
+Content-Type: application/json
+
+{
+  "id": "ad3e95ce-aa70-4002-9abb-a37b3198b58c",
+  "title": "Updated Todo",
+  "description": "Updated description"
+}

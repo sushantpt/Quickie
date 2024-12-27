@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: src/Quickie/Apis/Crud/CrudForCollectionController.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: CrudForCollectionController
     path: ../src/Quickie/Apis/Crud/CrudForCollectionController.cs
@@ -245,7 +245,7 @@ items:
   source:
     remote:
       path: src/Quickie/Apis/Crud/CrudForCollectionController.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../src/Quickie/Apis/Crud/CrudForCollectionController.cs
@@ -279,7 +279,7 @@ items:
   source:
     remote:
       path: src/Quickie/Apis/Crud/CrudForCollectionController.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: CreateAsync
     path: ../src/Quickie/Apis/Crud/CrudForCollectionController.cs
@@ -347,7 +347,7 @@ items:
   source:
     remote:
       path: src/Quickie/Apis/Crud/CrudForCollectionController.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: UpdateAsync
     path: ../src/Quickie/Apis/Crud/CrudForCollectionController.cs
@@ -400,7 +400,7 @@ items:
   source:
     remote:
       path: src/Quickie/Apis/Crud/CrudForCollectionController.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: GetAllAsync
     path: ../src/Quickie/Apis/Crud/CrudForCollectionController.cs
@@ -456,7 +456,7 @@ items:
   source:
     remote:
       path: src/Quickie/Apis/Crud/CrudForCollectionController.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: CountAsync
     path: ../src/Quickie/Apis/Crud/CrudForCollectionController.cs
@@ -505,7 +505,7 @@ items:
   source:
     remote:
       path: src/Quickie/Apis/Crud/CrudForCollectionController.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: DeleteAsync
     path: ../src/Quickie/Apis/Crud/CrudForCollectionController.cs

@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: specification.Helpers.Entities
+  commentId: N:specification.Helpers.Entities
+  id: specification.Helpers.Entities
+  children:
+  - specification.Helpers.Entities.CrudEntityConcrete
+  - specification.Helpers.Entities.EditOnlyEntityConcrete
+  - specification.Helpers.Entities.ReadOnlyEntityConcrete
+  - specification.Helpers.Entities.WriteOnlyEntityConcrete
+  langs:
+  - csharp
+  - vb
+  name: specification.Helpers.Entities
+  nameWithType: specification.Helpers.Entities
+  fullName: specification.Helpers.Entities
+  type: Namespace
+  assemblies:
+  - specification
+references:
+- uid: specification.Helpers.Entities.CrudEntityConcrete
+  commentId: T:specification.Helpers.Entities.CrudEntityConcrete
+  parent: specification.Helpers.Entities
+  href: specification.Helpers.Entities.CrudEntityConcrete.html
+  name: CrudEntityConcrete
+  nameWithType: CrudEntityConcrete
+  fullName: specification.Helpers.Entities.CrudEntityConcrete
+- uid: specification.Helpers.Entities.EditOnlyEntityConcrete
+  commentId: T:specification.Helpers.Entities.EditOnlyEntityConcrete
+  parent: specification.Helpers.Entities
+  href: specification.Helpers.Entities.EditOnlyEntityConcrete.html
+  name: EditOnlyEntityConcrete
+  nameWithType: EditOnlyEntityConcrete
+  fullName: specification.Helpers.Entities.EditOnlyEntityConcrete
+- uid: specification.Helpers.Entities.ReadOnlyEntityConcrete
+  commentId: T:specification.Helpers.Entities.ReadOnlyEntityConcrete
+  parent: specification.Helpers.Entities
+  href: specification.Helpers.Entities.ReadOnlyEntityConcrete.html
+  name: ReadOnlyEntityConcrete
+  nameWithType: ReadOnlyEntityConcrete
+  fullName: specification.Helpers.Entities.ReadOnlyEntityConcrete
+- uid: specification.Helpers.Entities.WriteOnlyEntityConcrete
+  commentId: T:specification.Helpers.Entities.WriteOnlyEntityConcrete
+  parent: specification.Helpers.Entities
+  href: specification.Helpers.Entities.WriteOnlyEntityConcrete.html
+  name: WriteOnlyEntityConcrete
+  nameWithType: WriteOnlyEntityConcrete
+  fullName: specification.Helpers.Entities.WriteOnlyEntityConcrete
+- uid: specification.Helpers.Entities
+  commentId: N:specification.Helpers.Entities
+  href: specification.html
+  name: specification.Helpers.Entities
+  nameWithType: specification.Helpers.Entities
+  fullName: specification.Helpers.Entities
+  spec.csharp:
+  - uid: specification
+    name: specification
+    href: specification.html
+  - name: .
+  - uid: specification.Helpers
+    name: Helpers
+    href: specification.Helpers.html
+  - name: .
+  - uid: specification.Helpers.Entities
+    name: Entities
+    href: specification.Helpers.Entities.html
+  spec.vb:
+  - uid: specification
+    name: specification
+    href: specification.html
+  - name: .
+  - uid: specification.Helpers
+    name: Helpers
+    href: specification.Helpers.html
+  - name: .
+  - uid: specification.Helpers.Entities
+    name: Entities
+    href: specification.Helpers.Entities.html

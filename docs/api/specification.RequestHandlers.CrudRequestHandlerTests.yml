@@ -1,0 +1,995 @@
+### YamlMime:ManagedReference
+items:
+- uid: specification.RequestHandlers.CrudRequestHandlerTests
+  commentId: T:specification.RequestHandlers.CrudRequestHandlerTests
+  id: CrudRequestHandlerTests
+  parent: specification.RequestHandlers
+  children:
+  - specification.RequestHandlers.CrudRequestHandlerTests.#ctor
+  - specification.RequestHandlers.CrudRequestHandlerTests.CreateAsync_NullRequest_ThrowsArgumentNullException
+  - specification.RequestHandlers.CrudRequestHandlerTests.CreateAsync_SuccessfulCreation_ReturnsResponseWithData
+  - specification.RequestHandlers.CrudRequestHandlerTests.CreateAsync_UnsuccessfulCreation_ReturnsUnsuccessfulResponse
+  - specification.RequestHandlers.CrudRequestHandlerTests.DeleteAsync_DefaultId_ThrowsArgumentNullException
+  - specification.RequestHandlers.CrudRequestHandlerTests.DeleteAsync_SuccessfulDeletion_ReturnsSuccessfulResponse
+  - specification.RequestHandlers.CrudRequestHandlerTests.DeleteAsync_UnsuccessfulDeletion_ReturnsUnsuccessfulResponse
+  - specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_DefaultId_ThrowsArgumentNullException
+  - specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_NegativeId_ReturnsArgumentException
+  - specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_NotFoundEntity_ReturnsUnsuccessfulResponse
+  - specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_SuccessfulRetrieval_ReturnsResponseWithData
+  - specification.RequestHandlers.CrudRequestHandlerTests.UpdateAsync_NullRequest_ThrowsArgumentNullException
+  - specification.RequestHandlers.CrudRequestHandlerTests.UpdateAsync_SuccessfulUpdate_ReturnsResponseWithData
+  - specification.RequestHandlers.CrudRequestHandlerTests.UpdateAsync_UnsuccessfulUpdate_ReturnsUnsuccessfulResponse
+  langs:
+  - csharp
+  - vb
+  name: CrudRequestHandlerTests
+  nameWithType: CrudRequestHandlerTests
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests
+  type: Class
+  source:
+    remote:
+      path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: CrudRequestHandlerTests
+    path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+    startLine: 14
+  assemblies:
+  - specification
+  namespace: specification.RequestHandlers
+  summary: Tests for crud request handler.
+  example: []
+  syntax:
+    content: public class CrudRequestHandlerTests
+    content.vb: Public Class CrudRequestHandlerTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.#ctor
+  commentId: M:specification.RequestHandlers.CrudRequestHandlerTests.#ctor
+  id: '#ctor'
+  parent: specification.RequestHandlers.CrudRequestHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: CrudRequestHandlerTests()
+  nameWithType: CrudRequestHandlerTests.CrudRequestHandlerTests()
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.CrudRequestHandlerTests()
+  type: Constructor
+  source:
+    remote:
+      path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: .ctor
+    path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+    startLine: 19
+  assemblies:
+  - specification
+  namespace: specification.RequestHandlers
+  syntax:
+    content: public CrudRequestHandlerTests()
+    content.vb: Public Sub New()
+  overload: specification.RequestHandlers.CrudRequestHandlerTests.#ctor*
+  nameWithType.vb: CrudRequestHandlerTests.New()
+  fullName.vb: specification.RequestHandlers.CrudRequestHandlerTests.New()
+  name.vb: New()
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.CreateAsync_SuccessfulCreation_ReturnsResponseWithData
+  commentId: M:specification.RequestHandlers.CrudRequestHandlerTests.CreateAsync_SuccessfulCreation_ReturnsResponseWithData
+  id: CreateAsync_SuccessfulCreation_ReturnsResponseWithData
+  parent: specification.RequestHandlers.CrudRequestHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: CreateAsync_SuccessfulCreation_ReturnsResponseWithData()
+  nameWithType: CrudRequestHandlerTests.CreateAsync_SuccessfulCreation_ReturnsResponseWithData()
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.CreateAsync_SuccessfulCreation_ReturnsResponseWithData()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: CreateAsync_SuccessfulCreation_ReturnsResponseWithData
+    path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+    startLine: 34
+  assemblies:
+  - specification
+  namespace: specification.RequestHandlers
+  summary: Create successful tests returning proper data.
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CreateAsync_SuccessfulCreation_ReturnsResponseWithData()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function CreateAsync_SuccessfulCreation_ReturnsResponseWithData() As Task
+  overload: specification.RequestHandlers.CrudRequestHandlerTests.CreateAsync_SuccessfulCreation_ReturnsResponseWithData*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.CreateAsync_UnsuccessfulCreation_ReturnsUnsuccessfulResponse
+  commentId: M:specification.RequestHandlers.CrudRequestHandlerTests.CreateAsync_UnsuccessfulCreation_ReturnsUnsuccessfulResponse
+  id: CreateAsync_UnsuccessfulCreation_ReturnsUnsuccessfulResponse
+  parent: specification.RequestHandlers.CrudRequestHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: CreateAsync_UnsuccessfulCreation_ReturnsUnsuccessfulResponse()
+  nameWithType: CrudRequestHandlerTests.CreateAsync_UnsuccessfulCreation_ReturnsUnsuccessfulResponse()
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.CreateAsync_UnsuccessfulCreation_ReturnsUnsuccessfulResponse()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: CreateAsync_UnsuccessfulCreation_ReturnsUnsuccessfulResponse
+    path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+    startLine: 54
+  assemblies:
+  - specification
+  namespace: specification.RequestHandlers
+  summary: Create failed tests returning proper data.
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CreateAsync_UnsuccessfulCreation_ReturnsUnsuccessfulResponse()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function CreateAsync_UnsuccessfulCreation_ReturnsUnsuccessfulResponse() As Task
+  overload: specification.RequestHandlers.CrudRequestHandlerTests.CreateAsync_UnsuccessfulCreation_ReturnsUnsuccessfulResponse*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.CreateAsync_NullRequest_ThrowsArgumentNullException
+  commentId: M:specification.RequestHandlers.CrudRequestHandlerTests.CreateAsync_NullRequest_ThrowsArgumentNullException
+  id: CreateAsync_NullRequest_ThrowsArgumentNullException
+  parent: specification.RequestHandlers.CrudRequestHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: CreateAsync_NullRequest_ThrowsArgumentNullException()
+  nameWithType: CrudRequestHandlerTests.CreateAsync_NullRequest_ThrowsArgumentNullException()
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.CreateAsync_NullRequest_ThrowsArgumentNullException()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: CreateAsync_NullRequest_ThrowsArgumentNullException
+    path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+    startLine: 71
+  assemblies:
+  - specification
+  namespace: specification.RequestHandlers
+  summary: Create failed (throws exception) for null data.
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CreateAsync_NullRequest_ThrowsArgumentNullException()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function CreateAsync_NullRequest_ThrowsArgumentNullException() As Task
+  overload: specification.RequestHandlers.CrudRequestHandlerTests.CreateAsync_NullRequest_ThrowsArgumentNullException*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.UpdateAsync_SuccessfulUpdate_ReturnsResponseWithData
+  commentId: M:specification.RequestHandlers.CrudRequestHandlerTests.UpdateAsync_SuccessfulUpdate_ReturnsResponseWithData
+  id: UpdateAsync_SuccessfulUpdate_ReturnsResponseWithData
+  parent: specification.RequestHandlers.CrudRequestHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: UpdateAsync_SuccessfulUpdate_ReturnsResponseWithData()
+  nameWithType: CrudRequestHandlerTests.UpdateAsync_SuccessfulUpdate_ReturnsResponseWithData()
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.UpdateAsync_SuccessfulUpdate_ReturnsResponseWithData()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: UpdateAsync_SuccessfulUpdate_ReturnsResponseWithData
+    path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+    startLine: 80
+  assemblies:
+  - specification
+  namespace: specification.RequestHandlers
+  summary: Update successful tests returning proper data.
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task UpdateAsync_SuccessfulUpdate_ReturnsResponseWithData()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function UpdateAsync_SuccessfulUpdate_ReturnsResponseWithData() As Task
+  overload: specification.RequestHandlers.CrudRequestHandlerTests.UpdateAsync_SuccessfulUpdate_ReturnsResponseWithData*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.UpdateAsync_UnsuccessfulUpdate_ReturnsUnsuccessfulResponse
+  commentId: M:specification.RequestHandlers.CrudRequestHandlerTests.UpdateAsync_UnsuccessfulUpdate_ReturnsUnsuccessfulResponse
+  id: UpdateAsync_UnsuccessfulUpdate_ReturnsUnsuccessfulResponse
+  parent: specification.RequestHandlers.CrudRequestHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: UpdateAsync_UnsuccessfulUpdate_ReturnsUnsuccessfulResponse()
+  nameWithType: CrudRequestHandlerTests.UpdateAsync_UnsuccessfulUpdate_ReturnsUnsuccessfulResponse()
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.UpdateAsync_UnsuccessfulUpdate_ReturnsUnsuccessfulResponse()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: UpdateAsync_UnsuccessfulUpdate_ReturnsUnsuccessfulResponse
+    path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+    startLine: 102
+  assemblies:
+  - specification
+  namespace: specification.RequestHandlers
+  summary: Update unsuccessful with proper data (message).
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task UpdateAsync_UnsuccessfulUpdate_ReturnsUnsuccessfulResponse()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function UpdateAsync_UnsuccessfulUpdate_ReturnsUnsuccessfulResponse() As Task
+  overload: specification.RequestHandlers.CrudRequestHandlerTests.UpdateAsync_UnsuccessfulUpdate_ReturnsUnsuccessfulResponse*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.UpdateAsync_NullRequest_ThrowsArgumentNullException
+  commentId: M:specification.RequestHandlers.CrudRequestHandlerTests.UpdateAsync_NullRequest_ThrowsArgumentNullException
+  id: UpdateAsync_NullRequest_ThrowsArgumentNullException
+  parent: specification.RequestHandlers.CrudRequestHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: UpdateAsync_NullRequest_ThrowsArgumentNullException()
+  nameWithType: CrudRequestHandlerTests.UpdateAsync_NullRequest_ThrowsArgumentNullException()
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.UpdateAsync_NullRequest_ThrowsArgumentNullException()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: UpdateAsync_NullRequest_ThrowsArgumentNullException
+    path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+    startLine: 122
+  assemblies:
+  - specification
+  namespace: specification.RequestHandlers
+  summary: Update unsuccessful (throws exception) for null data.
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task UpdateAsync_NullRequest_ThrowsArgumentNullException()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function UpdateAsync_NullRequest_ThrowsArgumentNullException() As Task
+  overload: specification.RequestHandlers.CrudRequestHandlerTests.UpdateAsync_NullRequest_ThrowsArgumentNullException*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_SuccessfulRetrieval_ReturnsResponseWithData
+  commentId: M:specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_SuccessfulRetrieval_ReturnsResponseWithData
+  id: GetByIdAsync_SuccessfulRetrieval_ReturnsResponseWithData
+  parent: specification.RequestHandlers.CrudRequestHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: GetByIdAsync_SuccessfulRetrieval_ReturnsResponseWithData()
+  nameWithType: CrudRequestHandlerTests.GetByIdAsync_SuccessfulRetrieval_ReturnsResponseWithData()
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_SuccessfulRetrieval_ReturnsResponseWithData()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: GetByIdAsync_SuccessfulRetrieval_ReturnsResponseWithData
+    path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+    startLine: 132
+  assemblies:
+  - specification
+  namespace: specification.RequestHandlers
+  summary: Get data (success).
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task GetByIdAsync_SuccessfulRetrieval_ReturnsResponseWithData()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function GetByIdAsync_SuccessfulRetrieval_ReturnsResponseWithData() As Task
+  overload: specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_SuccessfulRetrieval_ReturnsResponseWithData*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_NotFoundEntity_ReturnsUnsuccessfulResponse
+  commentId: M:specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_NotFoundEntity_ReturnsUnsuccessfulResponse
+  id: GetByIdAsync_NotFoundEntity_ReturnsUnsuccessfulResponse
+  parent: specification.RequestHandlers.CrudRequestHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: GetByIdAsync_NotFoundEntity_ReturnsUnsuccessfulResponse()
+  nameWithType: CrudRequestHandlerTests.GetByIdAsync_NotFoundEntity_ReturnsUnsuccessfulResponse()
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_NotFoundEntity_ReturnsUnsuccessfulResponse()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: GetByIdAsync_NotFoundEntity_ReturnsUnsuccessfulResponse
+    path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+    startLine: 152
+  assemblies:
+  - specification
+  namespace: specification.RequestHandlers
+  summary: Get data but data not found.
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task GetByIdAsync_NotFoundEntity_ReturnsUnsuccessfulResponse()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function GetByIdAsync_NotFoundEntity_ReturnsUnsuccessfulResponse() As Task
+  overload: specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_NotFoundEntity_ReturnsUnsuccessfulResponse*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_DefaultId_ThrowsArgumentNullException
+  commentId: M:specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_DefaultId_ThrowsArgumentNullException
+  id: GetByIdAsync_DefaultId_ThrowsArgumentNullException
+  parent: specification.RequestHandlers.CrudRequestHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: GetByIdAsync_DefaultId_ThrowsArgumentNullException()
+  nameWithType: CrudRequestHandlerTests.GetByIdAsync_DefaultId_ThrowsArgumentNullException()
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_DefaultId_ThrowsArgumentNullException()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: GetByIdAsync_DefaultId_ThrowsArgumentNullException
+    path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+    startLine: 172
+  assemblies:
+  - specification
+  namespace: specification.RequestHandlers
+  summary: Get data throw exception when invalid (default) id is passed.
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task GetByIdAsync_DefaultId_ThrowsArgumentNullException()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function GetByIdAsync_DefaultId_ThrowsArgumentNullException() As Task
+  overload: specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_DefaultId_ThrowsArgumentNullException*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_NegativeId_ReturnsArgumentException
+  commentId: M:specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_NegativeId_ReturnsArgumentException
+  id: GetByIdAsync_NegativeId_ReturnsArgumentException
+  parent: specification.RequestHandlers.CrudRequestHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: GetByIdAsync_NegativeId_ReturnsArgumentException()
+  nameWithType: CrudRequestHandlerTests.GetByIdAsync_NegativeId_ReturnsArgumentException()
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_NegativeId_ReturnsArgumentException()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: GetByIdAsync_NegativeId_ReturnsArgumentException
+    path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+    startLine: 181
+  assemblies:
+  - specification
+  namespace: specification.RequestHandlers
+  summary: Get data throws exception when invalid (-ve int) id is passed
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task GetByIdAsync_NegativeId_ReturnsArgumentException()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function GetByIdAsync_NegativeId_ReturnsArgumentException() As Task
+  overload: specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_NegativeId_ReturnsArgumentException*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.DeleteAsync_SuccessfulDeletion_ReturnsSuccessfulResponse
+  commentId: M:specification.RequestHandlers.CrudRequestHandlerTests.DeleteAsync_SuccessfulDeletion_ReturnsSuccessfulResponse
+  id: DeleteAsync_SuccessfulDeletion_ReturnsSuccessfulResponse
+  parent: specification.RequestHandlers.CrudRequestHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: DeleteAsync_SuccessfulDeletion_ReturnsSuccessfulResponse()
+  nameWithType: CrudRequestHandlerTests.DeleteAsync_SuccessfulDeletion_ReturnsSuccessfulResponse()
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.DeleteAsync_SuccessfulDeletion_ReturnsSuccessfulResponse()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: DeleteAsync_SuccessfulDeletion_ReturnsSuccessfulResponse
+    path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+    startLine: 190
+  assemblies:
+  - specification
+  namespace: specification.RequestHandlers
+  summary: Delete is successful.
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task DeleteAsync_SuccessfulDeletion_ReturnsSuccessfulResponse()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function DeleteAsync_SuccessfulDeletion_ReturnsSuccessfulResponse() As Task
+  overload: specification.RequestHandlers.CrudRequestHandlerTests.DeleteAsync_SuccessfulDeletion_ReturnsSuccessfulResponse*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.DeleteAsync_UnsuccessfulDeletion_ReturnsUnsuccessfulResponse
+  commentId: M:specification.RequestHandlers.CrudRequestHandlerTests.DeleteAsync_UnsuccessfulDeletion_ReturnsUnsuccessfulResponse
+  id: DeleteAsync_UnsuccessfulDeletion_ReturnsUnsuccessfulResponse
+  parent: specification.RequestHandlers.CrudRequestHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: DeleteAsync_UnsuccessfulDeletion_ReturnsUnsuccessfulResponse()
+  nameWithType: CrudRequestHandlerTests.DeleteAsync_UnsuccessfulDeletion_ReturnsUnsuccessfulResponse()
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.DeleteAsync_UnsuccessfulDeletion_ReturnsUnsuccessfulResponse()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: DeleteAsync_UnsuccessfulDeletion_ReturnsUnsuccessfulResponse
+    path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+    startLine: 210
+  assemblies:
+  - specification
+  namespace: specification.RequestHandlers
+  summary: Delete fails.
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task DeleteAsync_UnsuccessfulDeletion_ReturnsUnsuccessfulResponse()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function DeleteAsync_UnsuccessfulDeletion_ReturnsUnsuccessfulResponse() As Task
+  overload: specification.RequestHandlers.CrudRequestHandlerTests.DeleteAsync_UnsuccessfulDeletion_ReturnsUnsuccessfulResponse*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.DeleteAsync_DefaultId_ThrowsArgumentNullException
+  commentId: M:specification.RequestHandlers.CrudRequestHandlerTests.DeleteAsync_DefaultId_ThrowsArgumentNullException
+  id: DeleteAsync_DefaultId_ThrowsArgumentNullException
+  parent: specification.RequestHandlers.CrudRequestHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: DeleteAsync_DefaultId_ThrowsArgumentNullException()
+  nameWithType: CrudRequestHandlerTests.DeleteAsync_DefaultId_ThrowsArgumentNullException()
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.DeleteAsync_DefaultId_ThrowsArgumentNullException()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: DeleteAsync_DefaultId_ThrowsArgumentNullException
+    path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
+    startLine: 229
+  assemblies:
+  - specification
+  namespace: specification.RequestHandlers
+  summary: Delete fails due to invalid (default) id is passed.
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task DeleteAsync_DefaultId_ThrowsArgumentNullException()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function DeleteAsync_DefaultId_ThrowsArgumentNullException() As Task
+  overload: specification.RequestHandlers.CrudRequestHandlerTests.DeleteAsync_DefaultId_ThrowsArgumentNullException*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+references:
+- uid: specification.RequestHandlers
+  commentId: N:specification.RequestHandlers
+  href: specification.html
+  name: specification.RequestHandlers
+  nameWithType: specification.RequestHandlers
+  fullName: specification.RequestHandlers
+  spec.csharp:
+  - uid: specification
+    name: specification
+    href: specification.html
+  - name: .
+  - uid: specification.RequestHandlers
+    name: RequestHandlers
+    href: specification.RequestHandlers.html
+  spec.vb:
+  - uid: specification
+    name: specification
+    href: specification.html
+  - name: .
+  - uid: specification.RequestHandlers
+    name: RequestHandlers
+    href: specification.RequestHandlers.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.#ctor*
+  commentId: Overload:specification.RequestHandlers.CrudRequestHandlerTests.#ctor
+  href: specification.RequestHandlers.CrudRequestHandlerTests.html#specification_RequestHandlers_CrudRequestHandlerTests__ctor
+  name: CrudRequestHandlerTests
+  nameWithType: CrudRequestHandlerTests.CrudRequestHandlerTests
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.CrudRequestHandlerTests
+  nameWithType.vb: CrudRequestHandlerTests.New
+  fullName.vb: specification.RequestHandlers.CrudRequestHandlerTests.New
+  name.vb: New
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.CreateAsync_SuccessfulCreation_ReturnsResponseWithData*
+  commentId: Overload:specification.RequestHandlers.CrudRequestHandlerTests.CreateAsync_SuccessfulCreation_ReturnsResponseWithData
+  href: specification.RequestHandlers.CrudRequestHandlerTests.html#specification_RequestHandlers_CrudRequestHandlerTests_CreateAsync_SuccessfulCreation_ReturnsResponseWithData
+  name: CreateAsync_SuccessfulCreation_ReturnsResponseWithData
+  nameWithType: CrudRequestHandlerTests.CreateAsync_SuccessfulCreation_ReturnsResponseWithData
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.CreateAsync_SuccessfulCreation_ReturnsResponseWithData
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.CreateAsync_UnsuccessfulCreation_ReturnsUnsuccessfulResponse*
+  commentId: Overload:specification.RequestHandlers.CrudRequestHandlerTests.CreateAsync_UnsuccessfulCreation_ReturnsUnsuccessfulResponse
+  href: specification.RequestHandlers.CrudRequestHandlerTests.html#specification_RequestHandlers_CrudRequestHandlerTests_CreateAsync_UnsuccessfulCreation_ReturnsUnsuccessfulResponse
+  name: CreateAsync_UnsuccessfulCreation_ReturnsUnsuccessfulResponse
+  nameWithType: CrudRequestHandlerTests.CreateAsync_UnsuccessfulCreation_ReturnsUnsuccessfulResponse
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.CreateAsync_UnsuccessfulCreation_ReturnsUnsuccessfulResponse
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.CreateAsync_NullRequest_ThrowsArgumentNullException*
+  commentId: Overload:specification.RequestHandlers.CrudRequestHandlerTests.CreateAsync_NullRequest_ThrowsArgumentNullException
+  href: specification.RequestHandlers.CrudRequestHandlerTests.html#specification_RequestHandlers_CrudRequestHandlerTests_CreateAsync_NullRequest_ThrowsArgumentNullException
+  name: CreateAsync_NullRequest_ThrowsArgumentNullException
+  nameWithType: CrudRequestHandlerTests.CreateAsync_NullRequest_ThrowsArgumentNullException
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.CreateAsync_NullRequest_ThrowsArgumentNullException
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.UpdateAsync_SuccessfulUpdate_ReturnsResponseWithData*
+  commentId: Overload:specification.RequestHandlers.CrudRequestHandlerTests.UpdateAsync_SuccessfulUpdate_ReturnsResponseWithData
+  href: specification.RequestHandlers.CrudRequestHandlerTests.html#specification_RequestHandlers_CrudRequestHandlerTests_UpdateAsync_SuccessfulUpdate_ReturnsResponseWithData
+  name: UpdateAsync_SuccessfulUpdate_ReturnsResponseWithData
+  nameWithType: CrudRequestHandlerTests.UpdateAsync_SuccessfulUpdate_ReturnsResponseWithData
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.UpdateAsync_SuccessfulUpdate_ReturnsResponseWithData
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.UpdateAsync_UnsuccessfulUpdate_ReturnsUnsuccessfulResponse*
+  commentId: Overload:specification.RequestHandlers.CrudRequestHandlerTests.UpdateAsync_UnsuccessfulUpdate_ReturnsUnsuccessfulResponse
+  href: specification.RequestHandlers.CrudRequestHandlerTests.html#specification_RequestHandlers_CrudRequestHandlerTests_UpdateAsync_UnsuccessfulUpdate_ReturnsUnsuccessfulResponse
+  name: UpdateAsync_UnsuccessfulUpdate_ReturnsUnsuccessfulResponse
+  nameWithType: CrudRequestHandlerTests.UpdateAsync_UnsuccessfulUpdate_ReturnsUnsuccessfulResponse
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.UpdateAsync_UnsuccessfulUpdate_ReturnsUnsuccessfulResponse
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.UpdateAsync_NullRequest_ThrowsArgumentNullException*
+  commentId: Overload:specification.RequestHandlers.CrudRequestHandlerTests.UpdateAsync_NullRequest_ThrowsArgumentNullException
+  href: specification.RequestHandlers.CrudRequestHandlerTests.html#specification_RequestHandlers_CrudRequestHandlerTests_UpdateAsync_NullRequest_ThrowsArgumentNullException
+  name: UpdateAsync_NullRequest_ThrowsArgumentNullException
+  nameWithType: CrudRequestHandlerTests.UpdateAsync_NullRequest_ThrowsArgumentNullException
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.UpdateAsync_NullRequest_ThrowsArgumentNullException
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_SuccessfulRetrieval_ReturnsResponseWithData*
+  commentId: Overload:specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_SuccessfulRetrieval_ReturnsResponseWithData
+  href: specification.RequestHandlers.CrudRequestHandlerTests.html#specification_RequestHandlers_CrudRequestHandlerTests_GetByIdAsync_SuccessfulRetrieval_ReturnsResponseWithData
+  name: GetByIdAsync_SuccessfulRetrieval_ReturnsResponseWithData
+  nameWithType: CrudRequestHandlerTests.GetByIdAsync_SuccessfulRetrieval_ReturnsResponseWithData
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_SuccessfulRetrieval_ReturnsResponseWithData
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_NotFoundEntity_ReturnsUnsuccessfulResponse*
+  commentId: Overload:specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_NotFoundEntity_ReturnsUnsuccessfulResponse
+  href: specification.RequestHandlers.CrudRequestHandlerTests.html#specification_RequestHandlers_CrudRequestHandlerTests_GetByIdAsync_NotFoundEntity_ReturnsUnsuccessfulResponse
+  name: GetByIdAsync_NotFoundEntity_ReturnsUnsuccessfulResponse
+  nameWithType: CrudRequestHandlerTests.GetByIdAsync_NotFoundEntity_ReturnsUnsuccessfulResponse
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_NotFoundEntity_ReturnsUnsuccessfulResponse
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_DefaultId_ThrowsArgumentNullException*
+  commentId: Overload:specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_DefaultId_ThrowsArgumentNullException
+  href: specification.RequestHandlers.CrudRequestHandlerTests.html#specification_RequestHandlers_CrudRequestHandlerTests_GetByIdAsync_DefaultId_ThrowsArgumentNullException
+  name: GetByIdAsync_DefaultId_ThrowsArgumentNullException
+  nameWithType: CrudRequestHandlerTests.GetByIdAsync_DefaultId_ThrowsArgumentNullException
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_DefaultId_ThrowsArgumentNullException
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_NegativeId_ReturnsArgumentException*
+  commentId: Overload:specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_NegativeId_ReturnsArgumentException
+  href: specification.RequestHandlers.CrudRequestHandlerTests.html#specification_RequestHandlers_CrudRequestHandlerTests_GetByIdAsync_NegativeId_ReturnsArgumentException
+  name: GetByIdAsync_NegativeId_ReturnsArgumentException
+  nameWithType: CrudRequestHandlerTests.GetByIdAsync_NegativeId_ReturnsArgumentException
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.GetByIdAsync_NegativeId_ReturnsArgumentException
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.DeleteAsync_SuccessfulDeletion_ReturnsSuccessfulResponse*
+  commentId: Overload:specification.RequestHandlers.CrudRequestHandlerTests.DeleteAsync_SuccessfulDeletion_ReturnsSuccessfulResponse
+  href: specification.RequestHandlers.CrudRequestHandlerTests.html#specification_RequestHandlers_CrudRequestHandlerTests_DeleteAsync_SuccessfulDeletion_ReturnsSuccessfulResponse
+  name: DeleteAsync_SuccessfulDeletion_ReturnsSuccessfulResponse
+  nameWithType: CrudRequestHandlerTests.DeleteAsync_SuccessfulDeletion_ReturnsSuccessfulResponse
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.DeleteAsync_SuccessfulDeletion_ReturnsSuccessfulResponse
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.DeleteAsync_UnsuccessfulDeletion_ReturnsUnsuccessfulResponse*
+  commentId: Overload:specification.RequestHandlers.CrudRequestHandlerTests.DeleteAsync_UnsuccessfulDeletion_ReturnsUnsuccessfulResponse
+  href: specification.RequestHandlers.CrudRequestHandlerTests.html#specification_RequestHandlers_CrudRequestHandlerTests_DeleteAsync_UnsuccessfulDeletion_ReturnsUnsuccessfulResponse
+  name: DeleteAsync_UnsuccessfulDeletion_ReturnsUnsuccessfulResponse
+  nameWithType: CrudRequestHandlerTests.DeleteAsync_UnsuccessfulDeletion_ReturnsUnsuccessfulResponse
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.DeleteAsync_UnsuccessfulDeletion_ReturnsUnsuccessfulResponse
+- uid: specification.RequestHandlers.CrudRequestHandlerTests.DeleteAsync_DefaultId_ThrowsArgumentNullException*
+  commentId: Overload:specification.RequestHandlers.CrudRequestHandlerTests.DeleteAsync_DefaultId_ThrowsArgumentNullException
+  href: specification.RequestHandlers.CrudRequestHandlerTests.html#specification_RequestHandlers_CrudRequestHandlerTests_DeleteAsync_DefaultId_ThrowsArgumentNullException
+  name: DeleteAsync_DefaultId_ThrowsArgumentNullException
+  nameWithType: CrudRequestHandlerTests.DeleteAsync_DefaultId_ThrowsArgumentNullException
+  fullName: specification.RequestHandlers.CrudRequestHandlerTests.DeleteAsync_DefaultId_ThrowsArgumentNullException

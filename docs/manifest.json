@@ -882,6 +882,106 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Quickie.MinimalApis.Crud.CrudEndpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Quickie.MinimalApis.Crud.CrudEndpoints.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Quickie.MinimalApis.Crud.CrudForCollectionEndpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Quickie.MinimalApis.Crud.CrudForCollectionEndpoints.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Quickie.MinimalApis.Crud.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Quickie.MinimalApis.Crud.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Quickie.MinimalApis.EditOnly.EditOnlyEndpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Quickie.MinimalApis.EditOnly.EditOnlyEndpoints.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Quickie.MinimalApis.EditOnly.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Quickie.MinimalApis.EditOnly.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Quickie.MinimalApis.ReadOnly.ReadOnlyCollectionEndpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Quickie.MinimalApis.ReadOnly.ReadOnlyCollectionEndpoints.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Quickie.MinimalApis.ReadOnly.ReadOnlyEndpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Quickie.MinimalApis.ReadOnly.ReadOnlyEndpoints.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Quickie.MinimalApis.ReadOnly.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Quickie.MinimalApis.ReadOnly.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Quickie.MinimalApis.WriteOnly.WriteOnlyEndpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Quickie.MinimalApis.WriteOnly.WriteOnlyEndpoints.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Quickie.MinimalApis.WriteOnly.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Quickie.MinimalApis.WriteOnly.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Quickie.Types.Crud.CrudDto.yml",
       "output": {
         ".html": {
@@ -1041,6 +1141,476 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Controllers.CrudControllerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Controllers.CrudControllerTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Controllers.CrudForCollectionControllerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Controllers.CrudForCollectionControllerTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Controllers.EditOnlyControllerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Controllers.EditOnlyControllerTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Controllers.ReadOnlyCollectionControllerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Controllers.ReadOnlyCollectionControllerTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Controllers.ReadOnlyControllerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Controllers.ReadOnlyControllerTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Controllers.WriteOnlyControllerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Controllers.WriteOnlyControllerTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Controllers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.DataHandlers.CrudDataHandlerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.DataHandlers.CrudDataHandlerTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.DataHandlers.EditOnlyDataHandlerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.DataHandlers.EditOnlyDataHandlerTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.DataHandlers.ReadOnlyDataHandlerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.DataHandlers.ReadOnlyDataHandlerTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.DataHandlers.WriteOnlyDataHandlerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.DataHandlers.WriteOnlyDataHandlerTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.DataHandlers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.DataHandlers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Helpers.DataHandlers.CrudDataHandlerConcrete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Helpers.DataHandlers.CrudDataHandlerConcrete.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Helpers.DataHandlers.EditOnlyDataHandlerConcrete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Helpers.DataHandlers.EditOnlyDataHandlerConcrete.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Helpers.DataHandlers.ReadOnlyCollectionDataHandlerConcrete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Helpers.DataHandlers.ReadOnlyCollectionDataHandlerConcrete.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Helpers.DataHandlers.ReadOnlyDataHandlerConcrete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Helpers.DataHandlers.ReadOnlyDataHandlerConcrete.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Helpers.DataHandlers.WriteOnlyDataHandlerConcrete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Helpers.DataHandlers.WriteOnlyDataHandlerConcrete.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Helpers.DataHandlers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Helpers.DataHandlers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Helpers.Dtos.CrudDtoConcrete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Helpers.Dtos.CrudDtoConcrete.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Helpers.Dtos.EditOnlyDtoConcrete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Helpers.Dtos.EditOnlyDtoConcrete.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Helpers.Dtos.FilterResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Helpers.Dtos.FilterResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Helpers.Dtos.ReadOnlyCollectionDataRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Helpers.Dtos.ReadOnlyCollectionDataRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Helpers.Dtos.ReadOnlyDtoConcrete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Helpers.Dtos.ReadOnlyDtoConcrete.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Helpers.Dtos.WriteOnlyDtoConcrete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Helpers.Dtos.WriteOnlyDtoConcrete.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Helpers.Dtos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Helpers.Dtos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Helpers.Entities.CrudEntityConcrete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Helpers.Entities.CrudEntityConcrete.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Helpers.Entities.EditOnlyEntityConcrete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Helpers.Entities.EditOnlyEntityConcrete.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Helpers.Entities.ReadOnlyEntityConcrete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Helpers.Entities.ReadOnlyEntityConcrete.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Helpers.Entities.WriteOnlyEntityConcrete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Helpers.Entities.WriteOnlyEntityConcrete.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Helpers.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Helpers.Entities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Helpers.RequestHandlers.CrudRequestHandlerConcrete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Helpers.RequestHandlers.CrudRequestHandlerConcrete.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Helpers.RequestHandlers.EditOnlyRequestHandlerConcrete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Helpers.RequestHandlers.EditOnlyRequestHandlerConcrete.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Helpers.RequestHandlers.ReadOnlyRequestHandlerConcrete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Helpers.RequestHandlers.ReadOnlyRequestHandlerConcrete.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Helpers.RequestHandlers.WriteOnlyRequestHandlerConcrete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Helpers.RequestHandlers.WriteOnlyRequestHandlerConcrete.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Helpers.RequestHandlers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Helpers.RequestHandlers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Helpers.TestsDbContext.TestDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Helpers.TestsDbContext.TestDbContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.Helpers.TestsDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.Helpers.TestsDbContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.RequestHandlers.CrudForCollectionRequestHandlerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.RequestHandlers.CrudForCollectionRequestHandlerTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.RequestHandlers.CrudRequestHandlerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.RequestHandlers.CrudRequestHandlerTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.RequestHandlers.EditOnlyRequestHandlerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.RequestHandlers.EditOnlyRequestHandlerTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.RequestHandlers.ReadOnlyCollectionRequestHandlerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.RequestHandlers.ReadOnlyCollectionRequestHandlerTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.RequestHandlers.ReadOnlyRequestHandlerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.RequestHandlers.ReadOnlyRequestHandlerTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.RequestHandlers.WriteOnlyRequestHandlerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.RequestHandlers.WriteOnlyRequestHandlerTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/specification.RequestHandlers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/specification.RequestHandlers.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
@@ -1055,10 +1625,30 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/examples.md",
+      "source_relative_path": "docs/configuration.md",
       "output": {
         ".html": {
-          "relative_path": "docs/examples.html"
+          "relative_path": "docs/configuration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/examples/controllers.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/examples/controllers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/examples/minimal-api.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/examples/minimal-api.html"
         }
       },
       "version": ""
@@ -1092,6 +1682,16 @@
         },
         ".json": {
           "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/quickie_icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/quickie_icon.png"
         }
       },
       "version": ""

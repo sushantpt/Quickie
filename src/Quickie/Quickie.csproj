@@ -1,19 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Version>1.0.0</Version>
+    <Version>1.1.0</Version>
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Title>Quickie</Title>
     <Description>Quickie is an open-source library designed to help you build APIs and backend services QUICKLY in .NET.</Description>
     <Copyright>sushantpt</Copyright>
-    <PackageProjectUrl>https://github.com/sushantpt/Quickie</PackageProjectUrl>
+    <PackageProjectUrl>https://sushantpt.github.io/Quickie/index.html</PackageProjectUrl>
     <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/sushantpt/Quickie</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>api, backend, web</PackageTags>
-    <PackageReleaseNotes>Initial publish.</PackageReleaseNotes>
+    <PackageReleaseNotes>Support for minial apis.</PackageReleaseNotes>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageIcon>quickie_icon.png</PackageIcon>
   </PropertyGroup>

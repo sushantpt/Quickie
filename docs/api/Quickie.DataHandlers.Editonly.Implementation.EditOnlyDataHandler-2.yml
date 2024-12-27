@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Editonly/Implementation/EditOnlyDataHandler.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: EditOnlyDataHandler
     path: ../src/Quickie/DataHandlers/Editonly/Implementation/EditOnlyDataHandler.cs
@@ -38,6 +38,8 @@ items:
     content.vb: Public MustInherit Class EditOnlyDataHandler(Of TEntity As EditOnlyEntity, TIdType As IComparable) Implements IEditOnlyDataHandler(Of TEntity, TIdType)
   inheritance:
   - System.Object
+  derivedClasses:
+  - specification.Helpers.DataHandlers.EditOnlyDataHandlerConcrete
   implements:
   - Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler{{TEntity},{TIdType}}
   inheritedMembers:
@@ -65,7 +67,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Editonly/Implementation/EditOnlyDataHandler.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../src/Quickie/DataHandlers/Editonly/Implementation/EditOnlyDataHandler.cs
@@ -100,7 +102,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Editonly/Implementation/EditOnlyDataHandler.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: EditAsync
     path: ../src/Quickie/DataHandlers/Editonly/Implementation/EditOnlyDataHandler.cs
@@ -145,7 +147,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Editonly/Implementation/EditOnlyDataHandler.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: EditCollectionAsync
     path: ../src/Quickie/DataHandlers/Editonly/Implementation/EditOnlyDataHandler.cs

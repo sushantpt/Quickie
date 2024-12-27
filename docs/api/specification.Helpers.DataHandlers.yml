@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: specification.Helpers.DataHandlers
+  commentId: N:specification.Helpers.DataHandlers
+  id: specification.Helpers.DataHandlers
+  children:
+  - specification.Helpers.DataHandlers.CrudDataHandlerConcrete
+  - specification.Helpers.DataHandlers.EditOnlyDataHandlerConcrete
+  - specification.Helpers.DataHandlers.ReadOnlyCollectionDataHandlerConcrete
+  - specification.Helpers.DataHandlers.ReadOnlyDataHandlerConcrete
+  - specification.Helpers.DataHandlers.WriteOnlyDataHandlerConcrete
+  langs:
+  - csharp
+  - vb
+  name: specification.Helpers.DataHandlers
+  nameWithType: specification.Helpers.DataHandlers
+  fullName: specification.Helpers.DataHandlers
+  type: Namespace
+  assemblies:
+  - specification
+references:
+- uid: specification.Helpers.DataHandlers.CrudDataHandlerConcrete
+  commentId: T:specification.Helpers.DataHandlers.CrudDataHandlerConcrete
+  href: specification.Helpers.DataHandlers.CrudDataHandlerConcrete.html
+  name: CrudDataHandlerConcrete
+  nameWithType: CrudDataHandlerConcrete
+  fullName: specification.Helpers.DataHandlers.CrudDataHandlerConcrete
+- uid: specification.Helpers.DataHandlers.EditOnlyDataHandlerConcrete
+  commentId: T:specification.Helpers.DataHandlers.EditOnlyDataHandlerConcrete
+  href: specification.Helpers.DataHandlers.EditOnlyDataHandlerConcrete.html
+  name: EditOnlyDataHandlerConcrete
+  nameWithType: EditOnlyDataHandlerConcrete
+  fullName: specification.Helpers.DataHandlers.EditOnlyDataHandlerConcrete
+- uid: specification.Helpers.DataHandlers.ReadOnlyCollectionDataHandlerConcrete
+  commentId: T:specification.Helpers.DataHandlers.ReadOnlyCollectionDataHandlerConcrete
+  href: specification.Helpers.DataHandlers.ReadOnlyCollectionDataHandlerConcrete.html
+  name: ReadOnlyCollectionDataHandlerConcrete
+  nameWithType: ReadOnlyCollectionDataHandlerConcrete
+  fullName: specification.Helpers.DataHandlers.ReadOnlyCollectionDataHandlerConcrete
+- uid: specification.Helpers.DataHandlers.ReadOnlyDataHandlerConcrete
+  commentId: T:specification.Helpers.DataHandlers.ReadOnlyDataHandlerConcrete
+  href: specification.Helpers.DataHandlers.ReadOnlyDataHandlerConcrete.html
+  name: ReadOnlyDataHandlerConcrete
+  nameWithType: ReadOnlyDataHandlerConcrete
+  fullName: specification.Helpers.DataHandlers.ReadOnlyDataHandlerConcrete
+- uid: specification.Helpers.DataHandlers.WriteOnlyDataHandlerConcrete
+  commentId: T:specification.Helpers.DataHandlers.WriteOnlyDataHandlerConcrete
+  href: specification.Helpers.DataHandlers.WriteOnlyDataHandlerConcrete.html
+  name: WriteOnlyDataHandlerConcrete
+  nameWithType: WriteOnlyDataHandlerConcrete
+  fullName: specification.Helpers.DataHandlers.WriteOnlyDataHandlerConcrete

@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataObj/PaginatedDataObj.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: PaginatedDataObj
     path: ../src/Quickie/DataObj/PaginatedDataObj.cs
@@ -59,7 +59,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataObj/PaginatedDataObj.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: Total
     path: ../src/Quickie/DataObj/PaginatedDataObj.cs
@@ -92,7 +92,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataObj/PaginatedDataObj.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: Items
     path: ../src/Quickie/DataObj/PaginatedDataObj.cs

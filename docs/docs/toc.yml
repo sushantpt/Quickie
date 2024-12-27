@@ -2,5 +2,11 @@
   href: introduction.md
 - name: Getting Started
   href: getting-started.md
+- name: Configuration
+  href: configuration.md
 - name: Examples
-  href: examples.md
+  items:
+    - name: Controllers
+      href: examples/controllers.md
+    - name: Minimal API
+      href: examples/minimal-api.md

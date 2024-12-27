@@ -1,0 +1,484 @@
+### YamlMime:ManagedReference
+items:
+- uid: specification.Helpers.Dtos.CrudDtoConcrete
+  commentId: T:specification.Helpers.Dtos.CrudDtoConcrete
+  id: CrudDtoConcrete
+  parent: specification.Helpers.Dtos
+  children:
+  - specification.Helpers.Dtos.CrudDtoConcrete.#ctor
+  langs:
+  - csharp
+  - vb
+  name: CrudDtoConcrete
+  nameWithType: CrudDtoConcrete
+  fullName: specification.Helpers.Dtos.CrudDtoConcrete
+  type: Class
+  source:
+    remote:
+      path: tests/specification/Helpers/Dtos/CrudDtoConcrete.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: CrudDtoConcrete
+    path: ../tests/specification/Helpers/Dtos/CrudDtoConcrete.cs
+    startLine: 7
+  assemblies:
+  - specification
+  namespace: specification.Helpers.Dtos
+  summary: concrete dto of crud dto
+  example: []
+  syntax:
+    content: 'public record CrudDtoConcrete : CrudDto, IEquatable<CrudDto>, IEquatable<CrudDtoConcrete>'
+    content.vb: Public Class CrudDtoConcrete Inherits CrudDto Implements IEquatable(Of CrudDto), IEquatable(Of CrudDtoConcrete)
+  inheritance:
+  - System.Object
+  - Quickie.Types.Crud.CrudDto
+  implements:
+  - System.IEquatable{Quickie.Types.Crud.CrudDto}
+  - System.IEquatable{specification.Helpers.Dtos.CrudDtoConcrete}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: specification.Helpers.Dtos.CrudDtoConcrete.#ctor
+  commentId: M:specification.Helpers.Dtos.CrudDtoConcrete.#ctor
+  id: '#ctor'
+  parent: specification.Helpers.Dtos.CrudDtoConcrete
+  langs:
+  - csharp
+  - vb
+  name: CrudDtoConcrete()
+  nameWithType: CrudDtoConcrete.CrudDtoConcrete()
+  fullName: specification.Helpers.Dtos.CrudDtoConcrete.CrudDtoConcrete()
+  type: Constructor
+  source:
+    remote:
+      path: tests/specification/Helpers/Dtos/CrudDtoConcrete.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: .ctor
+    path: ../tests/specification/Helpers/Dtos/CrudDtoConcrete.cs
+    startLine: 7
+  assemblies:
+  - specification
+  namespace: specification.Helpers.Dtos
+  summary: concrete dto of crud dto
+  example: []
+  syntax:
+    content: public CrudDtoConcrete()
+    content.vb: Public Sub New()
+  overload: specification.Helpers.Dtos.CrudDtoConcrete.#ctor*
+  nameWithType.vb: CrudDtoConcrete.New()
+  fullName.vb: specification.Helpers.Dtos.CrudDtoConcrete.New()
+  name.vb: New()
+references:
+- uid: specification.Helpers.Dtos
+  commentId: N:specification.Helpers.Dtos
+  href: specification.html
+  name: specification.Helpers.Dtos
+  nameWithType: specification.Helpers.Dtos
+  fullName: specification.Helpers.Dtos
+  spec.csharp:
+  - uid: specification
+    name: specification
+    href: specification.html
+  - name: .
+  - uid: specification.Helpers
+    name: Helpers
+    href: specification.Helpers.html
+  - name: .
+  - uid: specification.Helpers.Dtos
+    name: Dtos
+    href: specification.Helpers.Dtos.html
+  spec.vb:
+  - uid: specification
+    name: specification
+    href: specification.html
+  - name: .
+  - uid: specification.Helpers
+    name: Helpers
+    href: specification.Helpers.html
+  - name: .
+  - uid: specification.Helpers.Dtos
+    name: Dtos
+    href: specification.Helpers.Dtos.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Quickie.Types.Crud.CrudDto
+  commentId: T:Quickie.Types.Crud.CrudDto
+  parent: Quickie.Types.Crud
+  href: Quickie.Types.Crud.CrudDto.html
+  name: CrudDto
+  nameWithType: CrudDto
+  fullName: Quickie.Types.Crud.CrudDto
+- uid: System.IEquatable{Quickie.Types.Crud.CrudDto}
+  commentId: T:System.IEquatable{Quickie.Types.Crud.CrudDto}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<CrudDto>
+  nameWithType: IEquatable<CrudDto>
+  fullName: System.IEquatable<Quickie.Types.Crud.CrudDto>
+  nameWithType.vb: IEquatable(Of CrudDto)
+  fullName.vb: System.IEquatable(Of Quickie.Types.Crud.CrudDto)
+  name.vb: IEquatable(Of CrudDto)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: Quickie.Types.Crud.CrudDto
+    name: CrudDto
+    href: Quickie.Types.Crud.CrudDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Quickie.Types.Crud.CrudDto
+    name: CrudDto
+    href: Quickie.Types.Crud.CrudDto.html
+  - name: )
+- uid: System.IEquatable{specification.Helpers.Dtos.CrudDtoConcrete}
+  commentId: T:System.IEquatable{specification.Helpers.Dtos.CrudDtoConcrete}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<CrudDtoConcrete>
+  nameWithType: IEquatable<CrudDtoConcrete>
+  fullName: System.IEquatable<specification.Helpers.Dtos.CrudDtoConcrete>
+  nameWithType.vb: IEquatable(Of CrudDtoConcrete)
+  fullName.vb: System.IEquatable(Of specification.Helpers.Dtos.CrudDtoConcrete)
+  name.vb: IEquatable(Of CrudDtoConcrete)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: specification.Helpers.Dtos.CrudDtoConcrete
+    name: CrudDtoConcrete
+    href: specification.Helpers.Dtos.CrudDtoConcrete.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: specification.Helpers.Dtos.CrudDtoConcrete
+    name: CrudDtoConcrete
+    href: specification.Helpers.Dtos.CrudDtoConcrete.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Quickie.Types.Crud
+  commentId: N:Quickie.Types.Crud
+  href: Quickie.html
+  name: Quickie.Types.Crud
+  nameWithType: Quickie.Types.Crud
+  fullName: Quickie.Types.Crud
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Types
+    name: Types
+    href: Quickie.Types.html
+  - name: .
+  - uid: Quickie.Types.Crud
+    name: Crud
+    href: Quickie.Types.Crud.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Types
+    name: Types
+    href: Quickie.Types.html
+  - name: .
+  - uid: Quickie.Types.Crud
+    name: Crud
+    href: Quickie.Types.Crud.html
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: specification.Helpers.Dtos.CrudDtoConcrete.#ctor*
+  commentId: Overload:specification.Helpers.Dtos.CrudDtoConcrete.#ctor
+  href: specification.Helpers.Dtos.CrudDtoConcrete.html#specification_Helpers_Dtos_CrudDtoConcrete__ctor
+  name: CrudDtoConcrete
+  nameWithType: CrudDtoConcrete.CrudDtoConcrete
+  fullName: specification.Helpers.Dtos.CrudDtoConcrete.CrudDtoConcrete
+  nameWithType.vb: CrudDtoConcrete.New
+  fullName.vb: specification.Helpers.Dtos.CrudDtoConcrete.New
+  name.vb: New

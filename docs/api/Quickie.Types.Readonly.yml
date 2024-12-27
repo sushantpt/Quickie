@@ -18,13 +18,45 @@ items:
 references:
 - uid: Quickie.Types.Readonly.ReadOnlyDto
   commentId: T:Quickie.Types.Readonly.ReadOnlyDto
+  parent: Quickie.Types.Readonly
   href: Quickie.Types.Readonly.ReadOnlyDto.html
   name: ReadOnlyDto
   nameWithType: ReadOnlyDto
   fullName: Quickie.Types.Readonly.ReadOnlyDto
 - uid: Quickie.Types.Readonly.ReadOnlyEntity
   commentId: T:Quickie.Types.Readonly.ReadOnlyEntity
+  parent: Quickie.Types.Readonly
   href: Quickie.Types.Readonly.ReadOnlyEntity.html
   name: ReadOnlyEntity
   nameWithType: ReadOnlyEntity
   fullName: Quickie.Types.Readonly.ReadOnlyEntity
+- uid: Quickie.Types.Readonly
+  commentId: N:Quickie.Types.Readonly
+  href: Quickie.html
+  name: Quickie.Types.Readonly
+  nameWithType: Quickie.Types.Readonly
+  fullName: Quickie.Types.Readonly
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Types
+    name: Types
+    href: Quickie.Types.html
+  - name: .
+  - uid: Quickie.Types.Readonly
+    name: Readonly
+    href: Quickie.Types.Readonly.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Types
+    name: Types
+    href: Quickie.Types.html
+  - name: .
+  - uid: Quickie.Types.Readonly
+    name: Readonly
+    href: Quickie.Types.Readonly.html

@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: src/Quickie/Types/Readonly/ReadOnlyEntity.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: ReadOnlyEntity
     path: ../src/Quickie/Types/Readonly/ReadOnlyEntity.cs
@@ -30,6 +30,8 @@ items:
     content.vb: Public MustInherit Class ReadOnlyEntity
   inheritance:
   - System.Object
+  derivedClasses:
+  - specification.Helpers.Entities.ReadOnlyEntityConcrete
   inheritedMembers:
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)

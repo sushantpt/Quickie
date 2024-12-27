@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Quickie/Configuration/Idempotency/IIdempotencyProvider.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: IIdempotencyProvider
     path: ../src/Quickie/Configuration/Idempotency/IIdempotencyProvider.cs
@@ -45,7 +45,7 @@ items:
   source:
     remote:
       path: src/Quickie/Configuration/Idempotency/IIdempotencyProvider.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: ExistsAsync
     path: ../src/Quickie/Configuration/Idempotency/IIdempotencyProvider.cs
@@ -83,7 +83,7 @@ items:
   source:
     remote:
       path: src/Quickie/Configuration/Idempotency/IIdempotencyProvider.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: MarkAsync
     path: ../src/Quickie/Configuration/Idempotency/IIdempotencyProvider.cs
@@ -121,7 +121,7 @@ items:
   source:
     remote:
       path: src/Quickie/Configuration/Idempotency/IIdempotencyProvider.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: RemoveExpiredKeys
     path: ../src/Quickie/Configuration/Idempotency/IIdempotencyProvider.cs

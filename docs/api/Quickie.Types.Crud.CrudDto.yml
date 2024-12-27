@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: src/Quickie/Types/Crud/CrudDto.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: CrudDto
     path: ../src/Quickie/Types/Crud/CrudDto.cs
@@ -31,6 +31,8 @@ items:
     content.vb: Public MustInherit Class CrudDto Implements IEquatable(Of CrudDto)
   inheritance:
   - System.Object
+  derivedClasses:
+  - specification.Helpers.Dtos.CrudDtoConcrete
   implements:
   - System.IEquatable{Quickie.Types.Crud.CrudDto}
   inheritedMembers:
@@ -55,7 +57,7 @@ items:
   source:
     remote:
       path: src/Quickie/Types/Crud/CrudDto.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../src/Quickie/Types/Crud/CrudDto.cs

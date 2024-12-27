@@ -21,3 +21,5 @@ global using Quickie.Types.Crud;
 global using Quickie.Types.Editonly;
 global using Quickie.Types.Writable;
 global using Quickie.Types.Readonly;
+global using Microsoft.AspNetCore.Builder;
+global using Microsoft.AspNetCore.Routing;

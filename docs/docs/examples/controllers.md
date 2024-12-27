@@ -1,4 +1,4 @@
-# Build By Example
+## Build By Example
 
 Here is a simple Web API of a **Todo App** using Quickie.
 
@@ -171,4 +171,4 @@ That's it! Your fully functional Web API with:
 - **Entities** are class (reference types).
 
 
-#### More examples [here](https://github.com/sushantpt/Quickie/).
+#### More examples [here](https://github.com/sushantpt/Quickie/tree/master/sample).

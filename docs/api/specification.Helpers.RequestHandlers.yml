@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: specification.Helpers.RequestHandlers
+  commentId: N:specification.Helpers.RequestHandlers
+  id: specification.Helpers.RequestHandlers
+  children:
+  - specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete
+  - specification.Helpers.RequestHandlers.CrudRequestHandlerConcrete
+  - specification.Helpers.RequestHandlers.EditOnlyRequestHandlerConcrete
+  - specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete
+  - specification.Helpers.RequestHandlers.ReadOnlyRequestHandlerConcrete
+  - specification.Helpers.RequestHandlers.WriteOnlyRequestHandlerConcrete
+  langs:
+  - csharp
+  - vb
+  name: specification.Helpers.RequestHandlers
+  nameWithType: specification.Helpers.RequestHandlers
+  fullName: specification.Helpers.RequestHandlers
+  type: Namespace
+  assemblies:
+  - specification
+references:
+- uid: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete
+  commentId: T:specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete
+  href: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.html
+  name: CrudForCollectionRequestHandlerConcrete
+  nameWithType: CrudForCollectionRequestHandlerConcrete
+  fullName: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete
+- uid: specification.Helpers.RequestHandlers.CrudRequestHandlerConcrete
+  commentId: T:specification.Helpers.RequestHandlers.CrudRequestHandlerConcrete
+  href: specification.Helpers.RequestHandlers.CrudRequestHandlerConcrete.html
+  name: CrudRequestHandlerConcrete
+  nameWithType: CrudRequestHandlerConcrete
+  fullName: specification.Helpers.RequestHandlers.CrudRequestHandlerConcrete
+- uid: specification.Helpers.RequestHandlers.EditOnlyRequestHandlerConcrete
+  commentId: T:specification.Helpers.RequestHandlers.EditOnlyRequestHandlerConcrete
+  href: specification.Helpers.RequestHandlers.EditOnlyRequestHandlerConcrete.html
+  name: EditOnlyRequestHandlerConcrete
+  nameWithType: EditOnlyRequestHandlerConcrete
+  fullName: specification.Helpers.RequestHandlers.EditOnlyRequestHandlerConcrete
+- uid: specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete
+  commentId: T:specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete
+  href: specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete.html
+  name: ReadOnlyCollectionRequestHandlerConcrete
+  nameWithType: ReadOnlyCollectionRequestHandlerConcrete
+  fullName: specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete
+- uid: specification.Helpers.RequestHandlers.ReadOnlyRequestHandlerConcrete
+  commentId: T:specification.Helpers.RequestHandlers.ReadOnlyRequestHandlerConcrete
+  href: specification.Helpers.RequestHandlers.ReadOnlyRequestHandlerConcrete.html
+  name: ReadOnlyRequestHandlerConcrete
+  nameWithType: ReadOnlyRequestHandlerConcrete
+  fullName: specification.Helpers.RequestHandlers.ReadOnlyRequestHandlerConcrete
+- uid: specification.Helpers.RequestHandlers.WriteOnlyRequestHandlerConcrete
+  commentId: T:specification.Helpers.RequestHandlers.WriteOnlyRequestHandlerConcrete
+  href: specification.Helpers.RequestHandlers.WriteOnlyRequestHandlerConcrete.html
+  name: WriteOnlyRequestHandlerConcrete
+  nameWithType: WriteOnlyRequestHandlerConcrete
+  fullName: specification.Helpers.RequestHandlers.WriteOnlyRequestHandlerConcrete

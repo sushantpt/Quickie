@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Readonly/Implementation/ReadOnlyCollectionDataHandler.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: ReadOnlyCollectionDataHandler
     path: ../src/Quickie/DataHandlers/Readonly/Implementation/ReadOnlyCollectionDataHandler.cs
@@ -39,6 +39,8 @@ items:
     content.vb: Public MustInherit Class ReadOnlyCollectionDataHandler(Of TEntity As ReadOnlyEntity, TDbContext As DbContext, TIdType As IComparable) Implements IReadOnlyCollectionDataHandler(Of TEntity, TIdType)
   inheritance:
   - System.Object
+  derivedClasses:
+  - specification.Helpers.DataHandlers.ReadOnlyCollectionDataHandlerConcrete
   implements:
   - Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler{{TEntity},{TIdType}}
   inheritedMembers:
@@ -66,7 +68,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Readonly/Implementation/ReadOnlyCollectionDataHandler.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../src/Quickie/DataHandlers/Readonly/Implementation/ReadOnlyCollectionDataHandler.cs
@@ -101,7 +103,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Readonly/Implementation/ReadOnlyCollectionDataHandler.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: GetByFilterAsync
     path: ../src/Quickie/DataHandlers/Readonly/Implementation/ReadOnlyCollectionDataHandler.cs

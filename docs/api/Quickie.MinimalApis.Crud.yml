@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.MinimalApis.Crud
+  commentId: N:Quickie.MinimalApis.Crud
+  id: Quickie.MinimalApis.Crud
+  children:
+  - Quickie.MinimalApis.Crud.CrudEndpoints
+  - Quickie.MinimalApis.Crud.CrudForCollectionEndpoints
+  langs:
+  - csharp
+  - vb
+  name: Quickie.MinimalApis.Crud
+  nameWithType: Quickie.MinimalApis.Crud
+  fullName: Quickie.MinimalApis.Crud
+  type: Namespace
+  assemblies:
+  - Quickie
+references:
+- uid: Quickie.MinimalApis.Crud.CrudEndpoints
+  commentId: T:Quickie.MinimalApis.Crud.CrudEndpoints
+  href: Quickie.MinimalApis.Crud.CrudEndpoints.html
+  name: CrudEndpoints
+  nameWithType: CrudEndpoints
+  fullName: Quickie.MinimalApis.Crud.CrudEndpoints
+- uid: Quickie.MinimalApis.Crud.CrudForCollectionEndpoints
+  commentId: T:Quickie.MinimalApis.Crud.CrudForCollectionEndpoints
+  href: Quickie.MinimalApis.Crud.CrudForCollectionEndpoints.html
+  name: CrudForCollectionEndpoints
+  nameWithType: CrudForCollectionEndpoints
+  fullName: Quickie.MinimalApis.Crud.CrudForCollectionEndpoints

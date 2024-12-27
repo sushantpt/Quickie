@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/Quickie/Configuration/Options/RateLimitConfiguration.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: RateLimitConfiguration
     path: ../src/Quickie/Configuration/Options/RateLimitConfiguration.cs
@@ -56,7 +56,7 @@ items:
   source:
     remote:
       path: src/Quickie/Configuration/Options/RateLimitConfiguration.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: DisableRateLimiting
     path: ../src/Quickie/Configuration/Options/RateLimitConfiguration.cs
@@ -87,7 +87,7 @@ items:
   source:
     remote:
       path: src/Quickie/Configuration/Options/RateLimitConfiguration.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: PolicyName
     path: ../src/Quickie/Configuration/Options/RateLimitConfiguration.cs
@@ -98,11 +98,11 @@ items:
   summary: Name of rate limit policy. Default is "Quickie-Rl-Policy"
   example: []
   syntax:
-    content: public string? PolicyName { get; set; }
+    content: public string? PolicyName { get; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property PolicyName As String
+    content.vb: Public ReadOnly Property PolicyName As String
   overload: Quickie.Configuration.Options.RateLimitConfiguration.PolicyName*
 - uid: Quickie.Configuration.Options.RateLimitConfiguration.PermitLimit
   commentId: P:Quickie.Configuration.Options.RateLimitConfiguration.PermitLimit
@@ -118,7 +118,7 @@ items:
   source:
     remote:
       path: src/Quickie/Configuration/Options/RateLimitConfiguration.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: PermitLimit
     path: ../src/Quickie/Configuration/Options/RateLimitConfiguration.cs
@@ -149,7 +149,7 @@ items:
   source:
     remote:
       path: src/Quickie/Configuration/Options/RateLimitConfiguration.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: FromSeconds
     path: ../src/Quickie/Configuration/Options/RateLimitConfiguration.cs

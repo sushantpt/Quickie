@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataObj/ResponseObj.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: ResponseObj
     path: ../src/Quickie/DataObj/ResponseObj.cs
@@ -54,7 +54,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataObj/ResponseObj.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: IsSuccess
     path: ../src/Quickie/DataObj/ResponseObj.cs
@@ -85,7 +85,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataObj/ResponseObj.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: Message
     path: ../src/Quickie/DataObj/ResponseObj.cs

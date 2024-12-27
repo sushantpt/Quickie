@@ -246,6 +246,40 @@ items:
   - uid: Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler`3
     name: WriteOnlyRequestHandler<TViewModel, TEntity, TDataHandler>
     type: Class
+- uid: Quickie.MinimalApis.Crud
+  name: Quickie.MinimalApis.Crud
+  type: Namespace
+  items:
+  - uid: Quickie.MinimalApis.Crud.CrudEndpoints
+    name: CrudEndpoints
+    type: Class
+  - uid: Quickie.MinimalApis.Crud.CrudForCollectionEndpoints
+    name: CrudForCollectionEndpoints
+    type: Class
+- uid: Quickie.MinimalApis.EditOnly
+  name: Quickie.MinimalApis.EditOnly
+  type: Namespace
+  items:
+  - uid: Quickie.MinimalApis.EditOnly.EditOnlyEndpoints
+    name: EditOnlyEndpoints
+    type: Class
+- uid: Quickie.MinimalApis.ReadOnly
+  name: Quickie.MinimalApis.ReadOnly
+  type: Namespace
+  items:
+  - uid: Quickie.MinimalApis.ReadOnly.ReadOnlyCollectionEndpoints
+    name: ReadOnlyCollectionEndpoints
+    type: Class
+  - uid: Quickie.MinimalApis.ReadOnly.ReadOnlyEndpoints
+    name: ReadOnlyEndpoints
+    type: Class
+- uid: Quickie.MinimalApis.WriteOnly
+  name: Quickie.MinimalApis.WriteOnly
+  type: Namespace
+  items:
+  - uid: Quickie.MinimalApis.WriteOnly.WriteOnlyEndpoints
+    name: WriteOnlyEndpoints
+    type: Class
 - uid: Quickie.Types
   name: Quickie.Types
   type: Namespace
@@ -292,5 +326,154 @@ items:
     type: Class
   - uid: Quickie.Types.Writable.WriteOnlyEntity
     name: WriteOnlyEntity
+    type: Class
+- uid: specification.Controllers
+  name: specification.Controllers
+  type: Namespace
+  items:
+  - uid: specification.Controllers.CrudControllerTests
+    name: CrudControllerTests
+    type: Class
+  - uid: specification.Controllers.CrudForCollectionControllerTests
+    name: CrudForCollectionControllerTests
+    type: Class
+  - uid: specification.Controllers.EditOnlyControllerTests
+    name: EditOnlyControllerTests
+    type: Class
+  - uid: specification.Controllers.ReadOnlyCollectionControllerTests
+    name: ReadOnlyCollectionControllerTests
+    type: Class
+  - uid: specification.Controllers.ReadOnlyControllerTests
+    name: ReadOnlyControllerTests
+    type: Class
+  - uid: specification.Controllers.WriteOnlyControllerTests
+    name: WriteOnlyControllerTests
+    type: Class
+- uid: specification.DataHandlers
+  name: specification.DataHandlers
+  type: Namespace
+  items:
+  - uid: specification.DataHandlers.CrudDataHandlerTests
+    name: CrudDataHandlerTests
+    type: Class
+  - uid: specification.DataHandlers.EditOnlyDataHandlerTests
+    name: EditOnlyDataHandlerTests
+    type: Class
+  - uid: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests
+    name: ReadOnlyCollectionDataHandlerTests
+    type: Class
+  - uid: specification.DataHandlers.ReadOnlyDataHandlerTests
+    name: ReadOnlyDataHandlerTests
+    type: Class
+  - uid: specification.DataHandlers.WriteOnlyDataHandlerTests
+    name: WriteOnlyDataHandlerTests
+    type: Class
+- uid: specification.Helpers.DataHandlers
+  name: specification.Helpers.DataHandlers
+  type: Namespace
+  items:
+  - uid: specification.Helpers.DataHandlers.CrudDataHandlerConcrete
+    name: CrudDataHandlerConcrete
+    type: Class
+  - uid: specification.Helpers.DataHandlers.EditOnlyDataHandlerConcrete
+    name: EditOnlyDataHandlerConcrete
+    type: Class
+  - uid: specification.Helpers.DataHandlers.ReadOnlyCollectionDataHandlerConcrete
+    name: ReadOnlyCollectionDataHandlerConcrete
+    type: Class
+  - uid: specification.Helpers.DataHandlers.ReadOnlyDataHandlerConcrete
+    name: ReadOnlyDataHandlerConcrete
+    type: Class
+  - uid: specification.Helpers.DataHandlers.WriteOnlyDataHandlerConcrete
+    name: WriteOnlyDataHandlerConcrete
+    type: Class
+- uid: specification.Helpers.Dtos
+  name: specification.Helpers.Dtos
+  type: Namespace
+  items:
+  - uid: specification.Helpers.Dtos.CrudDtoConcrete
+    name: CrudDtoConcrete
+    type: Class
+  - uid: specification.Helpers.Dtos.EditOnlyDtoConcrete
+    name: EditOnlyDtoConcrete
+    type: Class
+  - uid: specification.Helpers.Dtos.FilterResult
+    name: FilterResult
+    type: Class
+  - uid: specification.Helpers.Dtos.ReadOnlyCollectionDataRequest
+    name: ReadOnlyCollectionDataRequest
+    type: Class
+  - uid: specification.Helpers.Dtos.ReadOnlyDtoConcrete
+    name: ReadOnlyDtoConcrete
+    type: Class
+  - uid: specification.Helpers.Dtos.WriteOnlyDtoConcrete
+    name: WriteOnlyDtoConcrete
+    type: Class
+- uid: specification.Helpers.Entities
+  name: specification.Helpers.Entities
+  type: Namespace
+  items:
+  - uid: specification.Helpers.Entities.CrudEntityConcrete
+    name: CrudEntityConcrete
+    type: Class
+  - uid: specification.Helpers.Entities.EditOnlyEntityConcrete
+    name: EditOnlyEntityConcrete
+    type: Class
+  - uid: specification.Helpers.Entities.ReadOnlyEntityConcrete
+    name: ReadOnlyEntityConcrete
+    type: Class
+  - uid: specification.Helpers.Entities.WriteOnlyEntityConcrete
+    name: WriteOnlyEntityConcrete
+    type: Class
+- uid: specification.Helpers.RequestHandlers
+  name: specification.Helpers.RequestHandlers
+  type: Namespace
+  items:
+  - uid: specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete
+    name: CrudForCollectionRequestHandlerConcrete
+    type: Class
+  - uid: specification.Helpers.RequestHandlers.CrudRequestHandlerConcrete
+    name: CrudRequestHandlerConcrete
+    type: Class
+  - uid: specification.Helpers.RequestHandlers.EditOnlyRequestHandlerConcrete
+    name: EditOnlyRequestHandlerConcrete
+    type: Class
+  - uid: specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete
+    name: ReadOnlyCollectionRequestHandlerConcrete
+    type: Class
+  - uid: specification.Helpers.RequestHandlers.ReadOnlyRequestHandlerConcrete
+    name: ReadOnlyRequestHandlerConcrete
+    type: Class
+  - uid: specification.Helpers.RequestHandlers.WriteOnlyRequestHandlerConcrete
+    name: WriteOnlyRequestHandlerConcrete
+    type: Class
+- uid: specification.Helpers.TestsDbContext
+  name: specification.Helpers.TestsDbContext
+  type: Namespace
+  items:
+  - uid: specification.Helpers.TestsDbContext.TestDbContext
+    name: TestDbContext
+    type: Class
+- uid: specification.RequestHandlers
+  name: specification.RequestHandlers
+  type: Namespace
+  items:
+  - uid: specification.RequestHandlers.CrudForCollectionRequestHandlerTests
+    name: CrudForCollectionRequestHandlerTests
+    type: Class
+  - uid: specification.RequestHandlers.CrudRequestHandlerTests
+    name: CrudRequestHandlerTests
+    type: Class
+  - uid: specification.RequestHandlers.EditOnlyRequestHandlerTests
+    name: EditOnlyRequestHandlerTests
+    type: Class
+  - uid: specification.RequestHandlers.ReadOnlyCollectionRequestHandlerTests
+    name: ReadOnlyCollectionRequestHandlerTests
+    type: Class
+  - uid: specification.RequestHandlers.ReadOnlyRequestHandlerTests
+    name: ReadOnlyRequestHandlerTests
+    type: Class
+  - uid: specification.RequestHandlers.WriteOnlyRequestHandlerTests
+    name: WriteOnlyRequestHandlerTests
     type: Class
 memberLayout: SamePage

@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Readonly/Definition/IReadOnlyDataHandler.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: IReadOnlyDataHandler
     path: ../src/Quickie/DataHandlers/Readonly/Definition/IReadOnlyDataHandler.cs
@@ -51,7 +51,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Readonly/Definition/IReadOnlyDataHandler.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: GetByIdAsync
     path: ../src/Quickie/DataHandlers/Readonly/Definition/IReadOnlyDataHandler.cs

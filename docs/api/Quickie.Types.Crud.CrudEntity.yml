@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: src/Quickie/Types/Crud/CrudEntity.cs
-      branch: gh-pages
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: CrudEntity
     path: ../src/Quickie/Types/Crud/CrudEntity.cs
@@ -30,6 +30,8 @@ items:
     content.vb: Public MustInherit Class CrudEntity
   inheritance:
   - System.Object
+  derivedClasses:
+  - specification.Helpers.Entities.CrudEntityConcrete
   inheritedMembers:
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)

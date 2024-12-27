@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/sushantpt/Quickie/blob/gh-pages/docs/docs/introduction.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/sushantpt/Quickie/blob/f-minimalapi/docs/docs/introduction.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -95,10 +95,10 @@
 <h1 id="introduction">Introduction</h1>
 
 <h3 id="how-it-works">How It Works</h3>
-<p>Quickie operates by injecting essential middleware and services into your application pipeline. It provides base classes that you can implement to create APIs with minimal effort and focus solely on your logic. With Quickie, all you need to do is define your required classes and you're ready to go — no endless boilerplate, no hassle. Quickie is perfect for building tracer bullet APIs, prototypes, or any sorta proof-of-concept projects. Whether you're experimenting with ideas or rapidly iterating, Quickie keeps things simple and fun, without feeling like you're trapped in enterprise-grade complexity.</p>
+<p>Quickie operates by injecting essential middleware and services into your application pipeline. It provides base classes that you can implement to create APIs and backend services with minimal effort and focus solely on your logic. With Quickie, all you need to do is define your required classes and you're ready to go — no endless boilerplate, no hassle. Quickie is perfect for building tracer bullet APIs, prototypes, or any sorta proof-of-concept projects. Whether you're experimenting with ideas or rapidly iterating, Quickie keeps things simple and fun, without feeling like you're trapped in enterprise-grade complexity.</p>
 <p>Here’s a high-level overview of its workflow:</p>
 <ol>
-<li><strong>Service Registration</strong>: Quickie sets up services for rate limiting, idempotency, and other configurable options through <code>QuickieConfig()</code> and complete the setup with <code>AddQuickie()</code>.</li>
+<li><strong>Service Registration</strong>: Quickie sets up services for rate limiting, idempotency, and other configurable options through <code>QuickieConfig()</code> and complete the setup with <code>AddQuickie()</code> which resolve all dependencies.</li>
 <li><strong>Idempotency made simple</strong>: Ensure API calls yield consistent results when retried, with support for custom idempotency providers.</li>
 <li><strong>Built-In Rate Limiting</strong>: Protect your APIs from overuse with an easy-to-setup rate-limiting mechanism.</li>
 <li><strong>Customizable Options</strong>: You can fine-tune configurations, such as permitting limits for rate limiting or choosing a custom idempotency provider (Redis, or any external databases).</li>
@@ -108,7 +108,7 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/sushantpt/Quickie/blob/gh-pages/docs/docs/introduction.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/sushantpt/Quickie/blob/f-minimalapi/docs/docs/introduction.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
