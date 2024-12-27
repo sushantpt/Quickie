@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/EditOnlyRequestHandlerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: EditOnlyRequestHandlerTests
     path: ../tests/specification/RequestHandlers/EditOnlyRequestHandlerTests.cs
@@ -59,7 +59,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/EditOnlyRequestHandlerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../tests/specification/RequestHandlers/EditOnlyRequestHandlerTests.cs
@@ -88,7 +88,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/EditOnlyRequestHandlerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: EditAsync_SuccessfulEdit_ReturnsResponseWithData
     path: ../tests/specification/RequestHandlers/EditOnlyRequestHandlerTests.cs
@@ -128,7 +128,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/EditOnlyRequestHandlerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: EditAsync_UnsuccessfulEdit_ReturnsUnsuccessfulResponse
     path: ../tests/specification/RequestHandlers/EditOnlyRequestHandlerTests.cs
@@ -168,7 +168,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/EditOnlyRequestHandlerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: EditAsync_NullRequest_ThrowsArgumentNullException
     path: ../tests/specification/RequestHandlers/EditOnlyRequestHandlerTests.cs
@@ -208,7 +208,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/EditOnlyRequestHandlerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: EditCollectionAsync_SuccessfulEdit_ReturnsResponseWithData
     path: ../tests/specification/RequestHandlers/EditOnlyRequestHandlerTests.cs
@@ -248,7 +248,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/EditOnlyRequestHandlerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: EditCollectionAsync_UnsuccessfulEdit_ReturnsUnsuccessfulResponse
     path: ../tests/specification/RequestHandlers/EditOnlyRequestHandlerTests.cs
@@ -288,7 +288,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/EditOnlyRequestHandlerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: EditCollectionAsync_NullRequest_ThrowsArgumentNullException
     path: ../tests/specification/RequestHandlers/EditOnlyRequestHandlerTests.cs

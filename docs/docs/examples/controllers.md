@@ -1,6 +1,6 @@
 ## Build By Example
 
-Here is a simple Web API of a **Todo App** using Quickie.
+Here is a simple Web API with controllers for a **Todo App** using Quickie.
 
 ### Step 1: Create a new Web API Project
 

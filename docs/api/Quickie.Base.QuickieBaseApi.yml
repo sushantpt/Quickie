@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: src/Quickie/Base/QuickieBaseApi.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: QuickieBaseApi
     path: ../src/Quickie/Base/QuickieBaseApi.cs

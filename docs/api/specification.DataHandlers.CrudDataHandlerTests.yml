@@ -24,7 +24,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/CrudDataHandlerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: CrudDataHandlerTests
     path: ../tests/specification/DataHandlers/CrudDataHandlerTests.cs
@@ -61,7 +61,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/CrudDataHandlerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../tests/specification/DataHandlers/CrudDataHandlerTests.cs
@@ -90,7 +90,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/CrudDataHandlerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: CreateAsync_ShouldReturnSuccess_WhenEntityIsAdded
     path: ../tests/specification/DataHandlers/CrudDataHandlerTests.cs
@@ -130,7 +130,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/CrudDataHandlerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: CreateAsync_ShouldReturnFailure_WhenSaveFails
     path: ../tests/specification/DataHandlers/CrudDataHandlerTests.cs
@@ -170,7 +170,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/CrudDataHandlerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: GetByIdAsync_ShouldReturnSuccess_WhenEntityExists
     path: ../tests/specification/DataHandlers/CrudDataHandlerTests.cs
@@ -210,7 +210,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/CrudDataHandlerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: GetByIdAsync_ShouldReturnFailure_WhenEntityDoesNotExist
     path: ../tests/specification/DataHandlers/CrudDataHandlerTests.cs
@@ -250,7 +250,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/CrudDataHandlerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: UpdateAsync_ShouldReturnSuccess_WhenEntityIsUpdated
     path: ../tests/specification/DataHandlers/CrudDataHandlerTests.cs
@@ -290,7 +290,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/CrudDataHandlerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: UpdateAsync_ShouldReturnFailure_WhenEntityDoesNotExist
     path: ../tests/specification/DataHandlers/CrudDataHandlerTests.cs
@@ -330,7 +330,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/CrudDataHandlerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: DeleteAsync_ShouldReturnSuccess_WhenEntityIsDeleted
     path: ../tests/specification/DataHandlers/CrudDataHandlerTests.cs
@@ -370,7 +370,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/CrudDataHandlerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: DeleteAsync_ShouldReturnFailure_WhenEntityDoesNotExist
     path: ../tests/specification/DataHandlers/CrudDataHandlerTests.cs

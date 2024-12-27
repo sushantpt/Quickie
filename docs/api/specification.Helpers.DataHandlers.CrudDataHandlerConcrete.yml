@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: tests/specification/Helpers/DataHandlers/CrudDataHandlerConcrete.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: CrudDataHandlerConcrete
     path: ../tests/specification/Helpers/DataHandlers/CrudDataHandlerConcrete.cs
@@ -58,7 +58,7 @@ items:
   source:
     remote:
       path: tests/specification/Helpers/DataHandlers/CrudDataHandlerConcrete.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../tests/specification/Helpers/DataHandlers/CrudDataHandlerConcrete.cs

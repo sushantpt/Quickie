@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: src/Quickie/MinimalApis/WriteOnly/WriteOnlyEndpoints.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: WriteOnlyEndpoints
     path: ../src/Quickie/MinimalApis/WriteOnly/WriteOnlyEndpoints.cs
@@ -54,7 +54,7 @@ items:
   source:
     remote:
       path: src/Quickie/MinimalApis/WriteOnly/WriteOnlyEndpoints.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: AddWriteOnlyEndpoints
     path: ../src/Quickie/MinimalApis/WriteOnly/WriteOnlyEndpoints.cs

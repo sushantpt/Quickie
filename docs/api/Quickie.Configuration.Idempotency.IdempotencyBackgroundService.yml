@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Quickie/Configuration/Idempotency/IdempotencyBackgroundService.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: IdempotencyBackgroundService
     path: ../src/Quickie/Configuration/Idempotency/IdempotencyBackgroundService.cs
@@ -62,7 +62,7 @@ items:
   source:
     remote:
       path: src/Quickie/Configuration/Idempotency/IdempotencyBackgroundService.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../src/Quickie/Configuration/Idempotency/IdempotencyBackgroundService.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: src/Quickie/Configuration/Idempotency/IdempotencyBackgroundService.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: ExecuteAsync
     path: ../src/Quickie/Configuration/Idempotency/IdempotencyBackgroundService.cs

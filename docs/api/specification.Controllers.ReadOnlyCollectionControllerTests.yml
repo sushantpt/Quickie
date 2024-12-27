@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: tests/specification/Controllers/ReadOnlyCollectionControllerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: ReadOnlyCollectionControllerTests
     path: ../tests/specification/Controllers/ReadOnlyCollectionControllerTests.cs
@@ -57,7 +57,7 @@ items:
   source:
     remote:
       path: tests/specification/Controllers/ReadOnlyCollectionControllerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../tests/specification/Controllers/ReadOnlyCollectionControllerTests.cs
@@ -86,7 +86,7 @@ items:
   source:
     remote:
       path: tests/specification/Controllers/ReadOnlyCollectionControllerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: GetAsync_ValidRequest_ReturnsOkResponse
     path: ../tests/specification/Controllers/ReadOnlyCollectionControllerTests.cs
@@ -126,7 +126,7 @@ items:
   source:
     remote:
       path: tests/specification/Controllers/ReadOnlyCollectionControllerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: GetAsync_NoItemsFound_ReturnsNotFoundResponse
     path: ../tests/specification/Controllers/ReadOnlyCollectionControllerTests.cs
@@ -166,7 +166,7 @@ items:
   source:
     remote:
       path: tests/specification/Controllers/ReadOnlyCollectionControllerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: GetAsync_InvalidModelState_ReturnsBadRequest
     path: ../tests/specification/Controllers/ReadOnlyCollectionControllerTests.cs
@@ -206,7 +206,7 @@ items:
   source:
     remote:
       path: tests/specification/Controllers/ReadOnlyCollectionControllerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: GetAsync_ExceptionThrown_ReturnsBadRequestWithErrorMessage
     path: ../tests/specification/Controllers/ReadOnlyCollectionControllerTests.cs

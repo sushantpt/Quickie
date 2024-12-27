@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: src/Quickie/MinimalApis/Crud/CrudForCollectionEndpoints.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: CrudForCollectionEndpoints
     path: ../src/Quickie/MinimalApis/Crud/CrudForCollectionEndpoints.cs
@@ -54,7 +54,7 @@ items:
   source:
     remote:
       path: src/Quickie/MinimalApis/Crud/CrudForCollectionEndpoints.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: AddCollectionEndpoints
     path: ../src/Quickie/MinimalApis/Crud/CrudForCollectionEndpoints.cs

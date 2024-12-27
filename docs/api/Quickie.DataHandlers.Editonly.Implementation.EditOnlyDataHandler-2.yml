@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Editonly/Implementation/EditOnlyDataHandler.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: EditOnlyDataHandler
     path: ../src/Quickie/DataHandlers/Editonly/Implementation/EditOnlyDataHandler.cs
@@ -67,7 +67,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Editonly/Implementation/EditOnlyDataHandler.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../src/Quickie/DataHandlers/Editonly/Implementation/EditOnlyDataHandler.cs
@@ -102,7 +102,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Editonly/Implementation/EditOnlyDataHandler.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: EditAsync
     path: ../src/Quickie/DataHandlers/Editonly/Implementation/EditOnlyDataHandler.cs
@@ -147,7 +147,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Editonly/Implementation/EditOnlyDataHandler.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: EditCollectionAsync
     path: ../src/Quickie/DataHandlers/Editonly/Implementation/EditOnlyDataHandler.cs

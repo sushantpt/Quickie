@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: src/Quickie/Apis/Crud/CrudController.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: CrudController
     path: ../src/Quickie/Apis/Crud/CrudController.cs
@@ -244,7 +244,7 @@ items:
   source:
     remote:
       path: src/Quickie/Apis/Crud/CrudController.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../src/Quickie/Apis/Crud/CrudController.cs
@@ -279,7 +279,7 @@ items:
   source:
     remote:
       path: src/Quickie/Apis/Crud/CrudController.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: CreateAsync
     path: ../src/Quickie/Apis/Crud/CrudController.cs
@@ -345,7 +345,7 @@ items:
   source:
     remote:
       path: src/Quickie/Apis/Crud/CrudController.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: GetByIdAsync
     path: ../src/Quickie/Apis/Crud/CrudController.cs
@@ -401,7 +401,7 @@ items:
   source:
     remote:
       path: src/Quickie/Apis/Crud/CrudController.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: UpdateAsync
     path: ../src/Quickie/Apis/Crud/CrudController.cs
@@ -464,7 +464,7 @@ items:
   source:
     remote:
       path: src/Quickie/Apis/Crud/CrudController.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: DeleteAsync
     path: ../src/Quickie/Apis/Crud/CrudController.cs

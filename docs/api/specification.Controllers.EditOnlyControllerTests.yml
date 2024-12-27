@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: tests/specification/Controllers/EditOnlyControllerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: EditOnlyControllerTests
     path: ../tests/specification/Controllers/EditOnlyControllerTests.cs
@@ -59,7 +59,7 @@ items:
   source:
     remote:
       path: tests/specification/Controllers/EditOnlyControllerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../tests/specification/Controllers/EditOnlyControllerTests.cs
@@ -88,7 +88,7 @@ items:
   source:
     remote:
       path: tests/specification/Controllers/EditOnlyControllerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: EditAsync_ValidRequest_ReturnsOkResponse
     path: ../tests/specification/Controllers/EditOnlyControllerTests.cs
@@ -128,7 +128,7 @@ items:
   source:
     remote:
       path: tests/specification/Controllers/EditOnlyControllerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: EditAsync_HandlerReturnsUnsuccessful_ReturnsBadRequest
     path: ../tests/specification/Controllers/EditOnlyControllerTests.cs
@@ -168,7 +168,7 @@ items:
   source:
     remote:
       path: tests/specification/Controllers/EditOnlyControllerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: EditAsync_InvalidModelState_ReturnsBadRequest
     path: ../tests/specification/Controllers/EditOnlyControllerTests.cs
@@ -208,7 +208,7 @@ items:
   source:
     remote:
       path: tests/specification/Controllers/EditOnlyControllerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: EditCollectionAsync_ValidRequest_ReturnsOkResponse
     path: ../tests/specification/Controllers/EditOnlyControllerTests.cs
@@ -248,7 +248,7 @@ items:
   source:
     remote:
       path: tests/specification/Controllers/EditOnlyControllerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: EditCollectionAsync_HandlerReturnsUnsuccessful_ReturnsBadRequest
     path: ../tests/specification/Controllers/EditOnlyControllerTests.cs
@@ -288,7 +288,7 @@ items:
   source:
     remote:
       path: tests/specification/Controllers/EditOnlyControllerTests.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: EditCollectionAsync_InvalidModelState_ReturnsBadRequest
     path: ../tests/specification/Controllers/EditOnlyControllerTests.cs

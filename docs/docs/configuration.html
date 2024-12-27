@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/sushantpt/Quickie/blob/f-minimalapi/docs/docs/configuration.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/sushantpt/Quickie/blob/master/docs/docs/configuration.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -112,7 +112,7 @@ app.AddQuickie();
 </ul>
 </li>
 <li>Idempotency is disabled.</li>
-<li>Custom error message is enabled. API client will see custom generic message instead of the real error message.</li>
+<li>Custom error message is enabled. API client will see custom generic message instead of the exception messages.</li>
 </ul>
 <h2 id="idempotency-configuration">Idempotency Configuration</h2>
 <p>Idempotency prevents duplicate API request. You can make your POST call idempotent. To enable idempotency:</p>
@@ -161,34 +161,64 @@ app.AddQuickie();
 </tr>
 </tbody>
 </table>
-<p><a href="https://sushantpt.github.io/Quickie/api/Quickie.Configuration.Idempotency.IdempotentConfiguration.html?q=IdempotentConfiguration">doc</a></p>
+<h5 id="view-doc">View <a href="https://sushantpt.github.io/Quickie/api/Quickie.Configuration.Idempotency.IdempotentConfiguration.html?q=IdempotentConfiguration">doc</a></h5>
+<h2 id="default-idempotency-provider">Default Idempotency provider</h2>
+<p>Quickie uses in-memory option to provide idempotency.</p>
+<h4 id="example">Example:</h4>
+<pre><code class="lang-csharp">builder.Services.QuickieConfig(options =&gt; {
+    options.IdempotencyConfiguration = new IdempotentConfiguration {
+        Enable = true
+    };
+});
+</code></pre>
+<p>By default idempotency is disabled, above configuration enables it. Now, every POST request requires <code>X-Idempotency-Key</code> header. Header's value will be saved in-mem. Every 1 hour background service will reset this in-memory pool. You can customize idempotency lifespan and interval period to run background service.</p>
+<h4 id="example-1">Example:</h4>
+<pre><code class="lang-csharp">builder.Services.QuickieConfig(options =&gt; {
+    options.IdempotencyConfiguration = new IdempotentConfiguration {
+        Enable = true,
+        RunBackgroundServiceEveryHour = 2,
+        IdempotencyLifespan = TimeSpan.FromHours(5)
+    };
+});
+</code></pre>
+<p>Above config will run background service every 2 hours and sets idempotency key's lifespan to 5 hours. It means each key's lifespan is 5 hours and any key whose lifespan has completed will be removed by backgroud service from in-memory pool in every 2 hours.</p>
 <h2 id="custom-idempotency-provider">Custom Idempotency provider</h2>
 <p>Instead of Quickie's default idempotency provider, you can have your own custom provider using Redis, MongoDB, SQL databases, or any other storage solution. Implement your provider with <code>IIdempotencyProvider</code>. Here is an example using <a href="https://redis.io/docs/latest/develop/clients/dotnet/">Redis</a>:</p>
-<pre><code class="lang-csharp">public class RedisIdempotencyProvider : IIdempotencyProvider
-{
-    private readonly IConnectionMultiplexer _redis;
-    private readonly TimeSpan _keyLifespan;
+<h4 id="run-redis-server">Run Redis server</h4>
+<pre><code class="lang-bash">docker run -d --name redis -p 6379:6379 redis
+</code></pre>
+<h5 id="check-process-status">Check process status</h5>
+<pre><code class="lang-bash">docker ps
+</code></pre>
+<p><strong>You are good to go if Redis is running.</strong></p>
+<pre><code class="lang-csharp">using Quickie.Configuration.Idempotency;
+using StackExchange.Redis;
 
-    public RedisIdempotencyProvider(IConnectionMultiplexer redis, TimeSpan keyLifespan)
+namespace sample.idempotent.redis.Configuration;
+
+public class RedisIdempotencyProvider : IIdempotencyProvider
+{
+    private readonly IDatabase _redisDatabase;
+    public RedisIdempotencyProvider(IConnectionMultiplexer redisConnection)
     {
-        _redis = redis;
-        _keyLifespan = keyLifespan;
+        _redisDatabase = redisConnection.GetDatabase();
     }
 
     public async ValueTask&lt;bool&gt; ExistsAsync(string key)
     {
-        var db = _redis.GetDatabase();
-        return await db.KeyExistsAsync(key);
+        var check = await _redisDatabase.KeyExistsAsync(key);
+        return check;
     }
 
     public async ValueTask MarkAsync(string key)
     {
-        var db = _redis.GetDatabase();
-        await db.StringSetAsync(key, &quot;1&quot;, _keyLifespan);
+        var lifespan = TimeSpan.FromHours(1); // holds this key only for 1 hr
+        await _redisDatabase.StringSetAsync(key, DateTime.UtcNow.ToString(&quot;o&quot;), lifespan);
     }
 
     public async ValueTask RemoveExpiredKeys()
     {
+        // redis automatically removes keys when their lifespan.
         await ValueTask.CompletedTask;
     }
 }
@@ -197,12 +227,15 @@ app.AddQuickie();
 <pre><code class="lang-csharp">builder.Services.QuickieConfig(options =&gt; {
     options.IdempotencyConfiguration = new IdempotentConfiguration {
         Enable = true,
-        IdempotencyLifespan = TimeSpan.FromHours(2),
-        RunBackgroundServiceEveryHour = 2,
-        Provider = new RedisIdempotencyProvider()
+        RunBackgroundServiceEveryHour = 1,
+        Provider = new RedisIdempotencyProvider(redisConnection)
     };
 });
 </code></pre>
+<p>The background service will run once every hour to clean up expired idempotency keys from Redis. Although Redis automatically removes expired keys, the background service can be used for additional tasks like manually cleaning up or performing other maintenance if needed.</p>
+<blockquote>
+<p><code>IdempotencyLifespan</code> is only for quickie's default idempotency provider. If you're using a custom provider like redis or other options, you'll need to implement the lifespan logic for the keys yourself as demonstrated in the example above. <code>RedisIdempotencyProvider</code> will be automatically resolved by Quickie as well.</p>
+</blockquote>
 <h2 id="rate-limiting-configuration">Rate Limiting Configuration</h2>
 <p>Quickie provides rate limiting options based on IP address by default. To customize:</p>
 <ul>
@@ -262,7 +295,7 @@ app.AddQuickie();
 </tbody>
 </table>
 <blockquote>
-<p>Internally, Quickie uses the sliding door algorithm with IP addresses to check for rate limiting. <a href="https://sushantpt.github.io/Quickie/api/Quickie.Configuration.QuickieExtension.html">src</a></p>
+<p>Internally, Quickie implements rate limiting using the <a href="https://learn.microsoft.com/en-us/aspnet/core/performance/rate-limit?view=aspnetcore-9.0#slide">Fixed Window algorithm</a>, which tracks requests based on IP addresses. This allows you to limit the number of requests a user can make within a specific time window. For example, the configuration in the code above sets a limit on the number of requests that can be made from a given IP address within a defined time window. If the limit is exceeded, Quickie will return a 429 Too Many Requests status code. <a href="https://sushantpt.github.io/Quickie/api/Quickie.Configuration.QuickieExtension.html">src</a></p>
 </blockquote>
 <h2 id="error-message-configuration">Error Message Configuration</h2>
 <p>Configure how you want to show your error messages: show actual error or generic message.</p>
@@ -274,8 +307,8 @@ app.AddQuickie();
 });
 </code></pre>
 <p>Above configuration will show custom generic error message for all sorta errors.</p>
-<h4 id="example">Example:</h4>
-<p>If database related occur while creating an entity, instead of showing actual error, it will show: <code>Data not created.</code></p>
+<h4 id="example-2">Example:</h4>
+<p>If database related occur while creating an entity, instead of showing actual exception message, it will show: <code>Data not created.</code></p>
 <ul>
 <li>Show actual error</li>
 </ul>
@@ -283,15 +316,15 @@ app.AddQuickie();
     options.ShowCustomErrorMessage = false;
 });
 </code></pre>
-<p>Above configuration will show actual error message for all sorta errors.</p>
-<h4 id="example-1">Example:</h4>
+<p>Above configuration will show actual exception message for all sorta errors.</p>
+<h4 id="example-3">Example:</h4>
 <p>If database related occur while creating an entity, it will show: <code>The specified key 'user_id' was not ...</code></p>
 <p>Configuration src doc <a href="../api/Quickie.Configuration.html">here</a></p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/sushantpt/Quickie/blob/f-minimalapi/docs/docs/configuration.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/sushantpt/Quickie/blob/master/docs/docs/configuration.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

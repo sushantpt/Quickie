@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: tests/specification/Helpers/RequestHandlers/EditOnlyRequestHandlerConcrete.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: EditOnlyRequestHandlerConcrete
     path: ../tests/specification/Helpers/RequestHandlers/EditOnlyRequestHandlerConcrete.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: tests/specification/Helpers/RequestHandlers/EditOnlyRequestHandlerConcrete.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../tests/specification/Helpers/RequestHandlers/EditOnlyRequestHandlerConcrete.cs
@@ -96,7 +96,7 @@ items:
   source:
     remote:
       path: tests/specification/Helpers/RequestHandlers/EditOnlyRequestHandlerConcrete.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: MapToEntity
     path: ../tests/specification/Helpers/RequestHandlers/EditOnlyRequestHandlerConcrete.cs
@@ -132,7 +132,7 @@ items:
   source:
     remote:
       path: tests/specification/Helpers/RequestHandlers/EditOnlyRequestHandlerConcrete.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: MapToDto
     path: ../tests/specification/Helpers/RequestHandlers/EditOnlyRequestHandlerConcrete.cs
@@ -168,7 +168,7 @@ items:
   source:
     remote:
       path: tests/specification/Helpers/RequestHandlers/EditOnlyRequestHandlerConcrete.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: MapToCollectionOfEntity
     path: ../tests/specification/Helpers/RequestHandlers/EditOnlyRequestHandlerConcrete.cs
@@ -207,7 +207,7 @@ items:
   source:
     remote:
       path: tests/specification/Helpers/RequestHandlers/EditOnlyRequestHandlerConcrete.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: MapToCollectionOfDto
     path: ../tests/specification/Helpers/RequestHandlers/EditOnlyRequestHandlerConcrete.cs

@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: src/Quickie/Types/Writable/WriteOnlyEntity.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: WriteOnlyEntity
     path: ../src/Quickie/Types/Writable/WriteOnlyEntity.cs

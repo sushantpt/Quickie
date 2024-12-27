@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: ICrudForCollectionRequestHandler
     path: ../src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
@@ -51,7 +51,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: CreateRangeAsync
     path: ../src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
@@ -87,7 +87,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: UpdateRangeAsync
     path: ../src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
@@ -123,7 +123,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: DeleteRangeAsync
     path: ../src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
@@ -159,7 +159,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: GetAllAsync
     path: ../src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
@@ -194,7 +194,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: CountAsync
     path: ../src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs

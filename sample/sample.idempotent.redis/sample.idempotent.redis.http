@@ -1,0 +1,30 @@
+@sample.idempotent.redis_HostAddress = http://localhost:5190
+
+GET http://localhost:5190/weatherforecast/
+Accept: application/json
+
+### Create Todo
+POST http://localhost:5190/api/todos
+X-Idempotency-Key: "4136d50e-ba33-46c1-9f0b-cdff16d27d72"
+Content-Type: application/json
+
+{
+  "title": "Test Todo yayay",
+  "description": "Testing CRUD operations"
+}
+
+### Get Todo by ID
+GET http://localhost:5190/api/todos/2
+
+### Update Todo
+PUT http://localhost:5190/api/todos/2
+Content-Type: application/json
+
+{
+  "id": 2,
+  "title": "Updated Todo",
+  "description": "Updated description"
+}
+
+### Delete Todo
+DELETE http://localhost:5190/api/todos/1

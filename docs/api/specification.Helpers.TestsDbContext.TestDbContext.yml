@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: tests/specification/Helpers/TestsDbContext/TestDbContext.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: TestDbContext
     path: ../tests/specification/Helpers/TestsDbContext/TestDbContext.cs
@@ -110,7 +110,7 @@ items:
   source:
     remote:
       path: tests/specification/Helpers/TestsDbContext/TestDbContext.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../tests/specification/Helpers/TestsDbContext/TestDbContext.cs
@@ -142,7 +142,7 @@ items:
   source:
     remote:
       path: tests/specification/Helpers/TestsDbContext/TestDbContext.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: CrudEntityConcrete
     path: ../tests/specification/Helpers/TestsDbContext/TestDbContext.cs
@@ -171,7 +171,7 @@ items:
   source:
     remote:
       path: tests/specification/Helpers/TestsDbContext/TestDbContext.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: EditOnlyEntityConcrete
     path: ../tests/specification/Helpers/TestsDbContext/TestDbContext.cs
@@ -200,7 +200,7 @@ items:
   source:
     remote:
       path: tests/specification/Helpers/TestsDbContext/TestDbContext.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: ReadOnlyEntityConcrete
     path: ../tests/specification/Helpers/TestsDbContext/TestDbContext.cs

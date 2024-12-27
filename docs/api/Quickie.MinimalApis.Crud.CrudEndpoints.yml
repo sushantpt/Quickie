@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: src/Quickie/MinimalApis/Crud/CrudEndpoints.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: CrudEndpoints
     path: ../src/Quickie/MinimalApis/Crud/CrudEndpoints.cs
@@ -54,7 +54,7 @@ items:
   source:
     remote:
       path: src/Quickie/MinimalApis/Crud/CrudEndpoints.cs
-      branch: f-minimalapi
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: AddCrudEndpoints
     path: ../src/Quickie/MinimalApis/Crud/CrudEndpoints.cs
