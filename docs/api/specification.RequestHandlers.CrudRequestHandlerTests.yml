@@ -29,7 +29,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: CrudRequestHandlerTests
     path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
@@ -66,7 +66,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
@@ -95,7 +95,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: CreateAsync_SuccessfulCreation_ReturnsResponseWithData
     path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
@@ -135,7 +135,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: CreateAsync_UnsuccessfulCreation_ReturnsUnsuccessfulResponse
     path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
@@ -175,7 +175,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: CreateAsync_NullRequest_ThrowsArgumentNullException
     path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
@@ -215,7 +215,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: UpdateAsync_SuccessfulUpdate_ReturnsResponseWithData
     path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
@@ -255,7 +255,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: UpdateAsync_UnsuccessfulUpdate_ReturnsUnsuccessfulResponse
     path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
@@ -295,7 +295,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: UpdateAsync_NullRequest_ThrowsArgumentNullException
     path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
@@ -335,7 +335,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: GetByIdAsync_SuccessfulRetrieval_ReturnsResponseWithData
     path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
@@ -375,7 +375,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: GetByIdAsync_NotFoundEntity_ReturnsUnsuccessfulResponse
     path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
@@ -415,7 +415,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: GetByIdAsync_DefaultId_ThrowsArgumentNullException
     path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
@@ -455,7 +455,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: GetByIdAsync_NegativeId_ReturnsArgumentException
     path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
@@ -495,7 +495,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: DeleteAsync_SuccessfulDeletion_ReturnsSuccessfulResponse
     path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
@@ -535,7 +535,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: DeleteAsync_UnsuccessfulDeletion_ReturnsUnsuccessfulResponse
     path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
@@ -575,7 +575,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/CrudRequestHandlerTests.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: DeleteAsync_DefaultId_ThrowsArgumentNullException
     path: ../tests/specification/RequestHandlers/CrudRequestHandlerTests.cs

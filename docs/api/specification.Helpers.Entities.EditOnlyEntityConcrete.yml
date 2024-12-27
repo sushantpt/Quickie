@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: tests/specification/Helpers/Entities/EditOnlyEntityConcrete.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: EditOnlyEntityConcrete
     path: ../tests/specification/Helpers/Entities/EditOnlyEntityConcrete.cs
@@ -53,7 +53,7 @@ items:
   source:
     remote:
       path: tests/specification/Helpers/Entities/EditOnlyEntityConcrete.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: Id
     path: ../tests/specification/Helpers/Entities/EditOnlyEntityConcrete.cs
@@ -82,7 +82,7 @@ items:
   source:
     remote:
       path: tests/specification/Helpers/Entities/EditOnlyEntityConcrete.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: Name
     path: ../tests/specification/Helpers/Entities/EditOnlyEntityConcrete.cs

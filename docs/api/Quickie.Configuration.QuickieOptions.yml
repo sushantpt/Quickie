@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Quickie/Configuration/QuickieOptions.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: QuickieOptions
     path: ../src/Quickie/Configuration/QuickieOptions.cs
@@ -55,7 +55,7 @@ items:
   source:
     remote:
       path: src/Quickie/Configuration/QuickieOptions.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: IdempotencyConfiguration
     path: ../src/Quickie/Configuration/QuickieOptions.cs
@@ -86,7 +86,7 @@ items:
   source:
     remote:
       path: src/Quickie/Configuration/QuickieOptions.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: RateLimitingConfiguration
     path: ../src/Quickie/Configuration/QuickieOptions.cs
@@ -117,7 +117,7 @@ items:
   source:
     remote:
       path: src/Quickie/Configuration/QuickieOptions.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: ShowCustomErrorMessage
     path: ../src/Quickie/Configuration/QuickieOptions.cs

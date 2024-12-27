@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/ReadOnlyDataHandlerTests.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: ReadOnlyDataHandlerTests
     path: ../tests/specification/DataHandlers/ReadOnlyDataHandlerTests.cs
@@ -57,7 +57,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/ReadOnlyDataHandlerTests.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../tests/specification/DataHandlers/ReadOnlyDataHandlerTests.cs
@@ -86,7 +86,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/ReadOnlyDataHandlerTests.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: GetByIdAsync_ShouldReturnEntity_WhenIdExists
     path: ../tests/specification/DataHandlers/ReadOnlyDataHandlerTests.cs
@@ -126,7 +126,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/ReadOnlyDataHandlerTests.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: GetByIdAsync_ShouldReturnNull_WhenIdDoesNotExist
     path: ../tests/specification/DataHandlers/ReadOnlyDataHandlerTests.cs
@@ -166,7 +166,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/ReadOnlyDataHandlerTests.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: GetByIdAsync_ShouldThrowException_WhenContextIsNull
     path: ../tests/specification/DataHandlers/ReadOnlyDataHandlerTests.cs
@@ -204,7 +204,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/ReadOnlyDataHandlerTests.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: GetByIdAsync_ShouldThrowException_WhenCancellationRequested
     path: ../tests/specification/DataHandlers/ReadOnlyDataHandlerTests.cs

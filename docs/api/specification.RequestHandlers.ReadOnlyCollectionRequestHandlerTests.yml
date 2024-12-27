@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/ReadOnlyCollectionRequestHandlerTests.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: ReadOnlyCollectionRequestHandlerTests
     path: ../tests/specification/RequestHandlers/ReadOnlyCollectionRequestHandlerTests.cs
@@ -55,7 +55,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/ReadOnlyCollectionRequestHandlerTests.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../tests/specification/RequestHandlers/ReadOnlyCollectionRequestHandlerTests.cs
@@ -84,7 +84,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/ReadOnlyCollectionRequestHandlerTests.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: GetAsync_ShouldReturnPaginatedData_WhenDataExists
     path: ../tests/specification/RequestHandlers/ReadOnlyCollectionRequestHandlerTests.cs
@@ -124,7 +124,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/ReadOnlyCollectionRequestHandlerTests.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: GetAsync_ShouldThrowArgumentException_WhenRequestIsNull
     path: ../tests/specification/RequestHandlers/ReadOnlyCollectionRequestHandlerTests.cs

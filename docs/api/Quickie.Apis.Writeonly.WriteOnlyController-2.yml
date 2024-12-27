@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Quickie/Apis/Writeonly/WriteOnlyController.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: WriteOnlyController
     path: ../src/Quickie/Apis/Writeonly/WriteOnlyController.cs
@@ -236,7 +236,7 @@ items:
   source:
     remote:
       path: src/Quickie/Apis/Writeonly/WriteOnlyController.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../src/Quickie/Apis/Writeonly/WriteOnlyController.cs
@@ -268,7 +268,7 @@ items:
   source:
     remote:
       path: src/Quickie/Apis/Writeonly/WriteOnlyController.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: CreateItemAsync
     path: ../src/Quickie/Apis/Writeonly/WriteOnlyController.cs
@@ -334,7 +334,7 @@ items:
   source:
     remote:
       path: src/Quickie/Apis/Writeonly/WriteOnlyController.cs
-      branch: f-minimalapi
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: CreateItemsAsync
     path: ../src/Quickie/Apis/Writeonly/WriteOnlyController.cs
