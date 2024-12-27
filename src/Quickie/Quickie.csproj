@@ -8,7 +8,7 @@
     <Title>Quickie</Title>
     <Description>Quickie is an open-source library designed to help you build APIs and backend services QUICKLY in .NET.</Description>
     <Copyright>sushantpt</Copyright>
-    <PackageProjectUrl>https://github.com/sushantpt/Quickie</PackageProjectUrl>
+    <PackageProjectUrl>https://sushantpt.github.io/Quickie/index.html</PackageProjectUrl>
     <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/sushantpt/Quickie</RepositoryUrl>
     <RepositoryType>git</RepositoryType>

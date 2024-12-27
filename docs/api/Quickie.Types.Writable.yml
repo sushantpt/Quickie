@@ -18,13 +18,45 @@ items:
 references:
 - uid: Quickie.Types.Writable.WriteOnlyDto
   commentId: T:Quickie.Types.Writable.WriteOnlyDto
+  parent: Quickie.Types.Writable
   href: Quickie.Types.Writable.WriteOnlyDto.html
   name: WriteOnlyDto
   nameWithType: WriteOnlyDto
   fullName: Quickie.Types.Writable.WriteOnlyDto
 - uid: Quickie.Types.Writable.WriteOnlyEntity
   commentId: T:Quickie.Types.Writable.WriteOnlyEntity
+  parent: Quickie.Types.Writable
   href: Quickie.Types.Writable.WriteOnlyEntity.html
   name: WriteOnlyEntity
   nameWithType: WriteOnlyEntity
   fullName: Quickie.Types.Writable.WriteOnlyEntity
+- uid: Quickie.Types.Writable
+  commentId: N:Quickie.Types.Writable
+  href: Quickie.html
+  name: Quickie.Types.Writable
+  nameWithType: Quickie.Types.Writable
+  fullName: Quickie.Types.Writable
+  spec.csharp:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Types
+    name: Types
+    href: Quickie.Types.html
+  - name: .
+  - uid: Quickie.Types.Writable
+    name: Writable
+    href: Quickie.Types.Writable.html
+  spec.vb:
+  - uid: Quickie
+    name: Quickie
+    href: Quickie.html
+  - name: .
+  - uid: Quickie.Types
+    name: Types
+    href: Quickie.Types.html
+  - name: .
+  - uid: Quickie.Types.Writable
+    name: Writable
+    href: Quickie.Types.Writable.html

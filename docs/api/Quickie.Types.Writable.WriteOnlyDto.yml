@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: src/Quickie/Types/Writable/WriteOnlyDto.cs
-      branch: master
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: WriteOnlyDto
     path: ../src/Quickie/Types/Writable/WriteOnlyDto.cs
@@ -31,6 +31,8 @@ items:
     content.vb: Public Class WriteOnlyDto Implements IEquatable(Of WriteOnlyDto)
   inheritance:
   - System.Object
+  derivedClasses:
+  - specification.Helpers.Dtos.WriteOnlyDtoConcrete
   implements:
   - System.IEquatable{Quickie.Types.Writable.WriteOnlyDto}
   inheritedMembers:
@@ -55,7 +57,7 @@ items:
   source:
     remote:
       path: src/Quickie/Types/Writable/WriteOnlyDto.cs
-      branch: master
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../src/Quickie/Types/Writable/WriteOnlyDto.cs

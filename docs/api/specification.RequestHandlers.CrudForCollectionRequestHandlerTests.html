@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CrudForCollectionRequestHandlerTests | Quickie </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CrudForCollectionRequestHandlerTests | Quickie ">
+      
+      <meta name="description" content="Tests for the CrudForCollectionRequestHandler.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/sushantpt/Quickie/new/f-minimalapi/apiSpec/new?filename=specification_RequestHandlers_CrudForCollectionRequestHandlerTests.md&amp;value=---%0Auid%3A%20specification.RequestHandlers.CrudForCollectionRequestHandlerTests%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-S4FG36P7BW"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-S4FG36P7BW');
+      </script>
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Quickie">
+            Quickie
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="specification.RequestHandlers.CrudForCollectionRequestHandlerTests">
+
+
+
+  <h1 id="specification_RequestHandlers_CrudForCollectionRequestHandlerTests" data-uid="specification.RequestHandlers.CrudForCollectionRequestHandlerTests" class="text-break">
+Class CrudForCollectionRequestHandlerTests  <a class="header-action link-secondary" title="View source" href="https://github.com/sushantpt/Quickie/blob/f-minimalapi/tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="specification.html">specification</a>.<a class="xref" href="specification.RequestHandlers.html">RequestHandlers</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>specification.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Tests for the CrudForCollectionRequestHandler.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CrudForCollectionRequestHandlerTests</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CrudForCollectionRequestHandlerTests</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="specification_RequestHandlers_CrudForCollectionRequestHandlerTests__ctor_" data-uid="specification.RequestHandlers.CrudForCollectionRequestHandlerTests.#ctor*"></a>
+
+  <h3 id="specification_RequestHandlers_CrudForCollectionRequestHandlerTests__ctor" data-uid="specification.RequestHandlers.CrudForCollectionRequestHandlerTests.#ctor">
+  CrudForCollectionRequestHandlerTests()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sushantpt/Quickie/blob/f-minimalapi/tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CrudForCollectionRequestHandlerTests()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="specification_RequestHandlers_CrudForCollectionRequestHandlerTests_CountAsync_ReturnsCount_" data-uid="specification.RequestHandlers.CrudForCollectionRequestHandlerTests.CountAsync_ReturnsCount*"></a>
+
+  <h3 id="specification_RequestHandlers_CrudForCollectionRequestHandlerTests_CountAsync_ReturnsCount" data-uid="specification.RequestHandlers.CrudForCollectionRequestHandlerTests.CountAsync_ReturnsCount">
+  CountAsync_ReturnsCount()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sushantpt/Quickie/blob/f-minimalapi/tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>CountAsync successful test.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Fact]
+public Task CountAsync_ReturnsCount()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="specification_RequestHandlers_CrudForCollectionRequestHandlerTests_CreateRangeAsync_NullRequest_ThrowsArgumentNullException_" data-uid="specification.RequestHandlers.CrudForCollectionRequestHandlerTests.CreateRangeAsync_NullRequest_ThrowsArgumentNullException*"></a>
+
+  <h3 id="specification_RequestHandlers_CrudForCollectionRequestHandlerTests_CreateRangeAsync_NullRequest_ThrowsArgumentNullException" data-uid="specification.RequestHandlers.CrudForCollectionRequestHandlerTests.CreateRangeAsync_NullRequest_ThrowsArgumentNullException">
+  CreateRangeAsync_NullRequest_ThrowsArgumentNullException()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sushantpt/Quickie/blob/f-minimalapi/tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>CreateRangeAsync fails due to null input.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Fact]
+public Task CreateRangeAsync_NullRequest_ThrowsArgumentNullException()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="specification_RequestHandlers_CrudForCollectionRequestHandlerTests_CreateRangeAsync_SuccessfulCreation_ReturnsResponseWithData_" data-uid="specification.RequestHandlers.CrudForCollectionRequestHandlerTests.CreateRangeAsync_SuccessfulCreation_ReturnsResponseWithData*"></a>
+
+  <h3 id="specification_RequestHandlers_CrudForCollectionRequestHandlerTests_CreateRangeAsync_SuccessfulCreation_ReturnsResponseWithData" data-uid="specification.RequestHandlers.CrudForCollectionRequestHandlerTests.CreateRangeAsync_SuccessfulCreation_ReturnsResponseWithData">
+  CreateRangeAsync_SuccessfulCreation_ReturnsResponseWithData()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sushantpt/Quickie/blob/f-minimalapi/tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>CreateRangeAsync successful test.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Fact]
+public Task CreateRangeAsync_SuccessfulCreation_ReturnsResponseWithData()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="specification_RequestHandlers_CrudForCollectionRequestHandlerTests_CreateRangeAsync_UnsuccessfulCreation_ReturnsUnsuccessfulResponse_" data-uid="specification.RequestHandlers.CrudForCollectionRequestHandlerTests.CreateRangeAsync_UnsuccessfulCreation_ReturnsUnsuccessfulResponse*"></a>
+
+  <h3 id="specification_RequestHandlers_CrudForCollectionRequestHandlerTests_CreateRangeAsync_UnsuccessfulCreation_ReturnsUnsuccessfulResponse" data-uid="specification.RequestHandlers.CrudForCollectionRequestHandlerTests.CreateRangeAsync_UnsuccessfulCreation_ReturnsUnsuccessfulResponse">
+  CreateRangeAsync_UnsuccessfulCreation_ReturnsUnsuccessfulResponse()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sushantpt/Quickie/blob/f-minimalapi/tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>CreateRangeAsync failed test.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Fact]
+public Task CreateRangeAsync_UnsuccessfulCreation_ReturnsUnsuccessfulResponse()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="specification_RequestHandlers_CrudForCollectionRequestHandlerTests_DeleteRangeAsync_NullIds_ThrowsArgumentNullException_" data-uid="specification.RequestHandlers.CrudForCollectionRequestHandlerTests.DeleteRangeAsync_NullIds_ThrowsArgumentNullException*"></a>
+
+  <h3 id="specification_RequestHandlers_CrudForCollectionRequestHandlerTests_DeleteRangeAsync_NullIds_ThrowsArgumentNullException" data-uid="specification.RequestHandlers.CrudForCollectionRequestHandlerTests.DeleteRangeAsync_NullIds_ThrowsArgumentNullException">
+  DeleteRangeAsync_NullIds_ThrowsArgumentNullException()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sushantpt/Quickie/blob/f-minimalapi/tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>DeleteRangeAsync failed due to null ids.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Fact]
+public Task DeleteRangeAsync_NullIds_ThrowsArgumentNullException()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="specification_RequestHandlers_CrudForCollectionRequestHandlerTests_DeleteRangeAsync_SuccessfulDeletion_ReturnsSuccessfulResponse_" data-uid="specification.RequestHandlers.CrudForCollectionRequestHandlerTests.DeleteRangeAsync_SuccessfulDeletion_ReturnsSuccessfulResponse*"></a>
+
+  <h3 id="specification_RequestHandlers_CrudForCollectionRequestHandlerTests_DeleteRangeAsync_SuccessfulDeletion_ReturnsSuccessfulResponse" data-uid="specification.RequestHandlers.CrudForCollectionRequestHandlerTests.DeleteRangeAsync_SuccessfulDeletion_ReturnsSuccessfulResponse">
+  DeleteRangeAsync_SuccessfulDeletion_ReturnsSuccessfulResponse()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sushantpt/Quickie/blob/f-minimalapi/tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>DeleteRangeAsync successful test.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Fact]
+public Task DeleteRangeAsync_SuccessfulDeletion_ReturnsSuccessfulResponse()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="specification_RequestHandlers_CrudForCollectionRequestHandlerTests_GetAllAsync_SuccessfulRetrieval_ReturnsPaginatedData_" data-uid="specification.RequestHandlers.CrudForCollectionRequestHandlerTests.GetAllAsync_SuccessfulRetrieval_ReturnsPaginatedData*"></a>
+
+  <h3 id="specification_RequestHandlers_CrudForCollectionRequestHandlerTests_GetAllAsync_SuccessfulRetrieval_ReturnsPaginatedData" data-uid="specification.RequestHandlers.CrudForCollectionRequestHandlerTests.GetAllAsync_SuccessfulRetrieval_ReturnsPaginatedData">
+  GetAllAsync_SuccessfulRetrieval_ReturnsPaginatedData()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sushantpt/Quickie/blob/f-minimalapi/tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>GetAllAsync successful test.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Fact]
+public Task GetAllAsync_SuccessfulRetrieval_ReturnsPaginatedData()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="specification_RequestHandlers_CrudForCollectionRequestHandlerTests_UpdateRangeAsync_SuccessfulUpdate_ReturnsResponseWithData_" data-uid="specification.RequestHandlers.CrudForCollectionRequestHandlerTests.UpdateRangeAsync_SuccessfulUpdate_ReturnsResponseWithData*"></a>
+
+  <h3 id="specification_RequestHandlers_CrudForCollectionRequestHandlerTests_UpdateRangeAsync_SuccessfulUpdate_ReturnsResponseWithData" data-uid="specification.RequestHandlers.CrudForCollectionRequestHandlerTests.UpdateRangeAsync_SuccessfulUpdate_ReturnsResponseWithData">
+  UpdateRangeAsync_SuccessfulUpdate_ReturnsResponseWithData()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sushantpt/Quickie/blob/f-minimalapi/tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>UpdateRangeAsync successful test.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Fact]
+public Task UpdateRangeAsync_SuccessfulUpdate_ReturnsResponseWithData()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="specification_RequestHandlers_CrudForCollectionRequestHandlerTests_UpdateRangeAsync_UnsuccessfulUpdate_ReturnsUnsuccessfulResponse_" data-uid="specification.RequestHandlers.CrudForCollectionRequestHandlerTests.UpdateRangeAsync_UnsuccessfulUpdate_ReturnsUnsuccessfulResponse*"></a>
+
+  <h3 id="specification_RequestHandlers_CrudForCollectionRequestHandlerTests_UpdateRangeAsync_UnsuccessfulUpdate_ReturnsUnsuccessfulResponse" data-uid="specification.RequestHandlers.CrudForCollectionRequestHandlerTests.UpdateRangeAsync_UnsuccessfulUpdate_ReturnsUnsuccessfulResponse">
+  UpdateRangeAsync_UnsuccessfulUpdate_ReturnsUnsuccessfulResponse()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sushantpt/Quickie/blob/f-minimalapi/tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>UpdateRangeAsync failed test.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Fact]
+public Task UpdateRangeAsync_UnsuccessfulUpdate_ReturnsUnsuccessfulResponse()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/sushantpt/Quickie/blob/f-minimalapi/tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs/#L13" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

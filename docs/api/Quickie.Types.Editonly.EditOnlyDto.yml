@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: src/Quickie/Types/Editonly/EditOnlyDto.cs
-      branch: master
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: EditOnlyDto
     path: ../src/Quickie/Types/Editonly/EditOnlyDto.cs
@@ -31,6 +31,8 @@ items:
     content.vb: Public MustInherit Class EditOnlyDto Implements IEquatable(Of EditOnlyDto)
   inheritance:
   - System.Object
+  derivedClasses:
+  - specification.Helpers.Dtos.EditOnlyDtoConcrete
   implements:
   - System.IEquatable{Quickie.Types.Editonly.EditOnlyDto}
   inheritedMembers:
@@ -55,7 +57,7 @@ items:
   source:
     remote:
       path: src/Quickie/Types/Editonly/EditOnlyDto.cs
-      branch: master
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../src/Quickie/Types/Editonly/EditOnlyDto.cs

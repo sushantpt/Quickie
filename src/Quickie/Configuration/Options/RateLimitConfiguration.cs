@@ -12,7 +12,7 @@ public class RateLimitConfiguration
     /// <summary>
     /// Name of rate limit policy. Default is "Quickie-Rl-Policy"
     /// </summary>
-    public string? PolicyName { get; set; } = "Quickie-Rl-Policy";
+    public string? PolicyName { get; } = "Quickie-Rl-Policy";
     /// <summary>
     /// Number of request. Default is: 1 request every 'FromSeconds'
     /// </summary>

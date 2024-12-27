@@ -19,8 +19,4 @@
     <ProjectReference Include="..\..\src\Quickie\Quickie.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="CrudApi\" />
-  </ItemGroup>
-
 </Project>

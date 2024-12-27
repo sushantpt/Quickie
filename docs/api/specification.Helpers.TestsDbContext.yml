@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: specification.Helpers.TestsDbContext
+  commentId: N:specification.Helpers.TestsDbContext
+  id: specification.Helpers.TestsDbContext
+  children:
+  - specification.Helpers.TestsDbContext.TestDbContext
+  langs:
+  - csharp
+  - vb
+  name: specification.Helpers.TestsDbContext
+  nameWithType: specification.Helpers.TestsDbContext
+  fullName: specification.Helpers.TestsDbContext
+  type: Namespace
+  assemblies:
+  - specification
+references:
+- uid: specification.Helpers.TestsDbContext.TestDbContext
+  commentId: T:specification.Helpers.TestsDbContext.TestDbContext
+  href: specification.Helpers.TestsDbContext.TestDbContext.html
+  name: TestDbContext
+  nameWithType: TestDbContext
+  fullName: specification.Helpers.TestsDbContext.TestDbContext

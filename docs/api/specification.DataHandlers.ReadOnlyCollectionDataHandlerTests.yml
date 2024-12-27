@@ -1,0 +1,619 @@
+### YamlMime:ManagedReference
+items:
+- uid: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests
+  commentId: T:specification.DataHandlers.ReadOnlyCollectionDataHandlerTests
+  id: ReadOnlyCollectionDataHandlerTests
+  parent: specification.DataHandlers
+  children:
+  - specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.#ctor
+  - specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithCancellationToken_ShouldRespectToken
+  - specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPagination_ReturnsCorrectPage
+  - specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPredicate_NoData
+  - specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPredicate_ReturnsCorrectPaginatedData
+  - specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithValidFilter_ReturnsCorrectPaginatedData
+  langs:
+  - csharp
+  - vb
+  name: ReadOnlyCollectionDataHandlerTests
+  nameWithType: ReadOnlyCollectionDataHandlerTests
+  fullName: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests
+  type: Class
+  source:
+    remote:
+      path: tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: ReadOnlyCollectionDataHandlerTests
+    path: ../tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs
+    startLine: 15
+  assemblies:
+  - specification
+  namespace: specification.DataHandlers
+  summary: Test for readonly collection data handler. (integration tests with InMemory database.)
+  example: []
+  syntax:
+    content: public class ReadOnlyCollectionDataHandlerTests
+    content.vb: Public Class ReadOnlyCollectionDataHandlerTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.#ctor
+  commentId: M:specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.#ctor
+  id: '#ctor'
+  parent: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: ReadOnlyCollectionDataHandlerTests()
+  nameWithType: ReadOnlyCollectionDataHandlerTests.ReadOnlyCollectionDataHandlerTests()
+  fullName: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.ReadOnlyCollectionDataHandlerTests()
+  type: Constructor
+  source:
+    remote:
+      path: tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: .ctor
+    path: ../tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs
+    startLine: 17
+  assemblies:
+  - specification
+  namespace: specification.DataHandlers
+  syntax:
+    content: public ReadOnlyCollectionDataHandlerTests()
+    content.vb: Public Sub New()
+  overload: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.#ctor*
+  nameWithType.vb: ReadOnlyCollectionDataHandlerTests.New()
+  fullName.vb: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.New()
+  name.vb: New()
+- uid: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithValidFilter_ReturnsCorrectPaginatedData
+  commentId: M:specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithValidFilter_ReturnsCorrectPaginatedData
+  id: GetByFilterAsync_WithValidFilter_ReturnsCorrectPaginatedData
+  parent: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: GetByFilterAsync_WithValidFilter_ReturnsCorrectPaginatedData()
+  nameWithType: ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithValidFilter_ReturnsCorrectPaginatedData()
+  fullName: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithValidFilter_ReturnsCorrectPaginatedData()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: GetByFilterAsync_WithValidFilter_ReturnsCorrectPaginatedData
+    path: ../tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs
+    startLine: 31
+  assemblies:
+  - specification
+  namespace: specification.DataHandlers
+  summary: GetByFilter returns proper paginated data.
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task GetByFilterAsync_WithValidFilter_ReturnsCorrectPaginatedData()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function GetByFilterAsync_WithValidFilter_ReturnsCorrectPaginatedData() As Task
+  overload: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithValidFilter_ReturnsCorrectPaginatedData*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPagination_ReturnsCorrectPage
+  commentId: M:specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPagination_ReturnsCorrectPage
+  id: GetByFilterAsync_WithPagination_ReturnsCorrectPage
+  parent: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: GetByFilterAsync_WithPagination_ReturnsCorrectPage()
+  nameWithType: ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPagination_ReturnsCorrectPage()
+  fullName: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPagination_ReturnsCorrectPage()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: GetByFilterAsync_WithPagination_ReturnsCorrectPage
+    path: ../tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs
+    startLine: 53
+  assemblies:
+  - specification
+  namespace: specification.DataHandlers
+  summary: GetByFilter returns correct page data.
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task GetByFilterAsync_WithPagination_ReturnsCorrectPage()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function GetByFilterAsync_WithPagination_ReturnsCorrectPage() As Task
+  overload: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPagination_ReturnsCorrectPage*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithCancellationToken_ShouldRespectToken
+  commentId: M:specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithCancellationToken_ShouldRespectToken
+  id: GetByFilterAsync_WithCancellationToken_ShouldRespectToken
+  parent: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: GetByFilterAsync_WithCancellationToken_ShouldRespectToken()
+  nameWithType: ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithCancellationToken_ShouldRespectToken()
+  fullName: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithCancellationToken_ShouldRespectToken()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: GetByFilterAsync_WithCancellationToken_ShouldRespectToken
+    path: ../tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs
+    startLine: 75
+  assemblies:
+  - specification
+  namespace: specification.DataHandlers
+  summary: GetByFilter returns proper paginated data.
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task GetByFilterAsync_WithCancellationToken_ShouldRespectToken()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function GetByFilterAsync_WithCancellationToken_ShouldRespectToken() As Task
+  overload: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithCancellationToken_ShouldRespectToken*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPredicate_ReturnsCorrectPaginatedData
+  commentId: M:specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPredicate_ReturnsCorrectPaginatedData
+  id: GetByFilterAsync_WithPredicate_ReturnsCorrectPaginatedData
+  parent: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: GetByFilterAsync_WithPredicate_ReturnsCorrectPaginatedData()
+  nameWithType: ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPredicate_ReturnsCorrectPaginatedData()
+  fullName: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPredicate_ReturnsCorrectPaginatedData()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: GetByFilterAsync_WithPredicate_ReturnsCorrectPaginatedData
+    path: ../tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs
+    startLine: 96
+  assemblies:
+  - specification
+  namespace: specification.DataHandlers
+  summary: GetByFilter returns proper paginated data for predicated search.
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task GetByFilterAsync_WithPredicate_ReturnsCorrectPaginatedData()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function GetByFilterAsync_WithPredicate_ReturnsCorrectPaginatedData() As Task
+  overload: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPredicate_ReturnsCorrectPaginatedData*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPredicate_NoData
+  commentId: M:specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPredicate_NoData
+  id: GetByFilterAsync_WithPredicate_NoData
+  parent: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: GetByFilterAsync_WithPredicate_NoData()
+  nameWithType: ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPredicate_NoData()
+  fullName: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPredicate_NoData()
+  type: Method
+  source:
+    remote:
+      path: tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs
+      branch: f-minimalapi
+      repo: https://github.com/sushantpt/Quickie.git
+    id: GetByFilterAsync_WithPredicate_NoData
+    path: ../tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs
+    startLine: 118
+  assemblies:
+  - specification
+  namespace: specification.DataHandlers
+  summary: GetByFilter returns no data when predicate value does not exist.
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task GetByFilterAsync_WithPredicate_NoData()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function GetByFilterAsync_WithPredicate_NoData() As Task
+  overload: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPredicate_NoData*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+references:
+- uid: specification.DataHandlers
+  commentId: N:specification.DataHandlers
+  href: specification.html
+  name: specification.DataHandlers
+  nameWithType: specification.DataHandlers
+  fullName: specification.DataHandlers
+  spec.csharp:
+  - uid: specification
+    name: specification
+    href: specification.html
+  - name: .
+  - uid: specification.DataHandlers
+    name: DataHandlers
+    href: specification.DataHandlers.html
+  spec.vb:
+  - uid: specification
+    name: specification
+    href: specification.html
+  - name: .
+  - uid: specification.DataHandlers
+    name: DataHandlers
+    href: specification.DataHandlers.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.#ctor*
+  commentId: Overload:specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.#ctor
+  href: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.html#specification_DataHandlers_ReadOnlyCollectionDataHandlerTests__ctor
+  name: ReadOnlyCollectionDataHandlerTests
+  nameWithType: ReadOnlyCollectionDataHandlerTests.ReadOnlyCollectionDataHandlerTests
+  fullName: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.ReadOnlyCollectionDataHandlerTests
+  nameWithType.vb: ReadOnlyCollectionDataHandlerTests.New
+  fullName.vb: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.New
+  name.vb: New
+- uid: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithValidFilter_ReturnsCorrectPaginatedData*
+  commentId: Overload:specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithValidFilter_ReturnsCorrectPaginatedData
+  href: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.html#specification_DataHandlers_ReadOnlyCollectionDataHandlerTests_GetByFilterAsync_WithValidFilter_ReturnsCorrectPaginatedData
+  name: GetByFilterAsync_WithValidFilter_ReturnsCorrectPaginatedData
+  nameWithType: ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithValidFilter_ReturnsCorrectPaginatedData
+  fullName: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithValidFilter_ReturnsCorrectPaginatedData
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPagination_ReturnsCorrectPage*
+  commentId: Overload:specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPagination_ReturnsCorrectPage
+  href: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.html#specification_DataHandlers_ReadOnlyCollectionDataHandlerTests_GetByFilterAsync_WithPagination_ReturnsCorrectPage
+  name: GetByFilterAsync_WithPagination_ReturnsCorrectPage
+  nameWithType: ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPagination_ReturnsCorrectPage
+  fullName: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPagination_ReturnsCorrectPage
+- uid: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithCancellationToken_ShouldRespectToken*
+  commentId: Overload:specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithCancellationToken_ShouldRespectToken
+  href: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.html#specification_DataHandlers_ReadOnlyCollectionDataHandlerTests_GetByFilterAsync_WithCancellationToken_ShouldRespectToken
+  name: GetByFilterAsync_WithCancellationToken_ShouldRespectToken
+  nameWithType: ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithCancellationToken_ShouldRespectToken
+  fullName: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithCancellationToken_ShouldRespectToken
+- uid: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPredicate_ReturnsCorrectPaginatedData*
+  commentId: Overload:specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPredicate_ReturnsCorrectPaginatedData
+  href: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.html#specification_DataHandlers_ReadOnlyCollectionDataHandlerTests_GetByFilterAsync_WithPredicate_ReturnsCorrectPaginatedData
+  name: GetByFilterAsync_WithPredicate_ReturnsCorrectPaginatedData
+  nameWithType: ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPredicate_ReturnsCorrectPaginatedData
+  fullName: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPredicate_ReturnsCorrectPaginatedData
+- uid: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPredicate_NoData*
+  commentId: Overload:specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPredicate_NoData
+  href: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.html#specification_DataHandlers_ReadOnlyCollectionDataHandlerTests_GetByFilterAsync_WithPredicate_NoData
+  name: GetByFilterAsync_WithPredicate_NoData
+  nameWithType: ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPredicate_NoData
+  fullName: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.GetByFilterAsync_WithPredicate_NoData

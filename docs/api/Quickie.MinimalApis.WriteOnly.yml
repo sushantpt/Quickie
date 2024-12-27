@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Quickie.MinimalApis.WriteOnly
+  commentId: N:Quickie.MinimalApis.WriteOnly
+  id: Quickie.MinimalApis.WriteOnly
+  children:
+  - Quickie.MinimalApis.WriteOnly.WriteOnlyEndpoints
+  langs:
+  - csharp
+  - vb
+  name: Quickie.MinimalApis.WriteOnly
+  nameWithType: Quickie.MinimalApis.WriteOnly
+  fullName: Quickie.MinimalApis.WriteOnly
+  type: Namespace
+  assemblies:
+  - Quickie
+references:
+- uid: Quickie.MinimalApis.WriteOnly.WriteOnlyEndpoints
+  commentId: T:Quickie.MinimalApis.WriteOnly.WriteOnlyEndpoints
+  href: Quickie.MinimalApis.WriteOnly.WriteOnlyEndpoints.html
+  name: WriteOnlyEndpoints
+  nameWithType: WriteOnlyEndpoints
+  fullName: Quickie.MinimalApis.WriteOnly.WriteOnlyEndpoints

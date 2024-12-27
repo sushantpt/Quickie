@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Definition/ICrudRequestHandler.cs
-      branch: master
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: ICrudRequestHandler
     path: ../src/Quickie/Handlers/Crud/Definition/ICrudRequestHandler.cs
@@ -54,7 +54,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Definition/ICrudRequestHandler.cs
-      branch: master
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: CreateAsync
     path: ../src/Quickie/Handlers/Crud/Definition/ICrudRequestHandler.cs
@@ -94,7 +94,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Definition/ICrudRequestHandler.cs
-      branch: master
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: GetByIdAsync
     path: ../src/Quickie/Handlers/Crud/Definition/ICrudRequestHandler.cs
@@ -134,7 +134,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Definition/ICrudRequestHandler.cs
-      branch: master
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: UpdateAsync
     path: ../src/Quickie/Handlers/Crud/Definition/ICrudRequestHandler.cs
@@ -177,7 +177,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Definition/ICrudRequestHandler.cs
-      branch: master
+      branch: f-minimalapi
       repo: https://github.com/sushantpt/Quickie.git
     id: DeleteAsync
     path: ../src/Quickie/Handlers/Crud/Definition/ICrudRequestHandler.cs

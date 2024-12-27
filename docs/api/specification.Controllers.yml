@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: specification.Controllers
+  commentId: N:specification.Controllers
+  id: specification.Controllers
+  children:
+  - specification.Controllers.CrudControllerTests
+  - specification.Controllers.CrudForCollectionControllerTests
+  - specification.Controllers.EditOnlyControllerTests
+  - specification.Controllers.ReadOnlyCollectionControllerTests
+  - specification.Controllers.ReadOnlyControllerTests
+  - specification.Controllers.WriteOnlyControllerTests
+  langs:
+  - csharp
+  - vb
+  name: specification.Controllers
+  nameWithType: specification.Controllers
+  fullName: specification.Controllers
+  type: Namespace
+  assemblies:
+  - specification
+references:
+- uid: specification.Controllers.CrudControllerTests
+  commentId: T:specification.Controllers.CrudControllerTests
+  href: specification.Controllers.CrudControllerTests.html
+  name: CrudControllerTests
+  nameWithType: CrudControllerTests
+  fullName: specification.Controllers.CrudControllerTests
+- uid: specification.Controllers.CrudForCollectionControllerTests
+  commentId: T:specification.Controllers.CrudForCollectionControllerTests
+  href: specification.Controllers.CrudForCollectionControllerTests.html
+  name: CrudForCollectionControllerTests
+  nameWithType: CrudForCollectionControllerTests
+  fullName: specification.Controllers.CrudForCollectionControllerTests
+- uid: specification.Controllers.EditOnlyControllerTests
+  commentId: T:specification.Controllers.EditOnlyControllerTests
+  href: specification.Controllers.EditOnlyControllerTests.html
+  name: EditOnlyControllerTests
+  nameWithType: EditOnlyControllerTests
+  fullName: specification.Controllers.EditOnlyControllerTests
+- uid: specification.Controllers.ReadOnlyCollectionControllerTests
+  commentId: T:specification.Controllers.ReadOnlyCollectionControllerTests
+  href: specification.Controllers.ReadOnlyCollectionControllerTests.html
+  name: ReadOnlyCollectionControllerTests
+  nameWithType: ReadOnlyCollectionControllerTests
+  fullName: specification.Controllers.ReadOnlyCollectionControllerTests
+- uid: specification.Controllers.ReadOnlyControllerTests
+  commentId: T:specification.Controllers.ReadOnlyControllerTests
+  href: specification.Controllers.ReadOnlyControllerTests.html
+  name: ReadOnlyControllerTests
+  nameWithType: ReadOnlyControllerTests
+  fullName: specification.Controllers.ReadOnlyControllerTests
+- uid: specification.Controllers.WriteOnlyControllerTests
+  commentId: T:specification.Controllers.WriteOnlyControllerTests
+  href: specification.Controllers.WriteOnlyControllerTests.html
+  name: WriteOnlyControllerTests
+  nameWithType: WriteOnlyControllerTests
+  fullName: specification.Controllers.WriteOnlyControllerTests

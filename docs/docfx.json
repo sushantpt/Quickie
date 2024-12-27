@@ -7,6 +7,12 @@
           "files": [
             "**/*.csproj"
           ]
+        },
+        {
+          "src": "../tests",
+          "files": [
+            "**/*.csproj"
+          ]
         }
       ],
       "dest": "api",

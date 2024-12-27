@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: specification.DataHandlers
+  commentId: N:specification.DataHandlers
+  id: specification.DataHandlers
+  children:
+  - specification.DataHandlers.CrudDataHandlerTests
+  - specification.DataHandlers.EditOnlyDataHandlerTests
+  - specification.DataHandlers.ReadOnlyCollectionDataHandlerTests
+  - specification.DataHandlers.ReadOnlyDataHandlerTests
+  - specification.DataHandlers.WriteOnlyDataHandlerTests
+  langs:
+  - csharp
+  - vb
+  name: specification.DataHandlers
+  nameWithType: specification.DataHandlers
+  fullName: specification.DataHandlers
+  type: Namespace
+  assemblies:
+  - specification
+references:
+- uid: specification.DataHandlers.CrudDataHandlerTests
+  commentId: T:specification.DataHandlers.CrudDataHandlerTests
+  href: specification.DataHandlers.CrudDataHandlerTests.html
+  name: CrudDataHandlerTests
+  nameWithType: CrudDataHandlerTests
+  fullName: specification.DataHandlers.CrudDataHandlerTests
+- uid: specification.DataHandlers.EditOnlyDataHandlerTests
+  commentId: T:specification.DataHandlers.EditOnlyDataHandlerTests
+  href: specification.DataHandlers.EditOnlyDataHandlerTests.html
+  name: EditOnlyDataHandlerTests
+  nameWithType: EditOnlyDataHandlerTests
+  fullName: specification.DataHandlers.EditOnlyDataHandlerTests
+- uid: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests
+  commentId: T:specification.DataHandlers.ReadOnlyCollectionDataHandlerTests
+  href: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.html
+  name: ReadOnlyCollectionDataHandlerTests
+  nameWithType: ReadOnlyCollectionDataHandlerTests
+  fullName: specification.DataHandlers.ReadOnlyCollectionDataHandlerTests
+- uid: specification.DataHandlers.ReadOnlyDataHandlerTests
+  commentId: T:specification.DataHandlers.ReadOnlyDataHandlerTests
+  href: specification.DataHandlers.ReadOnlyDataHandlerTests.html
+  name: ReadOnlyDataHandlerTests
+  nameWithType: ReadOnlyDataHandlerTests
+  fullName: specification.DataHandlers.ReadOnlyDataHandlerTests
+- uid: specification.DataHandlers.WriteOnlyDataHandlerTests
+  commentId: T:specification.DataHandlers.WriteOnlyDataHandlerTests
+  href: specification.DataHandlers.WriteOnlyDataHandlerTests.html
+  name: WriteOnlyDataHandlerTests
+  nameWithType: WriteOnlyDataHandlerTests
+  fullName: specification.DataHandlers.WriteOnlyDataHandlerTests
