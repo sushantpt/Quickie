@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: ReadOnlyCollectionDataHandlerTests
     path: ../tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs
@@ -58,7 +58,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs
@@ -87,7 +87,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: GetByFilterAsync_WithValidFilter_ReturnsCorrectPaginatedData
     path: ../tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs
@@ -127,7 +127,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: GetByFilterAsync_WithPagination_ReturnsCorrectPage
     path: ../tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs
@@ -167,7 +167,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: GetByFilterAsync_WithCancellationToken_ShouldRespectToken
     path: ../tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs
@@ -207,7 +207,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: GetByFilterAsync_WithPredicate_ReturnsCorrectPaginatedData
     path: ../tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs
@@ -247,7 +247,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: GetByFilterAsync_WithPredicate_NoData
     path: ../tests/specification/DataHandlers/ReadOnlyCollectionDataHandlerTests.cs

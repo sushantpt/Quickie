@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/EditOnlyDataHandlerTests.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: EditOnlyDataHandlerTests
     path: ../tests/specification/DataHandlers/EditOnlyDataHandlerTests.cs
@@ -58,7 +58,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/EditOnlyDataHandlerTests.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../tests/specification/DataHandlers/EditOnlyDataHandlerTests.cs
@@ -87,7 +87,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/EditOnlyDataHandlerTests.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: EditAsync_ShouldReturnSuccess_WhenEntityIsUpdated
     path: ../tests/specification/DataHandlers/EditOnlyDataHandlerTests.cs
@@ -127,7 +127,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/EditOnlyDataHandlerTests.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: EditAsync_ShouldReturnFailure_WhenEntityDoesNotExist
     path: ../tests/specification/DataHandlers/EditOnlyDataHandlerTests.cs
@@ -167,7 +167,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/EditOnlyDataHandlerTests.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: EditCollectionAsync_ShouldReturnFailure_WhenNoChangesAreMade
     path: ../tests/specification/DataHandlers/EditOnlyDataHandlerTests.cs
@@ -207,7 +207,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/EditOnlyDataHandlerTests.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: EditCollectionAsync_ShouldReturnFailure_WhenExceptionIsThrown
     path: ../tests/specification/DataHandlers/EditOnlyDataHandlerTests.cs
@@ -247,7 +247,7 @@ items:
   source:
     remote:
       path: tests/specification/DataHandlers/EditOnlyDataHandlerTests.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: EditCollectionAsync_ShouldReturnError_WhenInputIsNull
     path: ../tests/specification/DataHandlers/EditOnlyDataHandlerTests.cs

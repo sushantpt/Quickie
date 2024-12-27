@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: tests/specification/Helpers/RequestHandlers/CrudForCollectionRequestHandlerConcrete.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: CrudForCollectionRequestHandlerConcrete
     path: ../tests/specification/Helpers/RequestHandlers/CrudForCollectionRequestHandlerConcrete.cs
@@ -63,7 +63,7 @@ items:
   source:
     remote:
       path: tests/specification/Helpers/RequestHandlers/CrudForCollectionRequestHandlerConcrete.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../tests/specification/Helpers/RequestHandlers/CrudForCollectionRequestHandlerConcrete.cs
@@ -95,7 +95,7 @@ items:
   source:
     remote:
       path: tests/specification/Helpers/RequestHandlers/CrudForCollectionRequestHandlerConcrete.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: MapToCollectionOfDto
     path: ../tests/specification/Helpers/RequestHandlers/CrudForCollectionRequestHandlerConcrete.cs
@@ -134,7 +134,7 @@ items:
   source:
     remote:
       path: tests/specification/Helpers/RequestHandlers/CrudForCollectionRequestHandlerConcrete.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: MapToCollectionOfEntity
     path: ../tests/specification/Helpers/RequestHandlers/CrudForCollectionRequestHandlerConcrete.cs

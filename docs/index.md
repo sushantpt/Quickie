@@ -4,7 +4,7 @@ _layout: landing
 
 # Welcome to **Quickie**!
 
-Quickie is an open-source library designed to help you **build APIs and backend services QUICKLY** in .NET. It provides base classes that you can implement to create APIs and backend service with minimal effort. With **Quickie**, all you need to do is define some **classes**, and you're ready to go — no endless boilerplate, no hassle.
+Quickie is an open-source library to **build APIs and backend services QUICKLY** in .NET. Simply put, it provides base classes that you can implement to create APIs and backend service with minimal effort. With **Quickie**, all you need to do is define some **classes**, and you're ready to go — no endless boilerplate, no hassle.
 
 Quickie is perfect for spinning up **tracer bullet APIs** or **proof-of-concept projects**. Whether you're experimenting with ideas or rapidly iterating, Quickie keeps things simple and fun, without feeling like you're trapped in enterprise-grade complexity.
 

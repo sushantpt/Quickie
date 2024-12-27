@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: CrudForCollectionDataDataHandler
     path: ../src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
@@ -70,7 +70,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
@@ -105,7 +105,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: CreateRangeAsync
     path: ../src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
@@ -148,7 +148,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: UpdateRangeAsync
     path: ../src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
@@ -191,7 +191,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: DeleteRangeAsync
     path: ../src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
@@ -234,7 +234,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: GetAllAsync
     path: ../src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
@@ -276,7 +276,7 @@ items:
   source:
     remote:
       path: src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: CountAsync
     path: ../src/Quickie/DataHandlers/Crud/Implementation/CrudForCollectionDataDataHandler.cs

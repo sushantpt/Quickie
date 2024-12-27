@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: tests/specification/Helpers/Dtos/CrudDtoConcrete.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: CrudDtoConcrete
     path: ../tests/specification/Helpers/Dtos/CrudDtoConcrete.cs
@@ -57,7 +57,7 @@ items:
   source:
     remote:
       path: tests/specification/Helpers/Dtos/CrudDtoConcrete.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../tests/specification/Helpers/Dtos/CrudDtoConcrete.cs

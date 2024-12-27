@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: CrudRequestHandler
     path: ../src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
@@ -75,7 +75,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
@@ -110,7 +110,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: CreateAsync
     path: ../src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
@@ -152,7 +152,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: GetByIdAsync
     path: ../src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
@@ -198,7 +198,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: UpdateAsync
     path: ../src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
@@ -243,7 +243,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: DeleteAsync
     path: ../src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
@@ -289,7 +289,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: MapToEntity
     path: ../src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
@@ -326,7 +326,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: MapToDto
     path: ../src/Quickie/Handlers/Crud/Implementation/CrudRequestHandler.cs

@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: src/Quickie/Types/Readonly/ReadOnlyDto.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: ReadOnlyDto
     path: ../src/Quickie/Types/Readonly/ReadOnlyDto.cs
@@ -57,7 +57,7 @@ items:
   source:
     remote:
       path: src/Quickie/Types/Readonly/ReadOnlyDto.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../src/Quickie/Types/Readonly/ReadOnlyDto.cs

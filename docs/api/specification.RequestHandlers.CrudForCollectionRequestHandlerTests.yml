@@ -25,7 +25,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: CrudForCollectionRequestHandlerTests
     path: ../tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs
@@ -62,7 +62,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs
@@ -91,7 +91,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: CreateRangeAsync_SuccessfulCreation_ReturnsResponseWithData
     path: ../tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs
@@ -131,7 +131,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: CreateRangeAsync_UnsuccessfulCreation_ReturnsUnsuccessfulResponse
     path: ../tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs
@@ -171,7 +171,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: UpdateRangeAsync_SuccessfulUpdate_ReturnsResponseWithData
     path: ../tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs
@@ -211,7 +211,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: UpdateRangeAsync_UnsuccessfulUpdate_ReturnsUnsuccessfulResponse
     path: ../tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs
@@ -251,7 +251,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: DeleteRangeAsync_SuccessfulDeletion_ReturnsSuccessfulResponse
     path: ../tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs
@@ -291,7 +291,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: GetAllAsync_SuccessfulRetrieval_ReturnsPaginatedData
     path: ../tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs
@@ -331,7 +331,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: CountAsync_ReturnsCount
     path: ../tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs
@@ -371,7 +371,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: DeleteRangeAsync_NullIds_ThrowsArgumentNullException
     path: ../tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs
@@ -411,7 +411,7 @@ items:
   source:
     remote:
       path: tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: CreateRangeAsync_NullRequest_ThrowsArgumentNullException
     path: ../tests/specification/RequestHandlers/CrudForCollectionRequestHandlerTests.cs

@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: src/Quickie/Types/Crud/CrudEntity.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: CrudEntity
     path: ../src/Quickie/Types/Crud/CrudEntity.cs

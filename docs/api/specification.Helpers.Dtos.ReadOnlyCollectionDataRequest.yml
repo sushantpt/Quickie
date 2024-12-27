@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: tests/specification/Helpers/Dtos/ReadOnlyCollectionDataRequest.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: ReadOnlyCollectionDataRequest
     path: ../tests/specification/Helpers/Dtos/ReadOnlyCollectionDataRequest.cs
@@ -54,7 +54,7 @@ items:
   source:
     remote:
       path: tests/specification/Helpers/Dtos/ReadOnlyCollectionDataRequest.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: FirstName
     path: ../tests/specification/Helpers/Dtos/ReadOnlyCollectionDataRequest.cs

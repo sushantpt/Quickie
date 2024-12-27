@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: src/Quickie/MinimalApis/ReadOnly/ReadOnlyEndpoints.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: ReadOnlyEndpoints
     path: ../src/Quickie/MinimalApis/ReadOnly/ReadOnlyEndpoints.cs
@@ -54,7 +54,7 @@ items:
   source:
     remote:
       path: src/Quickie/MinimalApis/ReadOnly/ReadOnlyEndpoints.cs
-      branch: gh-pages
+      branch: master
       repo: https://github.com/sushantpt/Quickie.git
     id: AddReadOnlyEndpoints
     path: ../src/Quickie/MinimalApis/ReadOnly/ReadOnlyEndpoints.cs

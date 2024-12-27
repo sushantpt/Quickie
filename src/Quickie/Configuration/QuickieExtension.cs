@@ -1,8 +1,6 @@
 using System.Threading.RateLimiting;
-using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Quickie.Configuration.Middleware;
-using Quickie.DataHandlers.Crud.Implementation;
 
 namespace Quickie.Configuration;
 
