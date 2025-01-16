@@ -70,7 +70,7 @@ public class EditOnlyDataHandlerTests
     public async Task EditAsync_ShouldReturnFailure_WhenEntityDoesNotExist()
     {
         // arrange
-        var dbOptions = new DbContextOptionsBuilder<TestDbContext>().UseInMemoryDatabase("TestDatabase").Options;
+        var dbOptions = new DbContextOptionsBuilder<TestDbContext>().UseInMemoryDatabase("TestDatabaseForFailure").Options;
         await using var context = new TestDbContext(dbOptions);
 
         var nonExistentEntity = new EditOnlyEntityConcrete { Id = 1, Name = "Non-existent Entity" };
