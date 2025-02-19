@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Build By Example | Quickie </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Build By Example | Quickie ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/sushantpt/Quickie/blob/gh-pages/docs/docs/examples.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-S4FG36P7BW"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-S4FG36P7BW');
+      </script>
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Quickie">
+            Quickie
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="build-by-example">Build By Example</h1>
+
+<p>Here is a simple Web API of a <strong>Todo App</strong> using Quickie.</p>
+<h3 id="step-1-create-a-new-web-api-project">Step 1: Create a new Web API Project</h3>
+<pre><code class="lang-bash">dotnet new webapi -n todo.apis --use-controllers
+</code></pre>
+<h3 id="step-2-install-quickie">Step 2: Install Quickie</h3>
+<p>Install Quickie from NuGet:</p>
+<pre><code class="lang-bash">dotnet add package Quickie
+</code></pre>
+<h3 id="step-3-configure-quickie-in-programcs">Step 3: Configure Quickie in <code>Program.cs</code></h3>
+<p>In your <code>Program.cs</code>, configure Quickie as follows:</p>
+<pre><code class="lang-csharp">builder.Services.QuickieConfig(options =&gt; {
+    options.ShowCustomErrorMessage = true;
+    options.RateLimitingConfiguration = new RateLimitConfiguration
+    {
+        DisableRateLimiting = false
+    };
+    options.IdempotencyConfiguration = new IdempotentConfiguration
+    {
+        Enable = true
+    };
+});
+
+app.AddQuickie();
+</code></pre>
+<p><strong>Explanation:</strong></p>
+<ul>
+<li>For this project, we are enabling <strong>Idempotency</strong>.</li>
+<li>Rate limiting is <strong>enabled by default</strong>, but we chose to explicitly configure it here.</li>
+<li>Custom error messages are shown when exceptions occur.</li>
+</ul>
+<h3 id="step-4-create-a-dto-and-entity">Step 4: Create a Dto and Entity</h3>
+<pre><code class="lang-csharp">public record TodoDto(int Id, string Title, string Description) : CrudDto;
+</code></pre>
+<pre><code class="lang-csharp">public class TodoEntity : CrudEntity
+{
+    [Key]
+    public int Id { get; set; }
+    public required string Title { get; set; }
+    public required string Description { get; set; }
+    public required DateTime CreatedDate { get; set; }
+}
+</code></pre>
+<h3 id="step-5-create-a-controller">Step 5: Create a Controller</h3>
+<p>For our Todo app, we need CRUD operations:</p>
+<ul>
+<li><strong>C</strong> -&gt; Create Todo</li>
+<li><strong>R</strong> -&gt; Read Todo</li>
+<li><strong>U</strong> -&gt; Update Todo</li>
+<li><strong>D</strong> -&gt; Delete Todo</li>
+</ul>
+<p>Here is the <code>TodoController</code>:</p>
+<pre><code class="lang-csharp">public class TodoController(ITodoService requestHandler) : CrudController&lt;TodoDto, ITodoService, int&gt;(requestHandler);
+</code></pre>
+<h3 id="step-6-request-handler-service-layer-setup">Step 6: Request handler (Service layer) Setup</h3>
+<h4 id="todo-service">Todo Service</h4>
+<pre><code class="lang-csharp">public interface ITodoService : ICrudRequestHandler&lt;TodoDto, int&gt;;
+
+public class TodoService(ICrudDataHandler&lt;TodoEntity, int&gt; dataHandler) : CrudRequestHandler&lt;TodoDto, TodoEntity, ITodoRepo, int&gt;(dataHandler), ITodoService
+{
+    protected override TodoEntity MapToEntity(TodoDto request)
+    {
+        var d = new TodoEntity()
+        {
+            Id = request.Id,
+            Title = request?.Title,
+            Description = request?.Description,
+            CreatedDate = DateTime.Now
+        };
+        return d;
+    }
+
+    protected override TodoDto MapToDto(TodoEntity request)
+    {
+        var d = request is not null ?  new TodoDto(request.Id, request?.Title + &quot; id:&quot; + request?.Id, request?.Description) : default;
+        return d;
+    }
+}
+</code></pre>
+<blockquote>
+<p><strong>Note:</strong> Mapping must be done manually. You can use any mapping library or write your own logic.</p>
+</blockquote>
+<h4 id="todo-repository-data-handler">Todo Repository (Data handler)</h4>
+<pre><code class="lang-csharp">public interface ITodoRepo : ICrudDataHandler&lt;TodoEntity, int&gt;;
+
+public class TodoRepo(ApplicationDbContext dbContext) : CrudDataHandler&lt;TodoEntity, ApplicationDbContext, int&gt;(dbContext), ITodoRepo;
+</code></pre>
+<h3 id="step-7-configure-database-context">Step 7: Configure Database Context</h3>
+<pre><code class="lang-csharp">public class ApplicationDbContext(DbContextOptions&lt;ApplicationDbContext&gt; options) : DbContext(options)
+{
+    public DbSet&lt;TodoEntity&gt; TodoEntity { get; set; }
+}
+</code></pre>
+<h3 id="step-8-register-services-in-di">Step 8: Register Services in DI</h3>
+<p>Register the services in <code>Program.cs</code>:</p>
+<pre><code class="lang-csharp">builder.Services.AddScoped&lt;ITodoService, TodoService&gt;();
+builder.Services.AddScoped&lt;ITodoRepo, TodoRepo&gt;();
+builder.Services.AddScoped&lt;ICrudDataHandler&lt;TodoEntity, int&gt;, TodoRepo&gt;();
+</code></pre>
+<h3 id="step-9-making-requests-with-idempotency">Step 9: Making Requests with Idempotency</h3>
+<p>Since <strong>Idempotency</strong> is enabled, you must provide an <code>X-Idempotency-Key</code> with each request (POST calls). For duplicate requests, the API will respond with a <strong>409 Conflict</strong> status.</p>
+<h4 id="example-request">Example Request:</h4>
+<pre><code class="lang-bash">curl -X 'POST' \
+  'http://localhost:5162/api/Todo' \
+  -H 'accept: application/json' \
+  -H 'X-Idempotency-Key: c311bef0-9953-45b1-bb73-70169e1a3de5' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  &quot;id&quot;: 0,
+  &quot;title&quot;: &quot;work&quot;,
+  &quot;description&quot;: &quot;feature 0&quot;
+}'
+</code></pre>
+<h3 id="not-just-crud">Not Just CRUD</h3>
+<p>Quickie is versatile and supports scenarios beyond CRUD operations:</p>
+<ul>
+<li><strong>CRUD for Collection:</strong> Bulk create, read, update, and delete operations are supported, making it easy to handle multiple entities in a single request.</li>
+<li><strong>Readonly:</strong> For entities where only read operations are required.</li>
+<li><strong>Write-only:</strong> For scenarios where entities can only be written to, but not read.</li>
+<li><strong>Edit-only:</strong> For entities that support updates but not creation or deletion.</li>
+<li><strong>Readonly Collections:</strong> You can define collections where only bulk read operations are required, and no modifications are allowed.</li>
+</ul>
+<p>You can choose the appropriate functionality based on your application's needs.</p>
+<h3 id="api-is-ready">API is Ready!</h3>
+<p>That's it! Your fully functional Web API with:</p>
+<ul>
+<li>CRUD functionality</li>
+<li>Built-in <strong>Idempotency</strong> (to prevent duplicate requests)</li>
+<li>Built-in <strong>Rate Limiting</strong> (enabled by default)</li>
+</ul>
+<h3 id="things-to-consider">Things to Consider</h3>
+<ul>
+<li><strong>DTOs</strong> should be record types.</li>
+<li><strong>Entities</strong> are class (reference types).</li>
+</ul>
+<h4 id="more-examples-here">More examples <a href="https://github.com/sushantpt/Quickie/">here</a>.</h4>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/sushantpt/Quickie/blob/gh-pages/docs/docs/examples.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
