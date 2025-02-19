@@ -1688,6 +1688,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/nugeticon.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/nugeticon.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/quickie_icon.png",
       "output": {
         "resource": {

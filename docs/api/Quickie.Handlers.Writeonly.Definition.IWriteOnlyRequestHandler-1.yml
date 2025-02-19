@@ -21,14 +21,17 @@ items:
       repo: https://github.com/sushantpt/Quickie.git
     id: IWriteOnlyRequestHandler
     path: ../src/Quickie/Handlers/Writeonly/Definition/IWriteOnlyRequestHandler.cs
-    startLine: 2
+    startLine: 6
   assemblies:
   - Quickie
   namespace: Quickie.Handlers.Writeonly.Definition
+  summary: Abstract base class for handling write only requests, processing operations for the specified view model type.
+  example: []
   syntax:
     content: 'public interface IWriteOnlyRequestHandler<TViewModel> where TViewModel : WriteOnlyDto'
     typeParameters:
     - id: TViewModel
+      description: The type of the view model that represents the data transfer object for WRITE-only operations.
     content.vb: Public Interface IWriteOnlyRequestHandler(Of TViewModel As WriteOnlyDto)
   nameWithType.vb: IWriteOnlyRequestHandler(Of TViewModel)
   fullName.vb: Quickie.Handlers.Writeonly.Definition.IWriteOnlyRequestHandler(Of TViewModel)
@@ -51,19 +54,24 @@ items:
       repo: https://github.com/sushantpt/Quickie.git
     id: CreateItemAsync
     path: ../src/Quickie/Handlers/Writeonly/Definition/IWriteOnlyRequestHandler.cs
-    startLine: 4
+    startLine: 14
   assemblies:
   - Quickie
   namespace: Quickie.Handlers.Writeonly.Definition
+  summary: Create an item
+  example: []
   syntax:
     content: Task<ResponseObj<TViewModel>> CreateItemAsync(TViewModel item, CancellationToken? cancellationToken)
     parameters:
     - id: item
       type: '{TViewModel}'
+      description: Data request model to create
     - id: cancellationToken
       type: System.Nullable{System.Threading.CancellationToken}
+      description: Cancellation token
     return:
       type: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{{TViewModel}}}
+      description: Response object
     content.vb: Function CreateItemAsync(item As TViewModel, cancellationToken As CancellationToken?) As Task(Of ResponseObj(Of TViewModel))
   overload: Quickie.Handlers.Writeonly.Definition.IWriteOnlyRequestHandler`1.CreateItemAsync*
   nameWithType.vb: IWriteOnlyRequestHandler(Of TViewModel).CreateItemAsync(TViewModel, CancellationToken?)
@@ -86,19 +94,24 @@ items:
       repo: https://github.com/sushantpt/Quickie.git
     id: CreateItemsAsync
     path: ../src/Quickie/Handlers/Writeonly/Definition/IWriteOnlyRequestHandler.cs
-    startLine: 5
+    startLine: 22
   assemblies:
   - Quickie
   namespace: Quickie.Handlers.Writeonly.Definition
+  summary: Create items (bulk)
+  example: []
   syntax:
     content: Task<ResponseObj<ICollection<TViewModel>>> CreateItemsAsync(ICollection<TViewModel> items, CancellationToken? cancellationToken)
     parameters:
     - id: items
       type: System.Collections.Generic.ICollection{{TViewModel}}
+      description: Data request model to create
     - id: cancellationToken
       type: System.Nullable{System.Threading.CancellationToken}
+      description: Cancellation token
     return:
       type: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{System.Collections.Generic.ICollection{{TViewModel}}}}
+      description: Collection response object
     content.vb: Function CreateItemsAsync(items As ICollection(Of TViewModel), cancellationToken As CancellationToken?) As Task(Of ResponseObj(Of ICollection(Of TViewModel)))
   overload: Quickie.Handlers.Writeonly.Definition.IWriteOnlyRequestHandler`1.CreateItemsAsync*
   nameWithType.vb: IWriteOnlyRequestHandler(Of TViewModel).CreateItemsAsync(ICollection(Of TViewModel), CancellationToken?)

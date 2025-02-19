@@ -24,15 +24,19 @@ items:
       repo: https://github.com/sushantpt/Quickie.git
     id: ICrudForCollectionRequestHandler
     path: ../src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
-    startLine: 2
+    startLine: 7
   assemblies:
   - Quickie
   namespace: Quickie.Handlers.Crud.Definition
+  summary: Abstract base class for handling collections of CRUD requests (or CRUD for collection object).
+  example: []
   syntax:
     content: 'public interface ICrudForCollectionRequestHandler<TViewModel, TIdType> where TViewModel : CrudDto where TIdType : IComparable'
     typeParameters:
     - id: TViewModel
+      description: Type of view model that represents the data transfer object for collection of CRUD operations.
     - id: TIdType
+      description: ''
     content.vb: Public Interface ICrudForCollectionRequestHandler(Of TViewModel As CrudDto, TIdType As IComparable)
   nameWithType.vb: ICrudForCollectionRequestHandler(Of TViewModel, TIdType)
   fullName.vb: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler(Of TViewModel, TIdType)
@@ -55,19 +59,24 @@ items:
       repo: https://github.com/sushantpt/Quickie.git
     id: CreateRangeAsync
     path: ../src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
-    startLine: 4
+    startLine: 15
   assemblies:
   - Quickie
   namespace: Quickie.Handlers.Crud.Definition
+  summary: Create data in bulk.
+  example: []
   syntax:
     content: Task<ResponseObj<ICollection<TViewModel>>> CreateRangeAsync(ICollection<TViewModel> entities, CancellationToken? cancellationToken = null)
     parameters:
     - id: entities
       type: System.Collections.Generic.ICollection{{TViewModel}}
+      description: Requested collection of data to be created
     - id: cancellationToken
       type: System.Nullable{System.Threading.CancellationToken}
+      description: Cancellation token
     return:
       type: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{System.Collections.Generic.ICollection{{TViewModel}}}}
+      description: Response object
     content.vb: Function CreateRangeAsync(entities As ICollection(Of TViewModel), cancellationToken As CancellationToken? = Nothing) As Task(Of ResponseObj(Of ICollection(Of TViewModel)))
   overload: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.CreateRangeAsync*
   nameWithType.vb: ICrudForCollectionRequestHandler(Of TViewModel, TIdType).CreateRangeAsync(ICollection(Of TViewModel), CancellationToken?)
@@ -91,19 +100,24 @@ items:
       repo: https://github.com/sushantpt/Quickie.git
     id: UpdateRangeAsync
     path: ../src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
-    startLine: 6
+    startLine: 23
   assemblies:
   - Quickie
   namespace: Quickie.Handlers.Crud.Definition
+  summary: Update requested data
+  example: []
   syntax:
     content: Task<ResponseObj<ICollection<TViewModel>>> UpdateRangeAsync(ICollection<TViewModel> entities, CancellationToken? cancellationToken = null)
     parameters:
     - id: entities
       type: System.Collections.Generic.ICollection{{TViewModel}}
+      description: Collection of data requested to be updated
     - id: cancellationToken
       type: System.Nullable{System.Threading.CancellationToken}
+      description: Cancellation token
     return:
       type: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{System.Collections.Generic.ICollection{{TViewModel}}}}
+      description: Response object
     content.vb: Function UpdateRangeAsync(entities As ICollection(Of TViewModel), cancellationToken As CancellationToken? = Nothing) As Task(Of ResponseObj(Of ICollection(Of TViewModel)))
   overload: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.UpdateRangeAsync*
   nameWithType.vb: ICrudForCollectionRequestHandler(Of TViewModel, TIdType).UpdateRangeAsync(ICollection(Of TViewModel), CancellationToken?)
@@ -127,19 +141,24 @@ items:
       repo: https://github.com/sushantpt/Quickie.git
     id: DeleteRangeAsync
     path: ../src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
-    startLine: 8
+    startLine: 31
   assemblies:
   - Quickie
   namespace: Quickie.Handlers.Crud.Definition
+  summary: Removes data.
+  example: []
   syntax:
     content: Task<ResponseObj> DeleteRangeAsync(ICollection<TIdType> ids, CancellationToken? cancellationToken = null)
     parameters:
     - id: ids
       type: System.Collections.Generic.ICollection{{TIdType}}
+      description: Data identifier to be removed.
     - id: cancellationToken
       type: System.Nullable{System.Threading.CancellationToken}
+      description: Cancellation token
     return:
       type: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj}
+      description: Response object
     content.vb: Function DeleteRangeAsync(ids As ICollection(Of TIdType), cancellationToken As CancellationToken? = Nothing) As Task(Of ResponseObj)
   overload: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.DeleteRangeAsync*
   nameWithType.vb: ICrudForCollectionRequestHandler(Of TViewModel, TIdType).DeleteRangeAsync(ICollection(Of TIdType), CancellationToken?)
@@ -163,19 +182,24 @@ items:
       repo: https://github.com/sushantpt/Quickie.git
     id: GetAllAsync
     path: ../src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
-    startLine: 10
+    startLine: 39
   assemblies:
   - Quickie
   namespace: Quickie.Handlers.Crud.Definition
+  summary: Get all data
+  example: []
   syntax:
     content: Task<ResponseObj<PaginatedDataObj<TViewModel>>> GetAllAsync(RequestForDataObj request, CancellationToken? cancellationToken = null)
     parameters:
     - id: request
       type: Quickie.DataObj.RequestForDataObj
+      description: Request object to filter data
     - id: cancellationToken
       type: System.Nullable{System.Threading.CancellationToken}
+      description: Cancellation token
     return:
       type: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{Quickie.DataObj.PaginatedDataObj{{TViewModel}}}}
+      description: Response object
     content.vb: Function GetAllAsync(request As RequestForDataObj, cancellationToken As CancellationToken? = Nothing) As Task(Of ResponseObj(Of PaginatedDataObj(Of TViewModel)))
   overload: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.GetAllAsync*
   nameWithType.vb: ICrudForCollectionRequestHandler(Of TViewModel, TIdType).GetAllAsync(RequestForDataObj, CancellationToken?)
@@ -198,17 +222,21 @@ items:
       repo: https://github.com/sushantpt/Quickie.git
     id: CountAsync
     path: ../src/Quickie/Handlers/Crud/Definition/ICrudForCollectionRequestHandler.cs
-    startLine: 12
+    startLine: 46
   assemblies:
   - Quickie
   namespace: Quickie.Handlers.Crud.Definition
+  summary: Get total count of data
+  example: []
   syntax:
     content: Task<ResponseObj<int>> CountAsync(CancellationToken? cancellationToken = null)
     parameters:
     - id: cancellationToken
       type: System.Nullable{System.Threading.CancellationToken}
+      description: Cancellation token
     return:
       type: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{System.Int32}}
+      description: Response object
     content.vb: Function CountAsync(cancellationToken As CancellationToken? = Nothing) As Task(Of ResponseObj(Of Integer))
   overload: Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler`2.CountAsync*
   nameWithType.vb: ICrudForCollectionRequestHandler(Of TViewModel, TIdType).CountAsync(CancellationToken?)
