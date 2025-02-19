@@ -21,14 +21,17 @@ items:
       repo: https://github.com/sushantpt/Quickie.git
     id: IWriteOnlyDataHandler
     path: ../src/Quickie/DataHandlers/Writeonly/Definition/IWriteOnlyDataHandler.cs
-    startLine: 2
+    startLine: 6
   assemblies:
   - Quickie
   namespace: Quickie.DataHandlers.Writeonly.Definition
+  summary: Defines write-only data operations.
+  example: []
   syntax:
     content: 'public interface IWriteOnlyDataHandler<TEntity> where TEntity : WriteOnlyEntity'
     typeParameters:
     - id: TEntity
+      description: Type of entity
     content.vb: Public Interface IWriteOnlyDataHandler(Of TEntity As WriteOnlyEntity)
   nameWithType.vb: IWriteOnlyDataHandler(Of TEntity)
   fullName.vb: Quickie.DataHandlers.Writeonly.Definition.IWriteOnlyDataHandler(Of TEntity)
@@ -51,19 +54,24 @@ items:
       repo: https://github.com/sushantpt/Quickie.git
     id: CreateItemAsync
     path: ../src/Quickie/DataHandlers/Writeonly/Definition/IWriteOnlyDataHandler.cs
-    startLine: 4
+    startLine: 14
   assemblies:
   - Quickie
   namespace: Quickie.DataHandlers.Writeonly.Definition
+  summary: Create an item
+  example: []
   syntax:
     content: Task<ResponseObj<TEntity>> CreateItemAsync(TEntity item, CancellationToken? cancellationToken)
     parameters:
     - id: item
       type: '{TEntity}'
+      description: Data to create
     - id: cancellationToken
       type: System.Nullable{System.Threading.CancellationToken}
+      description: Cancellation token
     return:
       type: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{{TEntity}}}
+      description: Response object
     content.vb: Function CreateItemAsync(item As TEntity, cancellationToken As CancellationToken?) As Task(Of ResponseObj(Of TEntity))
   overload: Quickie.DataHandlers.Writeonly.Definition.IWriteOnlyDataHandler`1.CreateItemAsync*
   nameWithType.vb: IWriteOnlyDataHandler(Of TEntity).CreateItemAsync(TEntity, CancellationToken?)
@@ -86,19 +94,24 @@ items:
       repo: https://github.com/sushantpt/Quickie.git
     id: CreateItemsAsync
     path: ../src/Quickie/DataHandlers/Writeonly/Definition/IWriteOnlyDataHandler.cs
-    startLine: 5
+    startLine: 22
   assemblies:
   - Quickie
   namespace: Quickie.DataHandlers.Writeonly.Definition
+  summary: Create collection of data
+  example: []
   syntax:
     content: Task<ResponseObj<ICollection<TEntity>>> CreateItemsAsync(ICollection<TEntity> items, CancellationToken? cancellationToken)
     parameters:
     - id: items
       type: System.Collections.Generic.ICollection{{TEntity}}
+      description: Collection of data or items to create
     - id: cancellationToken
       type: System.Nullable{System.Threading.CancellationToken}
+      description: Cancellation token
     return:
       type: System.Threading.Tasks.Task{Quickie.DataObj.ResponseObj{System.Collections.Generic.ICollection{{TEntity}}}}
+      description: Response object
     content.vb: Function CreateItemsAsync(items As ICollection(Of TEntity), cancellationToken As CancellationToken?) As Task(Of ResponseObj(Of ICollection(Of TEntity)))
   overload: Quickie.DataHandlers.Writeonly.Definition.IWriteOnlyDataHandler`1.CreateItemsAsync*
   nameWithType.vb: IWriteOnlyDataHandler(Of TEntity).CreateItemsAsync(ICollection(Of TEntity), CancellationToken?)

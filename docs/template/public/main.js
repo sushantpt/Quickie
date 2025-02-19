@@ -9,6 +9,11 @@ export default {
       icon: 'github',
       href: 'https://github.com/sushantpt/Quickie',
       title: 'GitHub'
+    },
+    {
+      icon: 'download',
+      href: 'https://www.nuget.org/packages/Quickie',
+      title: 'NuGet'
     }
   ]
 }
