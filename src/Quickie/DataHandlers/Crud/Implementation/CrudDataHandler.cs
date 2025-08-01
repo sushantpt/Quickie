@@ -131,6 +131,15 @@ public abstract class CrudDataHandler<TEntity, TDbContext, TIdType>(TDbContext d
                     Data = null!
                 };
             }
+            catch(Exception e)
+            {
+                return new ResponseObj<TEntity> 
+                { 
+                    IsSuccess = false, 
+                    Message = _options.ShowCustomErrorMessage ? "An error occurred while updating the data." : e.Message, 
+                    Data = null! 
+                };
+            }
         }
         catch (Exception ex)
         {

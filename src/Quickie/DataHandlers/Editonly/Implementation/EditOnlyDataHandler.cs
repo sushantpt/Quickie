@@ -69,6 +69,15 @@ public abstract class EditOnlyDataHandler<TEntity, TIdType>(DbContext dbContext)
                     Data = null!
                 };
             }
+            catch (Exception e)
+            {
+                return new ResponseObj<TEntity>
+                {
+                    IsSuccess = false,
+                    Message = _options.ShowCustomErrorMessage ? "An error occurred while updating the data" : e.Message,
+                    Data = null!
+                };
+            }
         }
         catch (Exception ex)
         {
