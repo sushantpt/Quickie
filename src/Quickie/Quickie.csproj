@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Version>1.2.1</Version>
+    <Version>1.2.2</Version>
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
@@ -13,7 +13,7 @@
     <RepositoryUrl>https://github.com/sushantpt/Quickie</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>api, backend, web</PackageTags>
-    <PackageReleaseNotes>Updated internal dependencies, added doc comment etc. </PackageReleaseNotes>
+    <PackageReleaseNotes>Crud and edit data handler bug fix, updated internal dependencies, etc. </PackageReleaseNotes>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageIcon>quickie_icon.png</PackageIcon>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
