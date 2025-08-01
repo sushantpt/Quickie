@@ -27,7 +27,7 @@ items:
   source:
     remote:
       path: tests/specification/Controllers/CrudForCollectionControllerTests.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: CrudForCollectionControllerTests
     path: ../tests/specification/Controllers/CrudForCollectionControllerTests.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: tests/specification/Controllers/CrudForCollectionControllerTests.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../tests/specification/Controllers/CrudForCollectionControllerTests.cs
@@ -93,7 +93,7 @@ items:
   source:
     remote:
       path: tests/specification/Controllers/CrudForCollectionControllerTests.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: CreateAsync_ValidRequest_ReturnsCreatedResponse
     path: ../tests/specification/Controllers/CrudForCollectionControllerTests.cs
@@ -133,7 +133,7 @@ items:
   source:
     remote:
       path: tests/specification/Controllers/CrudForCollectionControllerTests.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: CreateAsync_HandlerReturnsUnsuccessful_ReturnsBadRequest
     path: ../tests/specification/Controllers/CrudForCollectionControllerTests.cs
@@ -173,7 +173,7 @@ items:
   source:
     remote:
       path: tests/specification/Controllers/CrudForCollectionControllerTests.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: CreateAsync_InvalidModelState_ReturnsBadRequest
     path: ../tests/specification/Controllers/CrudForCollectionControllerTests.cs
@@ -213,7 +213,7 @@ items:
   source:
     remote:
       path: tests/specification/Controllers/CrudForCollectionControllerTests.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: UpdateAsync_ValidRequest_ReturnsOkResponse
     path: ../tests/specification/Controllers/CrudForCollectionControllerTests.cs
@@ -253,7 +253,7 @@ items:
   source:
     remote:
       path: tests/specification/Controllers/CrudForCollectionControllerTests.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: UpdateAsync_HandlerReturnsUnsuccessful_ReturnsBadRequest
     path: ../tests/specification/Controllers/CrudForCollectionControllerTests.cs
@@ -293,7 +293,7 @@ items:
   source:
     remote:
       path: tests/specification/Controllers/CrudForCollectionControllerTests.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: GetAllAsync_ValidRequest_ReturnsOkResponse
     path: ../tests/specification/Controllers/CrudForCollectionControllerTests.cs
@@ -333,7 +333,7 @@ items:
   source:
     remote:
       path: tests/specification/Controllers/CrudForCollectionControllerTests.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: GetAllAsync_HandlerReturnsUnsuccessful_ReturnsNotFound
     path: ../tests/specification/Controllers/CrudForCollectionControllerTests.cs
@@ -373,7 +373,7 @@ items:
   source:
     remote:
       path: tests/specification/Controllers/CrudForCollectionControllerTests.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: CountAsync_ValidRequest_ReturnsOkResponse
     path: ../tests/specification/Controllers/CrudForCollectionControllerTests.cs
@@ -413,7 +413,7 @@ items:
   source:
     remote:
       path: tests/specification/Controllers/CrudForCollectionControllerTests.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: CountAsync_HandlerReturnsUnsuccessful_ReturnsBadRequest
     path: ../tests/specification/Controllers/CrudForCollectionControllerTests.cs
@@ -453,7 +453,7 @@ items:
   source:
     remote:
       path: tests/specification/Controllers/CrudForCollectionControllerTests.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: DeleteAsync_ValidRequest_ReturnsNoContent
     path: ../tests/specification/Controllers/CrudForCollectionControllerTests.cs
@@ -493,7 +493,7 @@ items:
   source:
     remote:
       path: tests/specification/Controllers/CrudForCollectionControllerTests.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: DeleteAsync_HandlerReturnsUnsuccessful_ReturnsBadRequest
     path: ../tests/specification/Controllers/CrudForCollectionControllerTests.cs

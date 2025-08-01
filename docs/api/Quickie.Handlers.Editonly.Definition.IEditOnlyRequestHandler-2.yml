@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Editonly/Definition/IEditOnlyRequestHandler.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: IEditOnlyRequestHandler
     path: ../src/Quickie/Handlers/Editonly/Definition/IEditOnlyRequestHandler.cs
@@ -52,7 +52,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Editonly/Definition/IEditOnlyRequestHandler.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: EditAsync
     path: ../src/Quickie/Handlers/Editonly/Definition/IEditOnlyRequestHandler.cs
@@ -95,7 +95,7 @@ items:
   source:
     remote:
       path: src/Quickie/Handlers/Editonly/Definition/IEditOnlyRequestHandler.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: EditCollectionAsync
     path: ../src/Quickie/Handlers/Editonly/Definition/IEditOnlyRequestHandler.cs

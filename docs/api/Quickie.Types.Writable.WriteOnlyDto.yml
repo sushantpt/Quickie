@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: src/Quickie/Types/Writable/WriteOnlyDto.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: WriteOnlyDto
     path: ../src/Quickie/Types/Writable/WriteOnlyDto.cs
@@ -57,7 +57,7 @@ items:
   source:
     remote:
       path: src/Quickie/Types/Writable/WriteOnlyDto.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../src/Quickie/Types/Writable/WriteOnlyDto.cs

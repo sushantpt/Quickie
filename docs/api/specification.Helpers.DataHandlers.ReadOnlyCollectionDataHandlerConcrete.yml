@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: tests/specification/Helpers/DataHandlers/ReadOnlyCollectionDataHandlerConcrete.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: ReadOnlyCollectionDataHandlerConcrete
     path: ../tests/specification/Helpers/DataHandlers/ReadOnlyCollectionDataHandlerConcrete.cs
@@ -55,7 +55,7 @@ items:
   source:
     remote:
       path: tests/specification/Helpers/DataHandlers/ReadOnlyCollectionDataHandlerConcrete.cs
-      branch: master
+      branch: gh-pages
       repo: https://github.com/sushantpt/Quickie.git
     id: .ctor
     path: ../tests/specification/Helpers/DataHandlers/ReadOnlyCollectionDataHandlerConcrete.cs

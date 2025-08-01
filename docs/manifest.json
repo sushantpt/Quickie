@@ -18,7 +18,11 @@
           "relative_path": "api/Quickie.Apis.Crud.CrudController-3.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Apis.Crud.CrudController<TViewModel, TRequestHandler, TIdType>",
+      "Summary": "<p sourcefile=\"api/Quickie.Apis.Crud.CrudController-3.yml\" sourcestartlinenumber=\"1\">Base class providing CRUD apis.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -28,7 +32,11 @@
           "relative_path": "api/Quickie.Apis.Crud.CrudForCollectionController-3.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Apis.Crud.CrudForCollectionController<TViewModel, TRequestHandler, TIdType>",
+      "Summary": "<p sourcefile=\"api/Quickie.Apis.Crud.CrudForCollectionController-3.yml\" sourcestartlinenumber=\"1\">Base class providing CRUD apis in collection.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -38,7 +46,11 @@
           "relative_path": "api/Quickie.Apis.Crud.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Apis.Crud",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -48,7 +60,11 @@
           "relative_path": "api/Quickie.Apis.CrudlController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Apis.CrudlController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -58,7 +74,11 @@
           "relative_path": "api/Quickie.Apis.Editonly.EditOnlyController-3.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Apis.Editonly.EditOnlyController<TViewModel, TRequestHandler, TIdType>",
+      "Summary": "<p sourcefile=\"api/Quickie.Apis.Editonly.EditOnlyController-3.yml\" sourcestartlinenumber=\"1\">Base class providing Edit-Only APIs.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -68,7 +88,11 @@
           "relative_path": "api/Quickie.Apis.Editonly.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Apis.Editonly",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -78,7 +102,11 @@
           "relative_path": "api/Quickie.Apis.Readonly.ReadOnlyCollectionController-3.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Apis.Readonly.ReadOnlyCollectionController<TViewModel, TRequestHandler, TRequestForDataModel>",
+      "Summary": "<p sourcefile=\"api/Quickie.Apis.Readonly.ReadOnlyCollectionController-3.yml\" sourcestartlinenumber=\"1\">Abstract base class for read-only (GET) operations on data collections, utilizing a request handler to manage read operations.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -88,7 +116,11 @@
           "relative_path": "api/Quickie.Apis.Readonly.ReadOnlyCollectionController-4.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Apis.Readonly.ReadOnlyCollectionController<TViewModel, TRequestHandler, TRequestForDataModel, TIdType>",
+      "Summary": "<p sourcefile=\"api/Quickie.Apis.Readonly.ReadOnlyCollectionController-4.yml\" sourcestartlinenumber=\"1\">Abstract base class for read-only (GET) operations on data collections, utilizing a request handler to manage read operations.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -98,7 +130,11 @@
           "relative_path": "api/Quickie.Apis.Readonly.ReadOnlyController-2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Apis.Readonly.ReadOnlyController<TViewModel, TRequestHandler>",
+      "Summary": "<p sourcefile=\"api/Quickie.Apis.Readonly.ReadOnlyController-2.yml\" sourcestartlinenumber=\"1\">Abstract base class for read-only (GETs) operations that utilize a request handler for managing read operations.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -108,7 +144,11 @@
           "relative_path": "api/Quickie.Apis.Readonly.ReadOnlyController-3.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Apis.Readonly.ReadOnlyController<TViewModel, TRequestHandler, TIdType>",
+      "Summary": "<p sourcefile=\"api/Quickie.Apis.Readonly.ReadOnlyController-3.yml\" sourcestartlinenumber=\"1\">Abstract base class for read-only (GETs) operations that utilize a request handler for managing read operations.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -118,7 +158,11 @@
           "relative_path": "api/Quickie.Apis.Readonly.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Apis.Readonly",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -128,7 +172,11 @@
           "relative_path": "api/Quickie.Apis.Writeonly.WriteOnlyController-2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Apis.Writeonly.WriteOnlyController<TViewModel, TRequestHandler>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -138,7 +186,11 @@
           "relative_path": "api/Quickie.Apis.Writeonly.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Apis.Writeonly",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -148,7 +200,11 @@
           "relative_path": "api/Quickie.Apis.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Apis",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -158,7 +214,11 @@
           "relative_path": "api/Quickie.Base.QuickieBaseApi.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Base.QuickieBaseApi",
+      "Summary": "<p sourcefile=\"api/Quickie.Base.QuickieBaseApi.yml\" sourcestartlinenumber=\"1\">Ultimate base of quickie controllers (APIs)</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -168,7 +228,11 @@
           "relative_path": "api/Quickie.Base.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Base",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -178,7 +242,11 @@
           "relative_path": "api/Quickie.Configuration.DependencyResolver.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Configuration.DependencyResolver",
+      "Summary": "<p sourcefile=\"api/Quickie.Configuration.DependencyResolver.yml\" sourcestartlinenumber=\"1\">Dependency resolver for data handlers.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -188,7 +256,11 @@
           "relative_path": "api/Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider",
+      "Summary": "<p sourcefile=\"api/Quickie.Configuration.Idempotency.DefaultProvider.InMemoryIdempotencyProvider.yml\" sourcestartlinenumber=\"1\">Default InMemory idempotency provider</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -198,7 +270,11 @@
           "relative_path": "api/Quickie.Configuration.Idempotency.DefaultProvider.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Configuration.Idempotency.DefaultProvider",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -208,7 +284,11 @@
           "relative_path": "api/Quickie.Configuration.Idempotency.IIdempotencyProvider.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Configuration.Idempotency.IIdempotencyProvider",
+      "Summary": "<p sourcefile=\"api/Quickie.Configuration.Idempotency.IIdempotencyProvider.yml\" sourcestartlinenumber=\"1\">Idempotency provider contract</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -218,7 +298,11 @@
           "relative_path": "api/Quickie.Configuration.Idempotency.IdempotencyBackgroundService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Configuration.Idempotency.IdempotencyBackgroundService",
+      "Summary": "<p sourcefile=\"api/Quickie.Configuration.Idempotency.IdempotencyBackgroundService.yml\" sourcestartlinenumber=\"1\">Background service to remove expired idempotency key.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -228,7 +312,11 @@
           "relative_path": "api/Quickie.Configuration.Idempotency.IdempotentConfiguration.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Configuration.Idempotency.IdempotentConfiguration",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -238,7 +326,11 @@
           "relative_path": "api/Quickie.Configuration.Idempotency.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Configuration.Idempotency",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -248,7 +340,11 @@
           "relative_path": "api/Quickie.Configuration.Middleware.IdempotencyMiddleware.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Configuration.Middleware.IdempotencyMiddleware",
+      "Summary": "<p sourcefile=\"api/Quickie.Configuration.Middleware.IdempotencyMiddleware.yml\" sourcestartlinenumber=\"1\">Idempotency implementer middleware</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -258,7 +354,11 @@
           "relative_path": "api/Quickie.Configuration.Middleware.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Configuration.Middleware",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -268,7 +368,11 @@
           "relative_path": "api/Quickie.Configuration.Options.GlobalQuickieConfigData.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Configuration.Options.GlobalQuickieConfigData",
+      "Summary": "<p sourcefile=\"api/Quickie.Configuration.Options.GlobalQuickieConfigData.yml\" sourcestartlinenumber=\"1\">Global configuration for Quickie library. Must be initialized once during application startup before any Quickie features are used.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -278,7 +382,11 @@
           "relative_path": "api/Quickie.Configuration.Options.RateLimitConfiguration.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Configuration.Options.RateLimitConfiguration",
+      "Summary": "<p sourcefile=\"api/Quickie.Configuration.Options.RateLimitConfiguration.yml\" sourcestartlinenumber=\"1\">Rate limit configuration. (ip based)</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -288,7 +396,11 @@
           "relative_path": "api/Quickie.Configuration.Options.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Configuration.Options",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -298,7 +410,11 @@
           "relative_path": "api/Quickie.Configuration.QuickieExtension.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Configuration.QuickieExtension",
+      "Summary": "<p sourcefile=\"api/Quickie.Configuration.QuickieExtension.yml\" sourcestartlinenumber=\"1\">Quickie extensions</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -308,7 +424,11 @@
           "relative_path": "api/Quickie.Configuration.QuickieOptions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Configuration.QuickieOptions",
+      "Summary": "<p sourcefile=\"api/Quickie.Configuration.QuickieOptions.yml\" sourcestartlinenumber=\"1\">Quickie options.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -318,7 +438,11 @@
           "relative_path": "api/Quickie.Configuration.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Configuration",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -328,7 +452,11 @@
           "relative_path": "api/Quickie.Controllers.Readonly.ReadOnlyController-2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Controllers.Readonly.ReadOnlyController<TViewModel, TRequestHandler>",
+      "Summary": "<p sourcefile=\"api/Quickie.Controllers.Readonly.ReadOnlyController-2.yml\" sourcestartlinenumber=\"1\">Abstract base class for read-only (GETs) operations that utilize a request handler for managing read operations.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -338,7 +466,11 @@
           "relative_path": "api/Quickie.Controllers.Readonly.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Controllers.Readonly",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -348,7 +480,11 @@
           "relative_path": "api/Quickie.DataHandlers.Crud.Definition.ICrudDataHandler-2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataHandlers.Crud.Definition.ICrudDataHandler<TEntity, TIdType>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -358,7 +494,11 @@
           "relative_path": "api/Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler-2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataHandlers.Crud.Definition.ICrudForCollectionDataHandler<TEntity, TIdType>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -368,7 +508,11 @@
           "relative_path": "api/Quickie.DataHandlers.Crud.Definition.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataHandlers.Crud.Definition",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -378,7 +522,11 @@
           "relative_path": "api/Quickie.DataHandlers.Crud.Implementation.CrudDataHandler-3.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataHandlers.Crud.Implementation.CrudDataHandler<TEntity, TDbContext, TIdType>",
+      "Summary": "<p sourcefile=\"api/Quickie.DataHandlers.Crud.Implementation.CrudDataHandler-3.yml\" sourcestartlinenumber=\"1\">Abstract class serving as CRUD data handler (Repository layer).</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -388,7 +536,11 @@
           "relative_path": "api/Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler-3.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler<TEntity, TIdType, TDbContext>",
+      "Summary": "<p sourcefile=\"api/Quickie.DataHandlers.Crud.Implementation.CrudForCollectionDataDataHandler-3.yml\" sourcestartlinenumber=\"1\">Abstract class serving as CRUD for collection request handler.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -398,7 +550,11 @@
           "relative_path": "api/Quickie.DataHandlers.Crud.Implementation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataHandlers.Crud.Implementation",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -408,7 +564,11 @@
           "relative_path": "api/Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler-2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler<TEntity, TIdType>",
+      "Summary": "<p sourcefile=\"api/Quickie.DataHandlers.Editonly.Definition.IEditOnlyDataHandler-2.yml\" sourcestartlinenumber=\"1\">Defines operations to update entities</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -418,7 +578,11 @@
           "relative_path": "api/Quickie.DataHandlers.Editonly.Definition.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataHandlers.Editonly.Definition",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -428,7 +592,11 @@
           "relative_path": "api/Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler-2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler<TEntity, TIdType>",
+      "Summary": "<p sourcefile=\"api/Quickie.DataHandlers.Editonly.Implementation.EditOnlyDataHandler-2.yml\" sourcestartlinenumber=\"1\">Abstract class serving as edit only data handler (Repository layer).</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -438,7 +606,11 @@
           "relative_path": "api/Quickie.DataHandlers.Editonly.Implementation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataHandlers.Editonly.Implementation",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -448,7 +620,11 @@
           "relative_path": "api/Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler<TEntity>",
+      "Summary": "<p sourcefile=\"api/Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler-1.yml\" sourcestartlinenumber=\"1\">Defines read-only data access operations for collections of entities. Provides methods to retrieve data with optional filtering and pagination.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -458,7 +634,11 @@
           "relative_path": "api/Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler-2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler<TEntity, TIdType>",
+      "Summary": "<p sourcefile=\"api/Quickie.DataHandlers.Readonly.Definition.IReadOnlyCollectionDataHandler-2.yml\" sourcestartlinenumber=\"1\">Defines read-only data access operations for collections of entities. Provides methods to retrieve data with optional filtering and pagination.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -468,7 +648,11 @@
           "relative_path": "api/Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler<TEntity>",
+      "Summary": "<p sourcefile=\"api/Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler-1.yml\" sourcestartlinenumber=\"1\">Read-only data handler (Repository).</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -478,7 +662,11 @@
           "relative_path": "api/Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler-2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler<TEntity, TIdType>",
+      "Summary": "<p sourcefile=\"api/Quickie.DataHandlers.Readonly.Definition.IReadOnlyDataHandler-2.yml\" sourcestartlinenumber=\"1\">Read-only data handler (Repository).</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -488,7 +676,11 @@
           "relative_path": "api/Quickie.DataHandlers.Readonly.Definition.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataHandlers.Readonly.Definition",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -498,7 +690,11 @@
           "relative_path": "api/Quickie.DataHandlers.Readonly.Implementation.ReadOnlyCollectionDataHandler-2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataHandlers.Readonly.Implementation.ReadOnlyCollectionDataHandler<TEntity, TDbContext>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -508,7 +704,11 @@
           "relative_path": "api/Quickie.DataHandlers.Readonly.Implementation.ReadOnlyCollectionDataHandler-3.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataHandlers.Readonly.Implementation.ReadOnlyCollectionDataHandler<TEntity, TDbContext, TIdType>",
+      "Summary": "<p sourcefile=\"api/Quickie.DataHandlers.Readonly.Implementation.ReadOnlyCollectionDataHandler-3.yml\" sourcestartlinenumber=\"1\">Abstract class serving as read only (collection) data handler (Repository layer).</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -518,7 +718,11 @@
           "relative_path": "api/Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler-2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler<TEntity, TDbContext>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -528,7 +732,11 @@
           "relative_path": "api/Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler-3.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler<TEntity, TDbContext, TIdType>",
+      "Summary": "<p sourcefile=\"api/Quickie.DataHandlers.Readonly.Implementation.ReadOnlyDataHandler-3.yml\" sourcestartlinenumber=\"1\">Abstract base class for handling read-only data requests.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -538,7 +746,11 @@
           "relative_path": "api/Quickie.DataHandlers.Readonly.Implementation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataHandlers.Readonly.Implementation",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -548,7 +760,11 @@
           "relative_path": "api/Quickie.DataHandlers.Writeonly.Definition.IWriteOnlyDataHandler-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataHandlers.Writeonly.Definition.IWriteOnlyDataHandler<TEntity>",
+      "Summary": "<p sourcefile=\"api/Quickie.DataHandlers.Writeonly.Definition.IWriteOnlyDataHandler-1.yml\" sourcestartlinenumber=\"1\">Defines write-only data operations.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -558,7 +774,11 @@
           "relative_path": "api/Quickie.DataHandlers.Writeonly.Definition.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataHandlers.Writeonly.Definition",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -568,7 +788,11 @@
           "relative_path": "api/Quickie.DataHandlers.Writeonly.Implementation.WriteOnlyDataHandler-2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataHandlers.Writeonly.Implementation.WriteOnlyDataHandler<TEntity, TDbContext>",
+      "Summary": "<p sourcefile=\"api/Quickie.DataHandlers.Writeonly.Implementation.WriteOnlyDataHandler-2.yml\" sourcestartlinenumber=\"1\">Abstract class serving as write only data handler (Repository layer).</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -578,7 +802,11 @@
           "relative_path": "api/Quickie.DataHandlers.Writeonly.Implementation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataHandlers.Writeonly.Implementation",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -588,7 +816,11 @@
           "relative_path": "api/Quickie.DataObj.DetailedResponseObj.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataObj.DetailedResponseObj",
+      "Summary": "<p sourcefile=\"api/Quickie.DataObj.DetailedResponseObj.yml\" sourcestartlinenumber=\"1\">Represents a detailed response object used to return results from an operation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -598,7 +830,11 @@
           "relative_path": "api/Quickie.DataObj.PaginatedDataObj-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataObj.PaginatedDataObj<TObject>",
+      "Summary": "<p sourcefile=\"api/Quickie.DataObj.PaginatedDataObj-1.yml\" sourcestartlinenumber=\"1\">Represents an object for paginated data and its metadata.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -608,7 +844,11 @@
           "relative_path": "api/Quickie.DataObj.RequestForDataObj.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataObj.RequestForDataObj",
+      "Summary": "<p sourcefile=\"api/Quickie.DataObj.RequestForDataObj.yml\" sourcestartlinenumber=\"1\">Represents a request for data with pagination.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -618,7 +858,11 @@
           "relative_path": "api/Quickie.DataObj.ResponseObj-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataObj.ResponseObj<TData>",
+      "Summary": "<p sourcefile=\"api/Quickie.DataObj.ResponseObj-1.yml\" sourcestartlinenumber=\"1\">Represents a response object that contains the result of an operation along with the data.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -628,7 +872,11 @@
           "relative_path": "api/Quickie.DataObj.ResponseObj.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataObj.ResponseObj",
+      "Summary": "<p sourcefile=\"api/Quickie.DataObj.ResponseObj.yml\" sourcestartlinenumber=\"1\">Represents a basic response object that contains information about the success of an operation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -638,7 +886,11 @@
           "relative_path": "api/Quickie.DataObj.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.DataObj",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -648,7 +900,11 @@
           "relative_path": "api/Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler-2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler<TViewModel, TIdType>",
+      "Summary": "<p sourcefile=\"api/Quickie.Handlers.Crud.Definition.ICrudForCollectionRequestHandler-2.yml\" sourcestartlinenumber=\"1\">Abstract base class for handling collections of CRUD requests (or CRUD for collection object).</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -658,7 +914,11 @@
           "relative_path": "api/Quickie.Handlers.Crud.Definition.ICrudRequestHandler-2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Handlers.Crud.Definition.ICrudRequestHandler<TViewModel, TIdType>",
+      "Summary": "<p sourcefile=\"api/Quickie.Handlers.Crud.Definition.ICrudRequestHandler-2.yml\" sourcestartlinenumber=\"1\">Abstract base class for CRUD operation. Contains method to: Create, Update, Read (GET), and Delete.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -668,7 +928,11 @@
           "relative_path": "api/Quickie.Handlers.Crud.Definition.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Handlers.Crud.Definition",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -678,7 +942,11 @@
           "relative_path": "api/Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler-4.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>",
+      "Summary": "<p sourcefile=\"api/Quickie.Handlers.Crud.Implementation.CrudForCollectionRequestHandler-4.yml\" sourcestartlinenumber=\"1\">Abstract class serving as CRUD for collection request handler.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -688,7 +956,11 @@
           "relative_path": "api/Quickie.Handlers.Crud.Implementation.CrudRequestHandler-4.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Handlers.Crud.Implementation.CrudRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>",
+      "Summary": "<p sourcefile=\"api/Quickie.Handlers.Crud.Implementation.CrudRequestHandler-4.yml\" sourcestartlinenumber=\"1\">Abstract class serving as CRUD request handler.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -698,7 +970,11 @@
           "relative_path": "api/Quickie.Handlers.Crud.Implementation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Handlers.Crud.Implementation",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -708,7 +984,11 @@
           "relative_path": "api/Quickie.Handlers.Editonly.Definition.IEditOnlyRequestHandler-2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Handlers.Editonly.Definition.IEditOnlyRequestHandler<TViewModel, TIdType>",
+      "Summary": "<p sourcefile=\"api/Quickie.Handlers.Editonly.Definition.IEditOnlyRequestHandler-2.yml\" sourcestartlinenumber=\"1\">Abstract base class for handling update requests, processing operations for the specified view model type.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -718,7 +998,11 @@
           "relative_path": "api/Quickie.Handlers.Editonly.Definition.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Handlers.Editonly.Definition",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -728,7 +1012,11 @@
           "relative_path": "api/Quickie.Handlers.Editonly.Implementation.EditOnlyRequestHandler-4.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Handlers.Editonly.Implementation.EditOnlyRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>",
+      "Summary": "<p sourcefile=\"api/Quickie.Handlers.Editonly.Implementation.EditOnlyRequestHandler-4.yml\" sourcestartlinenumber=\"1\">Abstract class serving as edit only request handler.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -738,7 +1026,11 @@
           "relative_path": "api/Quickie.Handlers.Editonly.Implementation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Handlers.Editonly.Implementation",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -748,7 +1040,11 @@
           "relative_path": "api/Quickie.Handlers.Readonly.Definition.IReadOnlyCollectionRequestHandler-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Handlers.Readonly.Definition.IReadOnlyCollectionRequestHandler<TViewModel>",
+      "Summary": "<p sourcefile=\"api/Quickie.Handlers.Readonly.Definition.IReadOnlyCollectionRequestHandler-1.yml\" sourcestartlinenumber=\"1\">Abstract base class for handling collections of read-only requests, processing operations for the specified view model type.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -758,7 +1054,11 @@
           "relative_path": "api/Quickie.Handlers.Readonly.Definition.IReadOnlyCollectionRequestHandler-2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Handlers.Readonly.Definition.IReadOnlyCollectionRequestHandler<TViewModel, TIdType>",
+      "Summary": "<p sourcefile=\"api/Quickie.Handlers.Readonly.Definition.IReadOnlyCollectionRequestHandler-2.yml\" sourcestartlinenumber=\"1\">Abstract base class for handling collections of read-only requests, processing operations for the specified view model type.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -768,7 +1068,11 @@
           "relative_path": "api/Quickie.Handlers.Readonly.Definition.IReadOnlyRequestHandler-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Handlers.Readonly.Definition.IReadOnlyRequestHandler<TViewModel>",
+      "Summary": "<p sourcefile=\"api/Quickie.Handlers.Readonly.Definition.IReadOnlyRequestHandler-1.yml\" sourcestartlinenumber=\"1\">Abstract base class for handling read-only requests, processing operations for the specified view model type.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -778,7 +1082,11 @@
           "relative_path": "api/Quickie.Handlers.Readonly.Definition.IReadOnlyRequestHandler-2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Handlers.Readonly.Definition.IReadOnlyRequestHandler<TViewModel, TIdType>",
+      "Summary": "<p sourcefile=\"api/Quickie.Handlers.Readonly.Definition.IReadOnlyRequestHandler-2.yml\" sourcestartlinenumber=\"1\">Abstract base class for handling read-only requests, processing operations for the specified view model type.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -788,7 +1096,11 @@
           "relative_path": "api/Quickie.Handlers.Readonly.Definition.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Handlers.Readonly.Definition",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -798,7 +1110,11 @@
           "relative_path": "api/Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler-3.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler<TViewModel, TEntity, TDataHandler>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -808,7 +1124,11 @@
           "relative_path": "api/Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler-4.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>",
+      "Summary": "<p sourcefile=\"api/Quickie.Handlers.Readonly.Implementation.ReadOnlyCollectionRequestHandler-4.yml\" sourcestartlinenumber=\"1\">Abstract class serving as read only (collection) request handler.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -818,7 +1138,11 @@
           "relative_path": "api/Quickie.Handlers.Readonly.Implementation.ReadOnlyRequestHandler-3.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Handlers.Readonly.Implementation.ReadOnlyRequestHandler<TViewModel, TEntity, TDataHandler>",
+      "Summary": "<p sourcefile=\"api/Quickie.Handlers.Readonly.Implementation.ReadOnlyRequestHandler-3.yml\" sourcestartlinenumber=\"1\">Abstract base class for handling read-only requests, processing operations for the specified view model type.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -828,7 +1152,11 @@
           "relative_path": "api/Quickie.Handlers.Readonly.Implementation.ReadOnlyRequestHandler-4.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Handlers.Readonly.Implementation.ReadOnlyRequestHandler<TViewModel, TEntity, TDataHandler, TIdType>",
+      "Summary": "<p sourcefile=\"api/Quickie.Handlers.Readonly.Implementation.ReadOnlyRequestHandler-4.yml\" sourcestartlinenumber=\"1\">Abstract base class for handling read-only requests, processing operations for the specified view model type.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -838,7 +1166,11 @@
           "relative_path": "api/Quickie.Handlers.Readonly.Implementation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Handlers.Readonly.Implementation",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -848,7 +1180,11 @@
           "relative_path": "api/Quickie.Handlers.Writeonly.Definition.IWriteOnlyRequestHandler-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Handlers.Writeonly.Definition.IWriteOnlyRequestHandler<TViewModel>",
+      "Summary": "<p sourcefile=\"api/Quickie.Handlers.Writeonly.Definition.IWriteOnlyRequestHandler-1.yml\" sourcestartlinenumber=\"1\">Abstract base class for handling write only requests, processing operations for the specified view model type.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -858,7 +1194,11 @@
           "relative_path": "api/Quickie.Handlers.Writeonly.Definition.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Handlers.Writeonly.Definition",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -868,7 +1208,11 @@
           "relative_path": "api/Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler-3.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler<TViewModel, TEntity, TDataHandler>",
+      "Summary": "<p sourcefile=\"api/Quickie.Handlers.Writeonly.Implementation.WriteOnlyRequestHandler-3.yml\" sourcestartlinenumber=\"1\">Abstract class serving as write only request handler.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -878,7 +1222,11 @@
           "relative_path": "api/Quickie.Handlers.Writeonly.Implementation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Handlers.Writeonly.Implementation",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -888,7 +1236,11 @@
           "relative_path": "api/Quickie.MinimalApis.Crud.CrudEndpoints.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.MinimalApis.Crud.CrudEndpoints",
+      "Summary": "<p sourcefile=\"api/Quickie.MinimalApis.Crud.CrudEndpoints.yml\" sourcestartlinenumber=\"1\">Provides extension methods for CRUD endpoints.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -898,7 +1250,11 @@
           "relative_path": "api/Quickie.MinimalApis.Crud.CrudForCollectionEndpoints.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.MinimalApis.Crud.CrudForCollectionEndpoints",
+      "Summary": "<p sourcefile=\"api/Quickie.MinimalApis.Crud.CrudForCollectionEndpoints.yml\" sourcestartlinenumber=\"1\">Provides extension methods for CRUD of collection endpoints.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -908,7 +1264,11 @@
           "relative_path": "api/Quickie.MinimalApis.Crud.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.MinimalApis.Crud",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -918,7 +1278,11 @@
           "relative_path": "api/Quickie.MinimalApis.EditOnly.EditOnlyEndpoints.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.MinimalApis.EditOnly.EditOnlyEndpoints",
+      "Summary": "<p sourcefile=\"api/Quickie.MinimalApis.EditOnly.EditOnlyEndpoints.yml\" sourcestartlinenumber=\"1\">Provides extension methods for adding edit-only endpoints</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -928,7 +1292,11 @@
           "relative_path": "api/Quickie.MinimalApis.EditOnly.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.MinimalApis.EditOnly",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -938,7 +1306,11 @@
           "relative_path": "api/Quickie.MinimalApis.ReadOnly.ReadOnlyCollectionEndpoints.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.MinimalApis.ReadOnly.ReadOnlyCollectionEndpoints",
+      "Summary": "<p sourcefile=\"api/Quickie.MinimalApis.ReadOnly.ReadOnlyCollectionEndpoints.yml\" sourcestartlinenumber=\"1\">Provides extension methods for adding read-only (GET) collection endpoints</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -948,7 +1320,11 @@
           "relative_path": "api/Quickie.MinimalApis.ReadOnly.ReadOnlyEndpoints.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.MinimalApis.ReadOnly.ReadOnlyEndpoints",
+      "Summary": "<p sourcefile=\"api/Quickie.MinimalApis.ReadOnly.ReadOnlyEndpoints.yml\" sourcestartlinenumber=\"1\">Provides extension methods for adding read-only (GET) endpoints</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -958,7 +1334,11 @@
           "relative_path": "api/Quickie.MinimalApis.ReadOnly.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.MinimalApis.ReadOnly",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -968,7 +1348,11 @@
           "relative_path": "api/Quickie.MinimalApis.WriteOnly.WriteOnlyEndpoints.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.MinimalApis.WriteOnly.WriteOnlyEndpoints",
+      "Summary": "<p sourcefile=\"api/Quickie.MinimalApis.WriteOnly.WriteOnlyEndpoints.yml\" sourcestartlinenumber=\"1\">Provides extension methods for adding write-only (POST) endpoints</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -978,7 +1362,11 @@
           "relative_path": "api/Quickie.MinimalApis.WriteOnly.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.MinimalApis.WriteOnly",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -988,7 +1376,11 @@
           "relative_path": "api/Quickie.Types.Crud.CrudDto.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Types.Crud.CrudDto",
+      "Summary": "<p sourcefile=\"api/Quickie.Types.Crud.CrudDto.yml\" sourcestartlinenumber=\"1\">Dto representing CRUD operation</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -998,7 +1390,11 @@
           "relative_path": "api/Quickie.Types.Crud.CrudEntity.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Types.Crud.CrudEntity",
+      "Summary": "<p sourcefile=\"api/Quickie.Types.Crud.CrudEntity.yml\" sourcestartlinenumber=\"1\">Entity representing CRUD operation</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1008,7 +1404,11 @@
           "relative_path": "api/Quickie.Types.Crud.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Types.Crud",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1018,7 +1418,11 @@
           "relative_path": "api/Quickie.Types.Editonly.EditOnlyDto.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Types.Editonly.EditOnlyDto",
+      "Summary": "<p sourcefile=\"api/Quickie.Types.Editonly.EditOnlyDto.yml\" sourcestartlinenumber=\"1\">Dto representing EDIT only operation</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1028,7 +1432,11 @@
           "relative_path": "api/Quickie.Types.Editonly.EditOnlyEntity.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Types.Editonly.EditOnlyEntity",
+      "Summary": "<p sourcefile=\"api/Quickie.Types.Editonly.EditOnlyEntity.yml\" sourcestartlinenumber=\"1\">Entity representing EDIT only operation</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1038,7 +1446,11 @@
           "relative_path": "api/Quickie.Types.Editonly.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Types.Editonly",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1048,7 +1460,11 @@
           "relative_path": "api/Quickie.Types.ErrorStatusEnum.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Types.ErrorStatusEnum",
+      "Summary": "<p sourcefile=\"api/Quickie.Types.ErrorStatusEnum.yml\" sourcestartlinenumber=\"1\">Status representing the different severity levels of an error or message.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1058,7 +1474,11 @@
           "relative_path": "api/Quickie.Types.Readonly.IReadOnlyRequestHandler-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Types.Readonly.IReadOnlyRequestHandler<TViewModel>",
+      "Summary": "<p sourcefile=\"api/Quickie.Types.Readonly.IReadOnlyRequestHandler-1.yml\" sourcestartlinenumber=\"1\">Abstract base class for handling read-only requests, processing operations for the specified view model type.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1068,7 +1488,11 @@
           "relative_path": "api/Quickie.Types.Readonly.ReadOnlyDto.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Types.Readonly.ReadOnlyDto",
+      "Summary": "<p sourcefile=\"api/Quickie.Types.Readonly.ReadOnlyDto.yml\" sourcestartlinenumber=\"1\">Dto representing READ only operation</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1078,7 +1502,11 @@
           "relative_path": "api/Quickie.Types.Readonly.ReadOnlyEntity.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Types.Readonly.ReadOnlyEntity",
+      "Summary": "<p sourcefile=\"api/Quickie.Types.Readonly.ReadOnlyEntity.yml\" sourcestartlinenumber=\"1\">Entity representing READ only operation</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1088,7 +1516,11 @@
           "relative_path": "api/Quickie.Types.Readonly.ReadOnlyRequestHandler-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Types.Readonly.ReadOnlyRequestHandler<TViewModel>",
+      "Summary": "<p sourcefile=\"api/Quickie.Types.Readonly.ReadOnlyRequestHandler-1.yml\" sourcestartlinenumber=\"1\">Abstract base class for handling read-only requests, processing operations for the specified view model type.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1098,7 +1530,11 @@
           "relative_path": "api/Quickie.Types.Readonly.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Types.Readonly",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1108,7 +1544,11 @@
           "relative_path": "api/Quickie.Types.Writable.WriteOnlyDto.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Types.Writable.WriteOnlyDto",
+      "Summary": "<p sourcefile=\"api/Quickie.Types.Writable.WriteOnlyDto.yml\" sourcestartlinenumber=\"1\">Dto representing WRITE only operation</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1118,7 +1558,11 @@
           "relative_path": "api/Quickie.Types.Writable.WriteOnlyEntity.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Types.Writable.WriteOnlyEntity",
+      "Summary": "<p sourcefile=\"api/Quickie.Types.Writable.WriteOnlyEntity.yml\" sourcestartlinenumber=\"1\">Entity representing WRITE only operation</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1128,7 +1572,11 @@
           "relative_path": "api/Quickie.Types.Writable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Types.Writable",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1138,7 +1586,11 @@
           "relative_path": "api/Quickie.Types.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Quickie.Types",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1148,7 +1600,11 @@
           "relative_path": "api/specification.Controllers.CrudControllerTests.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Controllers.CrudControllerTests",
+      "Summary": "<p sourcefile=\"api/specification.Controllers.CrudControllerTests.yml\" sourcestartlinenumber=\"1\">Tests for CRUD controller.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1158,7 +1614,11 @@
           "relative_path": "api/specification.Controllers.CrudForCollectionControllerTests.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Controllers.CrudForCollectionControllerTests",
+      "Summary": "<p sourcefile=\"api/specification.Controllers.CrudForCollectionControllerTests.yml\" sourcestartlinenumber=\"1\">Tests for Collection CRUD controller.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1168,7 +1628,11 @@
           "relative_path": "api/specification.Controllers.EditOnlyControllerTests.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Controllers.EditOnlyControllerTests",
+      "Summary": "<p sourcefile=\"api/specification.Controllers.EditOnlyControllerTests.yml\" sourcestartlinenumber=\"1\">Tests for Edit-Only controller.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1178,7 +1642,11 @@
           "relative_path": "api/specification.Controllers.ReadOnlyCollectionControllerTests.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Controllers.ReadOnlyCollectionControllerTests",
+      "Summary": "<p sourcefile=\"api/specification.Controllers.ReadOnlyCollectionControllerTests.yml\" sourcestartlinenumber=\"1\">Tests for ReadOnlyCollectionController.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1188,7 +1656,11 @@
           "relative_path": "api/specification.Controllers.ReadOnlyControllerTests.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Controllers.ReadOnlyControllerTests",
+      "Summary": "<p sourcefile=\"api/specification.Controllers.ReadOnlyControllerTests.yml\" sourcestartlinenumber=\"1\">Tests for ReadOnlyController.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1198,7 +1670,11 @@
           "relative_path": "api/specification.Controllers.WriteOnlyControllerTests.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Controllers.WriteOnlyControllerTests",
+      "Summary": "<p sourcefile=\"api/specification.Controllers.WriteOnlyControllerTests.yml\" sourcestartlinenumber=\"1\">Tests for WriteOnlyController.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1208,7 +1684,11 @@
           "relative_path": "api/specification.Controllers.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Controllers",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1218,7 +1698,11 @@
           "relative_path": "api/specification.DataHandlers.CrudDataHandlerTests.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.DataHandlers.CrudDataHandlerTests",
+      "Summary": "<p sourcefile=\"api/specification.DataHandlers.CrudDataHandlerTests.yml\" sourcestartlinenumber=\"1\">Tests of CRUD data handler.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1228,7 +1712,11 @@
           "relative_path": "api/specification.DataHandlers.EditOnlyDataHandlerTests.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.DataHandlers.EditOnlyDataHandlerTests",
+      "Summary": "<p sourcefile=\"api/specification.DataHandlers.EditOnlyDataHandlerTests.yml\" sourcestartlinenumber=\"1\">Test for EditOnly data handler</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1238,7 +1726,11 @@
           "relative_path": "api/specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.DataHandlers.ReadOnlyCollectionDataHandlerTests",
+      "Summary": "<p sourcefile=\"api/specification.DataHandlers.ReadOnlyCollectionDataHandlerTests.yml\" sourcestartlinenumber=\"1\">Test for readonly collection data handler. (integration tests with InMemory database.)</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1248,7 +1740,11 @@
           "relative_path": "api/specification.DataHandlers.ReadOnlyDataHandlerTests.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.DataHandlers.ReadOnlyDataHandlerTests",
+      "Summary": "<p sourcefile=\"api/specification.DataHandlers.ReadOnlyDataHandlerTests.yml\" sourcestartlinenumber=\"1\">Test for readonly data handler.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1258,7 +1754,11 @@
           "relative_path": "api/specification.DataHandlers.WriteOnlyDataHandlerTests.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.DataHandlers.WriteOnlyDataHandlerTests",
+      "Summary": "<p sourcefile=\"api/specification.DataHandlers.WriteOnlyDataHandlerTests.yml\" sourcestartlinenumber=\"1\">Tests for writeOnly data handler</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1268,7 +1768,11 @@
           "relative_path": "api/specification.DataHandlers.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.DataHandlers",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1278,7 +1782,11 @@
           "relative_path": "api/specification.Helpers.DataHandlers.CrudDataHandlerConcrete.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Helpers.DataHandlers.CrudDataHandlerConcrete",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1288,7 +1796,11 @@
           "relative_path": "api/specification.Helpers.DataHandlers.EditOnlyDataHandlerConcrete.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Helpers.DataHandlers.EditOnlyDataHandlerConcrete",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1298,7 +1810,11 @@
           "relative_path": "api/specification.Helpers.DataHandlers.ReadOnlyCollectionDataHandlerConcrete.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Helpers.DataHandlers.ReadOnlyCollectionDataHandlerConcrete",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1308,7 +1824,11 @@
           "relative_path": "api/specification.Helpers.DataHandlers.ReadOnlyDataHandlerConcrete.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Helpers.DataHandlers.ReadOnlyDataHandlerConcrete",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1318,7 +1838,11 @@
           "relative_path": "api/specification.Helpers.DataHandlers.WriteOnlyDataHandlerConcrete.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Helpers.DataHandlers.WriteOnlyDataHandlerConcrete",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1328,7 +1852,11 @@
           "relative_path": "api/specification.Helpers.DataHandlers.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Helpers.DataHandlers",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1338,7 +1866,11 @@
           "relative_path": "api/specification.Helpers.Dtos.CrudDtoConcrete.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Helpers.Dtos.CrudDtoConcrete",
+      "Summary": "<p sourcefile=\"api/specification.Helpers.Dtos.CrudDtoConcrete.yml\" sourcestartlinenumber=\"1\">concrete dto of crud dto</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1348,7 +1880,11 @@
           "relative_path": "api/specification.Helpers.Dtos.EditOnlyDtoConcrete.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Helpers.Dtos.EditOnlyDtoConcrete",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1358,7 +1894,11 @@
           "relative_path": "api/specification.Helpers.Dtos.FilterResult.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Helpers.Dtos.FilterResult",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1368,7 +1908,11 @@
           "relative_path": "api/specification.Helpers.Dtos.ReadOnlyCollectionDataRequest.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Helpers.Dtos.ReadOnlyCollectionDataRequest",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1378,7 +1922,11 @@
           "relative_path": "api/specification.Helpers.Dtos.ReadOnlyDtoConcrete.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Helpers.Dtos.ReadOnlyDtoConcrete",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1388,7 +1936,11 @@
           "relative_path": "api/specification.Helpers.Dtos.WriteOnlyDtoConcrete.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Helpers.Dtos.WriteOnlyDtoConcrete",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1398,7 +1950,11 @@
           "relative_path": "api/specification.Helpers.Dtos.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Helpers.Dtos",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1408,7 +1964,11 @@
           "relative_path": "api/specification.Helpers.Entities.CrudEntityConcrete.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Helpers.Entities.CrudEntityConcrete",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1418,7 +1978,11 @@
           "relative_path": "api/specification.Helpers.Entities.EditOnlyEntityConcrete.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Helpers.Entities.EditOnlyEntityConcrete",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1428,7 +1992,11 @@
           "relative_path": "api/specification.Helpers.Entities.ReadOnlyEntityConcrete.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Helpers.Entities.ReadOnlyEntityConcrete",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1438,7 +2006,11 @@
           "relative_path": "api/specification.Helpers.Entities.WriteOnlyEntityConcrete.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Helpers.Entities.WriteOnlyEntityConcrete",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1448,7 +2020,11 @@
           "relative_path": "api/specification.Helpers.Entities.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Helpers.Entities",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1458,7 +2034,11 @@
           "relative_path": "api/specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Helpers.RequestHandlers.CrudForCollectionRequestHandlerConcrete",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1468,7 +2048,11 @@
           "relative_path": "api/specification.Helpers.RequestHandlers.CrudRequestHandlerConcrete.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Helpers.RequestHandlers.CrudRequestHandlerConcrete",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1478,7 +2062,11 @@
           "relative_path": "api/specification.Helpers.RequestHandlers.EditOnlyRequestHandlerConcrete.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Helpers.RequestHandlers.EditOnlyRequestHandlerConcrete",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1488,7 +2076,11 @@
           "relative_path": "api/specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Helpers.RequestHandlers.ReadOnlyCollectionRequestHandlerConcrete",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1498,7 +2090,11 @@
           "relative_path": "api/specification.Helpers.RequestHandlers.ReadOnlyRequestHandlerConcrete.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Helpers.RequestHandlers.ReadOnlyRequestHandlerConcrete",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1508,7 +2104,11 @@
           "relative_path": "api/specification.Helpers.RequestHandlers.WriteOnlyRequestHandlerConcrete.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Helpers.RequestHandlers.WriteOnlyRequestHandlerConcrete",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1518,7 +2118,11 @@
           "relative_path": "api/specification.Helpers.RequestHandlers.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Helpers.RequestHandlers",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1528,7 +2132,11 @@
           "relative_path": "api/specification.Helpers.TestsDbContext.TestDbContext.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Helpers.TestsDbContext.TestDbContext",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1538,7 +2146,11 @@
           "relative_path": "api/specification.Helpers.TestsDbContext.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.Helpers.TestsDbContext",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1548,7 +2160,11 @@
           "relative_path": "api/specification.RequestHandlers.CrudForCollectionRequestHandlerTests.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.RequestHandlers.CrudForCollectionRequestHandlerTests",
+      "Summary": "<p sourcefile=\"api/specification.RequestHandlers.CrudForCollectionRequestHandlerTests.yml\" sourcestartlinenumber=\"1\">Tests for the CrudForCollectionRequestHandler.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1558,7 +2174,11 @@
           "relative_path": "api/specification.RequestHandlers.CrudRequestHandlerTests.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.RequestHandlers.CrudRequestHandlerTests",
+      "Summary": "<p sourcefile=\"api/specification.RequestHandlers.CrudRequestHandlerTests.yml\" sourcestartlinenumber=\"1\">Tests for crud request handler.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1568,7 +2188,11 @@
           "relative_path": "api/specification.RequestHandlers.EditOnlyRequestHandlerTests.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.RequestHandlers.EditOnlyRequestHandlerTests",
+      "Summary": "<p sourcefile=\"api/specification.RequestHandlers.EditOnlyRequestHandlerTests.yml\" sourcestartlinenumber=\"1\">Tests for EditOnlyRequestHandler.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1578,7 +2202,11 @@
           "relative_path": "api/specification.RequestHandlers.ReadOnlyCollectionRequestHandlerTests.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.RequestHandlers.ReadOnlyCollectionRequestHandlerTests",
+      "Summary": "<p sourcefile=\"api/specification.RequestHandlers.ReadOnlyCollectionRequestHandlerTests.yml\" sourcestartlinenumber=\"1\">Tests for read only collection request handler</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1588,7 +2216,11 @@
           "relative_path": "api/specification.RequestHandlers.ReadOnlyRequestHandlerTests.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.RequestHandlers.ReadOnlyRequestHandlerTests",
+      "Summary": "<p sourcefile=\"api/specification.RequestHandlers.ReadOnlyRequestHandlerTests.yml\" sourcestartlinenumber=\"1\">Tests for read only request handler.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1598,7 +2230,11 @@
           "relative_path": "api/specification.RequestHandlers.WriteOnlyRequestHandlerTests.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.RequestHandlers.WriteOnlyRequestHandlerTests",
+      "Summary": "<p sourcefile=\"api/specification.RequestHandlers.WriteOnlyRequestHandlerTests.yml\" sourcestartlinenumber=\"1\">Tests for write only request handler.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1608,7 +2244,11 @@
           "relative_path": "api/specification.RequestHandlers.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "specification.RequestHandlers",
+      "Summary": null
     },
     {
       "type": "Toc",
@@ -1682,16 +2322,6 @@
         },
         ".json": {
           "relative_path": "docs/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/nugeticon.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/nugeticon.png"
         }
       },
       "version": ""
